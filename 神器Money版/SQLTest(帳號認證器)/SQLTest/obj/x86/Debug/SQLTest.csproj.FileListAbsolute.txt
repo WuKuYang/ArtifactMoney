@@ -1,0 +1,98 @@
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\SQLTest\SQLTest\obj\x86\Debug\SQLTest.Form1.resources
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\SQLTest\SQLTest\obj\x86\Debug\SQLTest.Properties.Resources.resources
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\SQLTest\SQLTest\obj\x86\Debug\SQLTest.csproj.GenerateResource.Cache
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\SQLTest\SQLTest\bin\Debug\SQLTest.exe.config
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\SQLTest\SQLTest\bin\Debug\SQLTest.exe
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\SQLTest\SQLTest\bin\Debug\SQLTest.pdb
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\SQLTest\SQLTest\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\SQLTest\SQLTest\bin\Debug\MySql.Fabric.Plugin.dll
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\SQLTest\SQLTest\bin\Debug\MySql.Data.Entity.EF6.xml
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\SQLTest\SQLTest\obj\x86\Debug\SQLTest.exe
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\SQLTest\SQLTest\obj\x86\Debug\SQLTest.pdb
+C:\Users\Administrator\Desktop\SQLTest\SQLTest\bin\Debug\SQLTest.exe.config
+C:\Users\Administrator\Desktop\SQLTest\SQLTest\obj\x86\Debug\SQLTest.exe
+C:\Users\Administrator\Desktop\SQLTest\SQLTest\obj\x86\Debug\SQLTest.pdb
+C:\Users\Administrator\Desktop\SQLTest\SQLTest\bin\Debug\SQLTest.exe
+C:\Users\Administrator\Desktop\SQLTest\SQLTest\bin\Debug\SQLTest.pdb
+C:\Users\Administrator\Desktop\SQLTest\SQLTest\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\Users\Administrator\Desktop\SQLTest\SQLTest\bin\Debug\MySql.Fabric.Plugin.dll
+C:\Users\Administrator\Desktop\SQLTest\SQLTest\bin\Debug\MySql.Data.Entity.EF6.xml
+C:\Users\Administrator\Desktop\SQLTest\SQLTest\obj\x86\Debug\SQLTest.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\SQLTest\SQLTest\obj\x86\Debug\SQLTest.Form1.resources
+C:\Users\Administrator\Desktop\SQLTest\SQLTest\obj\x86\Debug\SQLTest.Properties.Resources.resources
+C:\Users\Administrator\Desktop\SQLTest\SQLTest\obj\x86\Debug\SQLTest.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\SQLTest\SQLTest\obj\x86\Debug\SQLTest.SQLForm.resources
+C:\Users\Administrator\Desktop\神器正式版(ver_2.1)\SQLTest(帳號認證器)\SQLTest\bin\Debug\SQLTest.exe.config
+C:\Users\Administrator\Desktop\神器正式版(ver_2.1)\SQLTest(帳號認證器)\SQLTest\obj\x86\Debug\SQLTest.exe
+C:\Users\Administrator\Desktop\神器正式版(ver_2.1)\SQLTest(帳號認證器)\SQLTest\obj\x86\Debug\SQLTest.pdb
+C:\Users\Administrator\Desktop\神器正式版(ver_2.1)\SQLTest(帳號認證器)\SQLTest\bin\Debug\SQLTest.exe
+C:\Users\Administrator\Desktop\神器正式版(ver_2.1)\SQLTest(帳號認證器)\SQLTest\bin\Debug\SQLTest.pdb
+C:\Users\Administrator\Desktop\神器正式版(ver_2.1)\SQLTest(帳號認證器)\SQLTest\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\Users\Administrator\Desktop\神器正式版(ver_2.1)\SQLTest(帳號認證器)\SQLTest\bin\Debug\MySql.Fabric.Plugin.dll
+C:\Users\Administrator\Desktop\神器正式版(ver_2.1)\SQLTest(帳號認證器)\SQLTest\bin\Debug\MySql.Data.Entity.EF6.xml
+C:\Users\Administrator\Desktop\神器正式版(ver_2.1)\SQLTest(帳號認證器)\SQLTest\obj\x86\Debug\SQLTest.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\神器正式版(ver_2.1)\SQLTest(帳號認證器)\SQLTest\obj\x86\Debug\SQLTest.Form1.resources
+C:\Users\Administrator\Desktop\神器正式版(ver_2.1)\SQLTest(帳號認證器)\SQLTest\obj\x86\Debug\SQLTest.Properties.Resources.resources
+C:\Users\Administrator\Desktop\神器正式版(ver_2.1)\SQLTest(帳號認證器)\SQLTest\obj\x86\Debug\SQLTest.SQLForm.resources
+C:\Users\Administrator\Desktop\神器正式版(ver_2.1)\SQLTest(帳號認證器)\SQLTest\obj\x86\Debug\SQLTest.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\神器正式版(ver_2.2)\SQLTest(帳號認證器)\SQLTest\bin\Debug\SQLTest.exe.config
+C:\Users\Administrator\Desktop\神器正式版(ver_2.2)\SQLTest(帳號認證器)\SQLTest\obj\x86\Debug\SQLTest.exe
+C:\Users\Administrator\Desktop\神器正式版(ver_2.2)\SQLTest(帳號認證器)\SQLTest\obj\x86\Debug\SQLTest.pdb
+C:\Users\Administrator\Desktop\神器正式版(ver_2.2)\SQLTest(帳號認證器)\SQLTest\bin\Debug\SQLTest.exe
+C:\Users\Administrator\Desktop\神器正式版(ver_2.2)\SQLTest(帳號認證器)\SQLTest\bin\Debug\SQLTest.pdb
+C:\Users\Administrator\Desktop\神器正式版(ver_2.2)\SQLTest(帳號認證器)\SQLTest\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\Users\Administrator\Desktop\神器正式版(ver_2.2)\SQLTest(帳號認證器)\SQLTest\bin\Debug\MySql.Fabric.Plugin.dll
+C:\Users\Administrator\Desktop\神器正式版(ver_2.2)\SQLTest(帳號認證器)\SQLTest\bin\Debug\MySql.Data.Entity.EF6.xml
+C:\Users\Administrator\Desktop\神器正式版(ver_2.2)\SQLTest(帳號認證器)\SQLTest\obj\x86\Debug\SQLTest.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\神器正式版(ver_2.2)\SQLTest(帳號認證器)\SQLTest\obj\x86\Debug\SQLTest.Form1.resources
+C:\Users\Administrator\Desktop\神器正式版(ver_2.2)\SQLTest(帳號認證器)\SQLTest\obj\x86\Debug\SQLTest.Properties.Resources.resources
+C:\Users\Administrator\Desktop\神器正式版(ver_2.2)\SQLTest(帳號認證器)\SQLTest\obj\x86\Debug\SQLTest.SQLForm.resources
+C:\Users\Administrator\Desktop\神器正式版(ver_2.2)\SQLTest(帳號認證器)\SQLTest\obj\x86\Debug\SQLTest.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\神器正式版(ver_2.2)(OK)\SQLTest(帳號認證器)\SQLTest\bin\Debug\SQLTest.exe.config
+C:\Users\Administrator\Desktop\神器正式版(ver_2.2)(OK)\SQLTest(帳號認證器)\SQLTest\obj\x86\Debug\SQLTest.exe
+C:\Users\Administrator\Desktop\神器正式版(ver_2.2)(OK)\SQLTest(帳號認證器)\SQLTest\obj\x86\Debug\SQLTest.pdb
+C:\Users\Administrator\Desktop\神器正式版(ver_2.3)\SQLTest(帳號認證器)\SQLTest\bin\Debug\SQLTest.exe.config
+C:\Users\Administrator\Desktop\神器正式版(ver_2.3)\SQLTest(帳號認證器)\SQLTest\obj\x86\Debug\SQLTest.exe
+C:\Users\Administrator\Desktop\神器正式版(ver_2.3)\SQLTest(帳號認證器)\SQLTest\obj\x86\Debug\SQLTest.pdb
+C:\Users\Administrator\Desktop\神器正式版(ver_2.3)\SQLTest(帳號認證器)\SQLTest\bin\Debug\SQLTest.exe
+C:\Users\Administrator\Desktop\神器正式版(ver_2.3)\SQLTest(帳號認證器)\SQLTest\bin\Debug\SQLTest.pdb
+C:\Users\Administrator\Desktop\神器正式版(ver_2.3)\SQLTest(帳號認證器)\SQLTest\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\Users\Administrator\Desktop\神器正式版(ver_2.3)\SQLTest(帳號認證器)\SQLTest\bin\Debug\MySql.Fabric.Plugin.dll
+C:\Users\Administrator\Desktop\神器正式版(ver_2.3)\SQLTest(帳號認證器)\SQLTest\bin\Debug\MySql.Data.Entity.EF6.xml
+C:\Users\Administrator\Desktop\神器正式版(ver_2.3)\SQLTest(帳號認證器)\SQLTest\obj\x86\Debug\SQLTest.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\神器正式版(ver_2.3)\SQLTest(帳號認證器)\SQLTest\obj\x86\Debug\SQLTest.Form1.resources
+C:\Users\Administrator\Desktop\神器正式版(ver_2.3)\SQLTest(帳號認證器)\SQLTest\obj\x86\Debug\SQLTest.Properties.Resources.resources
+C:\Users\Administrator\Desktop\神器正式版(ver_2.3)\SQLTest(帳號認證器)\SQLTest\obj\x86\Debug\SQLTest.SQLForm.resources
+C:\Users\Administrator\Desktop\神器正式版(ver_2.3)\SQLTest(帳號認證器)\SQLTest\obj\x86\Debug\SQLTest.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\神器正式版(ver_2.4)\SQLTest(帳號認證器)\SQLTest\bin\Debug\SQLTest.exe.config
+C:\Users\Administrator\Desktop\神器正式版(ver_2.4)\SQLTest(帳號認證器)\SQLTest\obj\x86\Debug\SQLTest.exe
+C:\Users\Administrator\Desktop\神器正式版(ver_2.4)\SQLTest(帳號認證器)\SQLTest\obj\x86\Debug\SQLTest.pdb
+C:\Users\Administrator\Desktop\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器正式版(ver_2.4)\SQLTest(帳號認證器)\SQLTest\bin\Debug\SQLTest.exe.config
+C:\Users\Administrator\Desktop\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器正式版(ver_2.4)\SQLTest(帳號認證器)\SQLTest\obj\x86\Debug\SQLTest.exe
+C:\Users\Administrator\Desktop\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器正式版(ver_2.4)\SQLTest(帳號認證器)\SQLTest\obj\x86\Debug\SQLTest.pdb
+C:\Users\Administrator\Desktop\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器正式版(ver_2.4)\SQLTest(帳號認證器)\SQLTest\bin\Debug\SQLTest.exe
+C:\Users\Administrator\Desktop\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器正式版(ver_2.4)\SQLTest(帳號認證器)\SQLTest\bin\Debug\SQLTest.pdb
+C:\Users\Administrator\Desktop\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器正式版(ver_2.4)\SQLTest(帳號認證器)\SQLTest\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\Users\Administrator\Desktop\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器正式版(ver_2.4)\SQLTest(帳號認證器)\SQLTest\bin\Debug\MySql.Fabric.Plugin.dll
+C:\Users\Administrator\Desktop\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器正式版(ver_2.4)\SQLTest(帳號認證器)\SQLTest\bin\Debug\MySql.Data.Entity.EF6.xml
+C:\Users\Administrator\Desktop\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器正式版(ver_2.4)\SQLTest(帳號認證器)\SQLTest\obj\x86\Debug\SQLTest.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器正式版(ver_2.4)\SQLTest(帳號認證器)\SQLTest\obj\x86\Debug\SQLTest.Form1.resources
+C:\Users\Administrator\Desktop\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器正式版(ver_2.4)\SQLTest(帳號認證器)\SQLTest\obj\x86\Debug\SQLTest.Properties.Resources.resources
+C:\Users\Administrator\Desktop\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器正式版(ver_2.4)\SQLTest(帳號認證器)\SQLTest\obj\x86\Debug\SQLTest.SQLForm.resources
+C:\Users\Administrator\Desktop\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器正式版(ver_2.4)\SQLTest(帳號認證器)\SQLTest\obj\x86\Debug\SQLTest.csproj.GenerateResource.Cache
+C:\Users\Wuku 8600k\Desktop\神器Money版(ver_5.1)\SQLTest(帳號認證器)\SQLTest\bin\Debug\SQLTest.exe.config
+C:\Users\Wuku 8600k\Desktop\神器Money版(ver_5.1)\SQLTest(帳號認證器)\SQLTest\obj\x86\Debug\SQLTest.exe
+C:\Users\Wuku 8600k\Desktop\神器Money版(ver_5.1)\SQLTest(帳號認證器)\SQLTest\obj\x86\Debug\SQLTest.pdb
+C:\Users\Wuku 8600k\Desktop\神器Money版(ver_5.1)\SQLTest(帳號認證器)\SQLTest\bin\Debug\SQLTest.exe
+C:\Users\Wuku 8600k\Desktop\神器Money版(ver_5.1)\SQLTest(帳號認證器)\SQLTest\bin\Debug\SQLTest.pdb
+C:\Users\Wuku 8600k\Desktop\神器Money版(ver_5.1)\SQLTest(帳號認證器)\SQLTest\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\Users\Wuku 8600k\Desktop\神器Money版(ver_5.1)\SQLTest(帳號認證器)\SQLTest\bin\Debug\MySql.Fabric.Plugin.dll
+C:\Users\Wuku 8600k\Desktop\神器Money版(ver_5.1)\SQLTest(帳號認證器)\SQLTest\bin\Debug\MySql.Data.Entity.EF6.xml
+C:\Users\Wuku 8600k\Desktop\神器Money版(ver_5.1)\SQLTest(帳號認證器)\SQLTest\obj\x86\Debug\SQLTest.csprojResolveAssemblyReference.cache
+C:\Users\Wuku 8600k\Desktop\神器Money版(ver_5.1)\SQLTest(帳號認證器)\SQLTest\obj\x86\Debug\SQLTest.Form1.resources
+C:\Users\Wuku 8600k\Desktop\神器Money版(ver_5.1)\SQLTest(帳號認證器)\SQLTest\obj\x86\Debug\SQLTest.Properties.Resources.resources
+C:\Users\Wuku 8600k\Desktop\神器Money版(ver_5.1)\SQLTest(帳號認證器)\SQLTest\obj\x86\Debug\SQLTest.SQLForm.resources
+C:\Users\Wuku 8600k\Desktop\神器Money版(ver_5.1)\SQLTest(帳號認證器)\SQLTest\obj\x86\Debug\SQLTest.csproj.GenerateResource.Cache
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_5.6)\SQLTest(帳號認證器)\SQLTest\bin\Debug\SQLTest.exe.config
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_5.6)\SQLTest(帳號認證器)\SQLTest\obj\x86\Debug\SQLTest.exe
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_5.6)\SQLTest(帳號認證器)\SQLTest\obj\x86\Debug\SQLTest.pdb

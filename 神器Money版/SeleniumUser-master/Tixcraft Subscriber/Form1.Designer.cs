@@ -65,46 +65,55 @@
             this.label6 = new System.Windows.Forms.Label();
             this.txtCredit_Card_Account = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.ckbSwitchPageStepByStep = new System.Windows.Forms.CheckBox();
             this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.ckb_listen_ocr = new System.Windows.Forms.CheckBox();
+            this.ptb_OCR_Source = new System.Windows.Forms.PictureBox();
+            this.pbChar_History_D = new System.Windows.Forms.PictureBox();
+            this.pbChar_History_B = new System.Windows.Forms.PictureBox();
+            this.pbChar_History_C = new System.Windows.Forms.PictureBox();
+            this.pbChar_History_A = new System.Windows.Forms.PictureBox();
+            this.btnRefreshOCRHistory = new System.Windows.Forms.Button();
+            this.lst_OCR_History = new System.Windows.Forms.ListBox();
             this.pbChar3 = new System.Windows.Forms.PictureBox();
             this.pbChar1 = new System.Windows.Forms.PictureBox();
             this.pbChar2 = new System.Windows.Forms.PictureBox();
             this.pbChar0 = new System.Windows.Forms.PictureBox();
             this.tabPage4 = new System.Windows.Forms.TabPage();
-            this.txt_Delay_ms = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.rd_Delay_none = new System.Windows.Forms.RadioButton();
-            this.rd_Delay_MilliSecond = new System.Windows.Forms.RadioButton();
-            this.label11 = new System.Windows.Forms.Label();
-            this.rd_Delay_Rand = new System.Windows.Forms.RadioButton();
-            this.txt_Delay_ms_min = new System.Windows.Forms.TextBox();
-            this.label12 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
             this.label13 = new System.Windows.Forms.Label();
-            this.lst_OCR_History = new System.Windows.Forms.ListBox();
-            this.btnRefreshOCRHistory = new System.Windows.Forms.Button();
-            this.pbChar_History_D = new System.Windows.Forms.PictureBox();
-            this.pbChar_History_B = new System.Windows.Forms.PictureBox();
-            this.pbChar_History_C = new System.Windows.Forms.PictureBox();
-            this.pbChar_History_A = new System.Windows.Forms.PictureBox();
-            this.ptb_OCR_Source = new System.Windows.Forms.PictureBox();
-            this.ckb_listen_ocr = new System.Windows.Forms.CheckBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.label12 = new System.Windows.Forms.Label();
+            this.txt_Delay_ms_min = new System.Windows.Forms.TextBox();
+            this.rd_Delay_Rand = new System.Windows.Forms.RadioButton();
+            this.label11 = new System.Windows.Forms.Label();
+            this.rd_Delay_MilliSecond = new System.Windows.Forms.RadioButton();
+            this.txt_Delay_ms = new System.Windows.Forms.TextBox();
+            this.rd_Delay_none = new System.Windows.Forms.RadioButton();
+            this.ckbSwitchPageStepByStep = new System.Windows.Forms.CheckBox();
+            this.tabPage5 = new System.Windows.Forms.TabPage();
+            this.btnAutoRegist = new System.Windows.Forms.Button();
+            this.btnRegister_Taiwan = new System.Windows.Forms.Button();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.label14 = new System.Windows.Forms.Label();
+            this.txtGeneratorName = new System.Windows.Forms.TextBox();
+            this.lblTaiwanHongKong = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.tabPage3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ptb_OCR_Source)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbChar_History_D)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbChar_History_B)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbChar_History_C)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbChar_History_A)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbChar3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbChar1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbChar2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbChar0)).BeginInit();
             this.tabPage4.SuspendLayout();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pbChar_History_D)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbChar_History_B)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbChar_History_C)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbChar_History_A)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ptb_OCR_Source)).BeginInit();
+            this.tabPage5.SuspendLayout();
+            this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
             // button3
@@ -323,6 +332,7 @@
             this.tabControl1.Controls.Add(this.tabPage2);
             this.tabControl1.Controls.Add(this.tabPage3);
             this.tabControl1.Controls.Add(this.tabPage4);
+            this.tabControl1.Controls.Add(this.tabPage5);
             this.tabControl1.Location = new System.Drawing.Point(9, 7);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
@@ -484,17 +494,6 @@
             this.label3.TabIndex = 0;
             this.label3.Text = "信用卡卡號 :";
             // 
-            // ckbSwitchPageStepByStep
-            // 
-            this.ckbSwitchPageStepByStep.AutoSize = true;
-            this.ckbSwitchPageStepByStep.Location = new System.Drawing.Point(9, 270);
-            this.ckbSwitchPageStepByStep.Name = "ckbSwitchPageStepByStep";
-            this.ckbSwitchPageStepByStep.Size = new System.Drawing.Size(242, 16);
-            this.ckbSwitchPageStepByStep.TabIndex = 47;
-            this.ckbSwitchPageStepByStep.Text = "搶票時依照順序1-2-3載入(若無則直接1-3)";
-            this.ckbSwitchPageStepByStep.UseVisualStyleBackColor = true;
-            this.ckbSwitchPageStepByStep.CheckedChanged += new System.EventHandler(this.ckbSwitchPageStepByStep_CheckedChanged);
-            // 
             // tabPage3
             // 
             this.tabPage3.Controls.Add(this.ckb_listen_ocr);
@@ -517,6 +516,87 @@
             this.tabPage3.Text = "監看";
             this.tabPage3.UseVisualStyleBackColor = true;
             this.tabPage3.Click += new System.EventHandler(this.tabPage3_Click);
+            // 
+            // ckb_listen_ocr
+            // 
+            this.ckb_listen_ocr.AutoSize = true;
+            this.ckb_listen_ocr.Location = new System.Drawing.Point(6, 212);
+            this.ckb_listen_ocr.Name = "ckb_listen_ocr";
+            this.ckb_listen_ocr.Size = new System.Drawing.Size(144, 16);
+            this.ckb_listen_ocr.TabIndex = 51;
+            this.ckb_listen_ocr.Text = "開始記錄OCR辨識紀錄";
+            this.ckb_listen_ocr.UseVisualStyleBackColor = true;
+            this.ckb_listen_ocr.CheckedChanged += new System.EventHandler(this.ckb_listen_ocr_CheckedChanged);
+            // 
+            // ptb_OCR_Source
+            // 
+            this.ptb_OCR_Source.BackColor = System.Drawing.SystemColors.ControlText;
+            this.ptb_OCR_Source.Location = new System.Drawing.Point(6, 98);
+            this.ptb_OCR_Source.Name = "ptb_OCR_Source";
+            this.ptb_OCR_Source.Size = new System.Drawing.Size(120, 100);
+            this.ptb_OCR_Source.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.ptb_OCR_Source.TabIndex = 50;
+            this.ptb_OCR_Source.TabStop = false;
+            // 
+            // pbChar_History_D
+            // 
+            this.pbChar_History_D.BackColor = System.Drawing.SystemColors.ControlText;
+            this.pbChar_History_D.Location = new System.Drawing.Point(147, 52);
+            this.pbChar_History_D.Name = "pbChar_History_D";
+            this.pbChar_History_D.Size = new System.Drawing.Size(48, 40);
+            this.pbChar_History_D.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbChar_History_D.TabIndex = 49;
+            this.pbChar_History_D.TabStop = false;
+            // 
+            // pbChar_History_B
+            // 
+            this.pbChar_History_B.BackColor = System.Drawing.SystemColors.ControlText;
+            this.pbChar_History_B.Location = new System.Drawing.Point(51, 52);
+            this.pbChar_History_B.Name = "pbChar_History_B";
+            this.pbChar_History_B.Size = new System.Drawing.Size(48, 40);
+            this.pbChar_History_B.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbChar_History_B.TabIndex = 48;
+            this.pbChar_History_B.TabStop = false;
+            // 
+            // pbChar_History_C
+            // 
+            this.pbChar_History_C.BackColor = System.Drawing.SystemColors.ControlText;
+            this.pbChar_History_C.Location = new System.Drawing.Point(99, 52);
+            this.pbChar_History_C.Name = "pbChar_History_C";
+            this.pbChar_History_C.Size = new System.Drawing.Size(48, 40);
+            this.pbChar_History_C.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbChar_History_C.TabIndex = 47;
+            this.pbChar_History_C.TabStop = false;
+            // 
+            // pbChar_History_A
+            // 
+            this.pbChar_History_A.BackColor = System.Drawing.SystemColors.ControlText;
+            this.pbChar_History_A.Location = new System.Drawing.Point(6, 52);
+            this.pbChar_History_A.Name = "pbChar_History_A";
+            this.pbChar_History_A.Size = new System.Drawing.Size(48, 40);
+            this.pbChar_History_A.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbChar_History_A.TabIndex = 46;
+            this.pbChar_History_A.TabStop = false;
+            // 
+            // btnRefreshOCRHistory
+            // 
+            this.btnRefreshOCRHistory.Location = new System.Drawing.Point(274, 184);
+            this.btnRefreshOCRHistory.Name = "btnRefreshOCRHistory";
+            this.btnRefreshOCRHistory.Size = new System.Drawing.Size(71, 41);
+            this.btnRefreshOCRHistory.TabIndex = 45;
+            this.btnRefreshOCRHistory.Text = "刷新";
+            this.btnRefreshOCRHistory.UseVisualStyleBackColor = true;
+            this.btnRefreshOCRHistory.Click += new System.EventHandler(this.btnRefreshOCRHistory_Click);
+            // 
+            // lst_OCR_History
+            // 
+            this.lst_OCR_History.FormattingEnabled = true;
+            this.lst_OCR_History.ItemHeight = 12;
+            this.lst_OCR_History.Location = new System.Drawing.Point(132, 98);
+            this.lst_OCR_History.Name = "lst_OCR_History";
+            this.lst_OCR_History.Size = new System.Drawing.Size(63, 100);
+            this.lst_OCR_History.TabIndex = 44;
+            this.lst_OCR_History.SelectedIndexChanged += new System.EventHandler(this.lst_OCR_History_SelectedIndexChanged);
             // 
             // pbChar3
             // 
@@ -569,15 +649,6 @@
             this.tabPage4.Text = "設置";
             this.tabPage4.UseVisualStyleBackColor = true;
             // 
-            // txt_Delay_ms
-            // 
-            this.txt_Delay_ms.Location = new System.Drawing.Point(72, 38);
-            this.txt_Delay_ms.Name = "txt_Delay_ms";
-            this.txt_Delay_ms.Size = new System.Drawing.Size(37, 22);
-            this.txt_Delay_ms.TabIndex = 1;
-            this.txt_Delay_ms.Text = "2000";
-            this.txt_Delay_ms.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
-            // 
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.label13);
@@ -596,6 +667,78 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "打完驗證碼後延遲";
             // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(190, 70);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(29, 12);
+            this.label13.TabIndex = 7;
+            this.label13.Text = "毫秒";
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(147, 65);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(37, 22);
+            this.textBox3.TabIndex = 6;
+            this.textBox3.Text = "6000";
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(124, 68);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(17, 12);
+            this.label12.TabIndex = 5;
+            this.label12.Text = "～";
+            // 
+            // txt_Delay_ms_min
+            // 
+            this.txt_Delay_ms_min.Location = new System.Drawing.Point(81, 65);
+            this.txt_Delay_ms_min.Name = "txt_Delay_ms_min";
+            this.txt_Delay_ms_min.Size = new System.Drawing.Size(37, 22);
+            this.txt_Delay_ms_min.TabIndex = 4;
+            this.txt_Delay_ms_min.Text = "2000";
+            // 
+            // rd_Delay_Rand
+            // 
+            this.rd_Delay_Rand.AutoSize = true;
+            this.rd_Delay_Rand.Location = new System.Drawing.Point(7, 66);
+            this.rd_Delay_Rand.Name = "rd_Delay_Rand";
+            this.rd_Delay_Rand.Size = new System.Drawing.Size(71, 16);
+            this.rd_Delay_Rand.TabIndex = 3;
+            this.rd_Delay_Rand.Text = "隨機延遲";
+            this.rd_Delay_Rand.UseVisualStyleBackColor = true;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(115, 44);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(29, 12);
+            this.label11.TabIndex = 2;
+            this.label11.Text = "毫秒";
+            // 
+            // rd_Delay_MilliSecond
+            // 
+            this.rd_Delay_MilliSecond.AutoSize = true;
+            this.rd_Delay_MilliSecond.Location = new System.Drawing.Point(7, 44);
+            this.rd_Delay_MilliSecond.Name = "rd_Delay_MilliSecond";
+            this.rd_Delay_MilliSecond.Size = new System.Drawing.Size(47, 16);
+            this.rd_Delay_MilliSecond.TabIndex = 1;
+            this.rd_Delay_MilliSecond.Text = "延遲";
+            this.rd_Delay_MilliSecond.UseVisualStyleBackColor = true;
+            // 
+            // txt_Delay_ms
+            // 
+            this.txt_Delay_ms.Location = new System.Drawing.Point(72, 38);
+            this.txt_Delay_ms.Name = "txt_Delay_ms";
+            this.txt_Delay_ms.Size = new System.Drawing.Size(37, 22);
+            this.txt_Delay_ms.TabIndex = 1;
+            this.txt_Delay_ms.Text = "2000";
+            this.txt_Delay_ms.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
             // rd_Delay_none
             // 
             this.rd_Delay_none.AutoSize = true;
@@ -608,149 +751,86 @@
             this.rd_Delay_none.Text = "不延遲";
             this.rd_Delay_none.UseVisualStyleBackColor = true;
             // 
-            // rd_Delay_MilliSecond
+            // ckbSwitchPageStepByStep
             // 
-            this.rd_Delay_MilliSecond.AutoSize = true;
-            this.rd_Delay_MilliSecond.Location = new System.Drawing.Point(7, 44);
-            this.rd_Delay_MilliSecond.Name = "rd_Delay_MilliSecond";
-            this.rd_Delay_MilliSecond.Size = new System.Drawing.Size(47, 16);
-            this.rd_Delay_MilliSecond.TabIndex = 1;
-            this.rd_Delay_MilliSecond.Text = "延遲";
-            this.rd_Delay_MilliSecond.UseVisualStyleBackColor = true;
+            this.ckbSwitchPageStepByStep.AutoSize = true;
+            this.ckbSwitchPageStepByStep.Location = new System.Drawing.Point(9, 270);
+            this.ckbSwitchPageStepByStep.Name = "ckbSwitchPageStepByStep";
+            this.ckbSwitchPageStepByStep.Size = new System.Drawing.Size(242, 16);
+            this.ckbSwitchPageStepByStep.TabIndex = 47;
+            this.ckbSwitchPageStepByStep.Text = "搶票時依照順序1-2-3載入(若無則直接1-3)";
+            this.ckbSwitchPageStepByStep.UseVisualStyleBackColor = true;
+            this.ckbSwitchPageStepByStep.CheckedChanged += new System.EventHandler(this.ckbSwitchPageStepByStep_CheckedChanged);
             // 
-            // label11
+            // tabPage5
             // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(115, 44);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(29, 12);
-            this.label11.TabIndex = 2;
-            this.label11.Text = "毫秒";
+            this.tabPage5.Controls.Add(this.groupBox2);
+            this.tabPage5.Location = new System.Drawing.Point(4, 22);
+            this.tabPage5.Name = "tabPage5";
+            this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage5.Size = new System.Drawing.Size(351, 231);
+            this.tabPage5.TabIndex = 4;
+            this.tabPage5.Text = "填單工具";
+            this.tabPage5.UseVisualStyleBackColor = true;
             // 
-            // rd_Delay_Rand
+            // btnAutoRegist
             // 
-            this.rd_Delay_Rand.AutoSize = true;
-            this.rd_Delay_Rand.Location = new System.Drawing.Point(7, 66);
-            this.rd_Delay_Rand.Name = "rd_Delay_Rand";
-            this.rd_Delay_Rand.Size = new System.Drawing.Size(71, 16);
-            this.rd_Delay_Rand.TabIndex = 3;
-            this.rd_Delay_Rand.Text = "隨機延遲";
-            this.rd_Delay_Rand.UseVisualStyleBackColor = true;
+            this.btnAutoRegist.Location = new System.Drawing.Point(6, 21);
+            this.btnAutoRegist.Name = "btnAutoRegist";
+            this.btnAutoRegist.Size = new System.Drawing.Size(107, 37);
+            this.btnAutoRegist.TabIndex = 0;
+            this.btnAutoRegist.Text = "香港人(註冊)";
+            this.btnAutoRegist.UseVisualStyleBackColor = true;
+            this.btnAutoRegist.Click += new System.EventHandler(this.button1_Click_1);
             // 
-            // txt_Delay_ms_min
+            // btnRegister_Taiwan
             // 
-            this.txt_Delay_ms_min.Location = new System.Drawing.Point(81, 65);
-            this.txt_Delay_ms_min.Name = "txt_Delay_ms_min";
-            this.txt_Delay_ms_min.Size = new System.Drawing.Size(37, 22);
-            this.txt_Delay_ms_min.TabIndex = 4;
-            this.txt_Delay_ms_min.Text = "2000";
+            this.btnRegister_Taiwan.Location = new System.Drawing.Point(6, 64);
+            this.btnRegister_Taiwan.Name = "btnRegister_Taiwan";
+            this.btnRegister_Taiwan.Size = new System.Drawing.Size(107, 37);
+            this.btnRegister_Taiwan.TabIndex = 1;
+            this.btnRegister_Taiwan.Text = "台灣人(註冊)";
+            this.btnRegister_Taiwan.UseVisualStyleBackColor = true;
+            this.btnRegister_Taiwan.Click += new System.EventHandler(this.btnRegister_Taiwan_Click);
             // 
-            // label12
+            // groupBox2
             // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(124, 68);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(17, 12);
-            this.label12.TabIndex = 5;
-            this.label12.Text = "～";
+            this.groupBox2.Controls.Add(this.lblTaiwanHongKong);
+            this.groupBox2.Controls.Add(this.txtGeneratorName);
+            this.groupBox2.Controls.Add(this.label14);
+            this.groupBox2.Controls.Add(this.btnAutoRegist);
+            this.groupBox2.Controls.Add(this.btnRegister_Taiwan);
+            this.groupBox2.Location = new System.Drawing.Point(6, 6);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(288, 113);
+            this.groupBox2.TabIndex = 2;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "拓元隨機生成會員資料";
             // 
-            // textBox3
+            // label14
             // 
-            this.textBox3.Location = new System.Drawing.Point(147, 65);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(37, 22);
-            this.textBox3.TabIndex = 6;
-            this.textBox3.Text = "6000";
+            this.label14.AutoSize = true;
+            this.label14.Location = new System.Drawing.Point(163, 33);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(77, 12);
+            this.label14.TabIndex = 3;
+            this.label14.Text = "隨機生成姓名";
             // 
-            // label13
+            // txtGeneratorName
             // 
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(190, 70);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(29, 12);
-            this.label13.TabIndex = 7;
-            this.label13.Text = "毫秒";
+            this.txtGeneratorName.Location = new System.Drawing.Point(154, 64);
+            this.txtGeneratorName.Name = "txtGeneratorName";
+            this.txtGeneratorName.Size = new System.Drawing.Size(100, 22);
+            this.txtGeneratorName.TabIndex = 4;
             // 
-            // lst_OCR_History
+            // lblTaiwanHongKong
             // 
-            this.lst_OCR_History.FormattingEnabled = true;
-            this.lst_OCR_History.ItemHeight = 12;
-            this.lst_OCR_History.Location = new System.Drawing.Point(132, 98);
-            this.lst_OCR_History.Name = "lst_OCR_History";
-            this.lst_OCR_History.Size = new System.Drawing.Size(63, 100);
-            this.lst_OCR_History.TabIndex = 44;
-            this.lst_OCR_History.SelectedIndexChanged += new System.EventHandler(this.lst_OCR_History_SelectedIndexChanged);
-            // 
-            // btnRefreshOCRHistory
-            // 
-            this.btnRefreshOCRHistory.Location = new System.Drawing.Point(274, 184);
-            this.btnRefreshOCRHistory.Name = "btnRefreshOCRHistory";
-            this.btnRefreshOCRHistory.Size = new System.Drawing.Size(71, 41);
-            this.btnRefreshOCRHistory.TabIndex = 45;
-            this.btnRefreshOCRHistory.Text = "刷新";
-            this.btnRefreshOCRHistory.UseVisualStyleBackColor = true;
-            this.btnRefreshOCRHistory.Click += new System.EventHandler(this.btnRefreshOCRHistory_Click);
-            // 
-            // pbChar_History_D
-            // 
-            this.pbChar_History_D.BackColor = System.Drawing.SystemColors.ControlText;
-            this.pbChar_History_D.Location = new System.Drawing.Point(147, 52);
-            this.pbChar_History_D.Name = "pbChar_History_D";
-            this.pbChar_History_D.Size = new System.Drawing.Size(48, 40);
-            this.pbChar_History_D.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbChar_History_D.TabIndex = 49;
-            this.pbChar_History_D.TabStop = false;
-            // 
-            // pbChar_History_B
-            // 
-            this.pbChar_History_B.BackColor = System.Drawing.SystemColors.ControlText;
-            this.pbChar_History_B.Location = new System.Drawing.Point(51, 52);
-            this.pbChar_History_B.Name = "pbChar_History_B";
-            this.pbChar_History_B.Size = new System.Drawing.Size(48, 40);
-            this.pbChar_History_B.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbChar_History_B.TabIndex = 48;
-            this.pbChar_History_B.TabStop = false;
-            // 
-            // pbChar_History_C
-            // 
-            this.pbChar_History_C.BackColor = System.Drawing.SystemColors.ControlText;
-            this.pbChar_History_C.Location = new System.Drawing.Point(99, 52);
-            this.pbChar_History_C.Name = "pbChar_History_C";
-            this.pbChar_History_C.Size = new System.Drawing.Size(48, 40);
-            this.pbChar_History_C.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbChar_History_C.TabIndex = 47;
-            this.pbChar_History_C.TabStop = false;
-            // 
-            // pbChar_History_A
-            // 
-            this.pbChar_History_A.BackColor = System.Drawing.SystemColors.ControlText;
-            this.pbChar_History_A.Location = new System.Drawing.Point(6, 52);
-            this.pbChar_History_A.Name = "pbChar_History_A";
-            this.pbChar_History_A.Size = new System.Drawing.Size(48, 40);
-            this.pbChar_History_A.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbChar_History_A.TabIndex = 46;
-            this.pbChar_History_A.TabStop = false;
-            // 
-            // ptb_OCR_Source
-            // 
-            this.ptb_OCR_Source.BackColor = System.Drawing.SystemColors.ControlText;
-            this.ptb_OCR_Source.Location = new System.Drawing.Point(6, 98);
-            this.ptb_OCR_Source.Name = "ptb_OCR_Source";
-            this.ptb_OCR_Source.Size = new System.Drawing.Size(120, 100);
-            this.ptb_OCR_Source.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.ptb_OCR_Source.TabIndex = 50;
-            this.ptb_OCR_Source.TabStop = false;
-            // 
-            // ckb_listen_ocr
-            // 
-            this.ckb_listen_ocr.AutoSize = true;
-            this.ckb_listen_ocr.Location = new System.Drawing.Point(6, 212);
-            this.ckb_listen_ocr.Name = "ckb_listen_ocr";
-            this.ckb_listen_ocr.Size = new System.Drawing.Size(144, 16);
-            this.ckb_listen_ocr.TabIndex = 51;
-            this.ckb_listen_ocr.Text = "開始記錄OCR辨識紀錄";
-            this.ckb_listen_ocr.UseVisualStyleBackColor = true;
-            this.ckb_listen_ocr.CheckedChanged += new System.EventHandler(this.ckb_listen_ocr_CheckedChanged);
+            this.lblTaiwanHongKong.AutoSize = true;
+            this.lblTaiwanHongKong.Location = new System.Drawing.Point(182, 89);
+            this.lblTaiwanHongKong.Name = "lblTaiwanHongKong";
+            this.lblTaiwanHongKong.Size = new System.Drawing.Size(39, 12);
+            this.lblTaiwanHongKong.TabIndex = 5;
+            this.lblTaiwanHongKong.Text = "label15";
             // 
             // Form1
             // 
@@ -770,6 +850,11 @@
             this.tabPage2.PerformLayout();
             this.tabPage3.ResumeLayout(false);
             this.tabPage3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ptb_OCR_Source)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbChar_History_D)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbChar_History_B)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbChar_History_C)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbChar_History_A)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbChar3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbChar1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbChar2)).EndInit();
@@ -777,11 +862,9 @@
             this.tabPage4.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pbChar_History_D)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbChar_History_B)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbChar_History_C)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbChar_History_A)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ptb_OCR_Source)).EndInit();
+            this.tabPage5.ResumeLayout(false);
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -851,6 +934,13 @@
         private System.Windows.Forms.PictureBox pbChar_History_A;
         private System.Windows.Forms.PictureBox ptb_OCR_Source;
         private System.Windows.Forms.CheckBox ckb_listen_ocr;
+        private System.Windows.Forms.TabPage tabPage5;
+        private System.Windows.Forms.Button btnAutoRegist;
+        private System.Windows.Forms.Button btnRegister_Taiwan;
+        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.Label lblTaiwanHongKong;
+        private System.Windows.Forms.TextBox txtGeneratorName;
+        private System.Windows.Forms.Label label14;
     }
 }
 

@@ -76,8 +76,15 @@
             this.btnRunAllWindow = new System.Windows.Forms.Button();
             this.btnRunAllWindowStop = new System.Windows.Forms.Button();
             this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.tabControl1 = new System.Windows.Forms.TabControl();
+            this.tabPage6 = new System.Windows.Forms.TabPage();
             this.lstPixelPinAddress = new System.Windows.Forms.ListBox();
+            this.rdoLoaginGoogle = new System.Windows.Forms.RadioButton();
             this.label9 = new System.Windows.Forms.Label();
+            this.rdoLoaginPP = new System.Windows.Forms.RadioButton();
+            this.tabPage7 = new System.Windows.Forms.TabPage();
+            this.btnUpDatePixelPinAccount = new System.Windows.Forms.Button();
+            this.txtPixelPinUpdateTable = new System.Windows.Forms.TextBox();
             this.tabPage5 = new System.Windows.Forms.TabPage();
             this.btnAutoFillup_AllWindow = new System.Windows.Forms.Button();
             this.lblCreditCard = new System.Windows.Forms.Label();
@@ -95,6 +102,7 @@
             this.pnlControlTable = new System.Windows.Forms.Panel();
             this.label11 = new System.Windows.Forms.Label();
             this.lblHDDNumber = new System.Windows.Forms.Label();
+            this.chkBGoogleChrome = new System.Windows.Forms.CheckBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label8 = new System.Windows.Forms.Label();
             this.btn_ShowLog = new System.Windows.Forms.Button();
@@ -104,26 +112,18 @@
             this.txtIP = new System.Windows.Forms.TextBox();
             this.btnShareAnswer = new System.Windows.Forms.Button();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
-            this.rdoLoaginPP = new System.Windows.Forms.RadioButton();
-            this.rdoLoaginGoogle = new System.Windows.Forms.RadioButton();
-            this.tabControl1 = new System.Windows.Forms.TabControl();
-            this.tabPage6 = new System.Windows.Forms.TabPage();
-            this.tabPage7 = new System.Windows.Forms.TabPage();
-            this.btnUpDatePixelPinAccount = new System.Windows.Forms.Button();
-            this.txtPixelPinUpdateTable = new System.Windows.Forms.TextBox();
-            this.chkBGoogleChrome = new System.Windows.Forms.CheckBox();
             this.tpFBEmail.SuspendLayout();
             this.tpShow.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.tabPage3.SuspendLayout();
-            this.tabPage5.SuspendLayout();
-            this.pnlControlTable.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.tabControl1.SuspendLayout();
             this.tabPage6.SuspendLayout();
             this.tabPage7.SuspendLayout();
+            this.tabPage5.SuspendLayout();
+            this.pnlControlTable.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // btnLoadAcc
@@ -671,6 +671,30 @@
             this.tabPage3.TabIndex = 6;
             this.tabPage3.Text = "帳號";
             // 
+            // tabControl1
+            // 
+            this.tabControl1.Controls.Add(this.tabPage6);
+            this.tabControl1.Controls.Add(this.tabPage7);
+            this.tabControl1.Location = new System.Drawing.Point(6, 6);
+            this.tabControl1.Name = "tabControl1";
+            this.tabControl1.SelectedIndex = 0;
+            this.tabControl1.Size = new System.Drawing.Size(378, 190);
+            this.tabControl1.TabIndex = 40;
+            // 
+            // tabPage6
+            // 
+            this.tabPage6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(35)))), ((int)(((byte)(45)))));
+            this.tabPage6.Controls.Add(this.lstPixelPinAddress);
+            this.tabPage6.Controls.Add(this.rdoLoaginGoogle);
+            this.tabPage6.Controls.Add(this.label9);
+            this.tabPage6.Controls.Add(this.rdoLoaginPP);
+            this.tabPage6.Location = new System.Drawing.Point(4, 22);
+            this.tabPage6.Name = "tabPage6";
+            this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage6.Size = new System.Drawing.Size(370, 164);
+            this.tabPage6.TabIndex = 0;
+            this.tabPage6.Text = "雲端表格";
+            // 
             // lstPixelPinAddress
             // 
             this.lstPixelPinAddress.FormattingEnabled = true;
@@ -682,16 +706,74 @@
             this.lstPixelPinAddress.SelectedIndexChanged += new System.EventHandler(this.lstPixelPinAddress_SelectedIndexChanged);
             this.lstPixelPinAddress.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.lstPixelPinAddress_MouseDoubleClick);
             // 
+            // rdoLoaginGoogle
+            // 
+            this.rdoLoaginGoogle.AutoSize = true;
+            this.rdoLoaginGoogle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.rdoLoaginGoogle.ForeColor = System.Drawing.Color.White;
+            this.rdoLoaginGoogle.Location = new System.Drawing.Point(294, 145);
+            this.rdoLoaginGoogle.Name = "rdoLoaginGoogle";
+            this.rdoLoaginGoogle.Size = new System.Drawing.Size(57, 16);
+            this.rdoLoaginGoogle.TabIndex = 40;
+            this.rdoLoaginGoogle.Text = "Google";
+            this.rdoLoaginGoogle.UseVisualStyleBackColor = false;
+            // 
             // label9
             // 
             this.label9.AutoSize = true;
             this.label9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label9.ForeColor = System.Drawing.Color.White;
             this.label9.Location = new System.Drawing.Point(6, 145);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(29, 12);
             this.label9.TabIndex = 38;
             this.label9.Text = "控制";
+            // 
+            // rdoLoaginPP
+            // 
+            this.rdoLoaginPP.AutoSize = true;
+            this.rdoLoaginPP.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.rdoLoaginPP.Checked = true;
+            this.rdoLoaginPP.ForeColor = System.Drawing.Color.White;
+            this.rdoLoaginPP.Location = new System.Drawing.Point(227, 145);
+            this.rdoLoaginPP.Name = "rdoLoaginPP";
+            this.rdoLoaginPP.Size = new System.Drawing.Size(61, 16);
+            this.rdoLoaginPP.TabIndex = 39;
+            this.rdoLoaginPP.TabStop = true;
+            this.rdoLoaginPP.Text = "PixelPin";
+            this.rdoLoaginPP.UseVisualStyleBackColor = false;
+            // 
+            // tabPage7
+            // 
+            this.tabPage7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(35)))), ((int)(((byte)(45)))));
+            this.tabPage7.Controls.Add(this.btnUpDatePixelPinAccount);
+            this.tabPage7.Controls.Add(this.txtPixelPinUpdateTable);
+            this.tabPage7.Location = new System.Drawing.Point(4, 22);
+            this.tabPage7.Name = "tabPage7";
+            this.tabPage7.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage7.Size = new System.Drawing.Size(370, 164);
+            this.tabPage7.TabIndex = 1;
+            this.tabPage7.Text = "上傳工具";
+            // 
+            // btnUpDatePixelPinAccount
+            // 
+            this.btnUpDatePixelPinAccount.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(35)))), ((int)(((byte)(45)))));
+            this.btnUpDatePixelPinAccount.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnUpDatePixelPinAccount.Location = new System.Drawing.Point(160, 126);
+            this.btnUpDatePixelPinAccount.Name = "btnUpDatePixelPinAccount";
+            this.btnUpDatePixelPinAccount.Size = new System.Drawing.Size(197, 32);
+            this.btnUpDatePixelPinAccount.TabIndex = 43;
+            this.btnUpDatePixelPinAccount.Text = "帳號表格上傳(請貼上三欄資訊)";
+            this.btnUpDatePixelPinAccount.UseVisualStyleBackColor = false;
+            this.btnUpDatePixelPinAccount.Click += new System.EventHandler(this.btnUpDatePixelPinAccount_Click_1);
+            // 
+            // txtPixelPinUpdateTable
+            // 
+            this.txtPixelPinUpdateTable.Location = new System.Drawing.Point(13, 6);
+            this.txtPixelPinUpdateTable.Multiline = true;
+            this.txtPixelPinUpdateTable.Name = "txtPixelPinUpdateTable";
+            this.txtPixelPinUpdateTable.Size = new System.Drawing.Size(344, 117);
+            this.txtPixelPinUpdateTable.TabIndex = 41;
             // 
             // tabPage5
             // 
@@ -873,7 +955,7 @@
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(98, 29);
             this.label11.TabIndex = 39;
-            this.label11.Text = "ver 5.8";
+            this.label11.Text = "ver 5.9";
             // 
             // lblHDDNumber
             // 
@@ -885,6 +967,19 @@
             this.lblHDDNumber.Size = new System.Drawing.Size(51, 15);
             this.lblHDDNumber.TabIndex = 33;
             this.lblHDDNumber.Text = "硬體序號";
+            // 
+            // chkBGoogleChrome
+            // 
+            this.chkBGoogleChrome.AutoSize = true;
+            this.chkBGoogleChrome.Checked = true;
+            this.chkBGoogleChrome.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkBGoogleChrome.Location = new System.Drawing.Point(89, 361);
+            this.chkBGoogleChrome.Name = "chkBGoogleChrome";
+            this.chkBGoogleChrome.Size = new System.Drawing.Size(289, 16);
+            this.chkBGoogleChrome.TabIndex = 42;
+            this.chkBGoogleChrome.Text = "打勾 = 使用Google瀏覽器 不打勾 = 使用幽靈瀏覽器";
+            this.chkBGoogleChrome.UseVisualStyleBackColor = true;
+            this.chkBGoogleChrome.Visible = false;
             // 
             // pictureBox1
             // 
@@ -974,100 +1069,6 @@
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
             // 
-            // rdoLoaginPP
-            // 
-            this.rdoLoaginPP.AutoSize = true;
-            this.rdoLoaginPP.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.rdoLoaginPP.Checked = true;
-            this.rdoLoaginPP.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.rdoLoaginPP.Location = new System.Drawing.Point(227, 145);
-            this.rdoLoaginPP.Name = "rdoLoaginPP";
-            this.rdoLoaginPP.Size = new System.Drawing.Size(61, 16);
-            this.rdoLoaginPP.TabIndex = 39;
-            this.rdoLoaginPP.TabStop = true;
-            this.rdoLoaginPP.Text = "PixelPin";
-            this.rdoLoaginPP.UseVisualStyleBackColor = false;
-            // 
-            // rdoLoaginGoogle
-            // 
-            this.rdoLoaginGoogle.AutoSize = true;
-            this.rdoLoaginGoogle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.rdoLoaginGoogle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.rdoLoaginGoogle.Location = new System.Drawing.Point(294, 145);
-            this.rdoLoaginGoogle.Name = "rdoLoaginGoogle";
-            this.rdoLoaginGoogle.Size = new System.Drawing.Size(57, 16);
-            this.rdoLoaginGoogle.TabIndex = 40;
-            this.rdoLoaginGoogle.Text = "Google";
-            this.rdoLoaginGoogle.UseVisualStyleBackColor = false;
-            // 
-            // tabControl1
-            // 
-            this.tabControl1.Controls.Add(this.tabPage6);
-            this.tabControl1.Controls.Add(this.tabPage7);
-            this.tabControl1.Location = new System.Drawing.Point(6, 6);
-            this.tabControl1.Name = "tabControl1";
-            this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(378, 190);
-            this.tabControl1.TabIndex = 40;
-            // 
-            // tabPage6
-            // 
-            this.tabPage6.Controls.Add(this.lstPixelPinAddress);
-            this.tabPage6.Controls.Add(this.rdoLoaginGoogle);
-            this.tabPage6.Controls.Add(this.label9);
-            this.tabPage6.Controls.Add(this.rdoLoaginPP);
-            this.tabPage6.Location = new System.Drawing.Point(4, 22);
-            this.tabPage6.Name = "tabPage6";
-            this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage6.Size = new System.Drawing.Size(370, 164);
-            this.tabPage6.TabIndex = 0;
-            this.tabPage6.Text = "雲端表格";
-            this.tabPage6.UseVisualStyleBackColor = true;
-            // 
-            // tabPage7
-            // 
-            this.tabPage7.Controls.Add(this.btnUpDatePixelPinAccount);
-            this.tabPage7.Controls.Add(this.txtPixelPinUpdateTable);
-            this.tabPage7.Location = new System.Drawing.Point(4, 22);
-            this.tabPage7.Name = "tabPage7";
-            this.tabPage7.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage7.Size = new System.Drawing.Size(370, 164);
-            this.tabPage7.TabIndex = 1;
-            this.tabPage7.Text = "上傳工具";
-            this.tabPage7.UseVisualStyleBackColor = true;
-            // 
-            // btnUpDatePixelPinAccount
-            // 
-            this.btnUpDatePixelPinAccount.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(35)))), ((int)(((byte)(45)))));
-            this.btnUpDatePixelPinAccount.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnUpDatePixelPinAccount.Location = new System.Drawing.Point(197, 126);
-            this.btnUpDatePixelPinAccount.Name = "btnUpDatePixelPinAccount";
-            this.btnUpDatePixelPinAccount.Size = new System.Drawing.Size(167, 32);
-            this.btnUpDatePixelPinAccount.TabIndex = 43;
-            this.btnUpDatePixelPinAccount.Text = "帳號表格上傳(兩個\\t)";
-            this.btnUpDatePixelPinAccount.UseVisualStyleBackColor = false;
-            // 
-            // txtPixelPinUpdateTable
-            // 
-            this.txtPixelPinUpdateTable.Location = new System.Drawing.Point(13, 6);
-            this.txtPixelPinUpdateTable.Multiline = true;
-            this.txtPixelPinUpdateTable.Name = "txtPixelPinUpdateTable";
-            this.txtPixelPinUpdateTable.Size = new System.Drawing.Size(344, 117);
-            this.txtPixelPinUpdateTable.TabIndex = 41;
-            // 
-            // chkBGoogleChrome
-            // 
-            this.chkBGoogleChrome.AutoSize = true;
-            this.chkBGoogleChrome.Checked = true;
-            this.chkBGoogleChrome.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.chkBGoogleChrome.Location = new System.Drawing.Point(89, 361);
-            this.chkBGoogleChrome.Name = "chkBGoogleChrome";
-            this.chkBGoogleChrome.Size = new System.Drawing.Size(289, 16);
-            this.chkBGoogleChrome.TabIndex = 42;
-            this.chkBGoogleChrome.Text = "打勾 = 使用Google瀏覽器 不打勾 = 使用幽靈瀏覽器";
-            this.chkBGoogleChrome.UseVisualStyleBackColor = true;
-            this.chkBGoogleChrome.Visible = false;
-            // 
             // SubscriberLoginer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -1079,7 +1080,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "SubscriberLoginer";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "拓元神器(Money) ver_5.8 - 2018.09.30";
+            this.Text = "拓元神器(Money) ver_5.9 - 2018.10.01";
             this.TopMost = true;
             this.Activated += new System.EventHandler(this.SubscriberLoginer_Activated);
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.SubscriberLoginer_FormClosed);
@@ -1095,16 +1096,16 @@
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.tabPage3.ResumeLayout(false);
-            this.tabPage5.ResumeLayout(false);
-            this.tabPage5.PerformLayout();
-            this.pnlControlTable.ResumeLayout(false);
-            this.pnlControlTable.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.tabControl1.ResumeLayout(false);
             this.tabPage6.ResumeLayout(false);
             this.tabPage6.PerformLayout();
             this.tabPage7.ResumeLayout(false);
             this.tabPage7.PerformLayout();
+            this.tabPage5.ResumeLayout(false);
+            this.tabPage5.PerformLayout();
+            this.pnlControlTable.ResumeLayout(false);
+            this.pnlControlTable.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }

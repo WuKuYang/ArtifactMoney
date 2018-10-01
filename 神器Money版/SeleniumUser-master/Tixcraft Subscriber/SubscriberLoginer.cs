@@ -1013,11 +1013,7 @@ namespace Tixcraft_Subscriber
             AddAccountIntoRecipe(ref USERData, lstPixelPinAddress.Items[lstPixelPinAddress.SelectedIndex].ToString(), txtPWD.Text, strLoginMode);
             UserToListView(USERData, listBox1); 
         }
-
-        private void btnUpDatePixelPinAccount_Click(object sender, EventArgs e)
-        {
-            UpdateToSQL_PixelPinAccounts();
-        }
+         
 
         private void btnAutoFillCreditCard_Click(object sender, EventArgs e)
         {
@@ -1070,6 +1066,11 @@ namespace Tixcraft_Subscriber
         private void lstPixelPinAddress_SelectedIndexChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnUpDatePixelPinAccount_Click_1(object sender, EventArgs e)
+        { 
+            UpdateToSQL_PixelPinAccounts();
         }
     }
 }

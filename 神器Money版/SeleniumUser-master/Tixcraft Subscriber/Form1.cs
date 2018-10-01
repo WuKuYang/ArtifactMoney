@@ -2058,5 +2058,101 @@ namespace Tixcraft_Subscriber
         {
             g_bIsListen_OCR_History = ckb_listen_ocr.Checked;
         }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            string strTempName = GetRandTaiwanName();
+            RegisteTixPage_HongKong(strTempName); 
+
+            lblTaiwanHongKong.Text = "已生成香港人！";
+            txtGeneratorName.Text = strTempName;
+        } 
+
+        public string GetRandTaiwanName()
+        {
+            FastHttpWebDriver miniBrwoser = new FastHttpWebDriver();
+            string strPageSource = miniBrwoser.GetWebSourceCodeBig5("http://www.richyli.com/name/index.asp");
+            List<SWebElement> lstTds = HtmlAnalyze.FindElement(strPageSource, WebBy.Tag("td"));
+            List<string> lstChineseNameList = new List<string>();
+            SWebElement findEle = null;
+            for (int i = 0; i < lstTds.Count; i++)
+            {
+                if (lstTds[i].Context.Contains("<td valign=\"top\">")) findEle = lstTds[i];
+            }
+            if (findEle != null)
+            {
+                string[] strSp = findEle.Context.Split('、');
+                foreach (string pp in strSp)
+                {
+                    if (pp.Length == 3)
+                    {
+                        lstChineseNameList.Add(pp);
+                    }
+                }
+            }
+            Random rd1 = new Random();
+            int indexRand = rd1.Next(0, lstChineseNameList.Count);
+            //隨機住址 (檔案)
+            string strRand = lstChineseNameList[indexRand];
+            return strRand;
+        }
+
+        public void RegisteTixPage_HongKong(string Name)
+        {
+            if (SubscrEr != null)
+            {
+                //Tix_Register("張正揚", "N121598888", "704台南市北區西門路四段70巷17號", rand(1000000, 9000000).toString());
+                string[] strAddress = SubscrEr.JS_ReadFile("TixRegScript\\HongKong_Addres.txt").Split('\n');
+                List<string> lstAddress = new List<string>();
+                foreach (string p in strAddress)
+                {
+                    if (p != "")
+                    {
+                        lstAddress.Add(p);
+                    }
+                }
+                Random rd1 = new Random();
+                int indexRand = rd1.Next(0, lstAddress.Count);
+                //隨機住址 (檔案)
+                string strRandAddress = strAddress[indexRand];
+
+                string strJavaScript = SubscrEr.JS_ReadFile("TixRegScript\\HongKong_TixRegister.txt");
+                strJavaScript = strJavaScript + string.Format("\nTix_Register(\"{0}\", \"{1}\", rand(1000000, 9000000).toString());\n", Name, strRandAddress);
+                SubscrEr.InjectJavaScript(strJavaScript);
+            }
+        }
+
+        public void RegisteTixPage_Taiwan(string Name)
+        {
+            if (SubscrEr != null)
+            {
+                //Tix_Register("張正揚", "N121598888", "704台南市北區西門路四段70巷17號", rand(1000000, 9000000).toString());
+                string[] strAddress = SubscrEr.JS_ReadFile("TixRegScript\\Taiwan_Addres.txt").Split('\n');
+                List<string> lstAddress = new List<string>();
+                foreach (string p in strAddress)
+                {
+                    if (p != "")
+                    {
+                        lstAddress.Add(p);
+                    }
+                }
+                Random rd1 = new Random();
+                int indexRand = rd1.Next(0, lstAddress.Count);
+                //隨機住址 (檔案)
+                string strRandAddress = strAddress[indexRand];
+
+                string strJavaScript = SubscrEr.JS_ReadFile("TixRegScript\\Taiwan_TixRegister.txt");
+                strJavaScript = strJavaScript + string.Format("\nTix_Register(\"{0}\", \"{1}\", rand(1000000, 9000000).toString());\n", Name, strRandAddress);
+                SubscrEr.InjectJavaScript(strJavaScript);
+            }
+        }
+        private void btnRegister_Taiwan_Click(object sender, EventArgs e)
+        { 
+            string strTempName = GetRandTaiwanName();
+            RegisteTixPage_Taiwan(strTempName);
+            lblTaiwanHongKong.Text = "已生成台灣人！";
+            txtGeneratorName.Text = strTempName;
+        } 
+
     }
 }

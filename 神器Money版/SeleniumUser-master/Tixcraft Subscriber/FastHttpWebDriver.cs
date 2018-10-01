@@ -93,6 +93,40 @@ namespace Tixcraft_Subscriber
             strPageSourceCode = strResult;
             return strResult;
         }
+
+        public string GetWebSourceCodeBig5(string Url)
+        {
+            nUrl = Url;
+            string strResult = "";
+            try
+            {
+                HttpWebRequest request = (HttpWebRequest)WebRequest.Create(Url);
+                request.Timeout = 3000;
+                request.Headers.Set("Pragma", "no-cache");
+                //request.Headers.Add("Accept-Language", "en-US,en;q=0.5");
+                //request.Headers.Add("Accept-Encoding", "gzip");
+                request.Proxy = null;
+
+                //////不建立持久性連結 
+                request.KeepAlive = true;
+                //request.AllowAutoRedirect = false;
+                request.UserAgent = sUserAgent;
+                request.ContentType = sContentType;
+                request.CookieContainer = Session;
+                HttpWebResponse response = (HttpWebResponse)request.GetResponse();
+                Stream streamReceive = response.GetResponseStream();
+                Encoding encoding = Encoding.GetEncoding("big5");
+                StreamReader streamReader = new StreamReader(streamReceive, encoding);
+                strResult = streamReader.ReadToEnd();
+            }
+            catch (Exception ex)
+            {
+                //MessageBox.Show(e.Message);
+            }
+            strPageSourceCode = strResult;
+            return strResult;
+        }
+
         /// <summary>
         /// Post資料到網站
         /// </summary>

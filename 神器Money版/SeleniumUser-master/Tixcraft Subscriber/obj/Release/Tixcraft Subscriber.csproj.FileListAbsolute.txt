@@ -1,0 +1,60 @@
+C:\Users\Administrator\Desktop\SeleniumUser-master\Tixcraft Subscriber\bin\Release\Tixcraft Subscriber.exe.config
+C:\Users\Administrator\Desktop\SeleniumUser-master\Tixcraft Subscriber\bin\Release\Tixcraft Subscriber.exe
+C:\Users\Administrator\Desktop\SeleniumUser-master\Tixcraft Subscriber\bin\Release\Tixcraft Subscriber.pdb
+C:\Users\Administrator\Desktop\SeleniumUser-master\Tixcraft Subscriber\bin\Release\Selenium.WebDriverBackedSelenium.dll
+C:\Users\Administrator\Desktop\SeleniumUser-master\Tixcraft Subscriber\bin\Release\WebDriver.dll
+C:\Users\Administrator\Desktop\SeleniumUser-master\Tixcraft Subscriber\bin\Release\Selenium.WebDriverBackedSelenium.pdb
+C:\Users\Administrator\Desktop\SeleniumUser-master\Tixcraft Subscriber\bin\Release\Selenium.WebDriverBackedSelenium.xml
+C:\Users\Administrator\Desktop\SeleniumUser-master\Tixcraft Subscriber\bin\Release\WebDriver.pdb
+C:\Users\Administrator\Desktop\SeleniumUser-master\Tixcraft Subscriber\bin\Release\WebDriver.xml
+C:\Users\Administrator\Desktop\SeleniumUser-master\Tixcraft Subscriber\obj\Release\Tixcraft Subscriber.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\SeleniumUser-master\Tixcraft Subscriber\obj\Release\Tixcraft_Subscriber.Form1.resources
+C:\Users\Administrator\Desktop\SeleniumUser-master\Tixcraft Subscriber\obj\Release\Tixcraft_Subscriber.Properties.Resources.resources
+C:\Users\Administrator\Desktop\SeleniumUser-master\Tixcraft Subscriber\obj\Release\Tixcraft Subscriber.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\SeleniumUser-master\Tixcraft Subscriber\obj\Release\Tixcraft Subscriber.exe
+C:\Users\Administrator\Desktop\SeleniumUser-master\Tixcraft Subscriber\obj\Release\Tixcraft Subscriber.pdb
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器2.0\SeleniumUser-master\Tixcraft Subscriber\bin\Release\Tixcraft Subscriber.exe.config
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器2.0\SeleniumUser-master\Tixcraft Subscriber\obj\Release\Tixcraft Subscriber.exe
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器2.0\SeleniumUser-master\Tixcraft Subscriber\obj\Release\Tixcraft Subscriber.pdb
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器2.0\SeleniumUser-master\Tixcraft Subscriber\bin\Release\Tixcraft Subscriber.exe
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器2.0\SeleniumUser-master\Tixcraft Subscriber\bin\Release\Tixcraft Subscriber.pdb
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器2.0\SeleniumUser-master\Tixcraft Subscriber\bin\Release\Selenium.WebDriverBackedSelenium.dll
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器2.0\SeleniumUser-master\Tixcraft Subscriber\bin\Release\WebDriver.dll
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器2.0\SeleniumUser-master\Tixcraft Subscriber\bin\Release\Selenium.WebDriverBackedSelenium.pdb
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器2.0\SeleniumUser-master\Tixcraft Subscriber\bin\Release\Selenium.WebDriverBackedSelenium.xml
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器2.0\SeleniumUser-master\Tixcraft Subscriber\bin\Release\WebDriver.pdb
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器2.0\SeleniumUser-master\Tixcraft Subscriber\bin\Release\WebDriver.xml
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器2.0\SeleniumUser-master\Tixcraft Subscriber\obj\Release\Tixcraft Subscriber.csprojResolveAssemblyReference.cache
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器2.0\SeleniumUser-master\Tixcraft Subscriber\obj\Release\Tixcraft_Subscriber.Form1.resources
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器2.0\SeleniumUser-master\Tixcraft Subscriber\obj\Release\Tixcraft_Subscriber.Properties.Resources.resources
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器2.0\SeleniumUser-master\Tixcraft Subscriber\obj\Release\Tixcraft Subscriber.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\神器2.0\SeleniumUser-master\Tixcraft Subscriber\bin\Release\Tixcraft Subscriber.exe.config
+C:\Users\Administrator\Desktop\神器2.0\SeleniumUser-master\Tixcraft Subscriber\obj\Release\Tixcraft Subscriber.exe
+C:\Users\Administrator\Desktop\神器2.0\SeleniumUser-master\Tixcraft Subscriber\obj\Release\Tixcraft Subscriber.pdb
+C:\Users\Administrator\Desktop\神器2.0\SeleniumUser-master\Tixcraft Subscriber\bin\Release\Tixcraft Subscriber.exe
+C:\Users\Administrator\Desktop\神器2.0\SeleniumUser-master\Tixcraft Subscriber\bin\Release\Tixcraft Subscriber.pdb
+C:\Users\Administrator\Desktop\神器2.0\SeleniumUser-master\Tixcraft Subscriber\bin\Release\Selenium.WebDriverBackedSelenium.dll
+C:\Users\Administrator\Desktop\神器2.0\SeleniumUser-master\Tixcraft Subscriber\bin\Release\WebDriver.dll
+C:\Users\Administrator\Desktop\神器2.0\SeleniumUser-master\Tixcraft Subscriber\bin\Release\Selenium.WebDriverBackedSelenium.pdb
+C:\Users\Administrator\Desktop\神器2.0\SeleniumUser-master\Tixcraft Subscriber\bin\Release\Selenium.WebDriverBackedSelenium.xml
+C:\Users\Administrator\Desktop\神器2.0\SeleniumUser-master\Tixcraft Subscriber\bin\Release\WebDriver.pdb
+C:\Users\Administrator\Desktop\神器2.0\SeleniumUser-master\Tixcraft Subscriber\bin\Release\WebDriver.xml
+C:\Users\Administrator\Desktop\神器2.0\SeleniumUser-master\Tixcraft Subscriber\obj\Release\Tixcraft Subscriber.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\神器2.0\SeleniumUser-master\Tixcraft Subscriber\obj\Release\Tixcraft_Subscriber.Form1.resources
+C:\Users\Administrator\Desktop\神器2.0\SeleniumUser-master\Tixcraft Subscriber\obj\Release\Tixcraft_Subscriber.Properties.Resources.resources
+C:\Users\Administrator\Desktop\神器2.0\SeleniumUser-master\Tixcraft Subscriber\obj\Release\Tixcraft Subscriber.csproj.GenerateResource.Cache
+C:\Users\Demon.Yang\Desktop\神器3.0\SeleniumUser-master\Tixcraft Subscriber\bin\Release\Tixcraft Subscriber.exe.config
+C:\Users\Demon.Yang\Desktop\神器3.0\SeleniumUser-master\Tixcraft Subscriber\obj\Release\Tixcraft Subscriber.exe
+C:\Users\Demon.Yang\Desktop\神器3.0\SeleniumUser-master\Tixcraft Subscriber\obj\Release\Tixcraft Subscriber.pdb
+C:\Users\Sam\Desktop\神器正式版(ver_1.9)\SeleniumUser-master\Tixcraft Subscriber\bin\Release\Tixcraft Subscriber.exe.config
+C:\Users\Sam\Desktop\神器正式版(ver_1.9)\SeleniumUser-master\Tixcraft Subscriber\obj\Release\Tixcraft Subscriber.exe
+C:\Users\Sam\Desktop\神器正式版(ver_1.9)\SeleniumUser-master\Tixcraft Subscriber\obj\Release\Tixcraft Subscriber.pdb
+C:\Users\Sam\Desktop\神器正式版(ver_1.9)\SeleniumUser-master\Tixcraft Subscriber\bin\Release\Tixcraft Subscriber.exe
+C:\Users\Sam\Desktop\神器正式版(ver_1.9)\SeleniumUser-master\Tixcraft Subscriber\bin\Release\Tixcraft Subscriber.pdb
+C:\Users\Sam\Desktop\神器正式版(ver_1.9)\SeleniumUser-master\Tixcraft Subscriber\bin\Release\Selenium.WebDriverBackedSelenium.dll
+C:\Users\Sam\Desktop\神器正式版(ver_1.9)\SeleniumUser-master\Tixcraft Subscriber\bin\Release\WebDriver.dll
+C:\Users\Sam\Desktop\神器正式版(ver_1.9)\SeleniumUser-master\Tixcraft Subscriber\obj\Release\Tixcraft Subscriber.csprojResolveAssemblyReference.cache
+C:\Users\Sam\Desktop\神器正式版(ver_1.9)\SeleniumUser-master\Tixcraft Subscriber\obj\Release\Tixcraft_Subscriber.Form1.resources
+C:\Users\Sam\Desktop\神器正式版(ver_1.9)\SeleniumUser-master\Tixcraft Subscriber\obj\Release\Tixcraft_Subscriber.Properties.Resources.resources
+C:\Users\Sam\Desktop\神器正式版(ver_1.9)\SeleniumUser-master\Tixcraft Subscriber\obj\Release\Tixcraft_Subscriber.SubscriberLoginer.resources
+C:\Users\Sam\Desktop\神器正式版(ver_1.9)\SeleniumUser-master\Tixcraft Subscriber\obj\Release\Tixcraft Subscriber.csproj.GenerateResource.Cache

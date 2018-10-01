@@ -1,0 +1,11 @@
+C:\Users\Demon.Yang\Desktop\SeleniumUser-master\SeleniumUser\bin\Debug\SeleniumUser.dll
+C:\Users\Demon.Yang\Desktop\SeleniumUser-master\SeleniumUser\bin\Debug\SeleniumUser.pdb
+C:\Users\Demon.Yang\Desktop\SeleniumUser-master\SeleniumUser\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Demon.Yang\Desktop\SeleniumUser-master\SeleniumUser\bin\Debug\WebDriver.dll
+C:\Users\Demon.Yang\Desktop\SeleniumUser-master\SeleniumUser\bin\Debug\WebDriver.Support.dll
+C:\Users\Demon.Yang\Desktop\SeleniumUser-master\SeleniumUser\bin\Debug\WebDriver.xml
+C:\Users\Demon.Yang\Desktop\SeleniumUser-master\SeleniumUser\bin\Debug\WebDriver.Support.xml
+C:\Users\Demon.Yang\Desktop\SeleniumUser-master\SeleniumUser\bin\Debug\zh-Hant\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+C:\Users\Demon.Yang\Desktop\SeleniumUser-master\SeleniumUser\obj\Debug\SeleniumUser.csprojResolveAssemblyReference.cache
+C:\Users\Demon.Yang\Desktop\SeleniumUser-master\SeleniumUser\obj\Debug\SeleniumUser.dll
+C:\Users\Demon.Yang\Desktop\SeleniumUser-master\SeleniumUser\obj\Debug\SeleniumUser.pdb

@@ -1,0 +1,24 @@
+D:\无忧云打码\yundamaDemo\C# 调用示例\YDMCSDemo\bin\Debug\YDMCSDemo.exe
+D:\无忧云打码\yundamaDemo\C# 调用示例\YDMCSDemo\bin\Debug\YDMCSDemo.pdb
+D:\无忧云打码\yundamaDemo\C# 调用示例\YDMCSDemo\obj\x86\Debug\YDMCSDemo.FormMain.resources
+D:\无忧云打码\yundamaDemo\C# 调用示例\YDMCSDemo\obj\x86\Debug\YDMCSDemo.Properties.Resources.resources
+D:\无忧云打码\yundamaDemo\C# 调用示例\YDMCSDemo\obj\x86\Debug\YDMCSDemo.csproj.GenerateResource.Cache
+D:\无忧云打码\yundamaDemo\C# 调用示例\YDMCSDemo\obj\x86\Debug\YDMCSDemo.exe
+D:\无忧云打码\yundamaDemo\C# 调用示例\YDMCSDemo\obj\x86\Debug\YDMCSDemo.pdb
+D:\无忧云打码\yundamaDemo\C#调用示例\YDMCSDemo\obj\x86\Debug\YDMCSDemo.exe
+D:\无忧云打码\yundamaDemo\C#调用示例\YDMCSDemo\obj\x86\Debug\YDMCSDemo.pdb
+D:\无忧云打码\yundamaDemo\C#调用示例\YDMCSDemo\bin\Debug\YDMCSDemo.exe
+D:\无忧云打码\yundamaDemo\C#调用示例\YDMCSDemo\bin\Debug\YDMCSDemo.pdb
+D:\无忧云打码\yundamaDemo\C#调用示例\YDMCSDemo\obj\x86\Debug\YDMCSDemo.csprojResolveAssemblyReference.cache
+D:\无忧云打码\yundamaDemo\C#调用示例\YDMCSDemo\obj\x86\Debug\YDMCSDemo.FormMain.resources
+D:\无忧云打码\yundamaDemo\C#调用示例\YDMCSDemo\obj\x86\Debug\YDMCSDemo.Properties.Resources.resources
+D:\无忧云打码\yundamaDemo\C#调用示例\YDMCSDemo\obj\x86\Debug\YDMCSDemo.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\C#调用示例\YDMCSDemo\obj\x86\Debug\YDMCSDemo.exe
+C:\Users\Administrator\Desktop\C#调用示例\YDMCSDemo\obj\x86\Debug\YDMCSDemo.pdb
+C:\Users\Administrator\Desktop\C#调用示例\YDMCSDemo\bin\Debug\YDMCSDemo.exe
+C:\Users\Administrator\Desktop\C#调用示例\YDMCSDemo\bin\Debug\YDMCSDemo.pdb
+C:\Users\Administrator\Desktop\C#调用示例\YDMCSDemo\obj\x86\Debug\YDMCSDemo.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\C#调用示例\YDMCSDemo\obj\x86\Debug\YDMCSDemo.FormMain.resources
+C:\Users\Administrator\Desktop\C#调用示例\YDMCSDemo\obj\x86\Debug\YDMCSDemo.Properties.Resources.resources
+C:\Users\Administrator\Desktop\C#调用示例\YDMCSDemo\obj\x86\Debug\YDMCSDemo.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\C#调用示例\YDMCSDemo\obj\x86\Debug\YDMCSDemo.test.resources

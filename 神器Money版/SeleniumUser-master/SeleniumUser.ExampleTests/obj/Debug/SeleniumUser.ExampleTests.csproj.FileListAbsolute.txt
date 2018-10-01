@@ -1,0 +1,39 @@
+C:\Users\Demon.Yang\Desktop\SeleniumUser-master\SeleniumUser.ExampleTests\bin\Debug\SeleniumUser.ExampleTests.dll
+C:\Users\Demon.Yang\Desktop\SeleniumUser-master\SeleniumUser.ExampleTests\bin\Debug\SeleniumUser.ExampleTests.pdb
+C:\Users\Demon.Yang\Desktop\SeleniumUser-master\SeleniumUser.ExampleTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Demon.Yang\Desktop\SeleniumUser-master\SeleniumUser.ExampleTests\bin\Debug\SeleniumUser.dll
+C:\Users\Demon.Yang\Desktop\SeleniumUser-master\SeleniumUser.ExampleTests\bin\Debug\WebDriver.dll
+C:\Users\Demon.Yang\Desktop\SeleniumUser-master\SeleniumUser.ExampleTests\bin\Debug\WebDriver.Support.dll
+C:\Users\Demon.Yang\Desktop\SeleniumUser-master\SeleniumUser.ExampleTests\bin\Debug\SeleniumUser.pdb
+C:\Users\Demon.Yang\Desktop\SeleniumUser-master\SeleniumUser.ExampleTests\bin\Debug\WebDriver.xml
+C:\Users\Demon.Yang\Desktop\SeleniumUser-master\SeleniumUser.ExampleTests\bin\Debug\WebDriver.Support.xml
+C:\Users\Demon.Yang\Desktop\SeleniumUser-master\SeleniumUser.ExampleTests\bin\Debug\zh-Hant\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+C:\Users\Demon.Yang\Desktop\SeleniumUser-master\SeleniumUser.ExampleTests\obj\Debug\SeleniumUser.ExampleTests.csprojResolveAssemblyReference.cache
+C:\Users\Demon.Yang\Desktop\SeleniumUser-master\SeleniumUser.ExampleTests\obj\Debug\SeleniumUser.ExampleTests.dll
+C:\Users\Demon.Yang\Desktop\SeleniumUser-master\SeleniumUser.ExampleTests\obj\Debug\SeleniumUser.ExampleTests.pdb
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器\SeleniumUser-master\SeleniumUser.ExampleTests\bin\Debug\SeleniumUser.ExampleTests.dll
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器\SeleniumUser-master\SeleniumUser.ExampleTests\bin\Debug\SeleniumUser.ExampleTests.pdb
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器\SeleniumUser-master\SeleniumUser.ExampleTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器\SeleniumUser-master\SeleniumUser.ExampleTests\bin\Debug\SeleniumUser.dll
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器\SeleniumUser-master\SeleniumUser.ExampleTests\bin\Debug\WebDriver.dll
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器\SeleniumUser-master\SeleniumUser.ExampleTests\bin\Debug\WebDriver.Support.dll
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器\SeleniumUser-master\SeleniumUser.ExampleTests\bin\Debug\SeleniumUser.pdb
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器\SeleniumUser-master\SeleniumUser.ExampleTests\bin\Debug\WebDriver.xml
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器\SeleniumUser-master\SeleniumUser.ExampleTests\bin\Debug\WebDriver.Support.xml
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器\SeleniumUser-master\SeleniumUser.ExampleTests\bin\Debug\zh-Hant\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器\SeleniumUser-master\SeleniumUser.ExampleTests\obj\Debug\SeleniumUser.ExampleTests.csprojResolveAssemblyReference.cache
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器\SeleniumUser-master\SeleniumUser.ExampleTests\obj\Debug\SeleniumUser.ExampleTests.dll
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器\SeleniumUser-master\SeleniumUser.ExampleTests\obj\Debug\SeleniumUser.ExampleTests.pdb
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器8.0\神器6.0\SeleniumUser-master\SeleniumUser.ExampleTests\bin\Debug\SeleniumUser.ExampleTests.dll
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器8.0\神器6.0\SeleniumUser-master\SeleniumUser.ExampleTests\bin\Debug\SeleniumUser.ExampleTests.pdb
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器8.0\神器6.0\SeleniumUser-master\SeleniumUser.ExampleTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器8.0\神器6.0\SeleniumUser-master\SeleniumUser.ExampleTests\bin\Debug\SeleniumUser.dll
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器8.0\神器6.0\SeleniumUser-master\SeleniumUser.ExampleTests\bin\Debug\WebDriver.dll
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器8.0\神器6.0\SeleniumUser-master\SeleniumUser.ExampleTests\bin\Debug\WebDriver.Support.dll
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器8.0\神器6.0\SeleniumUser-master\SeleniumUser.ExampleTests\bin\Debug\SeleniumUser.pdb
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器8.0\神器6.0\SeleniumUser-master\SeleniumUser.ExampleTests\bin\Debug\WebDriver.xml
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器8.0\神器6.0\SeleniumUser-master\SeleniumUser.ExampleTests\bin\Debug\WebDriver.Support.xml
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器8.0\神器6.0\SeleniumUser-master\SeleniumUser.ExampleTests\bin\Debug\zh-Hant\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器8.0\神器6.0\SeleniumUser-master\SeleniumUser.ExampleTests\obj\Debug\SeleniumUser.ExampleTests.csprojResolveAssemblyReference.cache
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器8.0\神器6.0\SeleniumUser-master\SeleniumUser.ExampleTests\obj\Debug\SeleniumUser.ExampleTests.dll
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器8.0\神器6.0\SeleniumUser-master\SeleniumUser.ExampleTests\obj\Debug\SeleniumUser.ExampleTests.pdb

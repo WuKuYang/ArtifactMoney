@@ -1,0 +1,35 @@
+C:\Users\Demon.Yang\Desktop\SeleniumUser-master\SeleniumUI\SeleniumUI\bin\Debug\SeleniumUI.exe.config
+C:\Users\Demon.Yang\Desktop\SeleniumUser-master\SeleniumUI\SeleniumUI\bin\Debug\SeleniumUI.exe
+C:\Users\Demon.Yang\Desktop\SeleniumUser-master\SeleniumUI\SeleniumUI\bin\Debug\SeleniumUI.pdb
+C:\Users\Demon.Yang\Desktop\SeleniumUser-master\SeleniumUI\SeleniumUI\obj\Debug\SeleniumUI.csprojResolveAssemblyReference.cache
+C:\Users\Demon.Yang\Desktop\SeleniumUser-master\SeleniumUI\SeleniumUI\obj\Debug\SeleniumUI.exe
+C:\Users\Demon.Yang\Desktop\SeleniumUser-master\SeleniumUI\SeleniumUI\obj\Debug\SeleniumUI.pdb
+C:\Users\Demon.Yang\Desktop\SeleniumUser-master\SeleniumUI\SeleniumUI\bin\Debug\SeleniumUser.dll
+C:\Users\Demon.Yang\Desktop\SeleniumUser-master\SeleniumUI\SeleniumUI\bin\Debug\SeleniumUser.ExampleTests.dll
+C:\Users\Demon.Yang\Desktop\SeleniumUser-master\SeleniumUI\SeleniumUI\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Demon.Yang\Desktop\SeleniumUser-master\SeleniumUI\SeleniumUI\bin\Debug\WebDriver.dll
+C:\Users\Demon.Yang\Desktop\SeleniumUser-master\SeleniumUI\SeleniumUI\bin\Debug\WebDriver.Support.dll
+C:\Users\Demon.Yang\Desktop\SeleniumUser-master\SeleniumUI\SeleniumUI\bin\Debug\SeleniumUser.ExampleTests.pdb
+C:\Users\Demon.Yang\Desktop\SeleniumUser-master\SeleniumUI\SeleniumUI\bin\Debug\SeleniumUser.pdb
+C:\Users\Demon.Yang\Desktop\SeleniumUser-master\SeleniumUI\SeleniumUI\bin\Debug\WebDriver.xml
+C:\Users\Demon.Yang\Desktop\SeleniumUser-master\SeleniumUI\SeleniumUI\bin\Debug\WebDriver.Support.xml
+C:\Users\Demon.Yang\Desktop\SeleniumUser-master\SeleniumUI\SeleniumUI\bin\Debug\zh-Hant\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器\SeleniumUser-master\SeleniumUI\SeleniumUI\bin\Debug\SeleniumUI.exe.config
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器\SeleniumUser-master\SeleniumUI\SeleniumUI\obj\Debug\SeleniumUI.exe
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器\SeleniumUser-master\SeleniumUI\SeleniumUI\obj\Debug\SeleniumUI.pdb
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器8.0\神器6.0\SeleniumUser-master\SeleniumUI\SeleniumUI\bin\Debug\SeleniumUI.exe.config
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器8.0\神器6.0\SeleniumUser-master\SeleniumUI\SeleniumUI\bin\Debug\SeleniumUI.exe
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器8.0\神器6.0\SeleniumUser-master\SeleniumUI\SeleniumUI\bin\Debug\SeleniumUI.pdb
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器8.0\神器6.0\SeleniumUser-master\SeleniumUI\SeleniumUI\bin\Debug\SeleniumUser.dll
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器8.0\神器6.0\SeleniumUser-master\SeleniumUI\SeleniumUI\bin\Debug\SeleniumUser.ExampleTests.dll
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器8.0\神器6.0\SeleniumUser-master\SeleniumUI\SeleniumUI\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器8.0\神器6.0\SeleniumUser-master\SeleniumUI\SeleniumUI\bin\Debug\WebDriver.dll
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器8.0\神器6.0\SeleniumUser-master\SeleniumUI\SeleniumUI\bin\Debug\WebDriver.Support.dll
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器8.0\神器6.0\SeleniumUser-master\SeleniumUI\SeleniumUI\bin\Debug\SeleniumUser.ExampleTests.pdb
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器8.0\神器6.0\SeleniumUser-master\SeleniumUI\SeleniumUI\bin\Debug\SeleniumUser.pdb
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器8.0\神器6.0\SeleniumUser-master\SeleniumUI\SeleniumUI\bin\Debug\WebDriver.xml
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器8.0\神器6.0\SeleniumUser-master\SeleniumUI\SeleniumUI\bin\Debug\WebDriver.Support.xml
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器8.0\神器6.0\SeleniumUser-master\SeleniumUI\SeleniumUI\bin\Debug\zh-Hant\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器8.0\神器6.0\SeleniumUser-master\SeleniumUI\SeleniumUI\obj\Debug\SeleniumUI.csprojResolveAssemblyReference.cache
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器8.0\神器6.0\SeleniumUser-master\SeleniumUI\SeleniumUI\obj\Debug\SeleniumUI.exe
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器8.0\神器6.0\SeleniumUser-master\SeleniumUI\SeleniumUI\obj\Debug\SeleniumUI.pdb

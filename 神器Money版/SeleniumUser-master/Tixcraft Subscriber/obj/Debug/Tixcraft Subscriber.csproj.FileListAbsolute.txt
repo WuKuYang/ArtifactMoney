@@ -1,0 +1,1044 @@
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe.config
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.pdb
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\SeleniumUser.dll
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\SeleniumUser.ExampleTests.dll
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\WebDriver.Support.dll
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\SeleniumUser.ExampleTests.pdb
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\SeleniumUser.pdb
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Selenium.WebDriverBackedSelenium.pdb
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Selenium.WebDriverBackedSelenium.xml
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\WebDriver.pdb
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\WebDriver.xml
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\WebDriver.Support.xml
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\zh-Hant\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csprojResolveAssemblyReference.cache
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Form1.resources
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Properties.Resources.resources
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csproj.GenerateResource.Cache
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.exe
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.pdb
+C:\Users\Sam\Desktop\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe.config
+C:\Users\Sam\Desktop\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.exe
+C:\Users\Sam\Desktop\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.pdb
+C:\Users\Sam\Desktop\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe
+C:\Users\Sam\Desktop\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.pdb
+C:\Users\Sam\Desktop\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\mscorlib.dll
+C:\Users\Sam\Desktop\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\SeleniumUser.dll
+C:\Users\Sam\Desktop\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\SeleniumUser.ExampleTests.dll
+C:\Users\Sam\Desktop\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\WebDriver.Support.dll
+C:\Users\Sam\Desktop\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\SeleniumUser.ExampleTests.pdb
+C:\Users\Sam\Desktop\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\SeleniumUser.pdb
+C:\Users\Sam\Desktop\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Selenium.WebDriverBackedSelenium.pdb
+C:\Users\Sam\Desktop\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Selenium.WebDriverBackedSelenium.xml
+C:\Users\Sam\Desktop\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\WebDriver.pdb
+C:\Users\Sam\Desktop\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\WebDriver.xml
+C:\Users\Sam\Desktop\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\WebDriver.Support.xml
+C:\Users\Sam\Desktop\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\zh-Hant\mscorlib.resources.dll
+C:\Users\Sam\Desktop\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\normidna.nlp
+C:\Users\Sam\Desktop\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\normnfc.nlp
+C:\Users\Sam\Desktop\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\normnfd.nlp
+C:\Users\Sam\Desktop\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\normnfkc.nlp
+C:\Users\Sam\Desktop\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\normnfkd.nlp
+C:\Users\Sam\Desktop\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csprojResolveAssemblyReference.cache
+C:\Users\Sam\Desktop\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Form1.resources
+C:\Users\Sam\Desktop\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Properties.Resources.resources
+C:\Users\Sam\Desktop\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe.config
+C:\Users\Administrator\Desktop\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe
+C:\Users\Administrator\Desktop\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Selenium.WebDriverBackedSelenium.pdb
+C:\Users\Administrator\Desktop\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Selenium.WebDriverBackedSelenium.xml
+C:\Users\Administrator\Desktop\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\WebDriver.pdb
+C:\Users\Administrator\Desktop\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\WebDriver.xml
+C:\Users\Administrator\Desktop\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Form1.resources
+C:\Users\Administrator\Desktop\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Properties.Resources.resources
+C:\Users\Administrator\Desktop\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.exe
+C:\Users\Administrator\Desktop\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.pdb
+C:\Users\Administrator\Desktop\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.pdb
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器2.0\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe.config
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器2.0\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.exe
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器2.0\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.pdb
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器2.0\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器2.0\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.pdb
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器2.0\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Selenium.WebDriverBackedSelenium.pdb
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器2.0\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Selenium.WebDriverBackedSelenium.xml
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器2.0\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\WebDriver.pdb
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器2.0\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\WebDriver.xml
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器2.0\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csprojResolveAssemblyReference.cache
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器2.0\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Form1.resources
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器2.0\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Properties.Resources.resources
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器2.0\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\神器2.0\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe.config
+C:\Users\Administrator\Desktop\神器2.0\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.exe
+C:\Users\Administrator\Desktop\神器2.0\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.pdb
+C:\Users\Administrator\Desktop\神器2.0\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe
+C:\Users\Administrator\Desktop\神器2.0\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.pdb
+C:\Users\Administrator\Desktop\神器2.0\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Selenium.WebDriverBackedSelenium.pdb
+C:\Users\Administrator\Desktop\神器2.0\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Selenium.WebDriverBackedSelenium.xml
+C:\Users\Administrator\Desktop\神器2.0\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\WebDriver.pdb
+C:\Users\Administrator\Desktop\神器2.0\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\WebDriver.xml
+C:\Users\Administrator\Desktop\神器2.0\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\神器2.0\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Form1.resources
+C:\Users\Administrator\Desktop\神器2.0\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Properties.Resources.resources
+C:\Users\Administrator\Desktop\神器2.0\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\神器2.0\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.SubscriberLoginer.resources
+C:\Users\Demon.Yang\Desktop\神器3.0\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe.config
+C:\Users\Demon.Yang\Desktop\神器3.0\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.exe
+C:\Users\Demon.Yang\Desktop\神器3.0\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.pdb
+C:\Users\Demon.Yang\Desktop\神器3.0\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe
+C:\Users\Demon.Yang\Desktop\神器3.0\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.pdb
+C:\Users\Demon.Yang\Desktop\神器3.0\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Selenium.WebDriverBackedSelenium.pdb
+C:\Users\Demon.Yang\Desktop\神器3.0\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Selenium.WebDriverBackedSelenium.xml
+C:\Users\Demon.Yang\Desktop\神器3.0\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\WebDriver.pdb
+C:\Users\Demon.Yang\Desktop\神器3.0\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\WebDriver.xml
+C:\Users\Demon.Yang\Desktop\神器3.0\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csprojResolveAssemblyReference.cache
+C:\Users\Demon.Yang\Desktop\神器3.0\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Form1.resources
+C:\Users\Demon.Yang\Desktop\神器3.0\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Properties.Resources.resources
+C:\Users\Demon.Yang\Desktop\神器3.0\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.SubscriberLoginer.resources
+C:\Users\Demon.Yang\Desktop\神器3.0\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csproj.GenerateResource.Cache
+C:\Users\Demon.Yang\Desktop\神器4.0\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe.config
+C:\Users\Demon.Yang\Desktop\神器4.0\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.exe
+C:\Users\Demon.Yang\Desktop\神器4.0\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.pdb
+C:\Users\Demon.Yang\Desktop\神器4.0\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csprojResolveAssemblyReference.cache
+C:\Users\Demon.Yang\Desktop\神器4.0\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Form1.resources
+C:\Users\Demon.Yang\Desktop\神器4.0\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Properties.Resources.resources
+C:\Users\Demon.Yang\Desktop\神器4.0\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.SubscriberLoginer.resources
+C:\Users\Demon.Yang\Desktop\神器4.0\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csproj.GenerateResource.Cache
+C:\Users\Demon.Yang\Desktop\神器4.0\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe
+C:\Users\Demon.Yang\Desktop\神器4.0\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.pdb
+C:\Users\Demon.Yang\Desktop\神器4.0\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Selenium.WebDriverBackedSelenium.pdb
+C:\Users\Demon.Yang\Desktop\神器4.0\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Selenium.WebDriverBackedSelenium.xml
+C:\Users\Demon.Yang\Desktop\神器4.0\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\WebDriver.pdb
+C:\Users\Demon.Yang\Desktop\神器4.0\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\WebDriver.xml
+C:\Users\Demon.Yang\Desktop\神器5.0\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe.config
+C:\Users\Demon.Yang\Desktop\神器5.0\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.exe
+C:\Users\Demon.Yang\Desktop\神器5.0\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.pdb
+C:\Users\Demon.Yang\Desktop\神器5.0\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe
+C:\Users\Demon.Yang\Desktop\神器5.0\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.pdb
+C:\Users\Demon.Yang\Desktop\神器5.0\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Selenium.WebDriverBackedSelenium.pdb
+C:\Users\Demon.Yang\Desktop\神器5.0\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Selenium.WebDriverBackedSelenium.xml
+C:\Users\Demon.Yang\Desktop\神器5.0\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\WebDriver.pdb
+C:\Users\Demon.Yang\Desktop\神器5.0\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\WebDriver.xml
+C:\Users\Demon.Yang\Desktop\神器5.0\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csprojResolveAssemblyReference.cache
+C:\Users\Demon.Yang\Desktop\神器5.0\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Form1.resources
+C:\Users\Demon.Yang\Desktop\神器5.0\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Properties.Resources.resources
+C:\Users\Demon.Yang\Desktop\神器5.0\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.SubscriberLoginer.resources
+C:\Users\Demon.Yang\Desktop\神器5.0\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csproj.GenerateResource.Cache
+C:\Users\Demon.Yang\Desktop\神器6.0\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe.config
+C:\Users\Demon.Yang\Desktop\神器6.0\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.exe
+C:\Users\Demon.Yang\Desktop\神器6.0\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.pdb
+C:\Users\Demon.Yang\Desktop\神器6.0\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csprojResolveAssemblyReference.cache
+C:\Users\Demon.Yang\Desktop\神器6.0\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Form1.resources
+C:\Users\Demon.Yang\Desktop\神器6.0\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Properties.Resources.resources
+C:\Users\Demon.Yang\Desktop\神器6.0\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.SubscriberLoginer.resources
+C:\Users\Demon.Yang\Desktop\神器6.0\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csproj.GenerateResource.Cache
+C:\Users\Demon.Yang\Desktop\神器6.0\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe
+C:\Users\Demon.Yang\Desktop\神器6.0\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.pdb
+C:\Users\Demon.Yang\Desktop\神器6.0\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Selenium.WebDriverBackedSelenium.pdb
+C:\Users\Demon.Yang\Desktop\神器6.0\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Selenium.WebDriverBackedSelenium.xml
+C:\Users\Demon.Yang\Desktop\神器6.0\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\WebDriver.pdb
+C:\Users\Demon.Yang\Desktop\神器6.0\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\WebDriver.xml
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器8.0\神器6.0\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe.config
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器8.0\神器6.0\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.exe
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器8.0\神器6.0\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.pdb
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器8.0\神器6.0\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csprojResolveAssemblyReference.cache
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器8.0\神器6.0\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Form1.resources
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器8.0\神器6.0\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Properties.Resources.resources
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器8.0\神器6.0\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.SubscriberLoginer.resources
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器8.0\神器6.0\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csproj.GenerateResource.Cache
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器8.0\神器6.0\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器8.0\神器6.0\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.pdb
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器8.0\神器6.0\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Selenium.WebDriverBackedSelenium.pdb
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器8.0\神器6.0\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Selenium.WebDriverBackedSelenium.xml
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器8.0\神器6.0\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\WebDriver.pdb
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器8.0\神器6.0\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\WebDriver.xml
+C:\Users\Administrator\Desktop\神器8.0\神器6.0\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe.config
+C:\Users\Administrator\Desktop\神器8.0\神器6.0\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.exe
+C:\Users\Administrator\Desktop\神器8.0\神器6.0\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.pdb
+C:\Users\Administrator\Desktop\神器8.0\神器6.0\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe
+C:\Users\Administrator\Desktop\神器8.0\神器6.0\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.pdb
+C:\Users\Administrator\Desktop\神器8.0\神器6.0\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Selenium.WebDriverBackedSelenium.pdb
+C:\Users\Administrator\Desktop\神器8.0\神器6.0\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Selenium.WebDriverBackedSelenium.xml
+C:\Users\Administrator\Desktop\神器8.0\神器6.0\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\WebDriver.pdb
+C:\Users\Administrator\Desktop\神器8.0\神器6.0\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\WebDriver.xml
+C:\Users\Administrator\Desktop\神器8.0\神器6.0\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\神器8.0\神器6.0\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Form1.resources
+C:\Users\Administrator\Desktop\神器8.0\神器6.0\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Properties.Resources.resources
+C:\Users\Administrator\Desktop\神器8.0\神器6.0\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.SubscriberLoginer.resources
+C:\Users\Administrator\Desktop\神器8.0\神器6.0\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\神器9.0\神器6.0\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe.config
+C:\Users\Administrator\Desktop\神器9.0\神器6.0\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.exe
+C:\Users\Administrator\Desktop\神器9.0\神器6.0\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.pdb
+C:\Users\Administrator\Desktop\神器9.0\神器6.0\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe
+C:\Users\Administrator\Desktop\神器9.0\神器6.0\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.pdb
+C:\Users\Administrator\Desktop\神器9.0\神器6.0\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Selenium.WebDriverBackedSelenium.pdb
+C:\Users\Administrator\Desktop\神器9.0\神器6.0\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Selenium.WebDriverBackedSelenium.xml
+C:\Users\Administrator\Desktop\神器9.0\神器6.0\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\WebDriver.pdb
+C:\Users\Administrator\Desktop\神器9.0\神器6.0\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\WebDriver.xml
+C:\Users\Administrator\Desktop\神器9.0\神器6.0\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\神器9.0\神器6.0\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Form1.resources
+C:\Users\Administrator\Desktop\神器9.0\神器6.0\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Properties.Resources.resources
+C:\Users\Administrator\Desktop\神器9.0\神器6.0\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.SubscriberLoginer.resources
+C:\Users\Administrator\Desktop\神器9.0\神器6.0\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csproj.GenerateResource.Cache
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器10.0\神器6.0\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe.config
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器10.0\神器6.0\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.exe
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器10.0\神器6.0\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.pdb
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器10.0\神器6.0\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器10.0\神器6.0\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.pdb
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器10.0\神器6.0\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Selenium.WebDriverBackedSelenium.pdb
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器10.0\神器6.0\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Selenium.WebDriverBackedSelenium.xml
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器10.0\神器6.0\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\WebDriver.pdb
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器10.0\神器6.0\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\WebDriver.xml
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器10.0\神器6.0\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csprojResolveAssemblyReference.cache
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器10.0\神器6.0\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Form1.resources
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器10.0\神器6.0\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Properties.Resources.resources
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器10.0\神器6.0\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.SubscriberLoginer.resources
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器10.0\神器6.0\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csproj.GenerateResource.Cache
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器12.0_Checkcode\神器6.0\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe.config
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器12.0_Checkcode\神器6.0\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.exe
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器12.0_Checkcode\神器6.0\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.pdb
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器12.0_Checkcode\神器6.0\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器12.0_Checkcode\神器6.0\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.pdb
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器12.0_Checkcode\神器6.0\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Form1.resources
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器12.0_Checkcode\神器6.0\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Properties.Resources.resources
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器12.0_Checkcode\神器6.0\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.SubscriberLoginer.resources
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器12.0_Checkcode\神器6.0\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\神器正式版(ver_1.5)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe.config
+C:\Users\Administrator\Desktop\神器正式版(ver_1.5)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.exe
+C:\Users\Administrator\Desktop\神器正式版(ver_1.5)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.pdb
+C:\Users\Administrator\Desktop\神器正式版(ver_1.5)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe
+C:\Users\Administrator\Desktop\神器正式版(ver_1.5)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.pdb
+C:\Users\Administrator\Desktop\神器正式版(ver_1.5)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\神器正式版(ver_1.5)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Form1.resources
+C:\Users\Administrator\Desktop\神器正式版(ver_1.5)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Properties.Resources.resources
+C:\Users\Administrator\Desktop\神器正式版(ver_1.5)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.SubscriberLoginer.resources
+C:\Users\Administrator\Desktop\神器正式版(ver_1.5)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csproj.GenerateResource.Cache
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器正式版(ver_1.6)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe.config
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器正式版(ver_1.6)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.exe
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器正式版(ver_1.6)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.pdb
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器正式版(ver_1.6)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器正式版(ver_1.6)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.pdb
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器正式版(ver_1.6)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csprojResolveAssemblyReference.cache
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器正式版(ver_1.6)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Form1.resources
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器正式版(ver_1.6)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Properties.Resources.resources
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器正式版(ver_1.6)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.SubscriberLoginer.resources
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器正式版(ver_1.6)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csproj.GenerateResource.Cache
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器正式版(ver_1.7)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe.config
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器正式版(ver_1.7)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.exe
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器正式版(ver_1.7)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.pdb
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器正式版(ver_1.7)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器正式版(ver_1.7)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.pdb
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器正式版(ver_1.7)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csprojResolveAssemblyReference.cache
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器正式版(ver_1.7)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Form1.resources
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器正式版(ver_1.7)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Properties.Resources.resources
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器正式版(ver_1.7)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.SubscriberLoginer.resources
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器正式版(ver_1.7)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csproj.GenerateResource.Cache
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器正式版(ver_1.9)_Fast\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe.config
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器正式版(ver_1.9)_Fast\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.exe
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器正式版(ver_1.9)_Fast\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.pdb
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器正式版(ver_1.9)_Fast\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csprojResolveAssemblyReference.cache
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器正式版(ver_1.9)_Fast\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Form1.resources
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器正式版(ver_1.9)_Fast\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Properties.Resources.resources
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器正式版(ver_1.9)_Fast\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.SubscriberLoginer.resources
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器正式版(ver_1.9)_Fast\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csproj.GenerateResource.Cache
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器正式版(ver_1.9)_Fast\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器正式版(ver_1.9)_Fast\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.pdb
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器正式版(ver_1.9)_Fast - 複製\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe.config
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器正式版(ver_1.9)_Fast - 複製\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.exe
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器正式版(ver_1.9)_Fast - 複製\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.pdb
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器正式版(ver_1.9)_Fast - 複製\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csprojResolveAssemblyReference.cache
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器正式版(ver_1.9)_Fast - 複製\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Form1.resources
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器正式版(ver_1.9)_Fast - 複製\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Properties.Resources.resources
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器正式版(ver_1.9)_Fast - 複製\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.SubscriberLoginer.resources
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器正式版(ver_1.9)_Fast - 複製\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csproj.GenerateResource.Cache
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器正式版(ver_1.9)_Fast - 複製\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe
+C:\Users\Demon.Yang\Desktop\[ Demon ]\神器正式版(ver_1.9)_Fast - 複製\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.pdb
+C:\Users\Sam\Desktop\神器正式版(ver_1.9)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe.config
+C:\Users\Sam\Desktop\神器正式版(ver_1.9)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.exe
+C:\Users\Sam\Desktop\神器正式版(ver_1.9)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.pdb
+C:\Users\Sam\Desktop\神器正式版(ver_1.9)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csprojResolveAssemblyReference.cache
+C:\Users\Sam\Desktop\神器正式版(ver_1.9)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Form1.resources
+C:\Users\Sam\Desktop\神器正式版(ver_1.9)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Properties.Resources.resources
+C:\Users\Sam\Desktop\神器正式版(ver_1.9)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.SubscriberLoginer.resources
+C:\Users\Sam\Desktop\神器正式版(ver_1.9)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csproj.GenerateResource.Cache
+C:\Users\Sam\Desktop\神器正式版(ver_1.9)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe
+C:\Users\Sam\Desktop\神器正式版(ver_1.9)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.pdb
+C:\Users\Demon.Yang\Desktop\神器正式版(ver_1.9)2010\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe.config
+C:\Users\Demon.Yang\Desktop\神器正式版(ver_1.9)2010\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.exe
+C:\Users\Demon.Yang\Desktop\神器正式版(ver_1.9)2010\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.pdb
+C:\Users\Demon.Yang\Desktop\神器正式版(ver_1.9)2010\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe
+C:\Users\Demon.Yang\Desktop\神器正式版(ver_1.9)2010\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.pdb
+C:\Users\Demon.Yang\Desktop\神器正式版(ver_1.9)2010\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csprojResolveAssemblyReference.cache
+C:\Users\Demon.Yang\Desktop\神器正式版(ver_1.9)2010\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Form1.resources
+C:\Users\Demon.Yang\Desktop\神器正式版(ver_1.9)2010\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Properties.Resources.resources
+C:\Users\Demon.Yang\Desktop\神器正式版(ver_1.9)2010\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.SubscriberLoginer.resources
+C:\Users\Demon.Yang\Desktop\神器正式版(ver_1.9)2010\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\新增資料夾 (4)\神器正式版(ver_2.0)2010\神器正式版(ver_1.9)2010\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe.config
+C:\Users\Administrator\Desktop\新增資料夾 (4)\神器正式版(ver_2.0)2010\神器正式版(ver_1.9)2010\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.exe
+C:\Users\Administrator\Desktop\新增資料夾 (4)\神器正式版(ver_2.0)2010\神器正式版(ver_1.9)2010\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.pdb
+C:\Users\Administrator\Desktop\新增資料夾 (4)\神器正式版(ver_2.0)2010\神器正式版(ver_1.9)2010\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe
+C:\Users\Administrator\Desktop\新增資料夾 (4)\神器正式版(ver_2.0)2010\神器正式版(ver_1.9)2010\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.pdb
+C:\Users\Administrator\Desktop\新增資料夾 (4)\神器正式版(ver_2.0)2010\神器正式版(ver_1.9)2010\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\Users\Administrator\Desktop\新增資料夾 (4)\神器正式版(ver_2.0)2010\神器正式版(ver_1.9)2010\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Fabric.Plugin.dll
+C:\Users\Administrator\Desktop\新增資料夾 (4)\神器正式版(ver_2.0)2010\神器正式版(ver_1.9)2010\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.Entity.EF6.xml
+C:\Users\Administrator\Desktop\新增資料夾 (4)\神器正式版(ver_2.0)2010\神器正式版(ver_1.9)2010\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\新增資料夾 (4)\神器正式版(ver_2.0)2010\神器正式版(ver_1.9)2010\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Form1.resources
+C:\Users\Administrator\Desktop\新增資料夾 (4)\神器正式版(ver_2.0)2010\神器正式版(ver_1.9)2010\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Properties.Resources.resources
+C:\Users\Administrator\Desktop\新增資料夾 (4)\神器正式版(ver_2.0)2010\神器正式版(ver_1.9)2010\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.SubscriberLoginer.resources
+C:\Users\Administrator\Desktop\新增資料夾 (4)\神器正式版(ver_2.0)2010\神器正式版(ver_1.9)2010\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\神器正式版(ver_2.1)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe.config
+C:\Users\Administrator\Desktop\神器正式版(ver_2.1)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.exe
+C:\Users\Administrator\Desktop\神器正式版(ver_2.1)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.pdb
+C:\Users\Administrator\Desktop\神器正式版(ver_2.1)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe
+C:\Users\Administrator\Desktop\神器正式版(ver_2.1)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.pdb
+C:\Users\Administrator\Desktop\神器正式版(ver_2.1)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\Users\Administrator\Desktop\神器正式版(ver_2.1)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Fabric.Plugin.dll
+C:\Users\Administrator\Desktop\神器正式版(ver_2.1)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.Entity.EF6.xml
+C:\Users\Administrator\Desktop\神器正式版(ver_2.1)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\神器正式版(ver_2.1)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Form1.resources
+C:\Users\Administrator\Desktop\神器正式版(ver_2.1)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Properties.Resources.resources
+C:\Users\Administrator\Desktop\神器正式版(ver_2.1)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.SubscriberLoginer.resources
+C:\Users\Administrator\Desktop\神器正式版(ver_2.1)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\神器正式版(ver_2.1)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\WinForm_Test.LoadingBox.resources
+C:\Users\Administrator\Desktop\神器正式版(ver_2.2)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe.config
+C:\Users\Administrator\Desktop\神器正式版(ver_2.2)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.exe
+C:\Users\Administrator\Desktop\神器正式版(ver_2.2)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.pdb
+C:\Users\Administrator\Desktop\神器正式版(ver_2.2)(OK)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe.config
+C:\Users\Administrator\Desktop\神器正式版(ver_2.2)(OK)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.exe
+C:\Users\Administrator\Desktop\神器正式版(ver_2.2)(OK)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.pdb
+C:\Users\Administrator\Desktop\神器正式版(ver_2.2)(OK)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\神器正式版(ver_2.2)(OK)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Form1.resources
+C:\Users\Administrator\Desktop\神器正式版(ver_2.2)(OK)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\WinForm_Test.LoadingBox.resources
+C:\Users\Administrator\Desktop\神器正式版(ver_2.2)(OK)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Properties.Resources.resources
+C:\Users\Administrator\Desktop\神器正式版(ver_2.2)(OK)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.SubscriberLoginer.resources
+C:\Users\Administrator\Desktop\神器正式版(ver_2.2)(OK)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\神器正式版(ver_2.2)(OK)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe
+C:\Users\Administrator\Desktop\神器正式版(ver_2.2)(OK)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.pdb
+C:\Users\Administrator\Desktop\神器正式版(ver_2.2)(OK)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\Users\Administrator\Desktop\神器正式版(ver_2.2)(OK)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Fabric.Plugin.dll
+C:\Users\Administrator\Desktop\神器正式版(ver_2.2)(OK)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.Entity.EF6.xml
+C:\Users\Administrator\Desktop\神器正式版(ver_2.3)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe.config
+C:\Users\Administrator\Desktop\神器正式版(ver_2.3)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.exe
+C:\Users\Administrator\Desktop\神器正式版(ver_2.3)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.pdb
+C:\Users\Administrator\Desktop\神器正式版(ver_2.3)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe
+C:\Users\Administrator\Desktop\神器正式版(ver_2.3)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.pdb
+C:\Users\Administrator\Desktop\神器正式版(ver_2.3)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\Users\Administrator\Desktop\神器正式版(ver_2.3)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Fabric.Plugin.dll
+C:\Users\Administrator\Desktop\神器正式版(ver_2.3)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.Entity.EF6.xml
+C:\Users\Administrator\Desktop\神器正式版(ver_2.3)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\神器正式版(ver_2.3)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Form1.resources
+C:\Users\Administrator\Desktop\神器正式版(ver_2.3)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\WinForm_Test.LoadingBox.resources
+C:\Users\Administrator\Desktop\神器正式版(ver_2.3)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Properties.Resources.resources
+C:\Users\Administrator\Desktop\神器正式版(ver_2.3)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.SubscriberLoginer.resources
+C:\Users\Administrator\Desktop\神器正式版(ver_2.3)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\神器正式版(ver_2.4)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe.config
+C:\Users\Administrator\Desktop\神器正式版(ver_2.4)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.exe
+C:\Users\Administrator\Desktop\神器正式版(ver_2.4)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.pdb
+C:\Users\Administrator\Desktop\神器正式版(ver_2.4)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe
+C:\Users\Administrator\Desktop\神器正式版(ver_2.4)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.pdb
+C:\Users\Administrator\Desktop\神器正式版(ver_2.4)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\Users\Administrator\Desktop\神器正式版(ver_2.4)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Fabric.Plugin.dll
+C:\Users\Administrator\Desktop\神器正式版(ver_2.4)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.Entity.EF6.xml
+C:\Users\Administrator\Desktop\神器正式版(ver_2.4)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\神器正式版(ver_2.4)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Form1.resources
+C:\Users\Administrator\Desktop\神器正式版(ver_2.4)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\WinForm_Test.LoadingBox.resources
+C:\Users\Administrator\Desktop\神器正式版(ver_2.4)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Properties.Resources.resources
+C:\Users\Administrator\Desktop\神器正式版(ver_2.4)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.SubscriberLoginer.resources
+C:\Users\Administrator\Desktop\神器正式版(ver_2.4)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器正式版(ver_2.4)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe.config
+C:\Users\Administrator\Desktop\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器正式版(ver_2.4)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.exe
+C:\Users\Administrator\Desktop\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器正式版(ver_2.4)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.pdb
+C:\Users\Administrator\Desktop\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器正式版(ver_2.4)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe
+C:\Users\Administrator\Desktop\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器正式版(ver_2.4)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.pdb
+C:\Users\Administrator\Desktop\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器正式版(ver_2.4)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\Users\Administrator\Desktop\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器正式版(ver_2.4)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Fabric.Plugin.dll
+C:\Users\Administrator\Desktop\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器正式版(ver_2.4)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.Entity.EF6.xml
+C:\Users\Administrator\Desktop\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器正式版(ver_2.4)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器正式版(ver_2.4)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Form1.resources
+C:\Users\Administrator\Desktop\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器正式版(ver_2.4)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\WinForm_Test.LoadingBox.resources
+C:\Users\Administrator\Desktop\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器正式版(ver_2.4)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Properties.Resources.resources
+C:\Users\Administrator\Desktop\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器正式版(ver_2.4)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.SubscriberLoginer.resources
+C:\Users\Administrator\Desktop\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器正式版(ver_2.4)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器正式版(ver_2.4)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\libtensorflow.dll
+C:\Users\Administrator\Desktop\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器正式版(ver_2.4)2018版\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe.config
+C:\Users\Administrator\Desktop\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器正式版(ver_2.4)2018版\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.exe
+C:\Users\Administrator\Desktop\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器正式版(ver_2.4)2018版\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.pdb
+C:\Users\Administrator\Desktop\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器正式版(ver_2.4)2018版\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\libtensorflow.dll
+C:\Users\Administrator\Desktop\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器正式版(ver_2.4)2018版\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe
+C:\Users\Administrator\Desktop\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器正式版(ver_2.4)2018版\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.pdb
+C:\Users\Administrator\Desktop\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器正式版(ver_2.4)2018版\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\Users\Administrator\Desktop\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器正式版(ver_2.4)2018版\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Fabric.Plugin.dll
+C:\Users\Administrator\Desktop\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器正式版(ver_2.4)2018版\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.Entity.EF6.xml
+C:\Users\Administrator\Desktop\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器正式版(ver_2.4)2018版\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器正式版(ver_2.4)2018版\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Form1.resources
+C:\Users\Administrator\Desktop\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器正式版(ver_2.4)2018版\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\WinForm_Test.LoadingBox.resources
+C:\Users\Administrator\Desktop\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器正式版(ver_2.4)2018版\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Properties.Resources.resources
+C:\Users\Administrator\Desktop\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器正式版(ver_2.4)2018版\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.SubscriberLoginer.resources
+C:\Users\Administrator\Desktop\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器正式版(ver_2.4)2018版\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csproj.GenerateResource.Cache
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器正式版(ver_2.4)2018版\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe.config
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器正式版(ver_2.4)2018版\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.exe
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器正式版(ver_2.4)2018版\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.pdb
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器正式版(ver_2.4)2018版\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\libtensorflow.dll
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器正式版(ver_2.4)2018版\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器正式版(ver_2.4)2018版\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.pdb
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器正式版(ver_2.4)2018版\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.Entity.EF6.dll
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器正式版(ver_2.4)2018版\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Fabric.Plugin.dll
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器正式版(ver_2.4)2018版\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.Entity.EF6.xml
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器正式版(ver_2.4)2018版\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csprojResolveAssemblyReference.cache
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器正式版(ver_2.4)2018版\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Form1.resources
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器正式版(ver_2.4)2018版\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\WinForm_Test.LoadingBox.resources
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器正式版(ver_2.4)2018版\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Properties.Resources.resources
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器正式版(ver_2.4)2018版\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.SubscriberLoginer.resources
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器正式版(ver_2.4)2018版\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csproj.GenerateResource.Cache
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器正式版(ver_2.4)2018版_加快測試\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe.config
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器正式版(ver_2.4)2018版_加快測試\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.exe
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器正式版(ver_2.4)2018版_加快測試\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.pdb
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器正式版(ver_2.4)2018版_加快測試\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\libtensorflow.dll
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器正式版(ver_2.4)2018版_加快測試\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器正式版(ver_2.4)2018版_加快測試\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.pdb
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器正式版(ver_2.4)2018版_加快測試\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.Entity.EF6.dll
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器正式版(ver_2.4)2018版_加快測試\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Fabric.Plugin.dll
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器正式版(ver_2.4)2018版_加快測試\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.Entity.EF6.xml
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器正式版(ver_2.4)2018版_加快測試\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csprojResolveAssemblyReference.cache
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器正式版(ver_2.4)2018版_加快測試\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Form1.resources
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器正式版(ver_2.4)2018版_加快測試\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\WinForm_Test.LoadingBox.resources
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器正式版(ver_2.4)2018版_加快測試\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Properties.Resources.resources
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器正式版(ver_2.4)2018版_加快測試\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.SubscriberLoginer.resources
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器正式版(ver_2.4)2018版_加快測試\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csproj.GenerateResource.Cache
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器正式版(ver_2.4)2018版_加快測試\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.dll
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器正式版(ver_2.4)2018版_加快測試\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.Entity.dll
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器正式版(ver_2.4)2018版_加快測試\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.xml
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器正式版(ver_2.4)2018版_加快測試\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csproj.Tixcraft Subscriber.exe.config
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器正式版(ver_2.4)2018版_加快測試\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csproj.CoreCompileInputs.cache
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_1.0)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\libtensorflow.dll
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_1.0)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe.config
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_1.0)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_1.0)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.pdb
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_1.0)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.Entity.EF6.dll
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_1.0)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Fabric.Plugin.dll
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_1.0)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.Entity.EF6.xml
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_1.0)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Form1.resources
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_1.0)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\WinForm_Test.LoadingBox.resources
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_1.0)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Properties.Resources.resources
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_1.0)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.SubscriberLoginer.resources
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_1.0)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csproj.GenerateResource.Cache
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_1.0)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.exe
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_1.0)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.pdb
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_1.0)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csprojResolveAssemblyReference.cache
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_1.1)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe.config
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_1.1)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.exe
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_1.1)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.pdb
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_1.1)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\libtensorflow.dll
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_1.1)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_1.1)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.pdb
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_1.1)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.Entity.EF6.dll
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_1.1)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Fabric.Plugin.dll
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_1.1)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.Entity.EF6.xml
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_1.1)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csprojResolveAssemblyReference.cache
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_1.1)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Form1.resources
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_1.1)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\WinForm_Test.LoadingBox.resources
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_1.1)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Properties.Resources.resources
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_1.1)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.SubscriberLoginer.resources
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_1.1)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csproj.GenerateResource.Cache
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_1.1)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.dll
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_1.1)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.Entity.dll
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_1.1)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.xml
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_1.1)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csproj.Tixcraft Subscriber.exe.config
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_1.1)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csproj.CoreCompileInputs.cache
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_1.2)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\libtensorflow.dll
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_1.2)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe.config
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_1.2)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_1.2)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.pdb
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_1.2)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.Entity.EF6.dll
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_1.2)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Fabric.Plugin.dll
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_1.2)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.Entity.EF6.xml
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_1.2)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Form1.resources
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_1.2)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\WinForm_Test.LoadingBox.resources
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_1.2)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Properties.Resources.resources
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_1.2)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.SubscriberLoginer.resources
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_1.2)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csproj.GenerateResource.Cache
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_1.2)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.exe
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_1.2)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.pdb
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_1.2)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.TixBuyTicket.resources
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_1.2)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csprojResolveAssemblyReference.cache
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_1.3)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe.config
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_1.3)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.exe
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_1.3)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.pdb
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_1.3)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\libtensorflow.dll
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_1.3)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_1.3)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.pdb
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_1.3)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.Entity.EF6.dll
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_1.3)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Fabric.Plugin.dll
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_1.3)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.Entity.EF6.xml
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_1.3)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Form1.resources
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_1.3)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\WinForm_Test.LoadingBox.resources
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_1.3)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Properties.Resources.resources
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_1.3)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.SubscriberLoginer.resources
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_1.3)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.TixBuyTicket.resources
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_1.3)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csproj.GenerateResource.Cache
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_1.3)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csprojResolveAssemblyReference.cache
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_1.6)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe.config
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_1.6)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.exe
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_1.6)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.pdb
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_1.6)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\libtensorflow.dll
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_1.6)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_1.6)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.pdb
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_1.6)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.Entity.EF6.dll
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_1.6)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Fabric.Plugin.dll
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_1.6)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.Entity.EF6.xml
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_1.6)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csprojResolveAssemblyReference.cache
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_1.6)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Form1.resources
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_1.6)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\WinForm_Test.LoadingBox.resources
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_1.6)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Properties.Resources.resources
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_1.6)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.SubscriberLoginer.resources
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_1.6)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.TixBuyTicket.resources
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_1.6)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csproj.GenerateResource.Cache
+D:\神器Money版(ver_1.6)(CODE)\神器Money版(ver_1.6)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\libtensorflow.dll
+D:\神器Money版(ver_1.6)(CODE)\神器Money版(ver_1.6)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe.config
+D:\神器Money版(ver_1.6)(CODE)\神器Money版(ver_1.6)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe
+D:\神器Money版(ver_1.6)(CODE)\神器Money版(ver_1.6)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.pdb
+D:\神器Money版(ver_1.6)(CODE)\神器Money版(ver_1.6)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.dll
+D:\神器Money版(ver_1.6)(CODE)\神器Money版(ver_1.6)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.Entity.dll
+D:\神器Money版(ver_1.6)(CODE)\神器Money版(ver_1.6)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.Entity.EF6.dll
+D:\神器Money版(ver_1.6)(CODE)\神器Money版(ver_1.6)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Fabric.Plugin.dll
+D:\神器Money版(ver_1.6)(CODE)\神器Money版(ver_1.6)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\System.Net.Http.dll
+D:\神器Money版(ver_1.6)(CODE)\神器Money版(ver_1.6)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.xml
+D:\神器Money版(ver_1.6)(CODE)\神器Money版(ver_1.6)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.Entity.EF6.xml
+D:\神器Money版(ver_1.6)(CODE)\神器Money版(ver_1.6)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\System.Net.Http.xml
+D:\神器Money版(ver_1.6)(CODE)\神器Money版(ver_1.6)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\zh-Hant\System.Net.Http.resources.dll
+D:\神器Money版(ver_1.6)(CODE)\神器Money版(ver_1.6)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csprojResolveAssemblyReference.cache
+D:\神器Money版(ver_1.6)(CODE)\神器Money版(ver_1.6)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.exe.config
+D:\神器Money版(ver_1.6)(CODE)\神器Money版(ver_1.6)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Form1.resources
+D:\神器Money版(ver_1.6)(CODE)\神器Money版(ver_1.6)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\WinForm_Test.LoadingBox.resources
+D:\神器Money版(ver_1.6)(CODE)\神器Money版(ver_1.6)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Properties.Resources.resources
+D:\神器Money版(ver_1.6)(CODE)\神器Money版(ver_1.6)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.SubscriberLoginer.resources
+D:\神器Money版(ver_1.6)(CODE)\神器Money版(ver_1.6)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.TixBuyTicket.resources
+D:\神器Money版(ver_1.6)(CODE)\神器Money版(ver_1.6)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csproj.GenerateResource.cache
+D:\神器Money版(ver_1.6)(CODE)\神器Money版(ver_1.6)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csproj.CoreCompileInputs.cache
+D:\神器Money版(ver_1.6)(CODE)\神器Money版(ver_1.6)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csproj.CopyComplete
+D:\神器Money版(ver_1.6)(CODE)\神器Money版(ver_1.6)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.exe
+D:\神器Money版(ver_1.6)(CODE)\神器Money版(ver_1.6)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.pdb
+C:\Users\Administrator\Desktop\神器Money版(ver_1.6)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe.config
+C:\Users\Administrator\Desktop\神器Money版(ver_1.6)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.exe
+C:\Users\Administrator\Desktop\神器Money版(ver_1.6)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.pdb
+C:\Users\Administrator\Desktop\神器Money版(ver_1.6)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\libtensorflow.dll
+C:\Users\Administrator\Desktop\神器Money版(ver_1.6)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe
+C:\Users\Administrator\Desktop\神器Money版(ver_1.6)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.pdb
+C:\Users\Administrator\Desktop\神器Money版(ver_1.6)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\Users\Administrator\Desktop\神器Money版(ver_1.6)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Fabric.Plugin.dll
+C:\Users\Administrator\Desktop\神器Money版(ver_1.6)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.Entity.EF6.xml
+C:\Users\Administrator\Desktop\神器Money版(ver_1.6)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\神器Money版(ver_1.6)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Form1.resources
+C:\Users\Administrator\Desktop\神器Money版(ver_1.6)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\WinForm_Test.LoadingBox.resources
+C:\Users\Administrator\Desktop\神器Money版(ver_1.6)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Properties.Resources.resources
+C:\Users\Administrator\Desktop\神器Money版(ver_1.6)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.SubscriberLoginer.resources
+C:\Users\Administrator\Desktop\神器Money版(ver_1.6)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.TixBuyTicket.resources
+C:\Users\Administrator\Desktop\神器Money版(ver_1.6)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csproj.GenerateResource.Cache
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_1.8)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe.config
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_1.8)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.exe
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_1.8)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.pdb
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_1.8)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\libtensorflow.dll
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_1.8)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_1.8)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.pdb
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_1.8)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.Entity.EF6.dll
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_1.8)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Fabric.Plugin.dll
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_1.8)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.Entity.EF6.xml
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_1.8)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csprojResolveAssemblyReference.cache
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_1.8)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Form1.resources
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_1.8)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\WinForm_Test.LoadingBox.resources
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_1.8)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Properties.Resources.resources
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_1.8)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.SubscriberLoginer.resources
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_1.8)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.TixBuyTicket.resources
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_1.8)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csproj.GenerateResource.Cache
+C:\Users\f2810\Desktop\ver1.8_欠修改版\神器Money版(ver_1.8)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\libtensorflow.dll
+C:\Users\f2810\Desktop\ver1.8_欠修改版\神器Money版(ver_1.8)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe.config
+C:\Users\f2810\Desktop\ver1.8_欠修改版\神器Money版(ver_1.8)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe
+C:\Users\f2810\Desktop\ver1.8_欠修改版\神器Money版(ver_1.8)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.pdb
+C:\Users\f2810\Desktop\ver1.8_欠修改版\神器Money版(ver_1.8)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.dll
+C:\Users\f2810\Desktop\ver1.8_欠修改版\神器Money版(ver_1.8)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.Entity.dll
+C:\Users\f2810\Desktop\ver1.8_欠修改版\神器Money版(ver_1.8)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\Users\f2810\Desktop\ver1.8_欠修改版\神器Money版(ver_1.8)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Fabric.Plugin.dll
+C:\Users\f2810\Desktop\ver1.8_欠修改版\神器Money版(ver_1.8)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\System.Net.Http.dll
+C:\Users\f2810\Desktop\ver1.8_欠修改版\神器Money版(ver_1.8)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.xml
+C:\Users\f2810\Desktop\ver1.8_欠修改版\神器Money版(ver_1.8)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.Entity.EF6.xml
+C:\Users\f2810\Desktop\ver1.8_欠修改版\神器Money版(ver_1.8)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\System.Net.Http.xml
+C:\Users\f2810\Desktop\ver1.8_欠修改版\神器Money版(ver_1.8)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\zh-Hant\System.Net.Http.resources.dll
+C:\Users\f2810\Desktop\ver1.8_欠修改版\神器Money版(ver_1.8)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csprojResolveAssemblyReference.cache
+C:\Users\f2810\Desktop\ver1.8_欠修改版\神器Money版(ver_1.8)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.exe.config
+C:\Users\f2810\Desktop\ver1.8_欠修改版\神器Money版(ver_1.8)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Form1.resources
+C:\Users\f2810\Desktop\ver1.8_欠修改版\神器Money版(ver_1.8)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\WinForm_Test.LoadingBox.resources
+C:\Users\f2810\Desktop\ver1.8_欠修改版\神器Money版(ver_1.8)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Properties.Resources.resources
+C:\Users\f2810\Desktop\ver1.8_欠修改版\神器Money版(ver_1.8)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.SubscriberLoginer.resources
+C:\Users\f2810\Desktop\ver1.8_欠修改版\神器Money版(ver_1.8)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.TixBuyTicket.resources
+C:\Users\f2810\Desktop\ver1.8_欠修改版\神器Money版(ver_1.8)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csproj.GenerateResource.cache
+C:\Users\f2810\Desktop\ver1.8_欠修改版\神器Money版(ver_1.8)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csproj.CoreCompileInputs.cache
+C:\Users\f2810\Desktop\ver1.8_欠修改版\神器Money版(ver_1.8)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csproj.CopyComplete
+C:\Users\f2810\Desktop\ver1.8_欠修改版\神器Money版(ver_1.8)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.exe
+C:\Users\f2810\Desktop\ver1.8_欠修改版\神器Money版(ver_1.8)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.pdb
+C:\Users\Administrator\Desktop\ww\神器Money版(ver_1.8)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe.config
+C:\Users\Administrator\Desktop\ww\神器Money版(ver_1.8)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.exe
+C:\Users\Administrator\Desktop\ww\神器Money版(ver_1.8)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.pdb
+C:\Users\Administrator\Desktop\ww\神器Money版(ver_1.8)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\libtensorflow.dll
+C:\Users\Administrator\Desktop\ww\神器Money版(ver_1.8)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe
+C:\Users\Administrator\Desktop\ww\神器Money版(ver_1.8)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.pdb
+C:\Users\Administrator\Desktop\ww\神器Money版(ver_1.8)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\Users\Administrator\Desktop\ww\神器Money版(ver_1.8)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Fabric.Plugin.dll
+C:\Users\Administrator\Desktop\ww\神器Money版(ver_1.8)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.Entity.EF6.xml
+C:\Users\Administrator\Desktop\ww\神器Money版(ver_1.8)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Form1.resources
+C:\Users\Administrator\Desktop\ww\神器Money版(ver_1.8)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\WinForm_Test.LoadingBox.resources
+C:\Users\Administrator\Desktop\ww\神器Money版(ver_1.8)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Properties.Resources.resources
+C:\Users\Administrator\Desktop\ww\神器Money版(ver_1.8)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.SubscriberLoginer.resources
+C:\Users\Administrator\Desktop\ww\神器Money版(ver_1.8)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.TixBuyTicket.resources
+C:\Users\Administrator\Desktop\ww\神器Money版(ver_1.8)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csproj.GenerateResource.Cache
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_1.9)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe.config
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_1.9)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.exe
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_1.9)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.pdb
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_1.9)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\libtensorflow.dll
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_1.9)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_1.9)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.pdb
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_1.9)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.Entity.EF6.dll
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_1.9)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Fabric.Plugin.dll
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_1.9)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.Entity.EF6.xml
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_1.9)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csprojResolveAssemblyReference.cache
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_1.9)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Form1.resources
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_1.9)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\WinForm_Test.LoadingBox.resources
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_1.9)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Properties.Resources.resources
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_1.9)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.SubscriberLoginer.resources
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_1.9)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.TixBuyTicket.resources
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_1.9)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csproj.GenerateResource.Cache
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.0)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe.config
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.0)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.exe
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.0)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.pdb
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.0)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\libtensorflow.dll
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.0)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.0)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.pdb
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.0)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.Entity.EF6.dll
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.0)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Fabric.Plugin.dll
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.0)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.Entity.EF6.xml
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.0)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csprojResolveAssemblyReference.cache
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.0)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Form1.resources
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.0)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\WinForm_Test.LoadingBox.resources
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.0)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Properties.Resources.resources
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.0)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.SubscriberLoginer.resources
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.0)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.TixBuyTicket.resources
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.0)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csproj.GenerateResource.Cache
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.1)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe.config
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.1)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.exe
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.1)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.pdb
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.1)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\libtensorflow.dll
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.1)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.1)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.pdb
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.1)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.Entity.EF6.dll
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.1)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Fabric.Plugin.dll
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.1)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.Entity.EF6.xml
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.1)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csprojResolveAssemblyReference.cache
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.1)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Form1.resources
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.1)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\WinForm_Test.LoadingBox.resources
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.1)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Properties.Resources.resources
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.1)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.SubscriberLoginer.resources
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.1)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.TixBuyTicket.resources
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.1)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csproj.GenerateResource.Cache
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.2)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe.config
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.2)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.exe
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.2)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.pdb
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.2)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\libtensorflow.dll
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.2)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.2)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.pdb
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.2)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.Entity.EF6.dll
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.2)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Fabric.Plugin.dll
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.2)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.Entity.EF6.xml
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.2)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csprojResolveAssemblyReference.cache
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.2)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Form1.resources
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.2)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\WinForm_Test.LoadingBox.resources
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.2)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Properties.Resources.resources
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.2)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.SubscriberLoginer.resources
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.2)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.TixBuyTicket.resources
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.2)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csproj.GenerateResource.Cache
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.3)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe.config
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.3)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.exe
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.3)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.pdb
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.3)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\libtensorflow.dll
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.3)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.3)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.pdb
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.3)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.Entity.EF6.dll
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.3)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Fabric.Plugin.dll
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.3)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.Entity.EF6.xml
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.3)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csprojResolveAssemblyReference.cache
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.3)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Form1.resources
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.3)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\WinForm_Test.LoadingBox.resources
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.3)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Properties.Resources.resources
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.3)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.SubscriberLoginer.resources
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.3)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.TixBuyTicket.resources
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.3)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csproj.GenerateResource.Cache
+D:\神器Money版(ver_2.3)(備用版)\神器Money版(ver_2.3)(備用版)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\libtensorflow.dll
+D:\神器Money版(ver_2.3)(備用版)\神器Money版(ver_2.3)(備用版)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe.config
+D:\神器Money版(ver_2.3)(備用版)\神器Money版(ver_2.3)(備用版)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe
+D:\神器Money版(ver_2.3)(備用版)\神器Money版(ver_2.3)(備用版)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.pdb
+D:\神器Money版(ver_2.3)(備用版)\神器Money版(ver_2.3)(備用版)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.dll
+D:\神器Money版(ver_2.3)(備用版)\神器Money版(ver_2.3)(備用版)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.Entity.dll
+D:\神器Money版(ver_2.3)(備用版)\神器Money版(ver_2.3)(備用版)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.Entity.EF6.dll
+D:\神器Money版(ver_2.3)(備用版)\神器Money版(ver_2.3)(備用版)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Fabric.Plugin.dll
+D:\神器Money版(ver_2.3)(備用版)\神器Money版(ver_2.3)(備用版)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\System.Net.Http.dll
+D:\神器Money版(ver_2.3)(備用版)\神器Money版(ver_2.3)(備用版)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.xml
+D:\神器Money版(ver_2.3)(備用版)\神器Money版(ver_2.3)(備用版)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.Entity.EF6.xml
+D:\神器Money版(ver_2.3)(備用版)\神器Money版(ver_2.3)(備用版)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\System.Net.Http.xml
+D:\神器Money版(ver_2.3)(備用版)\神器Money版(ver_2.3)(備用版)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\zh-Hant\System.Net.Http.resources.dll
+D:\神器Money版(ver_2.3)(備用版)\神器Money版(ver_2.3)(備用版)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csprojResolveAssemblyReference.cache
+D:\神器Money版(ver_2.3)(備用版)\神器Money版(ver_2.3)(備用版)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.exe.config
+D:\神器Money版(ver_2.3)(備用版)\神器Money版(ver_2.3)(備用版)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Form1.resources
+D:\神器Money版(ver_2.3)(備用版)\神器Money版(ver_2.3)(備用版)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\WinForm_Test.LoadingBox.resources
+D:\神器Money版(ver_2.3)(備用版)\神器Money版(ver_2.3)(備用版)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Properties.Resources.resources
+D:\神器Money版(ver_2.3)(備用版)\神器Money版(ver_2.3)(備用版)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.SubscriberLoginer.resources
+D:\神器Money版(ver_2.3)(備用版)\神器Money版(ver_2.3)(備用版)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.TixBuyTicket.resources
+D:\神器Money版(ver_2.3)(備用版)\神器Money版(ver_2.3)(備用版)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csproj.GenerateResource.cache
+D:\神器Money版(ver_2.3)(備用版)\神器Money版(ver_2.3)(備用版)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csproj.CoreCompileInputs.cache
+D:\神器Money版(ver_2.3)(備用版)\神器Money版(ver_2.3)(備用版)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csproj.CopyComplete
+D:\神器Money版(ver_2.3)(備用版)\神器Money版(ver_2.3)(備用版)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.exe
+D:\神器Money版(ver_2.3)(備用版)\神器Money版(ver_2.3)(備用版)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.pdb
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.4)\神器Money版(ver_2.3)(備用版2018.05.20精文修正)\神器Money版(ver_2.3)(備用版)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe.config
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.4)\神器Money版(ver_2.3)(備用版2018.05.20精文修正)\神器Money版(ver_2.3)(備用版)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.exe
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.4)\神器Money版(ver_2.3)(備用版2018.05.20精文修正)\神器Money版(ver_2.3)(備用版)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.pdb
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.4)\神器Money版(ver_2.4)\神器Money版(ver_2.4)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe.config
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.4)\神器Money版(ver_2.4)\神器Money版(ver_2.4)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.exe
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.4)\神器Money版(ver_2.4)\神器Money版(ver_2.4)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.pdb
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.4)\神器Money版(ver_2.4)\神器Money版(ver_2.4)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\libtensorflow.dll
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.4)\神器Money版(ver_2.4)\神器Money版(ver_2.4)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.4)\神器Money版(ver_2.4)\神器Money版(ver_2.4)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.pdb
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.4)\神器Money版(ver_2.4)\神器Money版(ver_2.4)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.Entity.EF6.dll
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.4)\神器Money版(ver_2.4)\神器Money版(ver_2.4)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Fabric.Plugin.dll
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.4)\神器Money版(ver_2.4)\神器Money版(ver_2.4)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.Entity.EF6.xml
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.4)\神器Money版(ver_2.4)\神器Money版(ver_2.4)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csprojResolveAssemblyReference.cache
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.4)\神器Money版(ver_2.4)\神器Money版(ver_2.4)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Form1.resources
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.4)\神器Money版(ver_2.4)\神器Money版(ver_2.4)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\WinForm_Test.LoadingBox.resources
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.4)\神器Money版(ver_2.4)\神器Money版(ver_2.4)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Properties.Resources.resources
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.4)\神器Money版(ver_2.4)\神器Money版(ver_2.4)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.SubscriberLoginer.resources
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.4)\神器Money版(ver_2.4)\神器Money版(ver_2.4)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.TixBuyTicket.resources
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.4)\神器Money版(ver_2.4)\神器Money版(ver_2.4)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csproj.GenerateResource.Cache
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.4)(備用版)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe.config
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.4)(備用版)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.exe
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.4)(備用版)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.pdb
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.4)(備用版)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\libtensorflow.dll
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.4)(備用版)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.4)(備用版)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.pdb
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.4)(備用版)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.Entity.EF6.dll
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.4)(備用版)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Fabric.Plugin.dll
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.4)(備用版)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.Entity.EF6.xml
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.4)(備用版)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csprojResolveAssemblyReference.cache
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.4)(備用版)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Form1.resources
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.4)(備用版)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\WinForm_Test.LoadingBox.resources
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.4)(備用版)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Properties.Resources.resources
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.4)(備用版)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.SubscriberLoginer.resources
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.4)(備用版)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.TixBuyTicket.resources
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.4)(備用版)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csproj.GenerateResource.Cache
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.5)(備用版)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe.config
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.5)(備用版)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.exe
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.5)(備用版)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.pdb
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.5)(備用版)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\libtensorflow.dll
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.5)(備用版)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.5)(備用版)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.pdb
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.5)(備用版)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.Entity.EF6.dll
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.5)(備用版)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Fabric.Plugin.dll
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.5)(備用版)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.Entity.EF6.xml
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.5)(備用版)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Form1.resources
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.5)(備用版)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\WinForm_Test.LoadingBox.resources
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.5)(備用版)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Properties.Resources.resources
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.5)(備用版)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.SubscriberLoginer.resources
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.5)(備用版)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.TixBuyTicket.resources
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.5)(備用版)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csproj.GenerateResource.Cache
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.5)(備用版)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.StockSnaper.resources
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.5)(備用版)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.dll
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.5)(備用版)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.Entity.dll
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.5)(備用版)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.xml
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.5)(備用版)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csproj.Tixcraft Subscriber.exe.config
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.5)(備用版)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csproj.CoreCompileInputs.cache
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.5)(備用版)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csprojResolveAssemblyReference.cache
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.6)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe.config
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.6)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.exe
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.6)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.pdb
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.6)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\libtensorflow.dll
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.6)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.6)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.pdb
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.6)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.Entity.EF6.dll
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.6)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Fabric.Plugin.dll
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.6)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.Entity.EF6.xml
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.6)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csprojResolveAssemblyReference.cache
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.6)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Form1.resources
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.6)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\WinForm_Test.LoadingBox.resources
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.6)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Properties.Resources.resources
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.6)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.SubscriberLoginer.resources
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.6)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.TixBuyTicket.resources
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_2.6)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csproj.GenerateResource.Cache
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_5.0)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe.config
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_5.0)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.exe
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_5.0)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.pdb
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_5.0)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\libtensorflow.dll
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_5.0)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_5.0)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.pdb
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_5.0)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.Entity.EF6.dll
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_5.0)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Fabric.Plugin.dll
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_5.0)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.Entity.EF6.xml
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_5.0)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csprojResolveAssemblyReference.cache
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_5.0)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Form1.resources
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_5.0)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\WinForm_Test.LoadingBox.resources
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_5.0)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Properties.Resources.resources
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_5.0)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.SubscriberLoginer.resources
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_5.0)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.TixBuyTicket.resources
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_5.0)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csproj.GenerateResource.Cache
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_5.0)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.dll
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_5.0)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.Entity.dll
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_5.0)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.xml
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_5.0)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csproj.Tixcraft Subscriber.exe.config
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_5.0)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csproj.CoreCompileInputs.cache
+C:\Users\Wuku 8600k\Desktop\神器Money版(ver_5.0)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe.config
+C:\Users\Wuku 8600k\Desktop\神器Money版(ver_5.0)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.exe
+C:\Users\Wuku 8600k\Desktop\神器Money版(ver_5.0)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.pdb
+C:\Users\Wuku 8600k\Desktop\神器Money版(ver_5.0)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\libtensorflow.dll
+C:\Users\Wuku 8600k\Desktop\神器Money版(ver_5.0)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe
+C:\Users\Wuku 8600k\Desktop\神器Money版(ver_5.0)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.pdb
+C:\Users\Wuku 8600k\Desktop\神器Money版(ver_5.0)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\Users\Wuku 8600k\Desktop\神器Money版(ver_5.0)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Fabric.Plugin.dll
+C:\Users\Wuku 8600k\Desktop\神器Money版(ver_5.0)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.Entity.EF6.xml
+C:\Users\Wuku 8600k\Desktop\神器Money版(ver_5.0)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csprojResolveAssemblyReference.cache
+C:\Users\Wuku 8600k\Desktop\神器Money版(ver_5.0)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Form1.resources
+C:\Users\Wuku 8600k\Desktop\神器Money版(ver_5.0)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\WinForm_Test.LoadingBox.resources
+C:\Users\Wuku 8600k\Desktop\神器Money版(ver_5.0)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Properties.Resources.resources
+C:\Users\Wuku 8600k\Desktop\神器Money版(ver_5.0)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.SubscriberLoginer.resources
+C:\Users\Wuku 8600k\Desktop\神器Money版(ver_5.0)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.TixBuyTicket.resources
+C:\Users\Wuku 8600k\Desktop\神器Money版(ver_5.0)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csproj.GenerateResource.Cache
+C:\Users\f2810\Desktop\神器Money版(ver_5.1)code\神器Money版(ver_5.1)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\libtensorflow.dll
+C:\Users\f2810\Desktop\神器Money版(ver_5.1)code\神器Money版(ver_5.1)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe.config
+C:\Users\f2810\Desktop\神器Money版(ver_5.1)code\神器Money版(ver_5.1)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe
+C:\Users\f2810\Desktop\神器Money版(ver_5.1)code\神器Money版(ver_5.1)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.pdb
+C:\Users\f2810\Desktop\神器Money版(ver_5.1)code\神器Money版(ver_5.1)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.dll
+C:\Users\f2810\Desktop\神器Money版(ver_5.1)code\神器Money版(ver_5.1)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.Entity.dll
+C:\Users\f2810\Desktop\神器Money版(ver_5.1)code\神器Money版(ver_5.1)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\Users\f2810\Desktop\神器Money版(ver_5.1)code\神器Money版(ver_5.1)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Fabric.Plugin.dll
+C:\Users\f2810\Desktop\神器Money版(ver_5.1)code\神器Money版(ver_5.1)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.xml
+C:\Users\f2810\Desktop\神器Money版(ver_5.1)code\神器Money版(ver_5.1)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.Entity.EF6.xml
+C:\Users\f2810\Desktop\神器Money版(ver_5.1)code\神器Money版(ver_5.1)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csprojAssemblyReference.cache
+C:\Users\f2810\Desktop\神器Money版(ver_5.1)code\神器Money版(ver_5.1)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.exe.config
+C:\Users\f2810\Desktop\神器Money版(ver_5.1)code\神器Money版(ver_5.1)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Form1.resources
+C:\Users\f2810\Desktop\神器Money版(ver_5.1)code\神器Money版(ver_5.1)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\WinForm_Test.LoadingBox.resources
+C:\Users\f2810\Desktop\神器Money版(ver_5.1)code\神器Money版(ver_5.1)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Properties.Resources.resources
+C:\Users\f2810\Desktop\神器Money版(ver_5.1)code\神器Money版(ver_5.1)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.SubscriberLoginer.resources
+C:\Users\f2810\Desktop\神器Money版(ver_5.1)code\神器Money版(ver_5.1)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.TixBuyTicket.resources
+C:\Users\f2810\Desktop\神器Money版(ver_5.1)code\神器Money版(ver_5.1)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csproj.GenerateResource.cache
+C:\Users\f2810\Desktop\神器Money版(ver_5.1)code\神器Money版(ver_5.1)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csproj.CoreCompileInputs.cache
+C:\Users\f2810\Desktop\神器Money版(ver_5.1)code\神器Money版(ver_5.1)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csproj.CopyComplete
+C:\Users\f2810\Desktop\神器Money版(ver_5.1)code\神器Money版(ver_5.1)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.exe
+C:\Users\f2810\Desktop\神器Money版(ver_5.1)code\神器Money版(ver_5.1)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.pdb
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_5.1)code\神器Money版(ver_5.1)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\libtensorflow.dll
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_5.1)code\神器Money版(ver_5.1)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe.config
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_5.1)code\神器Money版(ver_5.1)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_5.1)code\神器Money版(ver_5.1)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.pdb
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_5.1)code\神器Money版(ver_5.1)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.dll
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_5.1)code\神器Money版(ver_5.1)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.Entity.dll
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_5.1)code\神器Money版(ver_5.1)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.Entity.EF6.dll
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_5.1)code\神器Money版(ver_5.1)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Fabric.Plugin.dll
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_5.1)code\神器Money版(ver_5.1)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.xml
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_5.1)code\神器Money版(ver_5.1)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.Entity.EF6.xml
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_5.1)code\神器Money版(ver_5.1)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csproj.Tixcraft Subscriber.exe.config
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_5.1)code\神器Money版(ver_5.1)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Form1.resources
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_5.1)code\神器Money版(ver_5.1)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\WinForm_Test.LoadingBox.resources
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_5.1)code\神器Money版(ver_5.1)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Properties.Resources.resources
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_5.1)code\神器Money版(ver_5.1)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.SubscriberLoginer.resources
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_5.1)code\神器Money版(ver_5.1)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.TixBuyTicket.resources
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_5.1)code\神器Money版(ver_5.1)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csproj.GenerateResource.Cache
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_5.1)code\神器Money版(ver_5.1)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csproj.CoreCompileInputs.cache
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_5.1)code\神器Money版(ver_5.1)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.exe
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_5.1)code\神器Money版(ver_5.1)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.pdb
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_5.1)code\神器Money版(ver_5.1)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csprojResolveAssemblyReference.cache
+C:\Users\Wuku 8600k\Desktop\神器Money版(ver_5.1)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe.config
+C:\Users\Wuku 8600k\Desktop\神器Money版(ver_5.1)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.exe
+C:\Users\Wuku 8600k\Desktop\神器Money版(ver_5.1)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.pdb
+C:\Users\Wuku 8600k\Desktop\神器Money版(ver_5.1)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\libtensorflow.dll
+C:\Users\Wuku 8600k\Desktop\神器Money版(ver_5.1)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe
+C:\Users\Wuku 8600k\Desktop\神器Money版(ver_5.1)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.pdb
+C:\Users\Wuku 8600k\Desktop\神器Money版(ver_5.1)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\Users\Wuku 8600k\Desktop\神器Money版(ver_5.1)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Fabric.Plugin.dll
+C:\Users\Wuku 8600k\Desktop\神器Money版(ver_5.1)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.Entity.EF6.xml
+C:\Users\Wuku 8600k\Desktop\神器Money版(ver_5.1)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csprojResolveAssemblyReference.cache
+C:\Users\Wuku 8600k\Desktop\神器Money版(ver_5.1)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Form1.resources
+C:\Users\Wuku 8600k\Desktop\神器Money版(ver_5.1)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\WinForm_Test.LoadingBox.resources
+C:\Users\Wuku 8600k\Desktop\神器Money版(ver_5.1)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Properties.Resources.resources
+C:\Users\Wuku 8600k\Desktop\神器Money版(ver_5.1)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.SubscriberLoginer.resources
+C:\Users\Wuku 8600k\Desktop\神器Money版(ver_5.1)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.TixBuyTicket.resources
+C:\Users\Wuku 8600k\Desktop\神器Money版(ver_5.1)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csproj.GenerateResource.Cache
+C:\Users\Wuku 8600k\Desktop\神器Money版(ver_5.2)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe.config
+C:\Users\Wuku 8600k\Desktop\神器Money版(ver_5.2)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.exe
+C:\Users\Wuku 8600k\Desktop\神器Money版(ver_5.2)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.pdb
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_5.2)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\libtensorflow.dll
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_5.2)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe.config
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_5.2)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_5.2)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.pdb
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_5.2)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.Entity.EF6.dll
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_5.2)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Fabric.Plugin.dll
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_5.2)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.Entity.EF6.xml
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_5.2)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csprojResolveAssemblyReference.cache
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_5.2)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Form1.resources
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_5.2)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\WinForm_Test.LoadingBox.resources
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_5.2)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Properties.Resources.resources
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_5.2)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.SubscriberLoginer.resources
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_5.2)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.TixBuyTicket.resources
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_5.2)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csproj.GenerateResource.Cache
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_5.2)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.exe
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_5.2)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.pdb
+C:\Users\f2810\Desktop\神器Money版(ver_5.3)(code)\神器Money版(ver_5.3)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\libtensorflow.dll
+C:\Users\f2810\Desktop\神器Money版(ver_5.3)(code)\神器Money版(ver_5.3)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe.config
+C:\Users\f2810\Desktop\神器Money版(ver_5.3)(code)\神器Money版(ver_5.3)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe
+C:\Users\f2810\Desktop\神器Money版(ver_5.3)(code)\神器Money版(ver_5.3)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.pdb
+C:\Users\f2810\Desktop\神器Money版(ver_5.3)(code)\神器Money版(ver_5.3)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.dll
+C:\Users\f2810\Desktop\神器Money版(ver_5.3)(code)\神器Money版(ver_5.3)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.Entity.dll
+C:\Users\f2810\Desktop\神器Money版(ver_5.3)(code)\神器Money版(ver_5.3)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\Users\f2810\Desktop\神器Money版(ver_5.3)(code)\神器Money版(ver_5.3)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Fabric.Plugin.dll
+C:\Users\f2810\Desktop\神器Money版(ver_5.3)(code)\神器Money版(ver_5.3)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.xml
+C:\Users\f2810\Desktop\神器Money版(ver_5.3)(code)\神器Money版(ver_5.3)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.Entity.EF6.xml
+C:\Users\f2810\Desktop\神器Money版(ver_5.3)(code)\神器Money版(ver_5.3)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csprojAssemblyReference.cache
+C:\Users\f2810\Desktop\神器Money版(ver_5.3)(code)\神器Money版(ver_5.3)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.exe.config
+C:\Users\f2810\Desktop\神器Money版(ver_5.3)(code)\神器Money版(ver_5.3)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Form1.resources
+C:\Users\f2810\Desktop\神器Money版(ver_5.3)(code)\神器Money版(ver_5.3)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\WinForm_Test.LoadingBox.resources
+C:\Users\f2810\Desktop\神器Money版(ver_5.3)(code)\神器Money版(ver_5.3)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Properties.Resources.resources
+C:\Users\f2810\Desktop\神器Money版(ver_5.3)(code)\神器Money版(ver_5.3)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.SubscriberLoginer.resources
+C:\Users\f2810\Desktop\神器Money版(ver_5.3)(code)\神器Money版(ver_5.3)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.TixBuyTicket.resources
+C:\Users\f2810\Desktop\神器Money版(ver_5.3)(code)\神器Money版(ver_5.3)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csproj.GenerateResource.cache
+C:\Users\f2810\Desktop\神器Money版(ver_5.3)(code)\神器Money版(ver_5.3)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csproj.CoreCompileInputs.cache
+C:\Users\f2810\Desktop\神器Money版(ver_5.3)(code)\神器Money版(ver_5.3)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csproj.CopyComplete
+C:\Users\f2810\Desktop\神器Money版(ver_5.3)(code)\神器Money版(ver_5.3)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.exe
+C:\Users\f2810\Desktop\神器Money版(ver_5.3)(code)\神器Money版(ver_5.3)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.pdb
+G:\[ 自動搶票系統專案 ]\神器Money版(ver_5.3)wen\神器Money版(ver_5.3)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe.config
+G:\[ 自動搶票系統專案 ]\神器Money版(ver_5.3)wen\神器Money版(ver_5.3)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.exe
+G:\[ 自動搶票系統專案 ]\神器Money版(ver_5.3)wen\神器Money版(ver_5.3)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.pdb
+G:\[ 自動搶票系統專案 ]\神器Money版(ver_5.3)wen\神器Money版(ver_5.3)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\libtensorflow.dll
+G:\[ 自動搶票系統專案 ]\神器Money版(ver_5.3)wen\神器Money版(ver_5.3)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe
+G:\[ 自動搶票系統專案 ]\神器Money版(ver_5.3)wen\神器Money版(ver_5.3)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.pdb
+G:\[ 自動搶票系統專案 ]\神器Money版(ver_5.3)wen\神器Money版(ver_5.3)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.Entity.EF6.dll
+G:\[ 自動搶票系統專案 ]\神器Money版(ver_5.3)wen\神器Money版(ver_5.3)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Fabric.Plugin.dll
+G:\[ 自動搶票系統專案 ]\神器Money版(ver_5.3)wen\神器Money版(ver_5.3)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.Entity.EF6.xml
+G:\[ 自動搶票系統專案 ]\神器Money版(ver_5.3)wen\神器Money版(ver_5.3)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csprojResolveAssemblyReference.cache
+G:\[ 自動搶票系統專案 ]\神器Money版(ver_5.3)wen\神器Money版(ver_5.3)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Form1.resources
+G:\[ 自動搶票系統專案 ]\神器Money版(ver_5.3)wen\神器Money版(ver_5.3)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\WinForm_Test.LoadingBox.resources
+G:\[ 自動搶票系統專案 ]\神器Money版(ver_5.3)wen\神器Money版(ver_5.3)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Properties.Resources.resources
+G:\[ 自動搶票系統專案 ]\神器Money版(ver_5.3)wen\神器Money版(ver_5.3)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.SubscriberLoginer.resources
+G:\[ 自動搶票系統專案 ]\神器Money版(ver_5.3)wen\神器Money版(ver_5.3)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.TixBuyTicket.resources
+G:\[ 自動搶票系統專案 ]\神器Money版(ver_5.3)wen\神器Money版(ver_5.3)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csproj.GenerateResource.Cache
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_5.3)\神器Money版(ver_5.3)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe.config
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_5.3)\神器Money版(ver_5.3)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.exe
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_5.3)\神器Money版(ver_5.3)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.pdb
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_5.3)\神器Money版(ver_5.3)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\libtensorflow.dll
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_5.3)\神器Money版(ver_5.3)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_5.3)\神器Money版(ver_5.3)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.pdb
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_5.3)\神器Money版(ver_5.3)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.Entity.EF6.dll
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_5.3)\神器Money版(ver_5.3)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Fabric.Plugin.dll
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_5.3)\神器Money版(ver_5.3)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.Entity.EF6.xml
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_5.3)\神器Money版(ver_5.3)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csprojResolveAssemblyReference.cache
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_5.3)\神器Money版(ver_5.3)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Form1.resources
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_5.3)\神器Money版(ver_5.3)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\WinForm_Test.LoadingBox.resources
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_5.3)\神器Money版(ver_5.3)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Properties.Resources.resources
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_5.3)\神器Money版(ver_5.3)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.SubscriberLoginer.resources
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_5.3)\神器Money版(ver_5.3)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.TixBuyTicket.resources
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_5.3)\神器Money版(ver_5.3)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csproj.GenerateResource.Cache
+C:\Users\f2810\Desktop\神器Money版(ver_5.3)(wuku)\神器Money版(ver_5.3)\神器Money版(ver_5.3)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\libtensorflow.dll
+C:\Users\f2810\Desktop\神器Money版(ver_5.3)(wuku)\神器Money版(ver_5.3)\神器Money版(ver_5.3)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe.config
+C:\Users\f2810\Desktop\神器Money版(ver_5.3)(wuku)\神器Money版(ver_5.3)\神器Money版(ver_5.3)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe
+C:\Users\f2810\Desktop\神器Money版(ver_5.3)(wuku)\神器Money版(ver_5.3)\神器Money版(ver_5.3)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.pdb
+C:\Users\f2810\Desktop\神器Money版(ver_5.3)(wuku)\神器Money版(ver_5.3)\神器Money版(ver_5.3)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.dll
+C:\Users\f2810\Desktop\神器Money版(ver_5.3)(wuku)\神器Money版(ver_5.3)\神器Money版(ver_5.3)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.Entity.dll
+C:\Users\f2810\Desktop\神器Money版(ver_5.3)(wuku)\神器Money版(ver_5.3)\神器Money版(ver_5.3)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\Users\f2810\Desktop\神器Money版(ver_5.3)(wuku)\神器Money版(ver_5.3)\神器Money版(ver_5.3)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Fabric.Plugin.dll
+C:\Users\f2810\Desktop\神器Money版(ver_5.3)(wuku)\神器Money版(ver_5.3)\神器Money版(ver_5.3)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.xml
+C:\Users\f2810\Desktop\神器Money版(ver_5.3)(wuku)\神器Money版(ver_5.3)\神器Money版(ver_5.3)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.Entity.EF6.xml
+C:\Users\f2810\Desktop\神器Money版(ver_5.3)(wuku)\神器Money版(ver_5.3)\神器Money版(ver_5.3)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csprojAssemblyReference.cache
+C:\Users\f2810\Desktop\神器Money版(ver_5.3)(wuku)\神器Money版(ver_5.3)\神器Money版(ver_5.3)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.exe.config
+C:\Users\f2810\Desktop\神器Money版(ver_5.3)(wuku)\神器Money版(ver_5.3)\神器Money版(ver_5.3)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Form1.resources
+C:\Users\f2810\Desktop\神器Money版(ver_5.3)(wuku)\神器Money版(ver_5.3)\神器Money版(ver_5.3)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\WinForm_Test.LoadingBox.resources
+C:\Users\f2810\Desktop\神器Money版(ver_5.3)(wuku)\神器Money版(ver_5.3)\神器Money版(ver_5.3)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Properties.Resources.resources
+C:\Users\f2810\Desktop\神器Money版(ver_5.3)(wuku)\神器Money版(ver_5.3)\神器Money版(ver_5.3)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.SubscriberLoginer.resources
+C:\Users\f2810\Desktop\神器Money版(ver_5.3)(wuku)\神器Money版(ver_5.3)\神器Money版(ver_5.3)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.TixBuyTicket.resources
+C:\Users\f2810\Desktop\神器Money版(ver_5.3)(wuku)\神器Money版(ver_5.3)\神器Money版(ver_5.3)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csproj.GenerateResource.cache
+C:\Users\f2810\Desktop\神器Money版(ver_5.3)(wuku)\神器Money版(ver_5.3)\神器Money版(ver_5.3)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csproj.CoreCompileInputs.cache
+C:\Users\f2810\Desktop\神器Money版(ver_5.3)(wuku)\神器Money版(ver_5.3)\神器Money版(ver_5.3)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csproj.CopyComplete
+C:\Users\f2810\Desktop\神器Money版(ver_5.3)(wuku)\神器Money版(ver_5.3)\神器Money版(ver_5.3)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.exe
+C:\Users\f2810\Desktop\神器Money版(ver_5.3)(wuku)\神器Money版(ver_5.3)\神器Money版(ver_5.3)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.pdb
+G:\[ 自動搶票系統專案 ]\神器Money版(ver_5.3)(wuku)\神器Money版(ver_5.3)\神器Money版(ver_5.3)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe.config
+G:\[ 自動搶票系統專案 ]\神器Money版(ver_5.3)(wuku)\神器Money版(ver_5.3)\神器Money版(ver_5.3)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.exe
+G:\[ 自動搶票系統專案 ]\神器Money版(ver_5.3)(wuku)\神器Money版(ver_5.3)\神器Money版(ver_5.3)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.pdb
+G:\[ 自動搶票系統專案 ]\神器Money版(ver_5.3)(wuku)\神器Money版(ver_5.3)\神器Money版(ver_5.3)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\libtensorflow.dll
+G:\[ 自動搶票系統專案 ]\神器Money版(ver_5.3)(wuku)\神器Money版(ver_5.3)\神器Money版(ver_5.3)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe
+G:\[ 自動搶票系統專案 ]\神器Money版(ver_5.3)(wuku)\神器Money版(ver_5.3)\神器Money版(ver_5.3)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.pdb
+G:\[ 自動搶票系統專案 ]\神器Money版(ver_5.3)(wuku)\神器Money版(ver_5.3)\神器Money版(ver_5.3)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.Entity.EF6.dll
+G:\[ 自動搶票系統專案 ]\神器Money版(ver_5.3)(wuku)\神器Money版(ver_5.3)\神器Money版(ver_5.3)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Fabric.Plugin.dll
+G:\[ 自動搶票系統專案 ]\神器Money版(ver_5.3)(wuku)\神器Money版(ver_5.3)\神器Money版(ver_5.3)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.Entity.EF6.xml
+G:\[ 自動搶票系統專案 ]\神器Money版(ver_5.3)(wuku)\神器Money版(ver_5.3)\神器Money版(ver_5.3)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csprojResolveAssemblyReference.cache
+G:\[ 自動搶票系統專案 ]\神器Money版(ver_5.3)(wuku)\神器Money版(ver_5.3)\神器Money版(ver_5.3)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Form1.resources
+G:\[ 自動搶票系統專案 ]\神器Money版(ver_5.3)(wuku)\神器Money版(ver_5.3)\神器Money版(ver_5.3)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\WinForm_Test.LoadingBox.resources
+G:\[ 自動搶票系統專案 ]\神器Money版(ver_5.3)(wuku)\神器Money版(ver_5.3)\神器Money版(ver_5.3)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Properties.Resources.resources
+G:\[ 自動搶票系統專案 ]\神器Money版(ver_5.3)(wuku)\神器Money版(ver_5.3)\神器Money版(ver_5.3)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.SubscriberLoginer.resources
+G:\[ 自動搶票系統專案 ]\神器Money版(ver_5.3)(wuku)\神器Money版(ver_5.3)\神器Money版(ver_5.3)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.TixBuyTicket.resources
+G:\[ 自動搶票系統專案 ]\神器Money版(ver_5.3)(wuku)\神器Money版(ver_5.3)\神器Money版(ver_5.3)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csproj.GenerateResource.Cache
+C:\Users\Wuku 8600k\Desktop\神器Money版(ver_5.4)\神器Money版(ver_5.3)\神器Money版(ver_5.3)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe.config
+C:\Users\Wuku 8600k\Desktop\神器Money版(ver_5.4)\神器Money版(ver_5.3)\神器Money版(ver_5.3)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.exe
+C:\Users\Wuku 8600k\Desktop\神器Money版(ver_5.4)\神器Money版(ver_5.3)\神器Money版(ver_5.3)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.pdb
+C:\Users\Wuku 8600k\Desktop\神器Money版(ver_5.4)\神器Money版(ver_5.3)\神器Money版(ver_5.3)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\libtensorflow.dll
+C:\Users\Wuku 8600k\Desktop\神器Money版(ver_5.4)\神器Money版(ver_5.3)\神器Money版(ver_5.3)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe
+C:\Users\Wuku 8600k\Desktop\神器Money版(ver_5.4)\神器Money版(ver_5.3)\神器Money版(ver_5.3)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.pdb
+C:\Users\Wuku 8600k\Desktop\神器Money版(ver_5.4)\神器Money版(ver_5.3)\神器Money版(ver_5.3)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\Users\Wuku 8600k\Desktop\神器Money版(ver_5.4)\神器Money版(ver_5.3)\神器Money版(ver_5.3)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Fabric.Plugin.dll
+C:\Users\Wuku 8600k\Desktop\神器Money版(ver_5.4)\神器Money版(ver_5.3)\神器Money版(ver_5.3)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.Entity.EF6.xml
+C:\Users\Wuku 8600k\Desktop\神器Money版(ver_5.4)\神器Money版(ver_5.3)\神器Money版(ver_5.3)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csprojResolveAssemblyReference.cache
+C:\Users\Wuku 8600k\Desktop\神器Money版(ver_5.4)\神器Money版(ver_5.3)\神器Money版(ver_5.3)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Form1.resources
+C:\Users\Wuku 8600k\Desktop\神器Money版(ver_5.4)\神器Money版(ver_5.3)\神器Money版(ver_5.3)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\WinForm_Test.LoadingBox.resources
+C:\Users\Wuku 8600k\Desktop\神器Money版(ver_5.4)\神器Money版(ver_5.3)\神器Money版(ver_5.3)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Properties.Resources.resources
+C:\Users\Wuku 8600k\Desktop\神器Money版(ver_5.4)\神器Money版(ver_5.3)\神器Money版(ver_5.3)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.SubscriberLoginer.resources
+C:\Users\Wuku 8600k\Desktop\神器Money版(ver_5.4)\神器Money版(ver_5.3)\神器Money版(ver_5.3)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.TixBuyTicket.resources
+C:\Users\Wuku 8600k\Desktop\神器Money版(ver_5.4)\神器Money版(ver_5.3)\神器Money版(ver_5.3)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csproj.GenerateResource.Cache
+C:\Users\Wuku 8600k\Desktop\神器Money版(ver_5.4)\神器Money版(ver_5.3)\神器Money版(ver_5.5)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe.config
+C:\Users\Wuku 8600k\Desktop\神器Money版(ver_5.4)\神器Money版(ver_5.3)\神器Money版(ver_5.5)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.exe
+C:\Users\Wuku 8600k\Desktop\神器Money版(ver_5.4)\神器Money版(ver_5.3)\神器Money版(ver_5.5)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.pdb
+C:\Users\Wuku 8600k\Desktop\神器Money版(ver_5.4)\神器Money版(ver_5.3)\神器Money版(ver_5.5)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\libtensorflow.dll
+C:\Users\Wuku 8600k\Desktop\神器Money版(ver_5.4)\神器Money版(ver_5.3)\神器Money版(ver_5.5)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe
+C:\Users\Wuku 8600k\Desktop\神器Money版(ver_5.4)\神器Money版(ver_5.3)\神器Money版(ver_5.5)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.pdb
+C:\Users\Wuku 8600k\Desktop\神器Money版(ver_5.4)\神器Money版(ver_5.3)\神器Money版(ver_5.5)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\Users\Wuku 8600k\Desktop\神器Money版(ver_5.4)\神器Money版(ver_5.3)\神器Money版(ver_5.5)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Fabric.Plugin.dll
+C:\Users\Wuku 8600k\Desktop\神器Money版(ver_5.4)\神器Money版(ver_5.3)\神器Money版(ver_5.5)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.Entity.EF6.xml
+C:\Users\Wuku 8600k\Desktop\神器Money版(ver_5.4)\神器Money版(ver_5.3)\神器Money版(ver_5.5)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csprojResolveAssemblyReference.cache
+C:\Users\Wuku 8600k\Desktop\神器Money版(ver_5.4)\神器Money版(ver_5.3)\神器Money版(ver_5.5)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Form1.resources
+C:\Users\Wuku 8600k\Desktop\神器Money版(ver_5.4)\神器Money版(ver_5.3)\神器Money版(ver_5.5)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\WinForm_Test.LoadingBox.resources
+C:\Users\Wuku 8600k\Desktop\神器Money版(ver_5.4)\神器Money版(ver_5.3)\神器Money版(ver_5.5)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Properties.Resources.resources
+C:\Users\Wuku 8600k\Desktop\神器Money版(ver_5.4)\神器Money版(ver_5.3)\神器Money版(ver_5.5)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.SubscriberLoginer.resources
+C:\Users\Wuku 8600k\Desktop\神器Money版(ver_5.4)\神器Money版(ver_5.3)\神器Money版(ver_5.5)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.TixBuyTicket.resources
+C:\Users\Wuku 8600k\Desktop\神器Money版(ver_5.4)\神器Money版(ver_5.3)\神器Money版(ver_5.5)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csproj.GenerateResource.Cache
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_5.6)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe.config
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_5.6)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.exe
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_5.6)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.pdb
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_5.6)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\libtensorflow.dll
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_5.6)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_5.6)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.pdb
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_5.6)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.Entity.EF6.dll
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_5.6)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Fabric.Plugin.dll
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_5.6)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.Entity.EF6.xml
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_5.6)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csprojResolveAssemblyReference.cache
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_5.6)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Form1.resources
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_5.6)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\WinForm_Test.LoadingBox.resources
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_5.6)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Properties.Resources.resources
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_5.6)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.SubscriberLoginer.resources
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_5.6)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.TixBuyTicket.resources
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_5.6)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csproj.GenerateResource.Cache
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_5.7)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe.config
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_5.7)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.exe
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_5.7)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.pdb
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_5.7)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\libtensorflow.dll
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_5.7)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_5.7)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.pdb
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_5.7)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.Entity.EF6.dll
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_5.7)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Fabric.Plugin.dll
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_5.7)\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.Entity.EF6.xml
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_5.7)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csprojResolveAssemblyReference.cache
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_5.7)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Form1.resources
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_5.7)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\WinForm_Test.LoadingBox.resources
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_5.7)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Properties.Resources.resources
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_5.7)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.SubscriberLoginer.resources
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_5.7)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.TixBuyTicket.resources
+G:\[ 自動搶票系統專案 ]\[ 程式碼 ]\神器Money版(ver_5.7)\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csproj.GenerateResource.Cache

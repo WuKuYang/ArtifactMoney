@@ -61,6 +61,7 @@ namespace Tixcraft_Subscriber
         /// true = using GoogleChrome , false = using PhantomJSDriver
         /// </summary>
         public bool bIsOpenWithGoogleChrome = true;
+        public bool bIsMountProxy  = false;
         /// <summary>
         /// 瀏覽器是否忙碌中( 搶票中、載入中...等)
         /// </summary>
@@ -500,7 +501,7 @@ namespace Tixcraft_Subscriber
             degRefreshBox = RefreshListBox;
             degControlEnable = ControlEnable;
             //開啟主要瀏覽器
-            SubscrEr.OpenBrowser(bIsOpenWithGoogleChrome);
+            SubscrEr.OpenBrowser(bIsOpenWithGoogleChrome, bIsMountProxy);
             lblLogin.Text = "自動辨識連線中...";
             lblDebug.Text = "選購節目 :" + lstShow[g_ShowSelected].Name;
             bool bIsYDMOK = false;

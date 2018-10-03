@@ -87,7 +87,7 @@ function GoogleLogin_BackupEmail_TypeinPage(strPwd)
     {
         for(var i = 0 ; i< inputs_tag.length;i++)
         {
-            if(inputs_tag[i].getAttribute("type") == "text")
+            if(inputs_tag[i].getAttribute("type") == "text" || inputs_tag[i].getAttribute("type") == "email")
             {
                 inputs_tag[i].value =strPwd;
                 InputEmail_pwd =  inputs_tag[i];

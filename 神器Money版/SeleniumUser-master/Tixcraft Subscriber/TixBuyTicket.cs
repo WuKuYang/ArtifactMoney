@@ -244,7 +244,7 @@ namespace Tixcraft_Subscriber
             pro.MaxValue = 100;
             pro.Text = "共享伺服器資訊 : " + strAnswer  + " ....."+ "開啟瀏覽器中...";
             pro.Start();
-            SubscrEr.OpenBrowser(true);
+            SubscrEr.OpenBrowser(true , false);
             pro.Next(20);
             pro.Text = "AI連線.....";
             myOCRServer.strServerIP = "127.0.0.1";

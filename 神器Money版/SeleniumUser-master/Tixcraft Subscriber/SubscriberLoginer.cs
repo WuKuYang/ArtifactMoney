@@ -34,6 +34,8 @@ namespace Tixcraft_Subscriber
         public string SavePath = "C:\\TixcraftFB_users_data.txt";
         public string OcrSavePath = "C:\\OCRServerIP.txt";
 
+        public bool g_bIsMountProxy = false;
+
         public TixcraftCookieServer CookieServer = null;
         TixcraftSubscriber Tixcraft = new TixcraftSubscriber(); 
         public FastHttpWebDriver FastHttpDriver = new FastHttpWebDriver();
@@ -289,6 +291,7 @@ namespace Tixcraft_Subscriber
                 {
                     Form1 frm = new Form1();
                     frm.bIsOpenWithGoogleChrome = bIsOpenBrowserWithGoogleChrome;
+                    frm.bIsMountProxy = g_bIsMountProxy;
 
                     string[] strSp = USERData.USER_Infor[i].Address.Split(',');
                     if (strSp.Length >= 2)
@@ -1071,6 +1074,16 @@ namespace Tixcraft_Subscriber
         private void btnUpDatePixelPinAccount_Click_1(object sender, EventArgs e)
         { 
             UpdateToSQL_PixelPinAccounts();
+        }
+
+        private void chkBGoogleChrome_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ckbProxy_CheckedChanged(object sender, EventArgs e)
+        {
+            g_bIsMountProxy = ckbProxy.Checked;
         }
     }
 }

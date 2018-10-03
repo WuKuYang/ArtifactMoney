@@ -140,11 +140,21 @@ namespace Tixcraft_Subscriber
 
 
 
-        public void OpenBrowser(bool bIsOpenWithGoogleChrome)
+        public void OpenBrowser(bool bIsOpenWithGoogleChrome, bool bIsMountProxy)
         {
             if (bIsOpenWithGoogleChrome)
             {
                 ChromeOptions options = new ChromeOptions();
+
+                if (bIsMountProxy)
+                {
+                    Proxy proxy = new Proxy();
+
+                    proxy.HttpProxy = string.Format("proxy.hinet.net:80"); // Taiwan
+                    //proxy.HttpProxy = string.Format("104.129.202.48:8080"); // US
+                    options.AddAdditionalCapability("proxy", proxy);
+                }
+
                 options.AddAdditionalCapability("profile.default_content_settings", 2);
                 options.AddAdditionalCapability("pageLoadStrategy", "none");
                 options.AddAdditionalCapability("webdriver.load.strategy", "unstable");

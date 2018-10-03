@@ -112,6 +112,7 @@
             this.txtIP = new System.Windows.Forms.TextBox();
             this.btnShareAnswer = new System.Windows.Forms.Button();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
+            this.ckbProxy = new System.Windows.Forms.CheckBox();
             this.tpFBEmail.SuspendLayout();
             this.tpShow.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -387,6 +388,7 @@
             // tpShow
             // 
             this.tpShow.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(35)))), ((int)(((byte)(45)))));
+            this.tpShow.Controls.Add(this.ckbProxy);
             this.tpShow.Controls.Add(this.ckbSwitchPageStepByStep);
             this.tpShow.Controls.Add(this.lstShow);
             this.tpShow.Controls.Add(this.lblBuyInfo);
@@ -710,11 +712,13 @@
             // 
             this.rdoLoaginGoogle.AutoSize = true;
             this.rdoLoaginGoogle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.rdoLoaginGoogle.Checked = true;
             this.rdoLoaginGoogle.ForeColor = System.Drawing.Color.White;
             this.rdoLoaginGoogle.Location = new System.Drawing.Point(294, 145);
             this.rdoLoaginGoogle.Name = "rdoLoaginGoogle";
             this.rdoLoaginGoogle.Size = new System.Drawing.Size(57, 16);
             this.rdoLoaginGoogle.TabIndex = 40;
+            this.rdoLoaginGoogle.TabStop = true;
             this.rdoLoaginGoogle.Text = "Google";
             this.rdoLoaginGoogle.UseVisualStyleBackColor = false;
             // 
@@ -733,13 +737,11 @@
             // 
             this.rdoLoaginPP.AutoSize = true;
             this.rdoLoaginPP.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.rdoLoaginPP.Checked = true;
             this.rdoLoaginPP.ForeColor = System.Drawing.Color.White;
             this.rdoLoaginPP.Location = new System.Drawing.Point(227, 145);
             this.rdoLoaginPP.Name = "rdoLoaginPP";
             this.rdoLoaginPP.Size = new System.Drawing.Size(61, 16);
             this.rdoLoaginPP.TabIndex = 39;
-            this.rdoLoaginPP.TabStop = true;
             this.rdoLoaginPP.Text = "PixelPin";
             this.rdoLoaginPP.UseVisualStyleBackColor = false;
             // 
@@ -955,7 +957,7 @@
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(98, 29);
             this.label11.TabIndex = 39;
-            this.label11.Text = "ver 5.9";
+            this.label11.Text = "ver 6.0";
             // 
             // lblHDDNumber
             // 
@@ -980,6 +982,7 @@
             this.chkBGoogleChrome.Text = "打勾 = 使用Google瀏覽器 不打勾 = 使用幽靈瀏覽器";
             this.chkBGoogleChrome.UseVisualStyleBackColor = true;
             this.chkBGoogleChrome.Visible = false;
+            this.chkBGoogleChrome.CheckedChanged += new System.EventHandler(this.chkBGoogleChrome_CheckedChanged);
             // 
             // pictureBox1
             // 
@@ -1069,6 +1072,17 @@
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
             // 
+            // ckbProxy
+            // 
+            this.ckbProxy.AutoSize = true;
+            this.ckbProxy.Location = new System.Drawing.Point(270, 183);
+            this.ckbProxy.Name = "ckbProxy";
+            this.ckbProxy.Size = new System.Drawing.Size(64, 16);
+            this.ckbProxy.TabIndex = 49;
+            this.ckbProxy.Text = "掛Proxy";
+            this.ckbProxy.UseVisualStyleBackColor = true;
+            this.ckbProxy.CheckedChanged += new System.EventHandler(this.ckbProxy_CheckedChanged);
+            // 
             // SubscriberLoginer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -1080,7 +1094,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "SubscriberLoginer";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "拓元神器(Money) ver_5.9 - 2018.10.01";
+            this.Text = "拓元神器(Money) ver_6.0 - 2018.10.03";
             this.TopMost = true;
             this.Activated += new System.EventHandler(this.SubscriberLoginer_Activated);
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.SubscriberLoginer_FormClosed);
@@ -1196,5 +1210,6 @@
         private System.Windows.Forms.Button btnUpDatePixelPinAccount;
         private System.Windows.Forms.TextBox txtPixelPinUpdateTable;
         private System.Windows.Forms.CheckBox chkBGoogleChrome;
+        private System.Windows.Forms.CheckBox ckbProxy;
     }
 }

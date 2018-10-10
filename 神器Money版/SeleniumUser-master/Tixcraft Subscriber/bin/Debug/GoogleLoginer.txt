@@ -87,7 +87,7 @@ function GoogleLogin_BackupEmail_TypeinPage(strPwd)
     {
         for(var i = 0 ; i< inputs_tag.length;i++)
         {
-            if(inputs_tag[i].getAttribute("type") == "text" || inputs_tag[i].getAttribute("type") == "email")
+            if(inputs_tag[i].getAttribute("type") == "text")
             {
                 inputs_tag[i].value =strPwd;
                 InputEmail_pwd =  inputs_tag[i];
@@ -97,7 +97,16 @@ function GoogleLogin_BackupEmail_TypeinPage(strPwd)
         {
             if(InputEmail_pwd.value == strPwd)
             {
-                document.getElementById("next").click();
+
+    var span_tag = document.getElementsByTagName("span"); 
+ 		   for(var i = 0 ; i< span_tag.length;i++)
+ 		   {
+   		     if(span_tag[i].textContent == "Ä~Äò")
+    		    {
+      		      span_tag[i].click(); 
+    		    }
+   		 }                
+		document.getElementById("next").click();
                 g_bIsLogin_BackuoTypeinDone = true;
             }
         }

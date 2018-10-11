@@ -28,7 +28,7 @@ namespace Tixcraft_Subscriber
     public partial class Form1 : Form
     {
 
-
+        public string g_AnswerSwitchText = "";
 
         public string strFormatEmailInfo = "";
         public string strPinelPinPassword = "";
@@ -703,7 +703,7 @@ namespace Tixcraft_Subscriber
                                             else
                                             {
                                                 //==正常下載答案
-                                                strMyAnswer = DownLoadAnswer();   //
+                                                strMyAnswer = DownLoadAnswer(g_AnswerSwitchText);   //
                                             }
 
                                             //string strMyAnswer = DownLoadAnswer(); 
@@ -1679,6 +1679,12 @@ namespace Tixcraft_Subscriber
             //    strAnswer = lstTmpAllList[lstTmpAllList.Count - 1].MAnswer;
             //}
             strAnswer = g_ShareAnswerServer.DownLoadTestAnswerFromSQL(); 
+            return strAnswer;
+        }
+        private string DownLoadAnswer(string strMsg)
+        {
+            string strAnswer = ""; 
+            strAnswer = g_ShareAnswerServer.DownLoadTestAnswerFromSQL(strMsg);
             return strAnswer;
         }
 

@@ -28,6 +28,10 @@ namespace Tixcraft_Subscriber
             InitializeComponent();
         }
 
+        public string g_AnswerServer = "AAAAAAAAAA";
+        public const string Server_A = "AAAAAAAAAA";
+        public const string Server_B = "BBBBBBBBBB";
+
         public TSRecipe USERData = new TSRecipe();
         public IPRecipe OCRRecipe = new IPRecipe();
 
@@ -637,7 +641,16 @@ namespace Tixcraft_Subscriber
             if (txtCheckCodeAnswer.Text != "")
             {
                 lblAnswerVeryCOde.Text = "分享中...!";
-                TixcraftSQL.ShareAnswerDatabase.Add(txtCheckCodeAnswer.Text, DateTime.Now.ToString());
+
+                if (g_AnswerServer != "")
+                {
+                    TixcraftSQL.ShareAnswerDatabase.Add(g_AnswerServer + "," + txtCheckCodeAnswer.Text, DateTime.Now.ToString());
+                }
+                else 
+                { 
+                    TixcraftSQL.ShareAnswerDatabase.Add(txtCheckCodeAnswer.Text, DateTime.Now.ToString());
+                }
+
                 //g_ChatRm.SendMessage("answer", txtCheckCodeAnswer.Text); 
                 lblAnswerVeryCOde.Text = "分享成功!..." + txtCheckCodeAnswer.Text;
                 txtCheckCodeAnswer.Text = "";
@@ -651,10 +664,42 @@ namespace Tixcraft_Subscriber
         private void btnDownLoadAnswer_Click(object sender, EventArgs e)
         {
             List<SAStruct> lstTmpAllList = TixcraftSQL.ShareAnswerDatabase.GetTotalAccount();
-            if (lstTmpAllList.Count > 0)
+
+            //從文字過濾
+            List<SAStruct> lstFilterList = new List<SAStruct>();
+            for (int i = 0; i < lstTmpAllList.Count; i++)
             {
-                txtCheckCodeAnswer.Text = lstTmpAllList[lstTmpAllList.Count - 1].MAnswer;
-                lblAnswerVeryCOde.Text = "下載成功!(" + lstTmpAllList[lstTmpAllList.Count - 1].mDateTime + ")";
+                if (lstTmpAllList[i].MAnswer.Contains(g_AnswerServer))
+                {
+                    lstFilterList.Add(lstTmpAllList[i]);
+                }
+            }
+
+
+
+            if (lstFilterList.Count > 0)
+            {
+                string strNewestAnswer = "";
+                if (lstFilterList.Count > 0)
+                {
+                    string[] spG = lstFilterList[lstFilterList.Count - 1].MAnswer.Split(',');
+                    if (spG.Length > 1)
+                    {
+                        strNewestAnswer = spG[1];
+                    }
+                    else
+                    {
+                        strNewestAnswer = "";
+                    } 
+                }
+                else
+                {
+                    strNewestAnswer = ""; 
+                }
+
+                txtCheckCodeAnswer.Text = strNewestAnswer; 
+                //txtCheckCodeAnswer.Text = lstTmpAllList[lstTmpAllList.Count - 1].MAnswer; 
+                lblAnswerVeryCOde.Text = "下載成功!(" + lstFilterList[lstFilterList.Count - 1].mDateTime + ")";
             }
             else
             {
@@ -1084,6 +1129,30 @@ namespace Tixcraft_Subscriber
         private void ckbProxy_CheckedChanged(object sender, EventArgs e)
         {
             g_bIsMountProxy = ckbProxy.Checked;
+        }
+
+        private void rd_Answer01_CheckedChanged(object sender, EventArgs e)
+        {
+            g_AnswerServer = Server_A;
+            SetInServerFilterText(g_AnswerServer);
+
+        }
+
+        private void rd_Answer02_CheckedChanged(object sender, EventArgs e)
+        {
+            g_AnswerServer = Server_B;
+            SetInServerFilterText(g_AnswerServer);
+        }
+
+        public void SetInServerFilterText(string strCoreText)
+        {
+            if (lstFrms != null)
+            {
+                for (int i = 0; i < lstFrms.Count; i++)
+                {
+                    lstFrms[i].g_AnswerSwitchText = strCoreText;
+                }
+            }
         }
     }
 }

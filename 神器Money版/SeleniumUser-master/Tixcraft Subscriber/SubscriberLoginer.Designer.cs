@@ -52,6 +52,7 @@
             this.btnClearAnswers = new System.Windows.Forms.Button();
             this.tpFBEmail = new System.Windows.Forms.TabControl();
             this.tpShow = new System.Windows.Forms.TabPage();
+            this.ckbProxy = new System.Windows.Forms.CheckBox();
             this.ckbSwitchPageStepByStep = new System.Windows.Forms.CheckBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.label13 = new System.Windows.Forms.Label();
@@ -112,7 +113,8 @@
             this.txtIP = new System.Windows.Forms.TextBox();
             this.btnShareAnswer = new System.Windows.Forms.Button();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
-            this.ckbProxy = new System.Windows.Forms.CheckBox();
+            this.rd_Answer01 = new System.Windows.Forms.RadioButton();
+            this.rd_Answer02 = new System.Windows.Forms.RadioButton();
             this.tpFBEmail.SuspendLayout();
             this.tpShow.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -399,6 +401,17 @@
             this.tpShow.TabIndex = 0;
             this.tpShow.Text = "節目設定";
             this.tpShow.Click += new System.EventHandler(this.tpShow_Click);
+            // 
+            // ckbProxy
+            // 
+            this.ckbProxy.AutoSize = true;
+            this.ckbProxy.Location = new System.Drawing.Point(270, 183);
+            this.ckbProxy.Name = "ckbProxy";
+            this.ckbProxy.Size = new System.Drawing.Size(64, 16);
+            this.ckbProxy.TabIndex = 49;
+            this.ckbProxy.Text = "掛Proxy";
+            this.ckbProxy.UseVisualStyleBackColor = true;
+            this.ckbProxy.CheckedChanged += new System.EventHandler(this.ckbProxy_CheckedChanged);
             // 
             // ckbSwitchPageStepByStep
             // 
@@ -915,6 +928,8 @@
             // 
             // pnlControlTable
             // 
+            this.pnlControlTable.Controls.Add(this.rd_Answer02);
+            this.pnlControlTable.Controls.Add(this.rd_Answer01);
             this.pnlControlTable.Controls.Add(this.label11);
             this.pnlControlTable.Controls.Add(this.lblHDDNumber);
             this.pnlControlTable.Controls.Add(this.chkBGoogleChrome);
@@ -957,7 +972,7 @@
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(98, 29);
             this.label11.TabIndex = 39;
-            this.label11.Text = "ver 6.0";
+            this.label11.Text = "ver 6.1";
             // 
             // lblHDDNumber
             // 
@@ -1072,16 +1087,29 @@
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
             // 
-            // ckbProxy
+            // rd_Answer01
             // 
-            this.ckbProxy.AutoSize = true;
-            this.ckbProxy.Location = new System.Drawing.Point(270, 183);
-            this.ckbProxy.Name = "ckbProxy";
-            this.ckbProxy.Size = new System.Drawing.Size(64, 16);
-            this.ckbProxy.TabIndex = 49;
-            this.ckbProxy.Text = "掛Proxy";
-            this.ckbProxy.UseVisualStyleBackColor = true;
-            this.ckbProxy.CheckedChanged += new System.EventHandler(this.ckbProxy_CheckedChanged);
+            this.rd_Answer01.AutoSize = true;
+            this.rd_Answer01.Checked = true;
+            this.rd_Answer01.Location = new System.Drawing.Point(80, 244);
+            this.rd_Answer01.Name = "rd_Answer01";
+            this.rd_Answer01.Size = new System.Drawing.Size(75, 16);
+            this.rd_Answer01.TabIndex = 43;
+            this.rd_Answer01.TabStop = true;
+            this.rd_Answer01.Text = "伺服器 - 1";
+            this.rd_Answer01.UseVisualStyleBackColor = true;
+            this.rd_Answer01.CheckedChanged += new System.EventHandler(this.rd_Answer01_CheckedChanged);
+            // 
+            // rd_Answer02
+            // 
+            this.rd_Answer02.AutoSize = true;
+            this.rd_Answer02.Location = new System.Drawing.Point(80, 266);
+            this.rd_Answer02.Name = "rd_Answer02";
+            this.rd_Answer02.Size = new System.Drawing.Size(75, 16);
+            this.rd_Answer02.TabIndex = 44;
+            this.rd_Answer02.Text = "伺服器 - 2";
+            this.rd_Answer02.UseVisualStyleBackColor = true;
+            this.rd_Answer02.CheckedChanged += new System.EventHandler(this.rd_Answer02_CheckedChanged);
             // 
             // SubscriberLoginer
             // 
@@ -1094,7 +1122,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "SubscriberLoginer";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "拓元神器(Money) ver_6.0 - 2018.10.03";
+            this.Text = "拓元神器(Money) ver_6.1 - 2018.10.12";
             this.TopMost = true;
             this.Activated += new System.EventHandler(this.SubscriberLoginer_Activated);
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.SubscriberLoginer_FormClosed);
@@ -1211,5 +1239,7 @@
         private System.Windows.Forms.TextBox txtPixelPinUpdateTable;
         private System.Windows.Forms.CheckBox chkBGoogleChrome;
         private System.Windows.Forms.CheckBox ckbProxy;
+        private System.Windows.Forms.RadioButton rd_Answer02;
+        private System.Windows.Forms.RadioButton rd_Answer01;
     }
 }

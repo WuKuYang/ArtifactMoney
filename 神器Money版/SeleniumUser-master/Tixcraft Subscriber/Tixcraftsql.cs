@@ -569,6 +569,7 @@ namespace SQLTest
         {
             conn.Close();
         }
+
         /// <summary>
         /// 新增物件化連線給Multi Thread使用 ( 避免conn共用即可閃掉崩潰狀態 )
         /// </summary>
@@ -606,6 +607,76 @@ namespace SQLTest
                 if (lstTmpAllList.Count > 0)
                 {
                     strNewestAnswer = lstTmpAllList[lstTmpAllList.Count - 1].MAnswer;
+                    //lblSystemMsg.Text = "下載成功!(" + lstTmpAllList[lstTmpAllList.Count - 1].mDateTime + ")";
+                }
+                else
+                {
+                    strNewestAnswer = "";
+                    //lblSystemMsg.Text = "沒有答案...";
+                }
+                return strNewestAnswer;
+            }
+            else
+                return "";
+        }
+
+        /// <summary>
+        /// 新增物件化連線給Multi Thread使用 ( 避免conn共用即可閃掉崩潰狀態 )
+        /// </summary>
+        /// <returns></returns>
+        public string DownLoadTestAnswerFromSQL(string indexServer = "AAAAAAAAAA")
+        {
+            if (this.IsConnect)
+            {
+                String cmdText = string.Format("SELECT * FROM {0}", "ShareAnswer");
+                //製作指令
+                cmd = new MySqlCommand(cmdText, conn);
+                //使用reader進行讀取 ( 只能一次!! )
+                MySqlDataReader reader = cmd.ExecuteReader(); //execure the reader
+                List<SAStruct> lstAnswers = new List<SAStruct>();
+                while (reader.Read())
+                {
+                    string[] strField = new string[reader.FieldCount];
+                    for (int i = 0; i < reader.FieldCount; i++)
+                    {
+                        String s = reader.GetString(i);
+                        strField[i] = s;
+                    }
+                    if (strField.Length == 2)
+                    {
+                        SAStruct CPUidTmp = new SAStruct();
+                        CPUidTmp.MAnswer = strField[0];
+                        CPUidTmp.mDateTime = strField[1];
+                        lstAnswers.Add(CPUidTmp);
+                    }
+                }
+                reader.Close(); //一定要關掉，只能有一個    
+
+                List<SAStruct> lstTmpAllList = lstAnswers;
+                //從文字過濾
+                List<SAStruct> lstFilterList = new List<SAStruct>();
+                for (int i = 0; i < lstTmpAllList.Count; i++)
+                {
+                    if (lstTmpAllList[i].MAnswer.Contains(indexServer))
+                    {
+                        lstFilterList.Add(lstTmpAllList[i]);
+                    }
+                }
+
+                string strNewestAnswer = "";
+                if (lstFilterList.Count > 0)
+                {
+                    string[] spG = lstFilterList[lstFilterList.Count - 1].MAnswer.Split(',');
+                    if (spG.Length > 1)
+                    {
+                        strNewestAnswer = spG[1];
+                        //strNewestAnswer = lstFilterList[lstTmpAllList.Count - 1].MAnswer.Split(',')[1];
+                    }
+                    else 
+                    {
+                        strNewestAnswer = "";
+                    }
+                    
                     //lblSystemMsg.Text = "下載成功!(" + lstTmpAllList[lstTmpAllList.Count - 1].mDateTime + ")";
                 }
                 else

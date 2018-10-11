@@ -217,7 +217,7 @@ namespace TixWin
                 this.ShowNormal(); // 秀出
                 this.SetToForegroundWindow(); //前景
                 Thread.Sleep(3);
-                bTmpSrc = WindowSnap.CaptureScreen(); // 全桌面取影像
+                bTmpSrc = WindowSnap.CaptureScreen(this.hwnd); // 全桌面取影像
             }
             
             //== 製作有Offset的ROI
@@ -234,7 +234,7 @@ namespace TixWin
             bTmpSrc = null;
 
             //== 取得ROI影像 ==
-            temp.ROI = rect_offset;
+            //temp.ROI = rect_offset;
             Bitmap bResult = new Bitmap(temp.Bitmap);
 
             temp.Dispose();

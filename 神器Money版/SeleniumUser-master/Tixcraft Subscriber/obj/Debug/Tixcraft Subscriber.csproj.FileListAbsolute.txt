@@ -1074,3 +1074,25 @@ D:\GitProject\ArtifactMoney\神器Money版\SeleniumUser-master\Tixcraft Subscrib
 D:\GitProject\ArtifactMoney\神器Money版\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.SubscriberLoginer.resources
 D:\GitProject\ArtifactMoney\神器Money版\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.TixBuyTicket.resources
 D:\GitProject\ArtifactMoney\神器Money版\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csproj.GenerateResource.Cache
+G:\GitHub\TixBuyer\神器Money版\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csprojAssemblyReference.cache
+G:\GitHub\TixBuyer\神器Money版\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.exe.config
+G:\GitHub\TixBuyer\神器Money版\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Form1.resources
+G:\GitHub\TixBuyer\神器Money版\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\WinForm_Test.LoadingBox.resources
+G:\GitHub\TixBuyer\神器Money版\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Properties.Resources.resources
+G:\GitHub\TixBuyer\神器Money版\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.SubscriberLoginer.resources
+G:\GitHub\TixBuyer\神器Money版\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.TixBuyTicket.resources
+G:\GitHub\TixBuyer\神器Money版\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csproj.GenerateResource.cache
+G:\GitHub\TixBuyer\神器Money版\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csproj.CoreCompileInputs.cache
+G:\GitHub\TixBuyer\神器Money版\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.exe
+G:\GitHub\TixBuyer\神器Money版\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.pdb
+G:\GitHub\TixBuyer\神器Money版\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\libtensorflow.dll
+G:\GitHub\TixBuyer\神器Money版\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe.config
+G:\GitHub\TixBuyer\神器Money版\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe
+G:\GitHub\TixBuyer\神器Money版\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.pdb
+G:\GitHub\TixBuyer\神器Money版\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.dll
+G:\GitHub\TixBuyer\神器Money版\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.Entity.dll
+G:\GitHub\TixBuyer\神器Money版\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.Entity.EF6.dll
+G:\GitHub\TixBuyer\神器Money版\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Fabric.Plugin.dll
+G:\GitHub\TixBuyer\神器Money版\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.xml
+G:\GitHub\TixBuyer\神器Money版\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.Entity.EF6.xml
+G:\GitHub\TixBuyer\神器Money版\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csproj.CopyComplete

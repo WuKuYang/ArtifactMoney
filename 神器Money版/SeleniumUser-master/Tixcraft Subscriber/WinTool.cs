@@ -66,6 +66,18 @@ namespace TixWin
             return (IntPtr)((HiWord << 16) | (LoWord & 0xffff));
             //return (IntPtr)((HiWord << 0) | (LoWord));
         }
+        [DllImport("user32.dll")]
+        public static extern bool GetWindowRect(IntPtr hwnd, ref Rect rectangle);
+
+        public struct Rect
+        {
+            public int Left { get; set; }
+            public int Top { get; set; }
+            public int Right { get; set; }
+            public int Bottom { get; set; }
+        }
+        [DllImport("user32.dll")]
+        public static extern IntPtr GetWindowDC(IntPtr hWnd);
         static public Bitmap CaptureControl(IntPtr SourceDC, int SourceWidth, int SourceHeight)
         {
             return Capture(SourceDC, SourceWidth, SourceHeight);
@@ -73,30 +85,44 @@ namespace TixWin
 
         
 
-        static public Bitmap CaptureScreen()
+        static public Bitmap CaptureScreen(IntPtr hwd)
         {
-            IntPtr screen = CreateDC("DISPLAY", "", "", "");
-            int sourceWidth = GetDeviceCaps(screen, 8);
-            int sourceHeight = GetDeviceCaps(screen, 10);
-            Capture(screen, sourceWidth, sourceHeight);
-            Bitmap ret = Capture(screen, sourceWidth, sourceHeight);
-            DeleteDC(screen);
+            //IntPtr screen = CreateDC("DISPLAY", "", "", "");
+            //int sourceWidth = GetDeviceCaps(screen, 8);
+            //int sourceHeight = GetDeviceCaps(screen, 10);
+            //Capture(screen, sourceWidth, sourceHeight);
+            Bitmap ret = Capture(hwd, 0, 0);
+            //DeleteDC(screen);
             return ret;
         }
 
         static private Bitmap Capture(IntPtr SourceDC, int SourceWidth, int SourceHeight)
         {
-            IntPtr destDC;
-            IntPtr BMP, BMPOld;
-            destDC = CreateCompatibleDC(SourceDC);
-            BMP = CreateCompatibleBitmap(SourceDC, SourceWidth, SourceHeight);
-            BMPOld = SelectObject(destDC, BMP);
-            BitBlt(destDC, 0, 0, SourceWidth, SourceHeight, SourceDC, 0, 0, 13369376);
-            BMP = SelectObject(destDC, BMPOld);
-            DeleteDC(destDC);
-            Bitmap ret = Image.FromHbitmap(BMP);
-            DeleteObject(BMP);
-            return ret;
+            //IntPtr destDC;
+            //IntPtr BMP, BMPOld;
+            //destDC = CreateCompatibleDC(SourceDC);
+            //BMP = CreateCompatibleBitmap(SourceDC, SourceWidth, SourceHeight);
+            //BMPOld = SelectObject(destDC, BMP);
+            //BitBlt(destDC, 0, 0, SourceWidth, SourceHeight, SourceDC, 0, 0, 13369376);
+            //BMP = SelectObject(destDC, BMPOld);
+            //DeleteDC(destDC);
+            //Bitmap ret = Image.FromHbitmap(BMP);
+            //DeleteObject(BMP);
+            //return ret;
+
+            System.Drawing.Rectangle rctForm = System.Drawing.Rectangle.Empty;
+            using (System.Drawing.Graphics grfx = System.Drawing.Graphics.FromHdc(GetWindowDC(SourceDC)))
+            {
+                rctForm = System.Drawing.Rectangle.Round(grfx.VisibleClipBounds);
+            }
+            Rect NotepadRect = new Rect();
+            GetWindowRect(SourceDC, ref NotepadRect);
+            Bitmap myImage = new Bitmap(rctForm.Width, rctForm.Height);
+            Graphics g = Graphics.FromImage(myImage);
+            g.CopyFromScreen(NotepadRect.Left, NotepadRect.Top, 0, 0, new Size(rctForm.Width, rctForm.Height));
+            IntPtr dc1 = g.GetHdc();
+            g.ReleaseHdc(dc1);
+            return myImage;
         }
 
     }

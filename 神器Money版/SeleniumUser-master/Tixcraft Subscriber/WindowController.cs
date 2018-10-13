@@ -182,7 +182,7 @@ namespace TixWin
         {
             x = x + iOffset_X;
             y = y + iOffset_Y;
-            return Mouse_LeftButton_Down( x, y);
+            return Mouse_LeftButton_Down(x, y);
         }
         public IntPtr Mouse_LeftButton_Up_ByOffset(int x, int y)
         {
@@ -211,36 +211,38 @@ namespace TixWin
         public Bitmap GetScreenShotBy_WindowHwnd()
         {
             Bitmap bTmpSrc = null;
+            Bitmap bResult = null;
             lock (objLockerFocus)
             {
                 this.ReSize(Resize_ROI.X, Resize_ROI.Y, Resize_ROI.Width, Resize_ROI.Height); // 絕對位置
                 this.ShowNormal(); // 秀出
                 this.SetToForegroundWindow(); //前景
-                Thread.Sleep(3);
+                Thread.Sleep(50);
                 bTmpSrc = WindowSnap.CaptureScreen(this.hwnd); // 全桌面取影像
+
+
+                //== 製作有Offset的ROI
+                //Rectangle rect_offset = new Rectangle();
+                //rect_offset.X = Resize_ROI.X + 6;
+                //rect_offset.Y = Resize_ROI.Y + 122;
+                //rect_offset.Width = Resize_ROI.Width - 6;
+                //rect_offset.Height = Resize_ROI.Height - 122;
+
+
+                //Image<Bgr, byte> temp = new Image<Bgr, byte>(bTmpSrc);
+
+                //bTmpSrc.Dispose();
+                //bTmpSrc = null;
+
+                ////== 取得ROI影像 ==
+                ////temp.ROI = rect_offset;
+                //bResult = new Bitmap(temp.Bitmap);
+
+                //temp.Dispose();
+                //temp = null;
             }
-            
-            //== 製作有Offset的ROI
-            Rectangle rect_offset = new Rectangle();
-            rect_offset.X = Resize_ROI.X + 6;
-            rect_offset.Y = Resize_ROI.Y + 122;
-            rect_offset.Width = Resize_ROI.Width - 6;
-            rect_offset.Height = Resize_ROI.Height - 122;
 
-              
-            Image<Bgr, byte> temp = new Image<Bgr, byte>(bTmpSrc);
-
-            bTmpSrc.Dispose();
-            bTmpSrc = null;
-
-            //== 取得ROI影像 ==
-            //temp.ROI = rect_offset;
-            Bitmap bResult = new Bitmap(temp.Bitmap);
-
-            temp.Dispose();
-            temp = null;
-
-            return bResult;
+            return bTmpSrc;
 
 
         }

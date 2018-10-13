@@ -668,21 +668,21 @@ namespace Tixcraft_Subscriber
                                     {
                                         break;
                                     }
-                                    else 
+                                    else
                                     {
                                         Thread.Sleep(100);
-                                        iTryCount++; 
+                                        iTryCount++;
                                         //VPState.Report("等候問答頁面載入完畢", MethodBase.GetCurrentMethod(), VPState.eVPType.Windows);
-                                     }
+                                    }
                                     if (iTryCount > 20)
-                                    { 
+                                    {
                                         VPState.Report("等候時間過長(等候20次)..跳出等待迴圈", MethodBase.GetCurrentMethod(), VPState.eVPType.Windows);
                                         break;
                                     }
                                 }
 
                                 if (TD_CheckCode.Count > 0)
-                                { 
+                                {
                                     VPState.Report("發現 TD_SubmitButton ", MethodBase.GetCurrentMethod(), VPState.eVPType.Windows);
                                     //如果真的有事前驗證頁面，那就協助載入事前頁面
                                     bIsHaveCheckCode = true;
@@ -691,7 +691,7 @@ namespace Tixcraft_Subscriber
                                     {
                                         string tempstrMyAnswer = "";
                                         #region 自動回答防黃牛問題 (回答三次，使用Cookie判斷是否輸入正確)
-                                        for (int iReAnswerIdx = 0; iReAnswerIdx < 999999; )
+                                        for (int iReAnswerIdx = 0; iReAnswerIdx < 999999;)
                                         {
                                             swAutoCheckCodeDownLoad.Restart();
                                             string strMyAnswer = "";
@@ -727,7 +727,7 @@ namespace Tixcraft_Subscriber
                                                     swWaitLoad.Restart();
 
                                                     #region == 等待頁面載入(座位頁面)，載入完畢後注入JS協助選座位 ==
-                                                    
+
                                                     while (bIsLoadingFinish_Seat == false)
                                                     {
                                                         //等候載入第二頁
@@ -740,7 +740,7 @@ namespace Tixcraft_Subscriber
                                                         }
                                                         catch (Exception)
                                                         {
-                                                            game_areaList = null; 
+                                                            game_areaList = null;
                                                             //如果沒有第二頁，就找第三頁看看 
                                                             IWebElement TicketForm_verifyCode = null;
                                                             try
@@ -750,20 +750,20 @@ namespace Tixcraft_Subscriber
                                                             catch (Exception)
                                                             {
                                                                 TicketForm_verifyCode = null;
-                                                            } 
+                                                            }
                                                             if (TicketForm_verifyCode != null)
                                                             {
                                                                 // 如果找到第三頁，那就直接跳出填單吧！
-                                                                bIsLoadingFinish_Seat = true; 
+                                                                bIsLoadingFinish_Seat = true;
                                                                 VPState.Report("考完試，選座位(第三頁)" + swWaitLoad.ElapsedMilliseconds.ToString() + " ms", MethodBase.GetCurrentMethod(), VPState.eVPType.Windows);
-                                                    
-                                                            } 
+
+                                                            }
                                                         }
-                                                       
+
                                                         if (game_areaList != null)
                                                         {
                                                             VPState.Report("考完試，選座位(第二頁)" + swWaitLoad.ElapsedMilliseconds.ToString() + " ms", MethodBase.GetCurrentMethod(), VPState.eVPType.Windows);
-                                                    
+
                                                             #region == 注入JS直到頁面切換 ==
 
                                                             bool bIsInjectOK = false;
@@ -781,15 +781,15 @@ namespace Tixcraft_Subscriber
                                                                     VPState.Report("注入JS中...注入完畢(選座位)..." + iInjectCount.ToString() + "次", MethodBase.GetCurrentMethod(), VPState.eVPType.Windows);
                                                                 }
                                                                 else
-                                                                { 
-                                                                    bIsInjectOK = true; 
+                                                                {
+                                                                    bIsInjectOK = true;
                                                                 }
                                                                 Thread.Sleep(50);
                                                             }
 
                                                             #endregion
 
-                                                            bIsLoadingFinish_Seat = true; 
+                                                            bIsLoadingFinish_Seat = true;
                                                         }
                                                         Thread.Sleep(50);
                                                     }
@@ -797,7 +797,7 @@ namespace Tixcraft_Subscriber
 
                                                     swWaitLoad.Stop();
                                                     VPState.Report("等待頁面載入完畢...耗時 : " + swWaitLoad.ElapsedMilliseconds.ToString() + " ms", MethodBase.GetCurrentMethod(), VPState.eVPType.Windows);
-                                                    
+
                                                     //表示防黃牛回答正確！(因為上一次在驗證碼頁面，這一次沒有)
                                                     bIsNull = false;
                                                     break;

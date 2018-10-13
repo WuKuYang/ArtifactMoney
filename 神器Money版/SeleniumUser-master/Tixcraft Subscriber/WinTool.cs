@@ -90,7 +90,6 @@ namespace TixWin
             //IntPtr screen = CreateDC("DISPLAY", "", "", "");
             //int sourceWidth = GetDeviceCaps(screen, 8);
             //int sourceHeight = GetDeviceCaps(screen, 10);
-            //Capture(screen, sourceWidth, sourceHeight);
             Bitmap ret = Capture(hwd, 0, 0);
             //DeleteDC(screen);
             return ret;
@@ -120,8 +119,8 @@ namespace TixWin
             Bitmap myImage = new Bitmap(rctForm.Width, rctForm.Height);
             Graphics g = Graphics.FromImage(myImage);
             g.CopyFromScreen(NotepadRect.Left, NotepadRect.Top, 0, 0, new Size(rctForm.Width, rctForm.Height));
-            IntPtr dc1 = g.GetHdc();
-            g.ReleaseHdc(dc1);
+            //IntPtr dc1 = g.GetHdc();
+            //g.ReleaseHdc(dc1);
             return myImage;
         }
 

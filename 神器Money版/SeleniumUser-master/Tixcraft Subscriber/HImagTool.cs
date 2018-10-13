@@ -576,13 +576,20 @@ namespace HTool
             ho_RegionIntersection1.Dispose();
             HOperatorSet.Intersection(ho_RegionIntersection, ho_Region2, out ho_RegionIntersection1
                 );
-            ho_RegionFillUp.Dispose();
-            HOperatorSet.FillUp(ho_RegionIntersection1, out ho_RegionFillUp);
+
+
             ho_ConnectedRegions.Dispose();
-            HOperatorSet.Connection(ho_RegionFillUp, out ho_ConnectedRegions);
+            HOperatorSet.Connection(ho_RegionIntersection1, out ho_ConnectedRegions);
             ho_SelectedRegions.Dispose();
-            HOperatorSet.SelectShape(ho_ConnectedRegions, out ho_SelectedRegions, "area",
-                "and", 8000, 13000);
+            HOperatorSet.SelectShapeStd(ho_ConnectedRegions, out ho_SelectedRegions, "max_area",
+                70);
+            //ho_RegionFillUp.Dispose();
+            //HOperatorSet.FillUp(ho_RegionIntersection1, out ho_RegionFillUp);
+            //ho_ConnectedRegions.Dispose();
+            //HOperatorSet.Connection(ho_RegionFillUp, out ho_ConnectedRegions);
+            //ho_SelectedRegions.Dispose();
+            //HOperatorSet.SelectShape(ho_ConnectedRegions, out ho_SelectedRegions, "area",
+            //    "and", 8000, 13000);
             HOperatorSet.CountObj(ho_SelectedRegions, out hv_iCountObjs);
             if (hv_iCountObjs == 1)
             {

@@ -502,6 +502,17 @@ namespace Tixcraft_Subscriber
             degControlEnable = ControlEnable;
             //開啟主要瀏覽器
             SubscrEr.OpenBrowser(bIsOpenWithGoogleChrome, bIsMountProxy);
+
+
+            //add gmail information 到資訊上
+            
+            string[] strGoogleExcelTable = strFormatEmailInfo.Split('\t');
+            if (strGoogleExcelTable.Length >= 3)
+            { 
+             txt_window_gmail.Text =   strGoogleExcelTable[1];    // gmail
+             txt_window_pwd.Text =   strGoogleExcelTable[2];    // pwd
+             txt_window_backupEmail.Text =   strGoogleExcelTable[3];   // backup email 
+            } 
             lblLogin.Text = "自動辨識連線中...";
             lblDebug.Text = "選購節目 :" + lstShow[g_ShowSelected].Name;
             bool bIsYDMOK = false;

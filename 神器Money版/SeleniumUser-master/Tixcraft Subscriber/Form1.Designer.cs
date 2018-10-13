@@ -50,7 +50,7 @@
             this.ckb_UsingOtherAnswer = new System.Windows.Forms.CheckBox();
             this.txtOtherAnswer = new System.Windows.Forms.TextBox();
             this.btn_SetOtherAnswer = new System.Windows.Forms.Button();
-            this.tabControl1 = new System.Windows.Forms.TabControl();
+            this.tp_AccPwd = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.lblCreditCard = new System.Windows.Forms.Label();
@@ -89,15 +89,22 @@
             this.rd_Delay_MilliSecond = new System.Windows.Forms.RadioButton();
             this.txt_Delay_ms = new System.Windows.Forms.TextBox();
             this.rd_Delay_none = new System.Windows.Forms.RadioButton();
-            this.ckbSwitchPageStepByStep = new System.Windows.Forms.CheckBox();
             this.tabPage5 = new System.Windows.Forms.TabPage();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.lblTaiwanHongKong = new System.Windows.Forms.Label();
+            this.txtGeneratorName = new System.Windows.Forms.TextBox();
+            this.label14 = new System.Windows.Forms.Label();
             this.btnAutoRegist = new System.Windows.Forms.Button();
             this.btnRegister_Taiwan = new System.Windows.Forms.Button();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.label14 = new System.Windows.Forms.Label();
-            this.txtGeneratorName = new System.Windows.Forms.TextBox();
-            this.lblTaiwanHongKong = new System.Windows.Forms.Label();
-            this.tabControl1.SuspendLayout();
+            this.ckbSwitchPageStepByStep = new System.Windows.Forms.CheckBox();
+            this.tabPage6 = new System.Windows.Forms.TabPage();
+            this.label15 = new System.Windows.Forms.Label();
+            this.txt_window_gmail = new System.Windows.Forms.TextBox();
+            this.label16 = new System.Windows.Forms.Label();
+            this.txt_window_pwd = new System.Windows.Forms.TextBox();
+            this.label17 = new System.Windows.Forms.Label();
+            this.txt_window_backupEmail = new System.Windows.Forms.TextBox();
+            this.tp_AccPwd.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.tabPage3.SuspendLayout();
@@ -114,6 +121,7 @@
             this.groupBox1.SuspendLayout();
             this.tabPage5.SuspendLayout();
             this.groupBox2.SuspendLayout();
+            this.tabPage6.SuspendLayout();
             this.SuspendLayout();
             // 
             // button3
@@ -326,18 +334,19 @@
             this.btn_SetOtherAnswer.UseVisualStyleBackColor = true;
             this.btn_SetOtherAnswer.Click += new System.EventHandler(this.btn_SetOtherAnswer_Click);
             // 
-            // tabControl1
+            // tp_AccPwd
             // 
-            this.tabControl1.Controls.Add(this.tabPage1);
-            this.tabControl1.Controls.Add(this.tabPage2);
-            this.tabControl1.Controls.Add(this.tabPage3);
-            this.tabControl1.Controls.Add(this.tabPage4);
-            this.tabControl1.Controls.Add(this.tabPage5);
-            this.tabControl1.Location = new System.Drawing.Point(9, 7);
-            this.tabControl1.Name = "tabControl1";
-            this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(359, 257);
-            this.tabControl1.TabIndex = 46;
+            this.tp_AccPwd.Controls.Add(this.tabPage1);
+            this.tp_AccPwd.Controls.Add(this.tabPage2);
+            this.tp_AccPwd.Controls.Add(this.tabPage3);
+            this.tp_AccPwd.Controls.Add(this.tabPage4);
+            this.tp_AccPwd.Controls.Add(this.tabPage5);
+            this.tp_AccPwd.Controls.Add(this.tabPage6);
+            this.tp_AccPwd.Location = new System.Drawing.Point(9, 7);
+            this.tp_AccPwd.Name = "tp_AccPwd";
+            this.tp_AccPwd.SelectedIndex = 0;
+            this.tp_AccPwd.Size = new System.Drawing.Size(359, 257);
+            this.tp_AccPwd.TabIndex = 46;
             // 
             // tabPage1
             // 
@@ -751,17 +760,6 @@
             this.rd_Delay_none.Text = "不延遲";
             this.rd_Delay_none.UseVisualStyleBackColor = true;
             // 
-            // ckbSwitchPageStepByStep
-            // 
-            this.ckbSwitchPageStepByStep.AutoSize = true;
-            this.ckbSwitchPageStepByStep.Location = new System.Drawing.Point(9, 270);
-            this.ckbSwitchPageStepByStep.Name = "ckbSwitchPageStepByStep";
-            this.ckbSwitchPageStepByStep.Size = new System.Drawing.Size(242, 16);
-            this.ckbSwitchPageStepByStep.TabIndex = 47;
-            this.ckbSwitchPageStepByStep.Text = "搶票時依照順序1-2-3載入(若無則直接1-3)";
-            this.ckbSwitchPageStepByStep.UseVisualStyleBackColor = true;
-            this.ckbSwitchPageStepByStep.CheckedChanged += new System.EventHandler(this.ckbSwitchPageStepByStep_CheckedChanged);
-            // 
             // tabPage5
             // 
             this.tabPage5.Controls.Add(this.groupBox2);
@@ -772,6 +770,45 @@
             this.tabPage5.TabIndex = 4;
             this.tabPage5.Text = "填單工具";
             this.tabPage5.UseVisualStyleBackColor = true;
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.lblTaiwanHongKong);
+            this.groupBox2.Controls.Add(this.txtGeneratorName);
+            this.groupBox2.Controls.Add(this.label14);
+            this.groupBox2.Controls.Add(this.btnAutoRegist);
+            this.groupBox2.Controls.Add(this.btnRegister_Taiwan);
+            this.groupBox2.Location = new System.Drawing.Point(6, 6);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(288, 113);
+            this.groupBox2.TabIndex = 2;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "拓元隨機生成會員資料";
+            // 
+            // lblTaiwanHongKong
+            // 
+            this.lblTaiwanHongKong.AutoSize = true;
+            this.lblTaiwanHongKong.Location = new System.Drawing.Point(182, 89);
+            this.lblTaiwanHongKong.Name = "lblTaiwanHongKong";
+            this.lblTaiwanHongKong.Size = new System.Drawing.Size(39, 12);
+            this.lblTaiwanHongKong.TabIndex = 5;
+            this.lblTaiwanHongKong.Text = "label15";
+            // 
+            // txtGeneratorName
+            // 
+            this.txtGeneratorName.Location = new System.Drawing.Point(154, 64);
+            this.txtGeneratorName.Name = "txtGeneratorName";
+            this.txtGeneratorName.Size = new System.Drawing.Size(100, 22);
+            this.txtGeneratorName.TabIndex = 4;
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Location = new System.Drawing.Point(163, 33);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(77, 12);
+            this.label14.TabIndex = 3;
+            this.label14.Text = "隨機生成姓名";
             // 
             // btnAutoRegist
             // 
@@ -793,44 +830,80 @@
             this.btnRegister_Taiwan.UseVisualStyleBackColor = true;
             this.btnRegister_Taiwan.Click += new System.EventHandler(this.btnRegister_Taiwan_Click);
             // 
-            // groupBox2
+            // ckbSwitchPageStepByStep
             // 
-            this.groupBox2.Controls.Add(this.lblTaiwanHongKong);
-            this.groupBox2.Controls.Add(this.txtGeneratorName);
-            this.groupBox2.Controls.Add(this.label14);
-            this.groupBox2.Controls.Add(this.btnAutoRegist);
-            this.groupBox2.Controls.Add(this.btnRegister_Taiwan);
-            this.groupBox2.Location = new System.Drawing.Point(6, 6);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(288, 113);
-            this.groupBox2.TabIndex = 2;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "拓元隨機生成會員資料";
+            this.ckbSwitchPageStepByStep.AutoSize = true;
+            this.ckbSwitchPageStepByStep.Location = new System.Drawing.Point(9, 270);
+            this.ckbSwitchPageStepByStep.Name = "ckbSwitchPageStepByStep";
+            this.ckbSwitchPageStepByStep.Size = new System.Drawing.Size(242, 16);
+            this.ckbSwitchPageStepByStep.TabIndex = 47;
+            this.ckbSwitchPageStepByStep.Text = "搶票時依照順序1-2-3載入(若無則直接1-3)";
+            this.ckbSwitchPageStepByStep.UseVisualStyleBackColor = true;
+            this.ckbSwitchPageStepByStep.CheckedChanged += new System.EventHandler(this.ckbSwitchPageStepByStep_CheckedChanged);
             // 
-            // label14
+            // tabPage6
             // 
-            this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(163, 33);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(77, 12);
-            this.label14.TabIndex = 3;
-            this.label14.Text = "隨機生成姓名";
+            this.tabPage6.Controls.Add(this.txt_window_backupEmail);
+            this.tabPage6.Controls.Add(this.label17);
+            this.tabPage6.Controls.Add(this.txt_window_pwd);
+            this.tabPage6.Controls.Add(this.label16);
+            this.tabPage6.Controls.Add(this.txt_window_gmail);
+            this.tabPage6.Controls.Add(this.label15);
+            this.tabPage6.Location = new System.Drawing.Point(4, 22);
+            this.tabPage6.Name = "tabPage6";
+            this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage6.Size = new System.Drawing.Size(351, 231);
+            this.tabPage6.TabIndex = 5;
+            this.tabPage6.Text = "Gmail帳密";
+            this.tabPage6.UseVisualStyleBackColor = true;
             // 
-            // txtGeneratorName
+            // label15
             // 
-            this.txtGeneratorName.Location = new System.Drawing.Point(154, 64);
-            this.txtGeneratorName.Name = "txtGeneratorName";
-            this.txtGeneratorName.Size = new System.Drawing.Size(100, 22);
-            this.txtGeneratorName.TabIndex = 4;
+            this.label15.AutoSize = true;
+            this.label15.Location = new System.Drawing.Point(67, 36);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(33, 12);
+            this.label15.TabIndex = 0;
+            this.label15.Text = "Gmail";
             // 
-            // lblTaiwanHongKong
+            // txt_window_gmail
             // 
-            this.lblTaiwanHongKong.AutoSize = true;
-            this.lblTaiwanHongKong.Location = new System.Drawing.Point(182, 89);
-            this.lblTaiwanHongKong.Name = "lblTaiwanHongKong";
-            this.lblTaiwanHongKong.Size = new System.Drawing.Size(39, 12);
-            this.lblTaiwanHongKong.TabIndex = 5;
-            this.lblTaiwanHongKong.Text = "label15";
+            this.txt_window_gmail.Location = new System.Drawing.Point(125, 26);
+            this.txt_window_gmail.Name = "txt_window_gmail";
+            this.txt_window_gmail.Size = new System.Drawing.Size(165, 22);
+            this.txt_window_gmail.TabIndex = 1;
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Location = new System.Drawing.Point(71, 57);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(29, 12);
+            this.label16.TabIndex = 0;
+            this.label16.Text = "密碼";
+            // 
+            // txt_window_pwd
+            // 
+            this.txt_window_pwd.Location = new System.Drawing.Point(125, 54);
+            this.txt_window_pwd.Name = "txt_window_pwd";
+            this.txt_window_pwd.Size = new System.Drawing.Size(165, 22);
+            this.txt_window_pwd.TabIndex = 1;
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Location = new System.Drawing.Point(48, 82);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(53, 12);
+            this.label17.TabIndex = 0;
+            this.label17.Text = "備用信箱";
+            // 
+            // txt_window_backupEmail
+            // 
+            this.txt_window_backupEmail.Location = new System.Drawing.Point(125, 79);
+            this.txt_window_backupEmail.Name = "txt_window_backupEmail";
+            this.txt_window_backupEmail.Size = new System.Drawing.Size(165, 22);
+            this.txt_window_backupEmail.TabIndex = 1;
             // 
             // Form1
             // 
@@ -838,12 +911,12 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(373, 288);
             this.Controls.Add(this.ckbSwitchPageStepByStep);
-            this.Controls.Add(this.tabControl1);
+            this.Controls.Add(this.tp_AccPwd);
             this.Name = "Form1";
             this.Text = "拓元神器(正式版)";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.MouseClick += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseClick);
-            this.tabControl1.ResumeLayout(false);
+            this.tp_AccPwd.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
             this.tabPage2.ResumeLayout(false);
@@ -865,6 +938,8 @@
             this.tabPage5.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
+            this.tabPage6.ResumeLayout(false);
+            this.tabPage6.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -894,7 +969,7 @@
         private System.Windows.Forms.CheckBox ckb_UsingOtherAnswer;
         private System.Windows.Forms.TextBox txtOtherAnswer;
         private System.Windows.Forms.Button btn_SetOtherAnswer;
-        private System.Windows.Forms.TabControl tabControl1;
+        private System.Windows.Forms.TabControl tp_AccPwd;
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.TabPage tabPage2;
         private System.Windows.Forms.Button btnAutoFillCreditCard;
@@ -941,6 +1016,13 @@
         private System.Windows.Forms.Label lblTaiwanHongKong;
         private System.Windows.Forms.TextBox txtGeneratorName;
         private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.TabPage tabPage6;
+        private System.Windows.Forms.TextBox txt_window_backupEmail;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.TextBox txt_window_pwd;
+        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.TextBox txt_window_gmail;
+        private System.Windows.Forms.Label label15;
     }
 }
 

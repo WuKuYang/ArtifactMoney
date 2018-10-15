@@ -665,165 +665,166 @@ namespace Tixcraft_Subscriber
                             }
 
                             ReadOnlyCollection<IWebElement> TD_CheckCode = SubscrEr.Driver.FindElements(By.Id("checkCode"));
-                            ReadOnlyCollection<IWebElement> TD_SubmitButton = SubscrEr.Driver.FindElements(By.Id("submitButton"));
+                            //ReadOnlyCollection<IWebElement> TD_SubmitButton = SubscrEr.Driver.FindElements(By.Id("submitButton"));
                             if (TD_CheckCode != null)
                             {
-                                VPState.Report("發現 TD_CheckCode ", MethodBase.GetCurrentMethod(), VPState.eVPType.Windows);
-                                int iTryCount = 0;
+                                    VPState.Report("發現 TD_CheckCode ", MethodBase.GetCurrentMethod(), VPState.eVPType.Windows);
+                                    int iTryCount = 0;
 
-                                while (true)
-                                {
-                                    TD_SubmitButton = SubscrEr.Driver.FindElements(By.Id("submitButton"));
-                                    TD_CheckCode = SubscrEr.Driver.FindElements(By.Id("checkCode"));
-                                    if (TD_SubmitButton.Count > 0 && TD_CheckCode.Count > 0)
+                                    while (true)
                                     {
-                                        break;
-                                    }
-                                    else
-                                    {
-                                        Thread.Sleep(100);
-                                        iTryCount++;
-                                        //VPState.Report("等候問答頁面載入完畢", MethodBase.GetCurrentMethod(), VPState.eVPType.Windows);
-                                    }
-                                    if (iTryCount > 20)
-                                    {
-                                        VPState.Report("等候時間過長(等候20次)..跳出等待迴圈", MethodBase.GetCurrentMethod(), VPState.eVPType.Windows);
-                                        break;
-                                    }
-                                }
-
-                                if (TD_CheckCode.Count > 0)
-                                {
-                                    VPState.Report("發現 TD_SubmitButton ", MethodBase.GetCurrentMethod(), VPState.eVPType.Windows);
-                                    //如果真的有事前驗證頁面，那就協助載入事前頁面
-                                    bIsHaveCheckCode = true;
-                                    //SubscrEr.GoTo(Days.url);
-                                    if (g_bIsAutoByPassQuestion)
-                                    {
-                                        string tempstrMyAnswer = "";
-                                        #region 自動回答防黃牛問題 (回答三次，使用Cookie判斷是否輸入正確)
-                                        for (int iReAnswerIdx = 0; iReAnswerIdx < 999999;)
+                                        //TD_SubmitButton = SubscrEr.Driver.FindElements(By.Id("submitButton"));
+                                        TD_CheckCode = SubscrEr.Driver.FindElements(By.Id("checkCode"));
+                                        //if (TD_SubmitButton.Count > 0 && TD_CheckCode.Count > 0)
+                                        if ( TD_CheckCode.Count > 0)
                                         {
-                                            swAutoCheckCodeDownLoad.Restart();
-                                            string strMyAnswer = "";
-                                            if (g_bIsUsing_OtherAnswerByWindow == true)
-                                            {
-                                                strMyAnswer = g_OtherAnswerByWindow; //使用自定義答案
-                                                Thread.Sleep(500);
-                                            }
-                                            else
-                                            {
-                                                //==正常下載答案
-                                                strMyAnswer = DownLoadAnswer(g_AnswerSwitchText);   //
-                                            }
+                                            break;
+                                        }
+                                        else
+                                        {
+                                            Thread.Sleep(25);
+                                            iTryCount++;
+                                            //VPState.Report("等候問答頁面載入完畢", MethodBase.GetCurrentMethod(), VPState.eVPType.Windows);
+                                        }
+                                        if (iTryCount > 10)
+                                        {
+                                            VPState.Report("等候時間過長(等候10次)..跳出等待迴圈", MethodBase.GetCurrentMethod(), VPState.eVPType.Windows);
+                                            break;
+                                        }
+                                    }
 
-                                            //string strMyAnswer = DownLoadAnswer(); 
-
-                                            if ((strMyAnswer != tempstrMyAnswer) && (strMyAnswer != ""))//如果抓下來的答案跟上一個不一樣(再重新提交答案)
+                                    if (TD_CheckCode.Count > 0)
+                                    {
+                                        VPState.Report("發現 TD_SubmitButton ", MethodBase.GetCurrentMethod(), VPState.eVPType.Windows);
+                                        //如果真的有事前驗證頁面，那就協助載入事前頁面
+                                        bIsHaveCheckCode = true;
+                                        //SubscrEr.GoTo(Days.url);
+                                        if (g_bIsAutoByPassQuestion)
+                                        {
+                                            string tempstrMyAnswer = "";
+                                            #region 自動回答防黃牛問題 (回答三次，使用Cookie判斷是否輸入正確)
+                                            for (int iReAnswerIdx = 0; iReAnswerIdx < 999999;)
                                             {
-                                                iReAnswerIdx++;
-                                                SendCheckCode(strMyAnswer);                 //透過流覽器提交答案
-
-                                                VPState.Report("提交答案 : " + strMyAnswer, MethodBase.GetCurrentMethod(), VPState.eVPType.Windows);
-                                                //CheckAlart();
-                                                tempstrMyAnswer = strMyAnswer;//紀錄上一個答案
-                                            }
-                                            try
-                                            {
-                                                //使用猴子腳本 --> 協助選座位
-                                                if (false == SubscrEr.Driver.Url.Contains("verify"))
+                                                swAutoCheckCodeDownLoad.Restart();
+                                                string strMyAnswer = "";
+                                                if (g_bIsUsing_OtherAnswerByWindow == true)
                                                 {
-                                                    bool bIsLoadingFinish_Seat = false;
-                                                    Stopwatch swWaitLoad = new Stopwatch();
-                                                    swWaitLoad.Restart();
+                                                    strMyAnswer = g_OtherAnswerByWindow; //使用自定義答案
+                                                    Thread.Sleep(500);
+                                                }
+                                                else
+                                                {
+                                                    //==正常下載答案
+                                                    strMyAnswer = DownLoadAnswer(g_AnswerSwitchText);   //
+                                                }
 
-                                                    #region == 等待頁面載入(座位頁面)，載入完畢後注入JS協助選座位 ==
+                                                //string strMyAnswer = DownLoadAnswer(); 
 
-                                                    while (bIsLoadingFinish_Seat == false)
+                                                if ((strMyAnswer != tempstrMyAnswer) && (strMyAnswer != ""))//如果抓下來的答案跟上一個不一樣(再重新提交答案)
+                                                {
+                                                    iReAnswerIdx++;
+                                                    SendCheckCode(strMyAnswer);                 //透過流覽器提交答案
+
+                                                    VPState.Report("提交答案 : " + strMyAnswer, MethodBase.GetCurrentMethod(), VPState.eVPType.Windows);
+                                                    //CheckAlart();
+                                                    tempstrMyAnswer = strMyAnswer;//紀錄上一個答案
+                                                }
+                                                try
+                                                {
+                                                    //使用猴子腳本 --> 協助選座位
+                                                    if (false == SubscrEr.Driver.Url.Contains("verify"))
                                                     {
-                                                        //等候載入第二頁
-                                                        IWebElement game_areaList = null;
-                                                        try
-                                                        {
-                                                            //第二頁的特徵
-                                                            game_areaList = SubscrEr.Driver.FindElement(By.Id("game_id"));
+                                                        bool bIsLoadingFinish_Seat = false;
+                                                        Stopwatch swWaitLoad = new Stopwatch();
+                                                        swWaitLoad.Restart();
 
-                                                        }
-                                                        catch (Exception)
+                                                        #region == 等待頁面載入(座位頁面)，載入完畢後注入JS協助選座位 ==
+
+                                                        while (bIsLoadingFinish_Seat == false)
                                                         {
-                                                            game_areaList = null;
-                                                            //如果沒有第二頁，就找第三頁看看 
-                                                            IWebElement TicketForm_verifyCode = null;
+                                                            //等候載入第二頁
+                                                            IWebElement game_areaList = null;
                                                             try
                                                             {
-                                                                TicketForm_verifyCode = SubscrEr.Driver.FindElement(By.Id("TicketForm_verifyCode"));
+                                                                //第二頁的特徵
+                                                                game_areaList = SubscrEr.Driver.FindElement(By.Id("game_id"));
+
                                                             }
                                                             catch (Exception)
                                                             {
-                                                                TicketForm_verifyCode = null;
+                                                                game_areaList = null;
+                                                                //如果沒有第二頁，就找第三頁看看 
+                                                                IWebElement TicketForm_verifyCode = null;
+                                                                try
+                                                                {
+                                                                    TicketForm_verifyCode = SubscrEr.Driver.FindElement(By.Id("TicketForm_verifyCode"));
+                                                                }
+                                                                catch (Exception)
+                                                                {
+                                                                    TicketForm_verifyCode = null;
+                                                                }
+                                                                if (TicketForm_verifyCode != null)
+                                                                {
+                                                                    // 如果找到第三頁，那就直接跳出填單吧！
+                                                                    bIsLoadingFinish_Seat = true;
+                                                                    VPState.Report("考完試，選座位(第三頁)" + swWaitLoad.ElapsedMilliseconds.ToString() + " ms", MethodBase.GetCurrentMethod(), VPState.eVPType.Windows);
+
+                                                                }
                                                             }
-                                                            if (TicketForm_verifyCode != null)
+
+                                                            if (game_areaList != null)
                                                             {
-                                                                // 如果找到第三頁，那就直接跳出填單吧！
+                                                                VPState.Report("考完試，選座位(第二頁)" + swWaitLoad.ElapsedMilliseconds.ToString() + " ms", MethodBase.GetCurrentMethod(), VPState.eVPType.Windows);
+
+                                                                #region == 注入JS直到頁面切換 ==
+
+                                                                bool bIsInjectOK = false;
+                                                                int iInjectCount = 0;
+                                                                while (bIsInjectOK == false)
+                                                                {
+                                                                    if (SubscrEr.Driver.Url.Contains("ticket/area"))
+                                                                    {
+                                                                        #region == 使用猴子腳本 --> 協助選座位 ==
+                                                                        string strScrpitSelectSeat = SubscrEr.JS_ReadFile("Tix_Automation.txt");
+                                                                        strScrpitSelectSeat = SubscrEr.JS_Setting_Seats(strScrpitSelectSeat, iDayIndex.ToString(), g_SeatInformation, iTickets.ToString(), "-1");
+                                                                        SubscrEr.InjectJavaScript(strScrpitSelectSeat);
+                                                                        #endregion
+                                                                        CheckAlert_Once();
+                                                                        VPState.Report("注入JS中...注入完畢(選座位)..." + iInjectCount.ToString() + "次", MethodBase.GetCurrentMethod(), VPState.eVPType.Windows);
+                                                                    }
+                                                                    else
+                                                                    {
+                                                                        bIsInjectOK = true;
+                                                                    }
+                                                                    Thread.Sleep(50);
+                                                                }
+
+                                                                #endregion
+
                                                                 bIsLoadingFinish_Seat = true;
-                                                                VPState.Report("考完試，選座位(第三頁)" + swWaitLoad.ElapsedMilliseconds.ToString() + " ms", MethodBase.GetCurrentMethod(), VPState.eVPType.Windows);
-
                                                             }
+                                                            Thread.Sleep(50);
                                                         }
+                                                        #endregion
 
-                                                        if (game_areaList != null)
-                                                        {
-                                                            VPState.Report("考完試，選座位(第二頁)" + swWaitLoad.ElapsedMilliseconds.ToString() + " ms", MethodBase.GetCurrentMethod(), VPState.eVPType.Windows);
+                                                        swWaitLoad.Stop();
+                                                        VPState.Report("等待頁面載入完畢...耗時 : " + swWaitLoad.ElapsedMilliseconds.ToString() + " ms", MethodBase.GetCurrentMethod(), VPState.eVPType.Windows);
 
-                                                            #region == 注入JS直到頁面切換 ==
-
-                                                            bool bIsInjectOK = false;
-                                                            int iInjectCount = 0;
-                                                            while (bIsInjectOK == false)
-                                                            {
-                                                                if (SubscrEr.Driver.Url.Contains("ticket/area"))
-                                                                {
-                                                                    #region == 使用猴子腳本 --> 協助選座位 ==
-                                                                    string strScrpitSelectSeat = SubscrEr.JS_ReadFile("Tix_Automation.txt");
-                                                                    strScrpitSelectSeat = SubscrEr.JS_Setting_Seats(strScrpitSelectSeat, iDayIndex.ToString(), g_SeatInformation, iTickets.ToString(), "-1");
-                                                                    SubscrEr.InjectJavaScript(strScrpitSelectSeat);
-                                                                    #endregion
-                                                                    CheckAlert_Once();
-                                                                    VPState.Report("注入JS中...注入完畢(選座位)..." + iInjectCount.ToString() + "次", MethodBase.GetCurrentMethod(), VPState.eVPType.Windows);
-                                                                }
-                                                                else
-                                                                {
-                                                                    bIsInjectOK = true;
-                                                                }
-                                                                Thread.Sleep(50);
-                                                            }
-
-                                                            #endregion
-
-                                                            bIsLoadingFinish_Seat = true;
-                                                        }
-                                                        Thread.Sleep(50);
+                                                        //表示防黃牛回答正確！(因為上一次在驗證碼頁面，這一次沒有)
+                                                        bIsNull = false;
+                                                        break;
                                                     }
-                                                    #endregion 
-
-                                                    swWaitLoad.Stop();
-                                                    VPState.Report("等待頁面載入完畢...耗時 : " + swWaitLoad.ElapsedMilliseconds.ToString() + " ms", MethodBase.GetCurrentMethod(), VPState.eVPType.Windows);
-
-                                                    //表示防黃牛回答正確！(因為上一次在驗證碼頁面，這一次沒有)
-                                                    bIsNull = false;
-                                                    break;
                                                 }
-                                            }
-                                            catch (Exception)
-                                            {
+                                                catch (Exception)
+                                                {
 
+                                                }
+                                                string strTemp = "下載答案中..刷新..." + "耗時:" + swAutoCheckCodeDownLoad.ElapsedMilliseconds;
+                                                this.Invoke(degRefreshText, lblDebug, strTemp);
                                             }
-                                            string strTemp = "下載答案中..刷新..." + "耗時:" + swAutoCheckCodeDownLoad.ElapsedMilliseconds;
-                                            this.Invoke(degRefreshText, lblDebug, strTemp);
+                                            #endregion
                                         }
-                                        #endregion
                                     }
-                                }
                             }
                         }
                         #endregion

@@ -68,7 +68,7 @@ namespace Tixcraft_Subscriber
             try
             {
                 HttpWebRequest request = (HttpWebRequest)WebRequest.Create(Url);
-                request.Timeout = 3000;
+                request.Timeout = 5000;
                 request.Headers.Set("Pragma", "no-cache");
                 //request.Headers.Add("Accept-Language", "en-US,en;q=0.5");
                 //request.Headers.Add("Accept-Encoding", "gzip");
@@ -101,7 +101,7 @@ namespace Tixcraft_Subscriber
             try
             {
                 HttpWebRequest request = (HttpWebRequest)WebRequest.Create(Url);
-                request.Timeout = 3000;
+                request.Timeout = 5000;
                 request.Headers.Set("Pragma", "no-cache");
                 //request.Headers.Add("Accept-Language", "en-US,en;q=0.5");
                 //request.Headers.Add("Accept-Encoding", "gzip");

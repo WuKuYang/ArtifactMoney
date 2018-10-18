@@ -115,6 +115,20 @@
             this.txtIP = new System.Windows.Forms.TextBox();
             this.btnShareAnswer = new System.Windows.Forms.Button();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
+            this.tabControl2 = new System.Windows.Forms.TabControl();
+            this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.tabPage8 = new System.Windows.Forms.TabPage();
+            this.label20 = new System.Windows.Forms.Label();
+            this.txtCredit_Card_Account_BK = new System.Windows.Forms.TextBox();
+            this.label21 = new System.Windows.Forms.Label();
+            this.btnAutoFillCredidCard = new System.Windows.Forms.Button();
+            this.txtCredit_Card_Month_BK = new System.Windows.Forms.TextBox();
+            this.txtCredit_Card_CVE_BK = new System.Windows.Forms.TextBox();
+            this.label22 = new System.Windows.Forms.Label();
+            this.label23 = new System.Windows.Forms.Label();
+            this.txtCredit_Card_Year_BK = new System.Windows.Forms.TextBox();
+            this.label24 = new System.Windows.Forms.Label();
+            this.label25 = new System.Windows.Forms.Label();
             this.tpFBEmail.SuspendLayout();
             this.tpShow.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -127,6 +141,9 @@
             this.tabPage5.SuspendLayout();
             this.pnlControlTable.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.tabControl2.SuspendLayout();
+            this.tabPage4.SuspendLayout();
+            this.tabPage8.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnLoadAcc
@@ -510,7 +527,7 @@
             this.txtSeatInformation.Name = "txtSeatInformation";
             this.txtSeatInformation.Size = new System.Drawing.Size(89, 22);
             this.txtSeatInformation.TabIndex = 45;
-            this.txtSeatInformation.Text = "1800";
+            this.txtSeatInformation.Text = "搖滾B4區7800";
             // 
             // label5
             // 
@@ -793,19 +810,9 @@
             // tabPage5
             // 
             this.tabPage5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(35)))), ((int)(((byte)(45)))));
+            this.tabPage5.Controls.Add(this.tabControl2);
             this.tabPage5.Controls.Add(this.btnAutoFillup_AllWindow);
             this.tabPage5.Controls.Add(this.lblCreditCard);
-            this.tabPage5.Controls.Add(this.btnAutoFillCreditCard);
-            this.tabPage5.Controls.Add(this.txtCredit_Card_CVE);
-            this.tabPage5.Controls.Add(this.label14);
-            this.tabPage5.Controls.Add(this.label15);
-            this.tabPage5.Controls.Add(this.label16);
-            this.tabPage5.Controls.Add(this.txtCredit_Card_Year);
-            this.tabPage5.Controls.Add(this.label17);
-            this.tabPage5.Controls.Add(this.txtCredit_Card_Month);
-            this.tabPage5.Controls.Add(this.label18);
-            this.tabPage5.Controls.Add(this.txtCredit_Card_Account);
-            this.tabPage5.Controls.Add(this.label19);
             this.tabPage5.Location = new System.Drawing.Point(4, 22);
             this.tabPage5.Name = "tabPage5";
             this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
@@ -827,7 +834,7 @@
             // lblCreditCard
             // 
             this.lblCreditCard.AutoSize = true;
-            this.lblCreditCard.Location = new System.Drawing.Point(14, 6);
+            this.lblCreditCard.Location = new System.Drawing.Point(267, 12);
             this.lblCreditCard.Name = "lblCreditCard";
             this.lblCreditCard.Size = new System.Drawing.Size(29, 12);
             this.lblCreditCard.TabIndex = 22;
@@ -836,7 +843,7 @@
             // btnAutoFillCreditCard
             // 
             this.btnAutoFillCreditCard.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(35)))), ((int)(((byte)(45)))));
-            this.btnAutoFillCreditCard.Location = new System.Drawing.Point(15, 125);
+            this.btnAutoFillCreditCard.Location = new System.Drawing.Point(8, 109);
             this.btnAutoFillCreditCard.Name = "btnAutoFillCreditCard";
             this.btnAutoFillCreditCard.Size = new System.Drawing.Size(203, 49);
             this.btnAutoFillCreditCard.TabIndex = 21;
@@ -846,7 +853,7 @@
             // 
             // txtCredit_Card_CVE
             // 
-            this.txtCredit_Card_CVE.Location = new System.Drawing.Point(89, 97);
+            this.txtCredit_Card_CVE.Location = new System.Drawing.Point(82, 79);
             this.txtCredit_Card_CVE.Name = "txtCredit_Card_CVE";
             this.txtCredit_Card_CVE.Size = new System.Drawing.Size(129, 22);
             this.txtCredit_Card_CVE.TabIndex = 20;
@@ -854,7 +861,7 @@
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(13, 103);
+            this.label14.Location = new System.Drawing.Point(6, 85);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(71, 12);
             this.label14.TabIndex = 19;
@@ -863,7 +870,7 @@
             // label15
             // 
             this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(169, 82);
+            this.label15.Location = new System.Drawing.Point(162, 64);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(49, 12);
             this.label15.TabIndex = 18;
@@ -872,7 +879,7 @@
             // label16
             // 
             this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(87, 82);
+            this.label16.Location = new System.Drawing.Point(80, 64);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(49, 12);
             this.label16.TabIndex = 17;
@@ -880,15 +887,16 @@
             // 
             // txtCredit_Card_Year
             // 
-            this.txtCredit_Card_Year.Location = new System.Drawing.Point(168, 57);
+            this.txtCredit_Card_Year.Location = new System.Drawing.Point(161, 39);
             this.txtCredit_Card_Year.Name = "txtCredit_Card_Year";
             this.txtCredit_Card_Year.Size = new System.Drawing.Size(50, 22);
             this.txtCredit_Card_Year.TabIndex = 16;
+            this.txtCredit_Card_Year.TextChanged += new System.EventHandler(this.txtCredit_Card_Year_TextChanged);
             // 
             // label17
             // 
             this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(149, 63);
+            this.label17.Location = new System.Drawing.Point(142, 45);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(8, 12);
             this.label17.TabIndex = 15;
@@ -896,7 +904,7 @@
             // 
             // txtCredit_Card_Month
             // 
-            this.txtCredit_Card_Month.Location = new System.Drawing.Point(89, 57);
+            this.txtCredit_Card_Month.Location = new System.Drawing.Point(82, 39);
             this.txtCredit_Card_Month.Name = "txtCredit_Card_Month";
             this.txtCredit_Card_Month.Size = new System.Drawing.Size(49, 22);
             this.txtCredit_Card_Month.TabIndex = 14;
@@ -904,7 +912,7 @@
             // label18
             // 
             this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(13, 63);
+            this.label18.Location = new System.Drawing.Point(6, 45);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(71, 12);
             this.label18.TabIndex = 13;
@@ -912,7 +920,7 @@
             // 
             // txtCredit_Card_Account
             // 
-            this.txtCredit_Card_Account.Location = new System.Drawing.Point(89, 29);
+            this.txtCredit_Card_Account.Location = new System.Drawing.Point(82, 11);
             this.txtCredit_Card_Account.Name = "txtCredit_Card_Account";
             this.txtCredit_Card_Account.Size = new System.Drawing.Size(129, 22);
             this.txtCredit_Card_Account.TabIndex = 12;
@@ -920,7 +928,7 @@
             // label19
             // 
             this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(13, 35);
+            this.label19.Location = new System.Drawing.Point(6, 17);
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(71, 12);
             this.label19.TabIndex = 11;
@@ -970,7 +978,7 @@
             this.rd_Answer02.Name = "rd_Answer02";
             this.rd_Answer02.Size = new System.Drawing.Size(75, 16);
             this.rd_Answer02.TabIndex = 44;
-            this.rd_Answer02.Text = "伺服器 - 2";
+            this.rd_Answer02.Text = "考試-周日";
             this.rd_Answer02.UseVisualStyleBackColor = true;
             this.rd_Answer02.CheckedChanged += new System.EventHandler(this.rd_Answer02_CheckedChanged);
             // 
@@ -983,7 +991,7 @@
             this.rd_Answer01.Size = new System.Drawing.Size(75, 16);
             this.rd_Answer01.TabIndex = 43;
             this.rd_Answer01.TabStop = true;
-            this.rd_Answer01.Text = "伺服器 - 1";
+            this.rd_Answer01.Text = "考試-週六";
             this.rd_Answer01.UseVisualStyleBackColor = true;
             this.rd_Answer01.CheckedChanged += new System.EventHandler(this.rd_Answer01_CheckedChanged);
             // 
@@ -996,7 +1004,7 @@
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(98, 29);
             this.label11.TabIndex = 39;
-            this.label11.Text = "ver 6.3";
+            this.label11.Text = "ver 6.4";
             // 
             // lblHDDNumber
             // 
@@ -1038,9 +1046,9 @@
             this.label8.AutoSize = true;
             this.label8.Location = new System.Drawing.Point(342, 260);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(185, 12);
+            this.label8.Size = new System.Drawing.Size(81, 12);
             this.label8.TabIndex = 36;
-            this.label8.Text = "輸入完按Enter (禁止輸入特殊符號)";
+            this.label8.Text = "輸入完按Enter ";
             // 
             // btn_ShowLog
             // 
@@ -1111,6 +1119,153 @@
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
             // 
+            // tabControl2
+            // 
+            this.tabControl2.Controls.Add(this.tabPage4);
+            this.tabControl2.Controls.Add(this.tabPage8);
+            this.tabControl2.Location = new System.Drawing.Point(12, 6);
+            this.tabControl2.Name = "tabControl2";
+            this.tabControl2.SelectedIndex = 0;
+            this.tabControl2.Size = new System.Drawing.Size(251, 190);
+            this.tabControl2.TabIndex = 24;
+            // 
+            // tabPage4
+            // 
+            this.tabPage4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(35)))), ((int)(((byte)(45)))));
+            this.tabPage4.Controls.Add(this.label19);
+            this.tabPage4.Controls.Add(this.txtCredit_Card_Account);
+            this.tabPage4.Controls.Add(this.label18);
+            this.tabPage4.Controls.Add(this.btnAutoFillCreditCard);
+            this.tabPage4.Controls.Add(this.txtCredit_Card_Month);
+            this.tabPage4.Controls.Add(this.txtCredit_Card_CVE);
+            this.tabPage4.Controls.Add(this.label17);
+            this.tabPage4.Controls.Add(this.label14);
+            this.tabPage4.Controls.Add(this.txtCredit_Card_Year);
+            this.tabPage4.Controls.Add(this.label15);
+            this.tabPage4.Controls.Add(this.label16);
+            this.tabPage4.Location = new System.Drawing.Point(4, 22);
+            this.tabPage4.Name = "tabPage4";
+            this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage4.Size = new System.Drawing.Size(243, 164);
+            this.tabPage4.TabIndex = 0;
+            this.tabPage4.Text = "主卡";
+            // 
+            // tabPage8
+            // 
+            this.tabPage8.BackColor = System.Drawing.Color.Gray;
+            this.tabPage8.Controls.Add(this.label20);
+            this.tabPage8.Controls.Add(this.txtCredit_Card_Account_BK);
+            this.tabPage8.Controls.Add(this.label21);
+            this.tabPage8.Controls.Add(this.btnAutoFillCredidCard);
+            this.tabPage8.Controls.Add(this.txtCredit_Card_Month_BK);
+            this.tabPage8.Controls.Add(this.txtCredit_Card_CVE_BK);
+            this.tabPage8.Controls.Add(this.label22);
+            this.tabPage8.Controls.Add(this.label23);
+            this.tabPage8.Controls.Add(this.txtCredit_Card_Year_BK);
+            this.tabPage8.Controls.Add(this.label24);
+            this.tabPage8.Controls.Add(this.label25);
+            this.tabPage8.Location = new System.Drawing.Point(4, 22);
+            this.tabPage8.Name = "tabPage8";
+            this.tabPage8.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage8.Size = new System.Drawing.Size(243, 164);
+            this.tabPage8.TabIndex = 1;
+            this.tabPage8.Text = "備用卡";
+            this.tabPage8.Click += new System.EventHandler(this.tabPage8_Click);
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Location = new System.Drawing.Point(4, 15);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(71, 12);
+            this.label20.TabIndex = 22;
+            this.label20.Text = "信用卡卡號 :";
+            // 
+            // txtCredit_Card_Account_BK
+            // 
+            this.txtCredit_Card_Account_BK.Location = new System.Drawing.Point(80, 9);
+            this.txtCredit_Card_Account_BK.Name = "txtCredit_Card_Account_BK";
+            this.txtCredit_Card_Account_BK.Size = new System.Drawing.Size(129, 22);
+            this.txtCredit_Card_Account_BK.TabIndex = 23;
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Location = new System.Drawing.Point(4, 43);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(71, 12);
+            this.label21.TabIndex = 24;
+            this.label21.Text = "卡片到期日 :";
+            // 
+            // btnAutoFillCredidCard
+            // 
+            this.btnAutoFillCredidCard.BackColor = System.Drawing.Color.Gray;
+            this.btnAutoFillCredidCard.Location = new System.Drawing.Point(6, 107);
+            this.btnAutoFillCredidCard.Name = "btnAutoFillCredidCard";
+            this.btnAutoFillCredidCard.Size = new System.Drawing.Size(203, 49);
+            this.btnAutoFillCredidCard.TabIndex = 32;
+            this.btnAutoFillCredidCard.Text = "設定所有視窗如上參數";
+            this.btnAutoFillCredidCard.UseVisualStyleBackColor = false;
+            this.btnAutoFillCredidCard.Click += new System.EventHandler(this.btnAutoFillCredidCard_Click);
+            // 
+            // txtCredit_Card_Month_BK
+            // 
+            this.txtCredit_Card_Month_BK.Location = new System.Drawing.Point(80, 37);
+            this.txtCredit_Card_Month_BK.Name = "txtCredit_Card_Month_BK";
+            this.txtCredit_Card_Month_BK.Size = new System.Drawing.Size(49, 22);
+            this.txtCredit_Card_Month_BK.TabIndex = 25;
+            // 
+            // txtCredit_Card_CVE_BK
+            // 
+            this.txtCredit_Card_CVE_BK.Location = new System.Drawing.Point(80, 77);
+            this.txtCredit_Card_CVE_BK.Name = "txtCredit_Card_CVE_BK";
+            this.txtCredit_Card_CVE_BK.Size = new System.Drawing.Size(129, 22);
+            this.txtCredit_Card_CVE_BK.TabIndex = 31;
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Location = new System.Drawing.Point(140, 43);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(8, 12);
+            this.label22.TabIndex = 26;
+            this.label22.Text = "/";
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.Location = new System.Drawing.Point(4, 83);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(71, 12);
+            this.label23.TabIndex = 30;
+            this.label23.Text = "卡片檢查碼 :";
+            // 
+            // txtCredit_Card_Year_BK
+            // 
+            this.txtCredit_Card_Year_BK.Location = new System.Drawing.Point(159, 37);
+            this.txtCredit_Card_Year_BK.Name = "txtCredit_Card_Year_BK";
+            this.txtCredit_Card_Year_BK.Size = new System.Drawing.Size(50, 22);
+            this.txtCredit_Card_Year_BK.TabIndex = 27;
+            this.txtCredit_Card_Year_BK.TextChanged += new System.EventHandler(this.txtCredit_Card_Year_BK_TextChanged);
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.Location = new System.Drawing.Point(160, 62);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(49, 12);
+            this.label24.TabIndex = 29;
+            this.label24.Text = "西元(年)";
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.Location = new System.Drawing.Point(78, 62);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(49, 12);
+            this.label25.TabIndex = 28;
+            this.label25.Text = "西元(月)";
+            // 
             // SubscriberLoginer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -1122,7 +1277,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "SubscriberLoginer";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "拓元神器(Money) ver_6.3 - 2018.10.17";
+            this.Text = "拓元神器(Money) ver_6.4 - 2018.10.18";
             this.TopMost = true;
             this.Activated += new System.EventHandler(this.SubscriberLoginer_Activated);
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.SubscriberLoginer_FormClosed);
@@ -1148,6 +1303,11 @@
             this.pnlControlTable.ResumeLayout(false);
             this.pnlControlTable.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.tabControl2.ResumeLayout(false);
+            this.tabPage4.ResumeLayout(false);
+            this.tabPage4.PerformLayout();
+            this.tabPage8.ResumeLayout(false);
+            this.tabPage8.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -1241,5 +1401,19 @@
         private System.Windows.Forms.CheckBox ckbProxy;
         private System.Windows.Forms.RadioButton rd_Answer02;
         private System.Windows.Forms.RadioButton rd_Answer01;
+        private System.Windows.Forms.TabControl tabControl2;
+        private System.Windows.Forms.TabPage tabPage4;
+        private System.Windows.Forms.TabPage tabPage8;
+        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.TextBox txtCredit_Card_Account_BK;
+        private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.Button btnAutoFillCredidCard;
+        private System.Windows.Forms.TextBox txtCredit_Card_Month_BK;
+        private System.Windows.Forms.TextBox txtCredit_Card_CVE_BK;
+        private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.Label label23;
+        private System.Windows.Forms.TextBox txtCredit_Card_Year_BK;
+        private System.Windows.Forms.Label label24;
+        private System.Windows.Forms.Label label25;
     }
 }

@@ -1154,5 +1154,47 @@ namespace Tixcraft_Subscriber
                 }
             }
         }
+
+        private void btnAutoFillCredidCard_Click(object sender, EventArgs e)
+        { 
+            if (txtCredit_Card_Account_BK.Text == "") { lblCreditCard.Text = "信用卡卡號不能空白"; return; }
+            if (txtCredit_Card_Month_BK.Text == "") { lblCreditCard.Text = "月份不能空白"; return; }
+            if (txtCredit_Card_Year_BK.Text == "") { lblCreditCard.Text = "年份不能空白"; return; }
+            if (txtCredit_Card_CVE_BK.Text == "") { lblCreditCard.Text = "卡片檢查碼不能空白"; return; }
+
+            for (int y = 0; y < lstFrms.Count; y++)
+            {
+                try
+                {
+                    //搶票參數設定
+                    lstFrms[y].Set_CrediteCardInformation(txtCredit_Card_Account_BK.Text, txtCredit_Card_Month_BK.Text, txtCredit_Card_Year_BK.Text, txtCredit_Card_CVE_BK.Text);
+                }
+                catch (Exception)
+                {
+
+                }
+            } 
+        }
+
+        private void txtCredit_Card_Year_TextChanged(object sender, EventArgs e)
+        {
+            if (txtCredit_Card_Year.Text.Length == 2)
+            {
+                txtCredit_Card_Year.Text = "20" + txtCredit_Card_Year.Text;
+            }
+        }
+
+        private void txtCredit_Card_Year_BK_TextChanged(object sender, EventArgs e)
+        { 
+            if (txtCredit_Card_Year_BK.Text.Length == 2)
+            {
+                txtCredit_Card_Year_BK.Text = "20" + txtCredit_Card_Year_BK.Text;
+            }
+        }
+
+        private void tabPage8_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

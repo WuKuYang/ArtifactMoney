@@ -997,6 +997,26 @@ namespace Tixcraft_Subscriber
             { 
                 this.Invoke(degRefreshText, lblSelectSeat, "有考試，已自動進入頁面");
             }
+            #region  === 強制跳轉到第三頁之後，人性化延遲 === 
+            if (HumanDelayer.mode == Human_DelayMode.DoNotDelay)
+            {
+                // do nothing 
+            }
+            else if (HumanDelayer.mode == Human_DelayMode.DelayMilliSecond)
+            {
+                string strMsg = string.Format("[指定] 執行人性化延遲:{0}", HumanDelayer.Delay_ms);
+                VPState.Report(strMsg, MethodBase.GetCurrentMethod(), VPState.eVPType.Windows);
+                Thread.Sleep(HumanDelayer.Delay_ms);
+            }
+            else if (HumanDelayer.mode == Human_DelayMode.DelayRand)
+            {
+                Random rnd = new Random();
+                int iRand_ms = rnd.Next(HumanDelayer.DelayMin_ms, HumanDelayer.DelayMax_ms);
+                string strMsg = string.Format("[隨機] 執行人性化延遲:{0} ~ {1} 毫秒 - 實際 : {2} ms", HumanDelayer.DelayMin_ms, HumanDelayer.DelayMax_ms, iRand_ms);
+                VPState.Report(strMsg, MethodBase.GetCurrentMethod(), VPState.eVPType.Windows);
+                Thread.Sleep(iRand_ms);
+            }
+            #endregion
             swDriverLoading.Stop();
             try
             {
@@ -1040,86 +1060,11 @@ namespace Tixcraft_Subscriber
 
                                 iChangeImageCount = iChangeImageCount+1;
 
-
                                 Stopwatch swCostScreenShot = new Stopwatch();
                                 swCostScreenShot.Restart();
 
-                                //IWebElement iImage = SubscrEr.Driver.FindElement(By.Id("yw0"));
-
-                                //iImage.Click();
-                                //if (bSrc == null)
-                                //{
-                                //    //== Win Api 滑鼠控制 ==
-                                //    //int iClick_x = iRoi_x1 + 10;
-                                //    //int iClick_y = iRoi_y1 + 10;
-                                //    int iClick_x = iImage.Location.X + 10;
-                                //    int iClick_y = iImage.Location.Y + 10;
-
-                                //    SubscrEr.HwndController.Mouse_LeftButton_Down_ByOffset(iClick_x, iClick_y);
-                                //    Thread.Sleep(10);
-                                //    SubscrEr.HwndController.Mouse_LeftButton_Up_ByOffset(iClick_x, iClick_y);
-                                //    Thread.Sleep(g_Yw0_DelayTime);
-
-                                //    SubscrEr.ScreenShot();
-
-                                //    myTool = new HImagTool();
-                                //    VerifyCodeImage = new Bitmap(SubscrEr.bSnapShot);
-                                //    lstbitmap.Clear();
-                                //    lstbitmap = myTool.SplitVerifyFromScreenShot(VerifyCodeImage, ref iRoi_x1, ref iRoi_y1, ref iRoi_x2, ref iRoi_y2);
-                                //    UPbSrc = new Bitmap(lstbitmap[0]);
-                                //    swCostScreenShot.Stop();
-
-                                //    Stopwatch swCostTime = new Stopwatch();
-                                //    swCostTime.Restart();
-                                //    while (HalconProcess.Vision.GetPSNR(bSrc, UPbSrc) == false)
-                                //    {
-                                //        SubscrEr.ScreenShot();
-                                //        myTool = new HImagTool();
-                                //        VerifyCodeImage = new Bitmap(SubscrEr.bSnapShot);
-                                //        lstbitmap.Clear();
-                                //        lstbitmap = myTool.SplitVerifyFromScreenShot(VerifyCodeImage, ref iRoi_x1, ref iRoi_y1, ref iRoi_x2, ref iRoi_y2);
-                                //        UPbSrc = new Bitmap(lstbitmap[0]);
-                                //        //Application.DoEvents();
-                                //    }
-                                //    swCostTime.Stop();
-                                //    VPState.Report("PSNR Wait : " + swCostTime.ElapsedMilliseconds.ToString() + " ms" + " Click & ChangeImage " + swCostScreenShot.ElapsedMilliseconds.ToString() + " ms");
-                                //}
-                                //string strJSCode = SubscrEr.JS_ReadFile("Tix_RefreshVeryfiCode.txt"); 
-                                //string strNewElementName = string.Format("Wugi_{0}",iChangeImageCount);
-                                //string strAddElement = string.Format("\ndocument.getElementById(\"footer\").insertAdjacentHTML('beforebegin' , '<div id=\"{0}\">{0}</div>');", strNewElementName);
-                                //strJSCode = strJSCode + strAddElement;
-                                //SubscrEr.InjectJavaScript(strJSCode);
-
-                                //IWebElement IWaitUntilDoneJS = null;
-                                //while (IWaitUntilDoneJS == null)
-                                //{
-                                //    try
-                                //    {
-                                //        IWaitUntilDoneJS = SubscrEr.Driver.FindElement(By.Id(strNewElementName));
-                                //    }
-                                //    catch (Exception)
-                                //    {
-                                //        IWaitUntilDoneJS = null;
-                                //    }
-                                //    Thread.Sleep(10);
-                                //}
-                                //Thread.Sleep(100);
                             }
-
-                            //try
-                            //{
-                            //    IWebElement iwb_closeNotice = SubscrEr.Driver.FindElement(By.ClassName("closeNotice"));
-                            //    if (iwb_closeNotice != null)
-                            //    {
-                            //        iwb_closeNotice.Click();
-                            //    }
-                            //}
-                            //catch (Exception)
-                            //{
-                                 
-                            //}
-
-
+                             
                             this.Invoke(degRefreshText, lblVerifyCodeInfo, "2.拍照...");
                             SubscrEr.ScreenShot();
                             //Bitmap myBrowserScreen = new Bitmap(SubscrEr.bSnapShot);
@@ -1261,24 +1206,6 @@ namespace Tixcraft_Subscriber
                     }
                     else
                     {  
-                        if (HumanDelayer.mode == Human_DelayMode.DoNotDelay)
-                        {
-                            // do nothing 
-                        }
-                        else if (HumanDelayer.mode == Human_DelayMode.DelayMilliSecond)
-                        {
-                            string strMsg = string.Format("[指定] 執行人性化延遲:{0}",HumanDelayer.Delay_ms);
-                            VPState.Report(strMsg, MethodBase.GetCurrentMethod(), VPState.eVPType.Windows);
-                            Thread.Sleep(HumanDelayer.Delay_ms);
-                        }
-                        else if (HumanDelayer.mode == Human_DelayMode.DelayRand)
-                        { 
-                            Random rnd = new Random();
-                            int iRand_ms = rnd.Next(HumanDelayer.DelayMin_ms, HumanDelayer.DelayMax_ms);
-                            string strMsg = string.Format("[隨機] 執行人性化延遲:{0} ~ {1} 毫秒 - 實際 : {2} ms", HumanDelayer.DelayMin_ms, HumanDelayer.DelayMax_ms, iRand_ms);
-                            VPState.Report(strMsg, MethodBase.GetCurrentMethod(), VPState.eVPType.Windows);
-                            Thread.Sleep(iRand_ms); 
-                        }
                         SubscrEr.SubmitAndPreSubtmi(strResult, iTickets); 
 
                     }
@@ -2171,6 +2098,14 @@ namespace Tixcraft_Subscriber
             RegisteTixPage_Taiwan(strTempName);
             lblTaiwanHongKong.Text = "已生成台灣人！";
             txtGeneratorName.Text = strTempName;
+        }
+
+        private void txtCredit_Card_Year_TextChanged(object sender, EventArgs e)
+        {
+            if (txtCredit_Card_Year.Text.Length == 2)
+            {
+                txtCredit_Card_Year.Text = "20" + txtCredit_Card_Year.Text;
+            }
         } 
 
     }

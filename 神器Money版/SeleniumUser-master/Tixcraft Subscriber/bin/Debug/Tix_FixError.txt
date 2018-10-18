@@ -15,7 +15,7 @@ function FixSubmitError()
     var iTableArrayRight = document.scripts[iIndexOfArray].text.indexOf("parseInt($(event.target).val()");
     if(iTableArrayLeft == -1 || iTableArrayRight == -1)
     {
-        alert("拓元有改版！ 無法進行自動填單！");
+        //alert("拓元有改版！ 無法進行自動填單！");
     }
 
     var strSubText = document.scripts[iIndexOfArray].text.substring(iTableArrayLeft+1,iTableArrayRight-1);

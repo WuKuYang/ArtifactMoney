@@ -96,14 +96,14 @@
             this.label14 = new System.Windows.Forms.Label();
             this.btnAutoRegist = new System.Windows.Forms.Button();
             this.btnRegister_Taiwan = new System.Windows.Forms.Button();
-            this.ckbSwitchPageStepByStep = new System.Windows.Forms.CheckBox();
             this.tabPage6 = new System.Windows.Forms.TabPage();
-            this.label15 = new System.Windows.Forms.Label();
-            this.txt_window_gmail = new System.Windows.Forms.TextBox();
-            this.label16 = new System.Windows.Forms.Label();
-            this.txt_window_pwd = new System.Windows.Forms.TextBox();
-            this.label17 = new System.Windows.Forms.Label();
             this.txt_window_backupEmail = new System.Windows.Forms.TextBox();
+            this.label17 = new System.Windows.Forms.Label();
+            this.txt_window_pwd = new System.Windows.Forms.TextBox();
+            this.label16 = new System.Windows.Forms.Label();
+            this.txt_window_gmail = new System.Windows.Forms.TextBox();
+            this.label15 = new System.Windows.Forms.Label();
+            this.ckbSwitchPageStepByStep = new System.Windows.Forms.CheckBox();
             this.tp_AccPwd.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -193,7 +193,7 @@
             this.txtSeatInformation.Name = "txtSeatInformation";
             this.txtSeatInformation.Size = new System.Drawing.Size(119, 22);
             this.txtSeatInformation.TabIndex = 18;
-            this.txtSeatInformation.Text = "區800";
+            this.txtSeatInformation.Text = "搖滾B4區7800";
             // 
             // lblVerifyCodeInfo
             // 
@@ -461,6 +461,7 @@
             this.txtCredit_Card_Year.Name = "txtCredit_Card_Year";
             this.txtCredit_Card_Year.Size = new System.Drawing.Size(50, 22);
             this.txtCredit_Card_Year.TabIndex = 5;
+            this.txtCredit_Card_Year.TextChanged += new System.EventHandler(this.txtCredit_Card_Year_TextChanged);
             // 
             // label7
             // 
@@ -691,7 +692,7 @@
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(37, 22);
             this.textBox3.TabIndex = 6;
-            this.textBox3.Text = "6000";
+            this.textBox3.Text = "2000";
             // 
             // label12
             // 
@@ -708,7 +709,7 @@
             this.txt_Delay_ms_min.Name = "txt_Delay_ms_min";
             this.txt_Delay_ms_min.Size = new System.Drawing.Size(37, 22);
             this.txt_Delay_ms_min.TabIndex = 4;
-            this.txt_Delay_ms_min.Text = "2000";
+            this.txt_Delay_ms_min.Text = "800";
             // 
             // rd_Delay_Rand
             // 
@@ -830,17 +831,6 @@
             this.btnRegister_Taiwan.UseVisualStyleBackColor = true;
             this.btnRegister_Taiwan.Click += new System.EventHandler(this.btnRegister_Taiwan_Click);
             // 
-            // ckbSwitchPageStepByStep
-            // 
-            this.ckbSwitchPageStepByStep.AutoSize = true;
-            this.ckbSwitchPageStepByStep.Location = new System.Drawing.Point(9, 270);
-            this.ckbSwitchPageStepByStep.Name = "ckbSwitchPageStepByStep";
-            this.ckbSwitchPageStepByStep.Size = new System.Drawing.Size(242, 16);
-            this.ckbSwitchPageStepByStep.TabIndex = 47;
-            this.ckbSwitchPageStepByStep.Text = "搶票時依照順序1-2-3載入(若無則直接1-3)";
-            this.ckbSwitchPageStepByStep.UseVisualStyleBackColor = true;
-            this.ckbSwitchPageStepByStep.CheckedChanged += new System.EventHandler(this.ckbSwitchPageStepByStep_CheckedChanged);
-            // 
             // tabPage6
             // 
             this.tabPage6.Controls.Add(this.txt_window_backupEmail);
@@ -857,37 +847,12 @@
             this.tabPage6.Text = "Gmail帳密";
             this.tabPage6.UseVisualStyleBackColor = true;
             // 
-            // label15
+            // txt_window_backupEmail
             // 
-            this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(67, 36);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(33, 12);
-            this.label15.TabIndex = 0;
-            this.label15.Text = "Gmail";
-            // 
-            // txt_window_gmail
-            // 
-            this.txt_window_gmail.Location = new System.Drawing.Point(125, 26);
-            this.txt_window_gmail.Name = "txt_window_gmail";
-            this.txt_window_gmail.Size = new System.Drawing.Size(165, 22);
-            this.txt_window_gmail.TabIndex = 1;
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(71, 57);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(29, 12);
-            this.label16.TabIndex = 0;
-            this.label16.Text = "密碼";
-            // 
-            // txt_window_pwd
-            // 
-            this.txt_window_pwd.Location = new System.Drawing.Point(125, 54);
-            this.txt_window_pwd.Name = "txt_window_pwd";
-            this.txt_window_pwd.Size = new System.Drawing.Size(165, 22);
-            this.txt_window_pwd.TabIndex = 1;
+            this.txt_window_backupEmail.Location = new System.Drawing.Point(125, 79);
+            this.txt_window_backupEmail.Name = "txt_window_backupEmail";
+            this.txt_window_backupEmail.Size = new System.Drawing.Size(165, 22);
+            this.txt_window_backupEmail.TabIndex = 1;
             // 
             // label17
             // 
@@ -898,12 +863,48 @@
             this.label17.TabIndex = 0;
             this.label17.Text = "備用信箱";
             // 
-            // txt_window_backupEmail
+            // txt_window_pwd
             // 
-            this.txt_window_backupEmail.Location = new System.Drawing.Point(125, 79);
-            this.txt_window_backupEmail.Name = "txt_window_backupEmail";
-            this.txt_window_backupEmail.Size = new System.Drawing.Size(165, 22);
-            this.txt_window_backupEmail.TabIndex = 1;
+            this.txt_window_pwd.Location = new System.Drawing.Point(125, 54);
+            this.txt_window_pwd.Name = "txt_window_pwd";
+            this.txt_window_pwd.Size = new System.Drawing.Size(165, 22);
+            this.txt_window_pwd.TabIndex = 1;
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Location = new System.Drawing.Point(71, 57);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(29, 12);
+            this.label16.TabIndex = 0;
+            this.label16.Text = "密碼";
+            // 
+            // txt_window_gmail
+            // 
+            this.txt_window_gmail.Location = new System.Drawing.Point(125, 26);
+            this.txt_window_gmail.Name = "txt_window_gmail";
+            this.txt_window_gmail.Size = new System.Drawing.Size(165, 22);
+            this.txt_window_gmail.TabIndex = 1;
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Location = new System.Drawing.Point(67, 36);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(33, 12);
+            this.label15.TabIndex = 0;
+            this.label15.Text = "Gmail";
+            // 
+            // ckbSwitchPageStepByStep
+            // 
+            this.ckbSwitchPageStepByStep.AutoSize = true;
+            this.ckbSwitchPageStepByStep.Location = new System.Drawing.Point(9, 270);
+            this.ckbSwitchPageStepByStep.Name = "ckbSwitchPageStepByStep";
+            this.ckbSwitchPageStepByStep.Size = new System.Drawing.Size(242, 16);
+            this.ckbSwitchPageStepByStep.TabIndex = 47;
+            this.ckbSwitchPageStepByStep.Text = "搶票時依照順序1-2-3載入(若無則直接1-3)";
+            this.ckbSwitchPageStepByStep.UseVisualStyleBackColor = true;
+            this.ckbSwitchPageStepByStep.CheckedChanged += new System.EventHandler(this.ckbSwitchPageStepByStep_CheckedChanged);
             // 
             // Form1
             // 

@@ -88,7 +88,7 @@ namespace Tixcraft_Subscriber
             DownLoadShow.ShowDialog();
 
             //判斷認證
-            if (TixcraftSQL.HDDDatabase.IsAllow("CPUID_ver0507")) 
+            if (TixcraftSQL.HDDDatabase.IsAllow("CPUID_ver1022")) 
             //if (true)
             {
                 

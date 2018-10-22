@@ -87,19 +87,33 @@
             this.btnUpDatePixelPinAccount = new System.Windows.Forms.Button();
             this.txtPixelPinUpdateTable = new System.Windows.Forms.TextBox();
             this.tabPage5 = new System.Windows.Forms.TabPage();
-            this.btnAutoFillup_AllWindow = new System.Windows.Forms.Button();
-            this.lblCreditCard = new System.Windows.Forms.Label();
+            this.tabControl2 = new System.Windows.Forms.TabControl();
+            this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.label19 = new System.Windows.Forms.Label();
+            this.txtCredit_Card_Account = new System.Windows.Forms.TextBox();
+            this.label18 = new System.Windows.Forms.Label();
             this.btnAutoFillCreditCard = new System.Windows.Forms.Button();
+            this.txtCredit_Card_Month = new System.Windows.Forms.TextBox();
             this.txtCredit_Card_CVE = new System.Windows.Forms.TextBox();
+            this.label17 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
+            this.txtCredit_Card_Year = new System.Windows.Forms.TextBox();
             this.label15 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
-            this.txtCredit_Card_Year = new System.Windows.Forms.TextBox();
-            this.label17 = new System.Windows.Forms.Label();
-            this.txtCredit_Card_Month = new System.Windows.Forms.TextBox();
-            this.label18 = new System.Windows.Forms.Label();
-            this.txtCredit_Card_Account = new System.Windows.Forms.TextBox();
-            this.label19 = new System.Windows.Forms.Label();
+            this.tabPage8 = new System.Windows.Forms.TabPage();
+            this.label20 = new System.Windows.Forms.Label();
+            this.txtCredit_Card_Account_BK = new System.Windows.Forms.TextBox();
+            this.label21 = new System.Windows.Forms.Label();
+            this.btnAutoFillCredidCard = new System.Windows.Forms.Button();
+            this.txtCredit_Card_Month_BK = new System.Windows.Forms.TextBox();
+            this.txtCredit_Card_CVE_BK = new System.Windows.Forms.TextBox();
+            this.label22 = new System.Windows.Forms.Label();
+            this.label23 = new System.Windows.Forms.Label();
+            this.txtCredit_Card_Year_BK = new System.Windows.Forms.TextBox();
+            this.label24 = new System.Windows.Forms.Label();
+            this.label25 = new System.Windows.Forms.Label();
+            this.btnAutoFillup_AllWindow = new System.Windows.Forms.Button();
+            this.lblCreditCard = new System.Windows.Forms.Label();
             this.pnlControlTable = new System.Windows.Forms.Panel();
             this.rd_Answer02 = new System.Windows.Forms.RadioButton();
             this.rd_Answer01 = new System.Windows.Forms.RadioButton();
@@ -115,20 +129,6 @@
             this.txtIP = new System.Windows.Forms.TextBox();
             this.btnShareAnswer = new System.Windows.Forms.Button();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
-            this.tabControl2 = new System.Windows.Forms.TabControl();
-            this.tabPage4 = new System.Windows.Forms.TabPage();
-            this.tabPage8 = new System.Windows.Forms.TabPage();
-            this.label20 = new System.Windows.Forms.Label();
-            this.txtCredit_Card_Account_BK = new System.Windows.Forms.TextBox();
-            this.label21 = new System.Windows.Forms.Label();
-            this.btnAutoFillCredidCard = new System.Windows.Forms.Button();
-            this.txtCredit_Card_Month_BK = new System.Windows.Forms.TextBox();
-            this.txtCredit_Card_CVE_BK = new System.Windows.Forms.TextBox();
-            this.label22 = new System.Windows.Forms.Label();
-            this.label23 = new System.Windows.Forms.Label();
-            this.txtCredit_Card_Year_BK = new System.Windows.Forms.TextBox();
-            this.label24 = new System.Windows.Forms.Label();
-            this.label25 = new System.Windows.Forms.Label();
             this.tpFBEmail.SuspendLayout();
             this.tpShow.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -139,11 +139,11 @@
             this.tabPage6.SuspendLayout();
             this.tabPage7.SuspendLayout();
             this.tabPage5.SuspendLayout();
-            this.pnlControlTable.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.tabControl2.SuspendLayout();
             this.tabPage4.SuspendLayout();
             this.tabPage8.SuspendLayout();
+            this.pnlControlTable.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // btnLoadAcc
@@ -820,305 +820,6 @@
             this.tabPage5.TabIndex = 8;
             this.tabPage5.Text = "國泰刷卡";
             // 
-            // btnAutoFillup_AllWindow
-            // 
-            this.btnAutoFillup_AllWindow.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(35)))), ((int)(((byte)(45)))));
-            this.btnAutoFillup_AllWindow.Location = new System.Drawing.Point(269, 135);
-            this.btnAutoFillup_AllWindow.Name = "btnAutoFillup_AllWindow";
-            this.btnAutoFillup_AllWindow.Size = new System.Drawing.Size(118, 61);
-            this.btnAutoFillup_AllWindow.TabIndex = 23;
-            this.btnAutoFillup_AllWindow.Text = "所有視窗執行填單";
-            this.btnAutoFillup_AllWindow.UseVisualStyleBackColor = false;
-            this.btnAutoFillup_AllWindow.Click += new System.EventHandler(this.btnAutoFillup_AllWindow_Click);
-            // 
-            // lblCreditCard
-            // 
-            this.lblCreditCard.AutoSize = true;
-            this.lblCreditCard.Location = new System.Drawing.Point(267, 12);
-            this.lblCreditCard.Name = "lblCreditCard";
-            this.lblCreditCard.Size = new System.Drawing.Size(29, 12);
-            this.lblCreditCard.TabIndex = 22;
-            this.lblCreditCard.Text = "訊息";
-            // 
-            // btnAutoFillCreditCard
-            // 
-            this.btnAutoFillCreditCard.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(35)))), ((int)(((byte)(45)))));
-            this.btnAutoFillCreditCard.Location = new System.Drawing.Point(8, 109);
-            this.btnAutoFillCreditCard.Name = "btnAutoFillCreditCard";
-            this.btnAutoFillCreditCard.Size = new System.Drawing.Size(203, 49);
-            this.btnAutoFillCreditCard.TabIndex = 21;
-            this.btnAutoFillCreditCard.Text = "設定所有視窗如上參數";
-            this.btnAutoFillCreditCard.UseVisualStyleBackColor = false;
-            this.btnAutoFillCreditCard.Click += new System.EventHandler(this.btnAutoFillCreditCard_Click);
-            // 
-            // txtCredit_Card_CVE
-            // 
-            this.txtCredit_Card_CVE.Location = new System.Drawing.Point(82, 79);
-            this.txtCredit_Card_CVE.Name = "txtCredit_Card_CVE";
-            this.txtCredit_Card_CVE.Size = new System.Drawing.Size(129, 22);
-            this.txtCredit_Card_CVE.TabIndex = 20;
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(6, 85);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(71, 12);
-            this.label14.TabIndex = 19;
-            this.label14.Text = "卡片檢查碼 :";
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(162, 64);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(49, 12);
-            this.label15.TabIndex = 18;
-            this.label15.Text = "西元(年)";
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(80, 64);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(49, 12);
-            this.label16.TabIndex = 17;
-            this.label16.Text = "西元(月)";
-            // 
-            // txtCredit_Card_Year
-            // 
-            this.txtCredit_Card_Year.Location = new System.Drawing.Point(161, 39);
-            this.txtCredit_Card_Year.Name = "txtCredit_Card_Year";
-            this.txtCredit_Card_Year.Size = new System.Drawing.Size(50, 22);
-            this.txtCredit_Card_Year.TabIndex = 16;
-            this.txtCredit_Card_Year.TextChanged += new System.EventHandler(this.txtCredit_Card_Year_TextChanged);
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(142, 45);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(8, 12);
-            this.label17.TabIndex = 15;
-            this.label17.Text = "/";
-            // 
-            // txtCredit_Card_Month
-            // 
-            this.txtCredit_Card_Month.Location = new System.Drawing.Point(82, 39);
-            this.txtCredit_Card_Month.Name = "txtCredit_Card_Month";
-            this.txtCredit_Card_Month.Size = new System.Drawing.Size(49, 22);
-            this.txtCredit_Card_Month.TabIndex = 14;
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(6, 45);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(71, 12);
-            this.label18.TabIndex = 13;
-            this.label18.Text = "卡片到期日 :";
-            // 
-            // txtCredit_Card_Account
-            // 
-            this.txtCredit_Card_Account.Location = new System.Drawing.Point(82, 11);
-            this.txtCredit_Card_Account.Name = "txtCredit_Card_Account";
-            this.txtCredit_Card_Account.Size = new System.Drawing.Size(129, 22);
-            this.txtCredit_Card_Account.TabIndex = 12;
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(6, 17);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(71, 12);
-            this.label19.TabIndex = 11;
-            this.label19.Text = "信用卡卡號 :";
-            // 
-            // pnlControlTable
-            // 
-            this.pnlControlTable.Controls.Add(this.rd_Answer02);
-            this.pnlControlTable.Controls.Add(this.rd_Answer01);
-            this.pnlControlTable.Controls.Add(this.label11);
-            this.pnlControlTable.Controls.Add(this.lblHDDNumber);
-            this.pnlControlTable.Controls.Add(this.chkBGoogleChrome);
-            this.pnlControlTable.Controls.Add(this.pictureBox1);
-            this.pnlControlTable.Controls.Add(this.label8);
-            this.pnlControlTable.Controls.Add(this.btn_ShowLog);
-            this.pnlControlTable.Controls.Add(this.btnStop_Buy);
-            this.pnlControlTable.Controls.Add(this.label7);
-            this.pnlControlTable.Controls.Add(this.btnSaveIP);
-            this.pnlControlTable.Controls.Add(this.txtIP);
-            this.pnlControlTable.Controls.Add(this.listBox1);
-            this.pnlControlTable.Controls.Add(this.tpFBEmail);
-            this.pnlControlTable.Controls.Add(this.btnClearAnswers);
-            this.pnlControlTable.Controls.Add(this.btnShareAnswer);
-            this.pnlControlTable.Controls.Add(this.btnDownLoadAnswer);
-            this.pnlControlTable.Controls.Add(this.btnSortForm);
-            this.pnlControlTable.Controls.Add(this.btnAdd);
-            this.pnlControlTable.Controls.Add(this.btnOpenBrowsers);
-            this.pnlControlTable.Controls.Add(this.lblAnswerVeryCOde);
-            this.pnlControlTable.Controls.Add(this.btnDEL);
-            this.pnlControlTable.Controls.Add(this.label3);
-            this.pnlControlTable.Controls.Add(this.btnChangeShow);
-            this.pnlControlTable.Controls.Add(this.txtCheckCodeAnswer);
-            this.pnlControlTable.Controls.Add(this.btnAutoBuy);
-            this.pnlControlTable.Controls.Add(this.ckRandSeats);
-            this.pnlControlTable.ForeColor = System.Drawing.Color.White;
-            this.pnlControlTable.Location = new System.Drawing.Point(7, 2);
-            this.pnlControlTable.Name = "pnlControlTable";
-            this.pnlControlTable.Size = new System.Drawing.Size(719, 390);
-            this.pnlControlTable.TabIndex = 32;
-            this.pnlControlTable.Visible = false;
-            this.pnlControlTable.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlControlTable_Paint);
-            // 
-            // rd_Answer02
-            // 
-            this.rd_Answer02.AutoSize = true;
-            this.rd_Answer02.Location = new System.Drawing.Point(80, 266);
-            this.rd_Answer02.Name = "rd_Answer02";
-            this.rd_Answer02.Size = new System.Drawing.Size(75, 16);
-            this.rd_Answer02.TabIndex = 44;
-            this.rd_Answer02.Text = "考試-周日";
-            this.rd_Answer02.UseVisualStyleBackColor = true;
-            this.rd_Answer02.CheckedChanged += new System.EventHandler(this.rd_Answer02_CheckedChanged);
-            // 
-            // rd_Answer01
-            // 
-            this.rd_Answer01.AutoSize = true;
-            this.rd_Answer01.Checked = true;
-            this.rd_Answer01.Location = new System.Drawing.Point(80, 244);
-            this.rd_Answer01.Name = "rd_Answer01";
-            this.rd_Answer01.Size = new System.Drawing.Size(75, 16);
-            this.rd_Answer01.TabIndex = 43;
-            this.rd_Answer01.TabStop = true;
-            this.rd_Answer01.Text = "考試-週六";
-            this.rd_Answer01.UseVisualStyleBackColor = true;
-            this.rd_Answer01.CheckedChanged += new System.EventHandler(this.rd_Answer01_CheckedChanged);
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("新細明體", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label11.ForeColor = System.Drawing.Color.DarkSalmon;
-            this.label11.Location = new System.Drawing.Point(408, 350);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(98, 29);
-            this.label11.TabIndex = 39;
-            this.label11.Text = "ver 6.4";
-            // 
-            // lblHDDNumber
-            // 
-            this.lblHDDNumber.AutoSize = true;
-            this.lblHDDNumber.Font = new System.Drawing.Font("微軟正黑體", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.lblHDDNumber.ForeColor = System.Drawing.Color.Gray;
-            this.lblHDDNumber.Location = new System.Drawing.Point(11, 362);
-            this.lblHDDNumber.Name = "lblHDDNumber";
-            this.lblHDDNumber.Size = new System.Drawing.Size(51, 15);
-            this.lblHDDNumber.TabIndex = 33;
-            this.lblHDDNumber.Text = "硬體序號";
-            // 
-            // chkBGoogleChrome
-            // 
-            this.chkBGoogleChrome.AutoSize = true;
-            this.chkBGoogleChrome.Checked = true;
-            this.chkBGoogleChrome.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.chkBGoogleChrome.Location = new System.Drawing.Point(89, 361);
-            this.chkBGoogleChrome.Name = "chkBGoogleChrome";
-            this.chkBGoogleChrome.Size = new System.Drawing.Size(289, 16);
-            this.chkBGoogleChrome.TabIndex = 42;
-            this.chkBGoogleChrome.Text = "打勾 = 使用Google瀏覽器 不打勾 = 使用幽靈瀏覽器";
-            this.chkBGoogleChrome.UseVisualStyleBackColor = true;
-            this.chkBGoogleChrome.Visible = false;
-            this.chkBGoogleChrome.CheckedChanged += new System.EventHandler(this.chkBGoogleChrome_CheckedChanged);
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::Tixcraft_Subscriber.Properties.Resources.logo1;
-            this.pictureBox1.Location = new System.Drawing.Point(533, 244);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(180, 143);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 37;
-            this.pictureBox1.TabStop = false;
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(342, 260);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(81, 12);
-            this.label8.TabIndex = 36;
-            this.label8.Text = "輸入完按Enter ";
-            // 
-            // btn_ShowLog
-            // 
-            this.btn_ShowLog.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(35)))), ((int)(((byte)(75)))));
-            this.btn_ShowLog.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_ShowLog.Location = new System.Drawing.Point(566, 32);
-            this.btn_ShowLog.Name = "btn_ShowLog";
-            this.btn_ShowLog.Size = new System.Drawing.Size(68, 36);
-            this.btn_ShowLog.TabIndex = 35;
-            this.btn_ShowLog.Text = "日誌";
-            this.btn_ShowLog.UseVisualStyleBackColor = false;
-            this.btn_ShowLog.Click += new System.EventHandler(this.btn_ShowLog_Click);
-            // 
-            // btnStop_Buy
-            // 
-            this.btnStop_Buy.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(35)))), ((int)(((byte)(75)))));
-            this.btnStop_Buy.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnStop_Buy.Location = new System.Drawing.Point(566, 202);
-            this.btnStop_Buy.Name = "btnStop_Buy";
-            this.btnStop_Buy.Size = new System.Drawing.Size(68, 36);
-            this.btnStop_Buy.TabIndex = 35;
-            this.btnStop_Buy.Text = "全部停止";
-            this.btnStop_Buy.UseVisualStyleBackColor = false;
-            this.btnStop_Buy.Click += new System.EventHandler(this.btnStop_Buy_Click);
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(12, 297);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(62, 12);
-            this.label7.TabIndex = 34;
-            this.label7.Text = "OCR Server";
-            this.label7.Click += new System.EventHandler(this.label7_Click);
-            // 
-            // btnSaveIP
-            // 
-            this.btnSaveIP.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(35)))), ((int)(((byte)(45)))));
-            this.btnSaveIP.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSaveIP.Location = new System.Drawing.Point(87, 291);
-            this.btnSaveIP.Name = "btnSaveIP";
-            this.btnSaveIP.Size = new System.Drawing.Size(57, 43);
-            this.btnSaveIP.TabIndex = 33;
-            this.btnSaveIP.Text = "儲存";
-            this.btnSaveIP.UseVisualStyleBackColor = false;
-            this.btnSaveIP.Click += new System.EventHandler(this.btnSaveIP_Click);
-            // 
-            // txtIP
-            // 
-            this.txtIP.Location = new System.Drawing.Point(14, 312);
-            this.txtIP.Name = "txtIP";
-            this.txtIP.Size = new System.Drawing.Size(67, 22);
-            this.txtIP.TabIndex = 32;
-            // 
-            // btnShareAnswer
-            // 
-            this.btnShareAnswer.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(35)))), ((int)(((byte)(45)))));
-            this.btnShareAnswer.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnShareAnswer.Location = new System.Drawing.Point(167, 312);
-            this.btnShareAnswer.Name = "btnShareAnswer";
-            this.btnShareAnswer.Size = new System.Drawing.Size(66, 37);
-            this.btnShareAnswer.TabIndex = 29;
-            this.btnShareAnswer.Text = "共享答案";
-            this.btnShareAnswer.UseVisualStyleBackColor = false;
-            this.btnShareAnswer.Click += new System.EventHandler(this.btnShareAnswer_Click);
-            // 
-            // openFileDialog1
-            // 
-            this.openFileDialog1.FileName = "openFileDialog1";
-            // 
             // tabControl2
             // 
             this.tabControl2.Controls.Add(this.tabPage4);
@@ -1149,6 +850,100 @@
             this.tabPage4.Size = new System.Drawing.Size(243, 164);
             this.tabPage4.TabIndex = 0;
             this.tabPage4.Text = "主卡";
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Location = new System.Drawing.Point(6, 17);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(71, 12);
+            this.label19.TabIndex = 11;
+            this.label19.Text = "信用卡卡號 :";
+            // 
+            // txtCredit_Card_Account
+            // 
+            this.txtCredit_Card_Account.Location = new System.Drawing.Point(82, 11);
+            this.txtCredit_Card_Account.Name = "txtCredit_Card_Account";
+            this.txtCredit_Card_Account.Size = new System.Drawing.Size(129, 22);
+            this.txtCredit_Card_Account.TabIndex = 12;
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Location = new System.Drawing.Point(6, 45);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(71, 12);
+            this.label18.TabIndex = 13;
+            this.label18.Text = "卡片到期日 :";
+            // 
+            // btnAutoFillCreditCard
+            // 
+            this.btnAutoFillCreditCard.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(35)))), ((int)(((byte)(45)))));
+            this.btnAutoFillCreditCard.Location = new System.Drawing.Point(8, 109);
+            this.btnAutoFillCreditCard.Name = "btnAutoFillCreditCard";
+            this.btnAutoFillCreditCard.Size = new System.Drawing.Size(203, 49);
+            this.btnAutoFillCreditCard.TabIndex = 21;
+            this.btnAutoFillCreditCard.Text = "設定所有視窗如上參數";
+            this.btnAutoFillCreditCard.UseVisualStyleBackColor = false;
+            this.btnAutoFillCreditCard.Click += new System.EventHandler(this.btnAutoFillCreditCard_Click);
+            // 
+            // txtCredit_Card_Month
+            // 
+            this.txtCredit_Card_Month.Location = new System.Drawing.Point(82, 39);
+            this.txtCredit_Card_Month.Name = "txtCredit_Card_Month";
+            this.txtCredit_Card_Month.Size = new System.Drawing.Size(49, 22);
+            this.txtCredit_Card_Month.TabIndex = 14;
+            // 
+            // txtCredit_Card_CVE
+            // 
+            this.txtCredit_Card_CVE.Location = new System.Drawing.Point(82, 79);
+            this.txtCredit_Card_CVE.Name = "txtCredit_Card_CVE";
+            this.txtCredit_Card_CVE.Size = new System.Drawing.Size(129, 22);
+            this.txtCredit_Card_CVE.TabIndex = 20;
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Location = new System.Drawing.Point(142, 45);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(8, 12);
+            this.label17.TabIndex = 15;
+            this.label17.Text = "/";
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Location = new System.Drawing.Point(6, 85);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(71, 12);
+            this.label14.TabIndex = 19;
+            this.label14.Text = "卡片檢查碼 :";
+            // 
+            // txtCredit_Card_Year
+            // 
+            this.txtCredit_Card_Year.Location = new System.Drawing.Point(161, 39);
+            this.txtCredit_Card_Year.Name = "txtCredit_Card_Year";
+            this.txtCredit_Card_Year.Size = new System.Drawing.Size(50, 22);
+            this.txtCredit_Card_Year.TabIndex = 16;
+            this.txtCredit_Card_Year.TextChanged += new System.EventHandler(this.txtCredit_Card_Year_TextChanged);
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Location = new System.Drawing.Point(162, 64);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(49, 12);
+            this.label15.TabIndex = 18;
+            this.label15.Text = "西元(年)";
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Location = new System.Drawing.Point(80, 64);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(49, 12);
+            this.label16.TabIndex = 17;
+            this.label16.Text = "西元(月)";
             // 
             // tabPage8
             // 
@@ -1266,6 +1061,211 @@
             this.label25.TabIndex = 28;
             this.label25.Text = "西元(月)";
             // 
+            // btnAutoFillup_AllWindow
+            // 
+            this.btnAutoFillup_AllWindow.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(35)))), ((int)(((byte)(45)))));
+            this.btnAutoFillup_AllWindow.Location = new System.Drawing.Point(269, 135);
+            this.btnAutoFillup_AllWindow.Name = "btnAutoFillup_AllWindow";
+            this.btnAutoFillup_AllWindow.Size = new System.Drawing.Size(118, 61);
+            this.btnAutoFillup_AllWindow.TabIndex = 23;
+            this.btnAutoFillup_AllWindow.Text = "所有視窗執行填單";
+            this.btnAutoFillup_AllWindow.UseVisualStyleBackColor = false;
+            this.btnAutoFillup_AllWindow.Click += new System.EventHandler(this.btnAutoFillup_AllWindow_Click);
+            // 
+            // lblCreditCard
+            // 
+            this.lblCreditCard.AutoSize = true;
+            this.lblCreditCard.Location = new System.Drawing.Point(267, 12);
+            this.lblCreditCard.Name = "lblCreditCard";
+            this.lblCreditCard.Size = new System.Drawing.Size(29, 12);
+            this.lblCreditCard.TabIndex = 22;
+            this.lblCreditCard.Text = "訊息";
+            // 
+            // pnlControlTable
+            // 
+            this.pnlControlTable.Controls.Add(this.rd_Answer02);
+            this.pnlControlTable.Controls.Add(this.rd_Answer01);
+            this.pnlControlTable.Controls.Add(this.label11);
+            this.pnlControlTable.Controls.Add(this.lblHDDNumber);
+            this.pnlControlTable.Controls.Add(this.chkBGoogleChrome);
+            this.pnlControlTable.Controls.Add(this.pictureBox1);
+            this.pnlControlTable.Controls.Add(this.label8);
+            this.pnlControlTable.Controls.Add(this.btn_ShowLog);
+            this.pnlControlTable.Controls.Add(this.btnStop_Buy);
+            this.pnlControlTable.Controls.Add(this.label7);
+            this.pnlControlTable.Controls.Add(this.btnSaveIP);
+            this.pnlControlTable.Controls.Add(this.txtIP);
+            this.pnlControlTable.Controls.Add(this.listBox1);
+            this.pnlControlTable.Controls.Add(this.tpFBEmail);
+            this.pnlControlTable.Controls.Add(this.btnClearAnswers);
+            this.pnlControlTable.Controls.Add(this.btnShareAnswer);
+            this.pnlControlTable.Controls.Add(this.btnDownLoadAnswer);
+            this.pnlControlTable.Controls.Add(this.btnSortForm);
+            this.pnlControlTable.Controls.Add(this.btnAdd);
+            this.pnlControlTable.Controls.Add(this.btnOpenBrowsers);
+            this.pnlControlTable.Controls.Add(this.lblAnswerVeryCOde);
+            this.pnlControlTable.Controls.Add(this.btnDEL);
+            this.pnlControlTable.Controls.Add(this.label3);
+            this.pnlControlTable.Controls.Add(this.btnChangeShow);
+            this.pnlControlTable.Controls.Add(this.txtCheckCodeAnswer);
+            this.pnlControlTable.Controls.Add(this.btnAutoBuy);
+            this.pnlControlTable.Controls.Add(this.ckRandSeats);
+            this.pnlControlTable.ForeColor = System.Drawing.Color.White;
+            this.pnlControlTable.Location = new System.Drawing.Point(7, 2);
+            this.pnlControlTable.Name = "pnlControlTable";
+            this.pnlControlTable.Size = new System.Drawing.Size(719, 390);
+            this.pnlControlTable.TabIndex = 32;
+            this.pnlControlTable.Visible = false;
+            this.pnlControlTable.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlControlTable_Paint);
+            // 
+            // rd_Answer02
+            // 
+            this.rd_Answer02.AutoSize = true;
+            this.rd_Answer02.Location = new System.Drawing.Point(80, 266);
+            this.rd_Answer02.Name = "rd_Answer02";
+            this.rd_Answer02.Size = new System.Drawing.Size(75, 16);
+            this.rd_Answer02.TabIndex = 44;
+            this.rd_Answer02.Text = "考試-周日";
+            this.rd_Answer02.UseVisualStyleBackColor = true;
+            this.rd_Answer02.CheckedChanged += new System.EventHandler(this.rd_Answer02_CheckedChanged);
+            // 
+            // rd_Answer01
+            // 
+            this.rd_Answer01.AutoSize = true;
+            this.rd_Answer01.Checked = true;
+            this.rd_Answer01.Location = new System.Drawing.Point(80, 244);
+            this.rd_Answer01.Name = "rd_Answer01";
+            this.rd_Answer01.Size = new System.Drawing.Size(75, 16);
+            this.rd_Answer01.TabIndex = 43;
+            this.rd_Answer01.TabStop = true;
+            this.rd_Answer01.Text = "考試-週六";
+            this.rd_Answer01.UseVisualStyleBackColor = true;
+            this.rd_Answer01.CheckedChanged += new System.EventHandler(this.rd_Answer01_CheckedChanged);
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("新細明體", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.label11.ForeColor = System.Drawing.Color.DarkSalmon;
+            this.label11.Location = new System.Drawing.Point(408, 350);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(98, 29);
+            this.label11.TabIndex = 39;
+            this.label11.Text = "ver 6.5";
+            // 
+            // lblHDDNumber
+            // 
+            this.lblHDDNumber.AutoSize = true;
+            this.lblHDDNumber.Font = new System.Drawing.Font("微軟正黑體", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.lblHDDNumber.ForeColor = System.Drawing.Color.Gray;
+            this.lblHDDNumber.Location = new System.Drawing.Point(11, 362);
+            this.lblHDDNumber.Name = "lblHDDNumber";
+            this.lblHDDNumber.Size = new System.Drawing.Size(51, 15);
+            this.lblHDDNumber.TabIndex = 33;
+            this.lblHDDNumber.Text = "硬體序號";
+            // 
+            // chkBGoogleChrome
+            // 
+            this.chkBGoogleChrome.AutoSize = true;
+            this.chkBGoogleChrome.Checked = true;
+            this.chkBGoogleChrome.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkBGoogleChrome.Location = new System.Drawing.Point(89, 361);
+            this.chkBGoogleChrome.Name = "chkBGoogleChrome";
+            this.chkBGoogleChrome.Size = new System.Drawing.Size(289, 16);
+            this.chkBGoogleChrome.TabIndex = 42;
+            this.chkBGoogleChrome.Text = "打勾 = 使用Google瀏覽器 不打勾 = 使用幽靈瀏覽器";
+            this.chkBGoogleChrome.UseVisualStyleBackColor = true;
+            this.chkBGoogleChrome.Visible = false;
+            this.chkBGoogleChrome.CheckedChanged += new System.EventHandler(this.chkBGoogleChrome_CheckedChanged);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Tixcraft_Subscriber.Properties.Resources.logo1;
+            this.pictureBox1.Location = new System.Drawing.Point(533, 244);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(180, 143);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 37;
+            this.pictureBox1.TabStop = false;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(342, 260);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(81, 12);
+            this.label8.TabIndex = 36;
+            this.label8.Text = "輸入完按Enter ";
+            // 
+            // btn_ShowLog
+            // 
+            this.btn_ShowLog.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(35)))), ((int)(((byte)(75)))));
+            this.btn_ShowLog.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_ShowLog.Location = new System.Drawing.Point(566, 32);
+            this.btn_ShowLog.Name = "btn_ShowLog";
+            this.btn_ShowLog.Size = new System.Drawing.Size(68, 36);
+            this.btn_ShowLog.TabIndex = 35;
+            this.btn_ShowLog.Text = "日誌";
+            this.btn_ShowLog.UseVisualStyleBackColor = false;
+            this.btn_ShowLog.Click += new System.EventHandler(this.btn_ShowLog_Click);
+            // 
+            // btnStop_Buy
+            // 
+            this.btnStop_Buy.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(35)))), ((int)(((byte)(75)))));
+            this.btnStop_Buy.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnStop_Buy.Location = new System.Drawing.Point(566, 202);
+            this.btnStop_Buy.Name = "btnStop_Buy";
+            this.btnStop_Buy.Size = new System.Drawing.Size(68, 36);
+            this.btnStop_Buy.TabIndex = 35;
+            this.btnStop_Buy.Text = "全部停止";
+            this.btnStop_Buy.UseVisualStyleBackColor = false;
+            this.btnStop_Buy.Click += new System.EventHandler(this.btnStop_Buy_Click);
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(12, 297);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(62, 12);
+            this.label7.TabIndex = 34;
+            this.label7.Text = "OCR Server";
+            this.label7.Click += new System.EventHandler(this.label7_Click);
+            // 
+            // btnSaveIP
+            // 
+            this.btnSaveIP.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(35)))), ((int)(((byte)(45)))));
+            this.btnSaveIP.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSaveIP.Location = new System.Drawing.Point(87, 291);
+            this.btnSaveIP.Name = "btnSaveIP";
+            this.btnSaveIP.Size = new System.Drawing.Size(57, 43);
+            this.btnSaveIP.TabIndex = 33;
+            this.btnSaveIP.Text = "儲存";
+            this.btnSaveIP.UseVisualStyleBackColor = false;
+            this.btnSaveIP.Click += new System.EventHandler(this.btnSaveIP_Click);
+            // 
+            // txtIP
+            // 
+            this.txtIP.Location = new System.Drawing.Point(14, 312);
+            this.txtIP.Name = "txtIP";
+            this.txtIP.Size = new System.Drawing.Size(67, 22);
+            this.txtIP.TabIndex = 32;
+            // 
+            // btnShareAnswer
+            // 
+            this.btnShareAnswer.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(35)))), ((int)(((byte)(45)))));
+            this.btnShareAnswer.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnShareAnswer.Location = new System.Drawing.Point(167, 312);
+            this.btnShareAnswer.Name = "btnShareAnswer";
+            this.btnShareAnswer.Size = new System.Drawing.Size(66, 37);
+            this.btnShareAnswer.TabIndex = 29;
+            this.btnShareAnswer.Text = "共享答案";
+            this.btnShareAnswer.UseVisualStyleBackColor = false;
+            this.btnShareAnswer.Click += new System.EventHandler(this.btnShareAnswer_Click);
+            // 
+            // openFileDialog1
+            // 
+            this.openFileDialog1.FileName = "openFileDialog1";
+            // 
             // SubscriberLoginer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -1277,7 +1277,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "SubscriberLoginer";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "拓元神器(Money) ver_6.4 - 2018.10.18";
+            this.Text = "拓元神器(Money) ver_6.5 - 2018.10.22";
             this.TopMost = true;
             this.Activated += new System.EventHandler(this.SubscriberLoginer_Activated);
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.SubscriberLoginer_FormClosed);
@@ -1300,14 +1300,14 @@
             this.tabPage7.PerformLayout();
             this.tabPage5.ResumeLayout(false);
             this.tabPage5.PerformLayout();
-            this.pnlControlTable.ResumeLayout(false);
-            this.pnlControlTable.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.tabControl2.ResumeLayout(false);
             this.tabPage4.ResumeLayout(false);
             this.tabPage4.PerformLayout();
             this.tabPage8.ResumeLayout(false);
             this.tabPage8.PerformLayout();
+            this.pnlControlTable.ResumeLayout(false);
+            this.pnlControlTable.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }

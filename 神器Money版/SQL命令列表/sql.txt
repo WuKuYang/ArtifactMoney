@@ -1,0 +1,61 @@
+gcloud beta sql connect tixcraftsql --user=linbaywugi
+
+gcloud beta sql connect linbaywugi --user=linbaywugi // 0815 --> 4a0g0137
+
+create table titles (_id integer primary key,title char(20),price real);
+
+
+===========================================================================
+
+
+//CPU認證
+create table HDDInfo (CPUName char(100),state char(20), OpenDate char(100)); 
+//新增CPU認證
+INSERT INTO HDDInfo (CPUName,state,OpenDate) VALUES('CPUID12345678','off','20170825 01:33');
+//判斷是否有CPU認證  
+SELECT * FROM HDDInfo WHERE CPUName='CPUID12345678';
+SELECT * FROM HDDInfo WHERE CPUName='CPUID12345678' AND state='on';
+//刪除CPU認證 
+delete from HDDInfo where CPUName='CPUID12345678';
+//全部開放
+UPDATE HDDInfo  SET state = 'on' WHERE true;
+
+
+===========================================================================
+//Email認證
+create table AccountInfo (FBAccount char(200),state char(20), OpenDate char(100));  
+INSERT INTO AccountInfo (FBAccount,state,OpenDate) VALUES('x@x.com','off','20170825 06:33'); 
+SELECT * FROM AccountInfo ; 
+//查詢已有欄位
+SELECT * FROM AccountInfo WHERE FBAccount='x@x.com' AND state='on';
+//修改現有欄位資訊
+UPDATE AccountInfo  SET state = 'off'  WHERE FBAccount='x@x.com'   ;
+//刪除EMAIL認證
+delete from AccountInfo where FBAccount='x@x.com'; 
+
+===========================================================================
+
+
+//答案共享機制 
+create table ShareAnswer (Ans char(200), OpenDate char(100)); 
+//查詢已有欄位
+SELECT * FROM ShareAnswer WHERE true;
+INSERT INTO ShareAnswer (Ans,OpenDate) VALUES('x@x.com','20170825 06:33'); 
+
+===========================================================================
+
+
+
+
+//新增一筆資料
+INSERT INTO MyTix (name,FreeUse) VALUES('yang','no');
+
+//清空全部資料
+delete from MyTix where true;
+
+select * from MyTix;
+
+//秀出表格欄位
+Describe 資料表
+
+

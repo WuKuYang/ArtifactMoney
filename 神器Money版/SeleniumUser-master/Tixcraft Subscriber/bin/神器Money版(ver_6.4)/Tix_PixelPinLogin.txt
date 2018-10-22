@@ -1,0 +1,22 @@
+
+function Pix_KeyInRegist_Username(strAnswer)
+{
+    var eleCheckCode=document.getElementById('Username');
+    if(eleCheckCode !=undefined )
+    {
+        eleCheckCode.value= strAnswer;
+
+        var inputs_tag = document.getElementsByTagName("button");
+        for(var i = 0 ; i< inputs_tag.length;i++)
+        {
+            if(inputs_tag[i].getAttribute("name") == 'signinButton')
+            {
+                inputs_tag[i].click();
+                break;
+            }
+        }
+    }
+}
+
+
+

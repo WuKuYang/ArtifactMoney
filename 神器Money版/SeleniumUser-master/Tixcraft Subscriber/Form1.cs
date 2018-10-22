@@ -1205,7 +1205,26 @@ namespace Tixcraft_Subscriber
                         SubscrEr.SubmitAndPreSubtmi("GGGG" , 1); 
                     }
                     else
-                    {  
+                    {
+
+                        //IWebElement iAgreeElement = null;
+                        //try
+                        //{ 
+                        //    iAgreeElement = SubscrEr.Driver.FindElement(By.Id("TicketForm_agree"));
+                        //    //if ( == false)
+                        //    {
+                        //        int iClick_x = iAgreeElement.Location.X +0;
+                        //        int iClick_y = iAgreeElement.Location.Y +0;
+                        //        SubscrEr.HwndController.Mouse_LeftButton_Down_ByOffset(iClick_x, iClick_y);
+                        //        Thread.Sleep(10);
+                        //        SubscrEr.HwndController.Mouse_LeftButton_Up_ByOffset(iClick_x, iClick_y);
+                        //    }
+                        //}
+                        //catch (Exception ex)
+                        //{
+                        //    VPState.Report("找不到\"我同意\"這個選項", MethodBase.GetCurrentMethod(), VPState.eVPType.Windows);
+                        //} 
+                        
                         SubscrEr.SubmitAndPreSubtmi(strResult, iTickets); 
 
                     }

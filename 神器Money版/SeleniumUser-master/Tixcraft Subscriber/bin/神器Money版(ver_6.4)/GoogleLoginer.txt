@@ -1,0 +1,122 @@
+
+var g_bIsLoginDone = false;
+var g_bIsLogin_PasswordDone = false;
+var g_bIsLogin_BackuoEmailDone = false;
+var g_bIsLogin_BackuoTypeinDone = false;
+function GoogleLogin_EmailPage(strEmail)
+{
+    var inputs_tag = document.getElementsByTagName("input");
+    var InputEmail = null;
+    if(g_bIsLoginDone == false)
+    {
+        for(var i = 0 ; i< inputs_tag.length;i++)
+        {
+
+            if(inputs_tag[i].getAttribute("type") == 'email')
+            {
+                inputs_tag[i].value =strEmail;
+                InputEmail =  inputs_tag[i];
+            }
+        }
+        if(InputEmail != null)
+        {
+            if(InputEmail.value == strEmail)
+            {
+                document.getElementById("identifierNext").click();
+                g_bIsLoginDone= true;
+            }
+        }
+    }
+}
+
+function GoogleLogin_PasswordPage(strPwd)
+{
+    var inputs_tag = document.getElementsByTagName("input");
+    var InputEmail_pwd = null;
+    if(g_bIsLogin_PasswordDone == false)
+    {
+        for(var i = 0 ; i< inputs_tag.length;i++)
+        {
+
+            if(inputs_tag[i].getAttribute("type") == 'password')
+            {
+                inputs_tag[i].value =strPwd;
+                InputEmail_pwd =  inputs_tag[i];
+            }
+        }
+        if(InputEmail_pwd != null)
+        {
+            if(InputEmail_pwd.value == strPwd)
+            {
+                document.getElementById("passwordNext").click();
+                g_bIsLogin_PasswordDone= true;
+            }
+        }
+    }
+}
+
+
+function GoogleLogin_BackupEmailPage()
+{
+    var inputs_tag = document.getElementsByTagName("div");
+    var button_backupEmail= null;
+    if(g_bIsLogin_BackuoEmailDone == false)
+    {
+        for(var i = 0 ; i< inputs_tag.length;i++)
+        {
+
+            if(inputs_tag[i].textContent == '確認備援電子郵件地址')
+            {
+                button_backupEmail =  inputs_tag[i];
+            }
+        }
+        if(button_backupEmail != null)
+        {
+                button_backupEmail.click();
+                g_bIsLogin_BackuoEmailDone= true;
+        }
+    }
+}
+
+
+function GoogleLogin_BackupEmail_TypeinPage(strPwd)
+{
+    var inputs_tag = document.getElementsByTagName("input");
+    var InputEmail_pwd = null;
+    if(g_bIsLogin_BackuoTypeinDone  == false)
+    {
+        for(var i = 0 ; i< inputs_tag.length;i++)
+        {
+            if(inputs_tag[i].getAttribute("type") == "text")
+            {
+                inputs_tag[i].value =strPwd;
+                InputEmail_pwd =  inputs_tag[i];
+            }
+        }
+        if(InputEmail_pwd != null)
+        {
+            if(InputEmail_pwd.value == strPwd)
+            {
+
+    var span_tag = document.getElementsByTagName("span"); 
+ 		   for(var i = 0 ; i< span_tag.length;i++)
+ 		   {
+   		     if(span_tag[i].textContent == "繼續")
+    		    {
+      		      span_tag[i].click(); 
+    		    }
+   		 }                
+		document.getElementById("next").click();
+                g_bIsLogin_BackuoTypeinDone = true;
+            }
+        }
+    }
+}
+
+function RunLogin(gmail_acc , gmail_pwd , backup_email)
+{
+    setInterval(GoogleLogin_EmailPage , 500 , gmail_acc);
+    setInterval(GoogleLogin_PasswordPage , 500 , gmail_pwd);
+    setInterval(GoogleLogin_BackupEmailPage , 500);
+    setInterval(GoogleLogin_BackupEmail_TypeinPage , 500 , backup_email);
+}

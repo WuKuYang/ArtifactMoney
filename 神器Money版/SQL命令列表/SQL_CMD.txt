@@ -1,0 +1,85 @@
++------------------+
+| Tables_in_MyTest |
++------------------+
+| AccountInfo      |
+| HDDInfo          |
+| MyTix            |
+| ShareAnswer      |
+| TixCookiesInfo   |
+| pet              |
+| titles           |
++------------------+
+
+
+===============
+MySQL [MyTest]> show full columns from AccountInfo;
++-----------+-----------+-----------------+------+-----+---------+-------+---------------------------------+---------+
+| Field     | Type      | Collation       | Null | Key | Default | Extra | Privileges                      | Comment |
++-----------+-----------+-----------------+------+-----+---------+-------+---------------------------------+---------+
+| FBAccount | char(200) | utf8_general_ci | YES  |     | NULL    |       | select,insert,update,references |         |
+| state     | char(20)  | utf8_general_ci | YES  |     | NULL    |       | select,insert,update,references |         |
+| OpenDate  | char(100) | utf8_general_ci | YES  |     | NULL    |       | select,insert,update,references |         |
++-----------+-----------+-----------------+------+-----+---------+-------+---------------------------------+---------+
+
+
+MySQL [MyTest]> show full columns from HDDInfo
+    -> ;
++----------+-----------+-----------------+------+-----+---------+-------+---------------------------------+---------+
+| Field    | Type      | Collation       | Null | Key | Default | Extra | Privileges                      | Comment |
++----------+-----------+-----------------+------+-----+---------+-------+---------------------------------+---------+
+| CPUName  | char(100) | utf8_general_ci | YES  |     | NULL    |       | select,insert,update,references |         |
+| state    | char(20)  | utf8_general_ci | YES  |     | NULL    |       | select,insert,update,references |         |
+| OpenDate | char(100) | utf8_general_ci | YES  |     | NULL    |       | select,insert,update,references |         |
++----------+-----------+-----------------+------+-----+---------+-------+---------------------------------+---------+
+
+MySQL [MyTest]> show full columns from ShareAnswer;
++----------+-----------+-----------------+------+-----+---------+-------+---------------------------------+---------+
+| Field    | Type      | Collation       | Null | Key | Default | Extra | Privileges                      | Comment |
++----------+-----------+-----------------+------+-----+---------+-------+---------------------------------+---------+
+| Ans      | char(200) | utf8_general_ci | YES  |     | NULL    |       | select,insert,update,references |         |
+| OpenDate | char(100) | utf8_general_ci | YES  |     | NULL    |       | select,insert,update,references |         |
++----------+-----------+-----------------+------+-----+---------+-------+---------------------------------+---------+
+2 rows in set (0.15 sec)
+
+
+MySQL [MyTest]> show full columns from TixCookiesInfo;
++--------+----------+-----------------+------+-----+---------+-------+---------------------------------+---------+
+| Field  | Type     | Collation       | Null | Key | Default | Extra | Privileges                      | Comment |
++--------+----------+-----------------+------+-----+---------+-------+---------------------------------+---------+
+| email  | char(50) | utf8_general_ci | YES  |     | NULL    |       | select,insert,update,references |         |
+| cookie | text     | utf8_general_ci | YES  |     | NULL    |       | select,insert,update,references |         |
+| time   | char(50) | utf8_general_ci | YES  |     | NULL    |       | select,insert,update,references |         |
++--------+----------+-----------------+------+-----+---------+-------+---------------------------------+---------+
+3 rows in set (0.15 sec)
+
+
+MySQL [MyTest]> create table AccountInfo(
+    -> FBAccount char(200),
+    -> state char(20),
+    -> OpenDate char(100)
+    -> );
+Query OK, 0 rows affected (0.18 sec)
+
+MySQL [MyTest]>
+MySQL [MyTest]> create table HDDInfo(
+    -> CPUName char(100),
+    -> state char(20),
+    -> OpenDate char(100)
+    -> );
+Query OK, 0 rows affected (0.18 sec)
+
+MySQL [MyTest]> create table ShareAnswer(
+    -> Ans char(200),
+    -> OpenDate char(100)
+    -> );
+Query OK, 0 rows affected (0.17 sec)
+
+MySQL [MyTest]>
+MySQL [MyTest]> create table TixCookiesInfo(
+    -> email char(50),
+    -> cookie text,
+    -> time char(50)
+    -> );
+Query OK, 0 rows affected (0.18 sec)
+
+

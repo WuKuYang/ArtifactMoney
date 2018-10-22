@@ -3,9 +3,14 @@ function rand(min,max,)
 {
     return Math.floor(Math.random()*(max-min))+min;
 }
+function TixCraftCloseDialog()
+{
+    $.fancybox.close();
+}
 
 function Tix_Register(tName , tAddress , tPhoneNumber)
 {
+TixCraftCloseDialog();
     //中華民國
     var eLocation=document.getElementById('TixUserForm_nationality_1');
     if(eLocation !=undefined )

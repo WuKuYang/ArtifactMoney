@@ -87,29 +87,29 @@ function GoogleLogin_BackupEmail_TypeinPage(strPwd)
     {
         for(var i = 0 ; i< inputs_tag.length;i++)
         {
-            if(inputs_tag[i].getAttribute("type") == "text")
+            if(inputs_tag[i].getAttribute("type") == "text" || inputs_tag[i].getAttribute("type") == "email")
             {
+		//input text
                 inputs_tag[i].value =strPwd;
                 InputEmail_pwd =  inputs_tag[i];
-            }
-        }
-        if(InputEmail_pwd != null)
-        {
-            if(InputEmail_pwd.value == strPwd)
-            {
+		//next button
 
-    var span_tag = document.getElementsByTagName("span"); 
- 		   for(var i = 0 ; i< span_tag.length;i++)
+    		var span_tag = document.getElementsByTagName("span"); 
+ 		   for(var k = 0 ; k< span_tag.length;k++)
  		   {
-   		     if(span_tag[i].textContent == "Ä~Äò")
+   		     if(span_tag[k].textContent == "Ä~Äò")
     		    {
-      		      span_tag[i].click(); 
+      		      span_tag[k].click();  
     		    }
    		 }                
 		document.getElementById("next").click();
                 g_bIsLogin_BackuoTypeinDone = true;
+
+ 
+
             }
         }
+
     }
 }
 

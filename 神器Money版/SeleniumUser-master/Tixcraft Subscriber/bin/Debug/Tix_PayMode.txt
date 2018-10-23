@@ -8,14 +8,21 @@
 var g_IsSubmit = false;
 function AutoSelect_PayType(payment_type)
 {
-if(g_IsSubmit == true) return;
     var mHref = document.location.href;
     if(StringContain(mHref , "payment"))
     {
         var iPay_Types = document.getElementsByTagName('label');
         for(var i = 0; i < iPay_Types.length ; i++)
         {
-            var pay_string = "none_slect";
+            var pay_string = "°t°e";
+            if(StringContain(iPay_Types[i].textContent , pay_string))
+            {
+                iPay_Types[i].click();
+            }
+        }
+        for(i = 0; i < iPay_Types.length ; i++)
+        {
+            pay_string = "none_slect";
             if(payment_type == 0) { pay_string = "ATM"; }
             if(payment_type == 1) { pay_string = "ibon"; }
             if(payment_type == 2) { pay_string = "Credit Card"; }
@@ -26,8 +33,7 @@ if(g_IsSubmit == true) return;
                     var SubmitButton = document.getElementById("submitButton");
                     Play_Coin();
                     SubmitButton.click();
-		g_IsSubmit =true;
-                },5000);
+                },3000);
             }
         }
     }

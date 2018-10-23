@@ -104,6 +104,7 @@
             this.txt_window_gmail = new System.Windows.Forms.TextBox();
             this.label15 = new System.Windows.Forms.Label();
             this.ckbSwitchPageStepByStep = new System.Windows.Forms.CheckBox();
+            this.circularProgressBar1 = new CircularProgressBar.CircularProgressBar();
             this.tp_AccPwd.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -127,9 +128,9 @@
             // button3
             // 
             this.button3.BackColor = System.Drawing.Color.Transparent;
-            this.button3.Location = new System.Drawing.Point(8, 62);
+            this.button3.Location = new System.Drawing.Point(8, 67);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(57, 25);
+            this.button3.Size = new System.Drawing.Size(57, 27);
             this.button3.TabIndex = 9;
             this.button3.Text = "開搶";
             this.button3.UseVisualStyleBackColor = false;
@@ -138,60 +139,60 @@
             // lblDebug
             // 
             this.lblDebug.AutoSize = true;
-            this.lblDebug.Location = new System.Drawing.Point(6, 161);
+            this.lblDebug.Location = new System.Drawing.Point(6, 174);
             this.lblDebug.Name = "lblDebug";
-            this.lblDebug.Size = new System.Drawing.Size(33, 12);
+            this.lblDebug.Size = new System.Drawing.Size(35, 13);
             this.lblDebug.TabIndex = 10;
             this.lblDebug.Text = "label1";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(6, 12);
+            this.label1.Location = new System.Drawing.Point(6, 13);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(59, 12);
+            this.label1.Size = new System.Drawing.Size(61, 13);
             this.label1.TabIndex = 11;
             this.label1.Text = "演出時間 :";
             // 
             // txtShowTime
             // 
-            this.txtShowTime.Location = new System.Drawing.Point(71, 9);
+            this.txtShowTime.Location = new System.Drawing.Point(71, 10);
             this.txtShowTime.Name = "txtShowTime";
-            this.txtShowTime.Size = new System.Drawing.Size(37, 22);
+            this.txtShowTime.Size = new System.Drawing.Size(37, 20);
             this.txtShowTime.TabIndex = 12;
             this.txtShowTime.Text = "0";
             // 
             // txtTicketCount
             // 
-            this.txtTicketCount.Location = new System.Drawing.Point(146, 9);
+            this.txtTicketCount.Location = new System.Drawing.Point(146, 10);
             this.txtTicketCount.Name = "txtTicketCount";
-            this.txtTicketCount.Size = new System.Drawing.Size(29, 22);
+            this.txtTicketCount.Size = new System.Drawing.Size(29, 20);
             this.txtTicketCount.TabIndex = 15;
             this.txtTicketCount.Text = "4";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(116, 12);
+            this.label4.Location = new System.Drawing.Point(116, 13);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(29, 12);
+            this.label4.Size = new System.Drawing.Size(31, 13);
             this.label4.TabIndex = 14;
             this.label4.Text = "張數";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(180, 12);
+            this.label5.Location = new System.Drawing.Point(180, 13);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(29, 12);
+            this.label5.Size = new System.Drawing.Size(31, 13);
             this.label5.TabIndex = 17;
             this.label5.Text = "座位";
             // 
             // txtSeatInformation
             // 
-            this.txtSeatInformation.Location = new System.Drawing.Point(215, 9);
+            this.txtSeatInformation.Location = new System.Drawing.Point(215, 10);
             this.txtSeatInformation.Name = "txtSeatInformation";
-            this.txtSeatInformation.Size = new System.Drawing.Size(119, 22);
+            this.txtSeatInformation.Size = new System.Drawing.Size(119, 20);
             this.txtSeatInformation.TabIndex = 18;
             this.txtSeatInformation.Text = "搖滾B4區7800";
             // 
@@ -199,45 +200,45 @@
             // 
             this.lblVerifyCodeInfo.AutoSize = true;
             this.lblVerifyCodeInfo.ForeColor = System.Drawing.Color.Crimson;
-            this.lblVerifyCodeInfo.Location = new System.Drawing.Point(6, 136);
+            this.lblVerifyCodeInfo.Location = new System.Drawing.Point(6, 147);
             this.lblVerifyCodeInfo.Name = "lblVerifyCodeInfo";
-            this.lblVerifyCodeInfo.Size = new System.Drawing.Size(41, 12);
+            this.lblVerifyCodeInfo.Size = new System.Drawing.Size(43, 13);
             this.lblVerifyCodeInfo.TabIndex = 25;
             this.lblVerifyCodeInfo.Text = "驗證碼";
             // 
             // lblLogin
             // 
             this.lblLogin.AutoSize = true;
-            this.lblLogin.Location = new System.Drawing.Point(71, 50);
+            this.lblLogin.Location = new System.Drawing.Point(71, 54);
             this.lblLogin.Name = "lblLogin";
-            this.lblLogin.Size = new System.Drawing.Size(45, 12);
+            this.lblLogin.Size = new System.Drawing.Size(43, 13);
             this.lblLogin.TabIndex = 26;
             this.lblLogin.Text = "lblLogin";
             // 
             // lblUserName
             // 
             this.lblUserName.AutoSize = true;
-            this.lblUserName.Location = new System.Drawing.Point(71, 74);
+            this.lblUserName.Location = new System.Drawing.Point(71, 80);
             this.lblUserName.Name = "lblUserName";
-            this.lblUserName.Size = new System.Drawing.Size(65, 12);
+            this.lblUserName.Size = new System.Drawing.Size(67, 13);
             this.lblUserName.TabIndex = 27;
             this.lblUserName.Text = "lblUserName";
             // 
             // lblInfo
             // 
             this.lblInfo.AutoSize = true;
-            this.lblInfo.Location = new System.Drawing.Point(6, 179);
+            this.lblInfo.Location = new System.Drawing.Point(6, 194);
             this.lblInfo.Name = "lblInfo";
-            this.lblInfo.Size = new System.Drawing.Size(33, 12);
+            this.lblInfo.Size = new System.Drawing.Size(35, 13);
             this.lblInfo.TabIndex = 29;
             this.lblInfo.Text = "label3";
             // 
             // chkRandSeats
             // 
             this.chkRandSeats.AutoSize = true;
-            this.chkRandSeats.Location = new System.Drawing.Point(215, 79);
+            this.chkRandSeats.Location = new System.Drawing.Point(215, 86);
             this.chkRandSeats.Name = "chkRandSeats";
-            this.chkRandSeats.Size = new System.Drawing.Size(108, 16);
+            this.chkRandSeats.Size = new System.Drawing.Size(110, 17);
             this.chkRandSeats.TabIndex = 32;
             this.chkRandSeats.Text = "選當日隨機座位";
             this.chkRandSeats.UseVisualStyleBackColor = true;
@@ -246,9 +247,9 @@
             // lblAddress
             // 
             this.lblAddress.AutoSize = true;
-            this.lblAddress.Location = new System.Drawing.Point(71, 62);
+            this.lblAddress.Location = new System.Drawing.Point(71, 67);
             this.lblAddress.Name = "lblAddress";
-            this.lblAddress.Size = new System.Drawing.Size(54, 12);
+            this.lblAddress.Size = new System.Drawing.Size(55, 13);
             this.lblAddress.TabIndex = 33;
             this.lblAddress.Text = "lblAddress";
             this.lblAddress.Click += new System.EventHandler(this.lblAddress_Click);
@@ -256,26 +257,26 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(213, 34);
+            this.label2.Location = new System.Drawing.Point(213, 37);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(73, 12);
+            this.label2.Size = new System.Drawing.Size(70, 13);
             this.label2.TabIndex = 34;
             this.label2.Text = "(範圍內隨機)";
             // 
             // lblSelectSeat
             // 
             this.lblSelectSeat.AutoSize = true;
-            this.lblSelectSeat.Location = new System.Drawing.Point(6, 199);
+            this.lblSelectSeat.Location = new System.Drawing.Point(6, 216);
             this.lblSelectSeat.Name = "lblSelectSeat";
-            this.lblSelectSeat.Size = new System.Drawing.Size(33, 12);
+            this.lblSelectSeat.Size = new System.Drawing.Size(35, 13);
             this.lblSelectSeat.TabIndex = 35;
             this.lblSelectSeat.Text = "label3";
             // 
             // btnShowTop
             // 
-            this.btnShowTop.Location = new System.Drawing.Point(8, 89);
+            this.btnShowTop.Location = new System.Drawing.Point(8, 96);
             this.btnShowTop.Name = "btnShowTop";
-            this.btnShowTop.Size = new System.Drawing.Size(78, 40);
+            this.btnShowTop.Size = new System.Drawing.Size(78, 43);
             this.btnShowTop.TabIndex = 40;
             this.btnShowTop.Text = "登入拓元";
             this.btnShowTop.UseVisualStyleBackColor = true;
@@ -284,9 +285,9 @@
             // btnStopBuy
             // 
             this.btnStopBuy.BackColor = System.Drawing.Color.Transparent;
-            this.btnStopBuy.Location = new System.Drawing.Point(8, 34);
+            this.btnStopBuy.Location = new System.Drawing.Point(8, 37);
             this.btnStopBuy.Name = "btnStopBuy";
-            this.btnStopBuy.Size = new System.Drawing.Size(57, 23);
+            this.btnStopBuy.Size = new System.Drawing.Size(57, 25);
             this.btnStopBuy.TabIndex = 41;
             this.btnStopBuy.Text = "停止";
             this.btnStopBuy.UseVisualStyleBackColor = false;
@@ -295,9 +296,9 @@
             // ckbAutoFlag
             // 
             this.ckbAutoFlag.AutoSize = true;
-            this.ckbAutoFlag.Location = new System.Drawing.Point(215, 57);
+            this.ckbAutoFlag.Location = new System.Drawing.Point(215, 62);
             this.ckbAutoFlag.Name = "ckbAutoFlag";
-            this.ckbAutoFlag.Size = new System.Drawing.Size(131, 16);
+            this.ckbAutoFlag.Size = new System.Drawing.Size(131, 17);
             this.ckbAutoFlag.TabIndex = 42;
             this.ckbAutoFlag.Text = "上線掛機 (集體控管)";
             this.ckbAutoFlag.UseVisualStyleBackColor = true;
@@ -306,9 +307,9 @@
             // ckb_UsingOtherAnswer
             // 
             this.ckb_UsingOtherAnswer.AutoSize = true;
-            this.ckb_UsingOtherAnswer.Location = new System.Drawing.Point(215, 102);
+            this.ckb_UsingOtherAnswer.Location = new System.Drawing.Point(215, 111);
             this.ckb_UsingOtherAnswer.Name = "ckb_UsingOtherAnswer";
-            this.ckb_UsingOtherAnswer.Size = new System.Drawing.Size(132, 16);
+            this.ckb_UsingOtherAnswer.Size = new System.Drawing.Size(134, 17);
             this.ckb_UsingOtherAnswer.TabIndex = 43;
             this.ckb_UsingOtherAnswer.Text = "使用自定義考試回答";
             this.ckb_UsingOtherAnswer.UseVisualStyleBackColor = true;
@@ -317,18 +318,18 @@
             // txtOtherAnswer
             // 
             this.txtOtherAnswer.Enabled = false;
-            this.txtOtherAnswer.Location = new System.Drawing.Point(215, 124);
+            this.txtOtherAnswer.Location = new System.Drawing.Point(215, 134);
             this.txtOtherAnswer.Name = "txtOtherAnswer";
-            this.txtOtherAnswer.Size = new System.Drawing.Size(100, 22);
+            this.txtOtherAnswer.Size = new System.Drawing.Size(100, 20);
             this.txtOtherAnswer.TabIndex = 44;
             this.txtOtherAnswer.Text = "ABCD";
             this.txtOtherAnswer.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtOtherAnswer_KeyDown);
             // 
             // btn_SetOtherAnswer
             // 
-            this.btn_SetOtherAnswer.Location = new System.Drawing.Point(321, 121);
+            this.btn_SetOtherAnswer.Location = new System.Drawing.Point(321, 131);
             this.btn_SetOtherAnswer.Name = "btn_SetOtherAnswer";
-            this.btn_SetOtherAnswer.Size = new System.Drawing.Size(25, 25);
+            this.btn_SetOtherAnswer.Size = new System.Drawing.Size(25, 27);
             this.btn_SetOtherAnswer.TabIndex = 45;
             this.btn_SetOtherAnswer.Text = "設";
             this.btn_SetOtherAnswer.UseVisualStyleBackColor = true;
@@ -342,14 +343,15 @@
             this.tp_AccPwd.Controls.Add(this.tabPage4);
             this.tp_AccPwd.Controls.Add(this.tabPage5);
             this.tp_AccPwd.Controls.Add(this.tabPage6);
-            this.tp_AccPwd.Location = new System.Drawing.Point(9, 7);
+            this.tp_AccPwd.Location = new System.Drawing.Point(9, 8);
             this.tp_AccPwd.Name = "tp_AccPwd";
             this.tp_AccPwd.SelectedIndex = 0;
-            this.tp_AccPwd.Size = new System.Drawing.Size(359, 257);
+            this.tp_AccPwd.Size = new System.Drawing.Size(359, 278);
             this.tp_AccPwd.TabIndex = 46;
             // 
             // tabPage1
             // 
+            this.tabPage1.Controls.Add(this.circularProgressBar1);
             this.tabPage1.Controls.Add(this.label1);
             this.tabPage1.Controls.Add(this.btn_SetOtherAnswer);
             this.tabPage1.Controls.Add(this.button3);
@@ -375,7 +377,7 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(351, 231);
+            this.tabPage1.Size = new System.Drawing.Size(351, 252);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "主控";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -397,7 +399,7 @@
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(351, 231);
+            this.tabPage2.Size = new System.Drawing.Size(351, 252);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "刷卡";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -405,17 +407,17 @@
             // lblCreditCard
             // 
             this.lblCreditCard.AutoSize = true;
-            this.lblCreditCard.Location = new System.Drawing.Point(22, 19);
+            this.lblCreditCard.Location = new System.Drawing.Point(22, 21);
             this.lblCreditCard.Name = "lblCreditCard";
-            this.lblCreditCard.Size = new System.Drawing.Size(29, 12);
+            this.lblCreditCard.Size = new System.Drawing.Size(31, 13);
             this.lblCreditCard.TabIndex = 11;
             this.lblCreditCard.Text = "訊息";
             // 
             // btnAutoFillCreditCard
             // 
-            this.btnAutoFillCreditCard.Location = new System.Drawing.Point(78, 148);
+            this.btnAutoFillCreditCard.Location = new System.Drawing.Point(78, 160);
             this.btnAutoFillCreditCard.Name = "btnAutoFillCreditCard";
-            this.btnAutoFillCreditCard.Size = new System.Drawing.Size(203, 49);
+            this.btnAutoFillCreditCard.Size = new System.Drawing.Size(203, 53);
             this.btnAutoFillCreditCard.TabIndex = 10;
             this.btnAutoFillCreditCard.Text = "一鍵填單(不會送出)";
             this.btnAutoFillCreditCard.UseVisualStyleBackColor = true;
@@ -423,84 +425,84 @@
             // 
             // txtCredit_Card_CVE
             // 
-            this.txtCredit_Card_CVE.Location = new System.Drawing.Point(152, 109);
+            this.txtCredit_Card_CVE.Location = new System.Drawing.Point(152, 118);
             this.txtCredit_Card_CVE.Name = "txtCredit_Card_CVE";
-            this.txtCredit_Card_CVE.Size = new System.Drawing.Size(129, 22);
+            this.txtCredit_Card_CVE.Size = new System.Drawing.Size(129, 20);
             this.txtCredit_Card_CVE.TabIndex = 9;
             // 
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(76, 115);
+            this.label10.Location = new System.Drawing.Point(76, 125);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(71, 12);
+            this.label10.Size = new System.Drawing.Size(73, 13);
             this.label10.TabIndex = 8;
             this.label10.Text = "卡片檢查碼 :";
             // 
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(232, 94);
+            this.label9.Location = new System.Drawing.Point(232, 102);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(49, 12);
+            this.label9.Size = new System.Drawing.Size(49, 13);
             this.label9.TabIndex = 7;
             this.label9.Text = "西元(年)";
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(150, 94);
+            this.label8.Location = new System.Drawing.Point(150, 102);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(49, 12);
+            this.label8.Size = new System.Drawing.Size(49, 13);
             this.label8.TabIndex = 6;
             this.label8.Text = "西元(月)";
             // 
             // txtCredit_Card_Year
             // 
-            this.txtCredit_Card_Year.Location = new System.Drawing.Point(231, 69);
+            this.txtCredit_Card_Year.Location = new System.Drawing.Point(231, 75);
             this.txtCredit_Card_Year.Name = "txtCredit_Card_Year";
-            this.txtCredit_Card_Year.Size = new System.Drawing.Size(50, 22);
+            this.txtCredit_Card_Year.Size = new System.Drawing.Size(50, 20);
             this.txtCredit_Card_Year.TabIndex = 5;
             this.txtCredit_Card_Year.TextChanged += new System.EventHandler(this.txtCredit_Card_Year_TextChanged);
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(212, 75);
+            this.label7.Location = new System.Drawing.Point(212, 81);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(8, 12);
+            this.label7.Size = new System.Drawing.Size(12, 13);
             this.label7.TabIndex = 4;
             this.label7.Text = "/";
             // 
             // txtCredit_Card_Month
             // 
-            this.txtCredit_Card_Month.Location = new System.Drawing.Point(152, 69);
+            this.txtCredit_Card_Month.Location = new System.Drawing.Point(152, 75);
             this.txtCredit_Card_Month.Name = "txtCredit_Card_Month";
-            this.txtCredit_Card_Month.Size = new System.Drawing.Size(49, 22);
+            this.txtCredit_Card_Month.Size = new System.Drawing.Size(49, 20);
             this.txtCredit_Card_Month.TabIndex = 3;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(76, 75);
+            this.label6.Location = new System.Drawing.Point(76, 81);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(71, 12);
+            this.label6.Size = new System.Drawing.Size(73, 13);
             this.label6.TabIndex = 2;
             this.label6.Text = "卡片到期日 :";
             // 
             // txtCredit_Card_Account
             // 
-            this.txtCredit_Card_Account.Location = new System.Drawing.Point(152, 41);
+            this.txtCredit_Card_Account.Location = new System.Drawing.Point(152, 44);
             this.txtCredit_Card_Account.Name = "txtCredit_Card_Account";
-            this.txtCredit_Card_Account.Size = new System.Drawing.Size(129, 22);
+            this.txtCredit_Card_Account.Size = new System.Drawing.Size(129, 20);
             this.txtCredit_Card_Account.TabIndex = 1;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(76, 47);
+            this.label3.Location = new System.Drawing.Point(76, 51);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(71, 12);
+            this.label3.Size = new System.Drawing.Size(73, 13);
             this.label3.TabIndex = 0;
             this.label3.Text = "信用卡卡號 :";
             // 
@@ -521,7 +523,7 @@
             this.tabPage3.Location = new System.Drawing.Point(4, 22);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(351, 231);
+            this.tabPage3.Size = new System.Drawing.Size(351, 252);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "監看";
             this.tabPage3.UseVisualStyleBackColor = true;
@@ -530,9 +532,9 @@
             // ckb_listen_ocr
             // 
             this.ckb_listen_ocr.AutoSize = true;
-            this.ckb_listen_ocr.Location = new System.Drawing.Point(6, 212);
+            this.ckb_listen_ocr.Location = new System.Drawing.Point(6, 230);
             this.ckb_listen_ocr.Name = "ckb_listen_ocr";
-            this.ckb_listen_ocr.Size = new System.Drawing.Size(144, 16);
+            this.ckb_listen_ocr.Size = new System.Drawing.Size(145, 17);
             this.ckb_listen_ocr.TabIndex = 51;
             this.ckb_listen_ocr.Text = "開始記錄OCR辨識紀錄";
             this.ckb_listen_ocr.UseVisualStyleBackColor = true;
@@ -541,9 +543,9 @@
             // ptb_OCR_Source
             // 
             this.ptb_OCR_Source.BackColor = System.Drawing.SystemColors.ControlText;
-            this.ptb_OCR_Source.Location = new System.Drawing.Point(6, 98);
+            this.ptb_OCR_Source.Location = new System.Drawing.Point(6, 106);
             this.ptb_OCR_Source.Name = "ptb_OCR_Source";
-            this.ptb_OCR_Source.Size = new System.Drawing.Size(120, 100);
+            this.ptb_OCR_Source.Size = new System.Drawing.Size(120, 108);
             this.ptb_OCR_Source.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.ptb_OCR_Source.TabIndex = 50;
             this.ptb_OCR_Source.TabStop = false;
@@ -551,9 +553,9 @@
             // pbChar_History_D
             // 
             this.pbChar_History_D.BackColor = System.Drawing.SystemColors.ControlText;
-            this.pbChar_History_D.Location = new System.Drawing.Point(147, 52);
+            this.pbChar_History_D.Location = new System.Drawing.Point(147, 56);
             this.pbChar_History_D.Name = "pbChar_History_D";
-            this.pbChar_History_D.Size = new System.Drawing.Size(48, 40);
+            this.pbChar_History_D.Size = new System.Drawing.Size(48, 43);
             this.pbChar_History_D.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbChar_History_D.TabIndex = 49;
             this.pbChar_History_D.TabStop = false;
@@ -561,9 +563,9 @@
             // pbChar_History_B
             // 
             this.pbChar_History_B.BackColor = System.Drawing.SystemColors.ControlText;
-            this.pbChar_History_B.Location = new System.Drawing.Point(51, 52);
+            this.pbChar_History_B.Location = new System.Drawing.Point(51, 56);
             this.pbChar_History_B.Name = "pbChar_History_B";
-            this.pbChar_History_B.Size = new System.Drawing.Size(48, 40);
+            this.pbChar_History_B.Size = new System.Drawing.Size(48, 43);
             this.pbChar_History_B.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbChar_History_B.TabIndex = 48;
             this.pbChar_History_B.TabStop = false;
@@ -571,9 +573,9 @@
             // pbChar_History_C
             // 
             this.pbChar_History_C.BackColor = System.Drawing.SystemColors.ControlText;
-            this.pbChar_History_C.Location = new System.Drawing.Point(99, 52);
+            this.pbChar_History_C.Location = new System.Drawing.Point(99, 56);
             this.pbChar_History_C.Name = "pbChar_History_C";
-            this.pbChar_History_C.Size = new System.Drawing.Size(48, 40);
+            this.pbChar_History_C.Size = new System.Drawing.Size(48, 43);
             this.pbChar_History_C.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbChar_History_C.TabIndex = 47;
             this.pbChar_History_C.TabStop = false;
@@ -581,18 +583,18 @@
             // pbChar_History_A
             // 
             this.pbChar_History_A.BackColor = System.Drawing.SystemColors.ControlText;
-            this.pbChar_History_A.Location = new System.Drawing.Point(6, 52);
+            this.pbChar_History_A.Location = new System.Drawing.Point(6, 56);
             this.pbChar_History_A.Name = "pbChar_History_A";
-            this.pbChar_History_A.Size = new System.Drawing.Size(48, 40);
+            this.pbChar_History_A.Size = new System.Drawing.Size(48, 43);
             this.pbChar_History_A.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbChar_History_A.TabIndex = 46;
             this.pbChar_History_A.TabStop = false;
             // 
             // btnRefreshOCRHistory
             // 
-            this.btnRefreshOCRHistory.Location = new System.Drawing.Point(274, 184);
+            this.btnRefreshOCRHistory.Location = new System.Drawing.Point(274, 199);
             this.btnRefreshOCRHistory.Name = "btnRefreshOCRHistory";
-            this.btnRefreshOCRHistory.Size = new System.Drawing.Size(71, 41);
+            this.btnRefreshOCRHistory.Size = new System.Drawing.Size(71, 44);
             this.btnRefreshOCRHistory.TabIndex = 45;
             this.btnRefreshOCRHistory.Text = "刷新";
             this.btnRefreshOCRHistory.UseVisualStyleBackColor = true;
@@ -601,19 +603,18 @@
             // lst_OCR_History
             // 
             this.lst_OCR_History.FormattingEnabled = true;
-            this.lst_OCR_History.ItemHeight = 12;
-            this.lst_OCR_History.Location = new System.Drawing.Point(132, 98);
+            this.lst_OCR_History.Location = new System.Drawing.Point(132, 106);
             this.lst_OCR_History.Name = "lst_OCR_History";
-            this.lst_OCR_History.Size = new System.Drawing.Size(63, 100);
+            this.lst_OCR_History.Size = new System.Drawing.Size(63, 108);
             this.lst_OCR_History.TabIndex = 44;
             this.lst_OCR_History.SelectedIndexChanged += new System.EventHandler(this.lst_OCR_History_SelectedIndexChanged);
             // 
             // pbChar3
             // 
             this.pbChar3.BackColor = System.Drawing.SystemColors.ControlText;
-            this.pbChar3.Location = new System.Drawing.Point(147, 6);
+            this.pbChar3.Location = new System.Drawing.Point(147, 7);
             this.pbChar3.Name = "pbChar3";
-            this.pbChar3.Size = new System.Drawing.Size(48, 40);
+            this.pbChar3.Size = new System.Drawing.Size(48, 43);
             this.pbChar3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbChar3.TabIndex = 43;
             this.pbChar3.TabStop = false;
@@ -621,9 +622,9 @@
             // pbChar1
             // 
             this.pbChar1.BackColor = System.Drawing.SystemColors.ControlText;
-            this.pbChar1.Location = new System.Drawing.Point(51, 6);
+            this.pbChar1.Location = new System.Drawing.Point(51, 7);
             this.pbChar1.Name = "pbChar1";
-            this.pbChar1.Size = new System.Drawing.Size(48, 40);
+            this.pbChar1.Size = new System.Drawing.Size(48, 43);
             this.pbChar1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbChar1.TabIndex = 42;
             this.pbChar1.TabStop = false;
@@ -631,9 +632,9 @@
             // pbChar2
             // 
             this.pbChar2.BackColor = System.Drawing.SystemColors.ControlText;
-            this.pbChar2.Location = new System.Drawing.Point(99, 6);
+            this.pbChar2.Location = new System.Drawing.Point(99, 7);
             this.pbChar2.Name = "pbChar2";
-            this.pbChar2.Size = new System.Drawing.Size(48, 40);
+            this.pbChar2.Size = new System.Drawing.Size(48, 43);
             this.pbChar2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbChar2.TabIndex = 41;
             this.pbChar2.TabStop = false;
@@ -641,9 +642,9 @@
             // pbChar0
             // 
             this.pbChar0.BackColor = System.Drawing.SystemColors.ControlText;
-            this.pbChar0.Location = new System.Drawing.Point(6, 6);
+            this.pbChar0.Location = new System.Drawing.Point(6, 7);
             this.pbChar0.Name = "pbChar0";
-            this.pbChar0.Size = new System.Drawing.Size(48, 40);
+            this.pbChar0.Size = new System.Drawing.Size(48, 43);
             this.pbChar0.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbChar0.TabIndex = 40;
             this.pbChar0.TabStop = false;
@@ -654,7 +655,7 @@
             this.tabPage4.Location = new System.Drawing.Point(4, 22);
             this.tabPage4.Name = "tabPage4";
             this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage4.Size = new System.Drawing.Size(351, 231);
+            this.tabPage4.Size = new System.Drawing.Size(351, 252);
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "設置";
             this.tabPage4.UseVisualStyleBackColor = true;
@@ -670,9 +671,9 @@
             this.groupBox1.Controls.Add(this.rd_Delay_MilliSecond);
             this.groupBox1.Controls.Add(this.txt_Delay_ms);
             this.groupBox1.Controls.Add(this.rd_Delay_none);
-            this.groupBox1.Location = new System.Drawing.Point(6, 6);
+            this.groupBox1.Location = new System.Drawing.Point(6, 7);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(339, 100);
+            this.groupBox1.Size = new System.Drawing.Size(339, 108);
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "打完驗證碼後延遲";
@@ -680,43 +681,43 @@
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(190, 70);
+            this.label13.Location = new System.Drawing.Point(190, 76);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(29, 12);
+            this.label13.Size = new System.Drawing.Size(31, 13);
             this.label13.TabIndex = 7;
             this.label13.Text = "毫秒";
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(147, 65);
+            this.textBox3.Location = new System.Drawing.Point(147, 70);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(37, 22);
+            this.textBox3.Size = new System.Drawing.Size(37, 20);
             this.textBox3.TabIndex = 6;
             this.textBox3.Text = "2000";
             // 
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(124, 68);
+            this.label12.Location = new System.Drawing.Point(124, 74);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(17, 12);
+            this.label12.Size = new System.Drawing.Size(19, 13);
             this.label12.TabIndex = 5;
             this.label12.Text = "～";
             // 
             // txt_Delay_ms_min
             // 
-            this.txt_Delay_ms_min.Location = new System.Drawing.Point(81, 65);
+            this.txt_Delay_ms_min.Location = new System.Drawing.Point(81, 70);
             this.txt_Delay_ms_min.Name = "txt_Delay_ms_min";
-            this.txt_Delay_ms_min.Size = new System.Drawing.Size(37, 22);
+            this.txt_Delay_ms_min.Size = new System.Drawing.Size(37, 20);
             this.txt_Delay_ms_min.TabIndex = 4;
             this.txt_Delay_ms_min.Text = "800";
             // 
             // rd_Delay_Rand
             // 
             this.rd_Delay_Rand.AutoSize = true;
-            this.rd_Delay_Rand.Location = new System.Drawing.Point(7, 66);
+            this.rd_Delay_Rand.Location = new System.Drawing.Point(7, 72);
             this.rd_Delay_Rand.Name = "rd_Delay_Rand";
-            this.rd_Delay_Rand.Size = new System.Drawing.Size(71, 16);
+            this.rd_Delay_Rand.Size = new System.Drawing.Size(73, 17);
             this.rd_Delay_Rand.TabIndex = 3;
             this.rd_Delay_Rand.Text = "隨機延遲";
             this.rd_Delay_Rand.UseVisualStyleBackColor = true;
@@ -724,27 +725,27 @@
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(115, 44);
+            this.label11.Location = new System.Drawing.Point(115, 48);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(29, 12);
+            this.label11.Size = new System.Drawing.Size(31, 13);
             this.label11.TabIndex = 2;
             this.label11.Text = "毫秒";
             // 
             // rd_Delay_MilliSecond
             // 
             this.rd_Delay_MilliSecond.AutoSize = true;
-            this.rd_Delay_MilliSecond.Location = new System.Drawing.Point(7, 44);
+            this.rd_Delay_MilliSecond.Location = new System.Drawing.Point(7, 48);
             this.rd_Delay_MilliSecond.Name = "rd_Delay_MilliSecond";
-            this.rd_Delay_MilliSecond.Size = new System.Drawing.Size(47, 16);
+            this.rd_Delay_MilliSecond.Size = new System.Drawing.Size(49, 17);
             this.rd_Delay_MilliSecond.TabIndex = 1;
             this.rd_Delay_MilliSecond.Text = "延遲";
             this.rd_Delay_MilliSecond.UseVisualStyleBackColor = true;
             // 
             // txt_Delay_ms
             // 
-            this.txt_Delay_ms.Location = new System.Drawing.Point(72, 38);
+            this.txt_Delay_ms.Location = new System.Drawing.Point(72, 41);
             this.txt_Delay_ms.Name = "txt_Delay_ms";
-            this.txt_Delay_ms.Size = new System.Drawing.Size(37, 22);
+            this.txt_Delay_ms.Size = new System.Drawing.Size(37, 20);
             this.txt_Delay_ms.TabIndex = 1;
             this.txt_Delay_ms.Text = "2000";
             this.txt_Delay_ms.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
@@ -753,9 +754,9 @@
             // 
             this.rd_Delay_none.AutoSize = true;
             this.rd_Delay_none.Checked = true;
-            this.rd_Delay_none.Location = new System.Drawing.Point(7, 22);
+            this.rd_Delay_none.Location = new System.Drawing.Point(7, 24);
             this.rd_Delay_none.Name = "rd_Delay_none";
-            this.rd_Delay_none.Size = new System.Drawing.Size(59, 16);
+            this.rd_Delay_none.Size = new System.Drawing.Size(61, 17);
             this.rd_Delay_none.TabIndex = 0;
             this.rd_Delay_none.TabStop = true;
             this.rd_Delay_none.Text = "不延遲";
@@ -767,7 +768,7 @@
             this.tabPage5.Location = new System.Drawing.Point(4, 22);
             this.tabPage5.Name = "tabPage5";
             this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage5.Size = new System.Drawing.Size(351, 231);
+            this.tabPage5.Size = new System.Drawing.Size(351, 252);
             this.tabPage5.TabIndex = 4;
             this.tabPage5.Text = "填單工具";
             this.tabPage5.UseVisualStyleBackColor = true;
@@ -779,9 +780,9 @@
             this.groupBox2.Controls.Add(this.label14);
             this.groupBox2.Controls.Add(this.btnAutoRegist);
             this.groupBox2.Controls.Add(this.btnRegister_Taiwan);
-            this.groupBox2.Location = new System.Drawing.Point(6, 6);
+            this.groupBox2.Location = new System.Drawing.Point(6, 7);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(288, 113);
+            this.groupBox2.Size = new System.Drawing.Size(288, 122);
             this.groupBox2.TabIndex = 2;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "拓元隨機生成會員資料";
@@ -789,33 +790,33 @@
             // lblTaiwanHongKong
             // 
             this.lblTaiwanHongKong.AutoSize = true;
-            this.lblTaiwanHongKong.Location = new System.Drawing.Point(182, 89);
+            this.lblTaiwanHongKong.Location = new System.Drawing.Point(182, 96);
             this.lblTaiwanHongKong.Name = "lblTaiwanHongKong";
-            this.lblTaiwanHongKong.Size = new System.Drawing.Size(39, 12);
+            this.lblTaiwanHongKong.Size = new System.Drawing.Size(41, 13);
             this.lblTaiwanHongKong.TabIndex = 5;
             this.lblTaiwanHongKong.Text = "label15";
             // 
             // txtGeneratorName
             // 
-            this.txtGeneratorName.Location = new System.Drawing.Point(154, 64);
+            this.txtGeneratorName.Location = new System.Drawing.Point(154, 69);
             this.txtGeneratorName.Name = "txtGeneratorName";
-            this.txtGeneratorName.Size = new System.Drawing.Size(100, 22);
+            this.txtGeneratorName.Size = new System.Drawing.Size(100, 20);
             this.txtGeneratorName.TabIndex = 4;
             // 
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(163, 33);
+            this.label14.Location = new System.Drawing.Point(163, 36);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(77, 12);
+            this.label14.Size = new System.Drawing.Size(79, 13);
             this.label14.TabIndex = 3;
             this.label14.Text = "隨機生成姓名";
             // 
             // btnAutoRegist
             // 
-            this.btnAutoRegist.Location = new System.Drawing.Point(6, 21);
+            this.btnAutoRegist.Location = new System.Drawing.Point(6, 23);
             this.btnAutoRegist.Name = "btnAutoRegist";
-            this.btnAutoRegist.Size = new System.Drawing.Size(107, 37);
+            this.btnAutoRegist.Size = new System.Drawing.Size(107, 40);
             this.btnAutoRegist.TabIndex = 0;
             this.btnAutoRegist.Text = "香港人(註冊)";
             this.btnAutoRegist.UseVisualStyleBackColor = true;
@@ -823,9 +824,9 @@
             // 
             // btnRegister_Taiwan
             // 
-            this.btnRegister_Taiwan.Location = new System.Drawing.Point(6, 64);
+            this.btnRegister_Taiwan.Location = new System.Drawing.Point(6, 69);
             this.btnRegister_Taiwan.Name = "btnRegister_Taiwan";
-            this.btnRegister_Taiwan.Size = new System.Drawing.Size(107, 37);
+            this.btnRegister_Taiwan.Size = new System.Drawing.Size(107, 40);
             this.btnRegister_Taiwan.TabIndex = 1;
             this.btnRegister_Taiwan.Text = "台灣人(註冊)";
             this.btnRegister_Taiwan.UseVisualStyleBackColor = true;
@@ -842,75 +843,110 @@
             this.tabPage6.Location = new System.Drawing.Point(4, 22);
             this.tabPage6.Name = "tabPage6";
             this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage6.Size = new System.Drawing.Size(351, 231);
+            this.tabPage6.Size = new System.Drawing.Size(351, 252);
             this.tabPage6.TabIndex = 5;
             this.tabPage6.Text = "Gmail帳密";
             this.tabPage6.UseVisualStyleBackColor = true;
             // 
             // txt_window_backupEmail
             // 
-            this.txt_window_backupEmail.Location = new System.Drawing.Point(125, 79);
+            this.txt_window_backupEmail.Location = new System.Drawing.Point(125, 86);
             this.txt_window_backupEmail.Name = "txt_window_backupEmail";
-            this.txt_window_backupEmail.Size = new System.Drawing.Size(165, 22);
+            this.txt_window_backupEmail.Size = new System.Drawing.Size(165, 20);
             this.txt_window_backupEmail.TabIndex = 1;
             // 
             // label17
             // 
             this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(48, 82);
+            this.label17.Location = new System.Drawing.Point(48, 89);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(53, 12);
+            this.label17.Size = new System.Drawing.Size(55, 13);
             this.label17.TabIndex = 0;
             this.label17.Text = "備用信箱";
             // 
             // txt_window_pwd
             // 
-            this.txt_window_pwd.Location = new System.Drawing.Point(125, 54);
+            this.txt_window_pwd.Location = new System.Drawing.Point(125, 59);
             this.txt_window_pwd.Name = "txt_window_pwd";
-            this.txt_window_pwd.Size = new System.Drawing.Size(165, 22);
+            this.txt_window_pwd.Size = new System.Drawing.Size(165, 20);
             this.txt_window_pwd.TabIndex = 1;
             // 
             // label16
             // 
             this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(71, 57);
+            this.label16.Location = new System.Drawing.Point(71, 62);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(29, 12);
+            this.label16.Size = new System.Drawing.Size(31, 13);
             this.label16.TabIndex = 0;
             this.label16.Text = "密碼";
             // 
             // txt_window_gmail
             // 
-            this.txt_window_gmail.Location = new System.Drawing.Point(125, 26);
+            this.txt_window_gmail.Location = new System.Drawing.Point(125, 28);
             this.txt_window_gmail.Name = "txt_window_gmail";
-            this.txt_window_gmail.Size = new System.Drawing.Size(165, 22);
+            this.txt_window_gmail.Size = new System.Drawing.Size(165, 20);
             this.txt_window_gmail.TabIndex = 1;
             // 
             // label15
             // 
             this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(67, 36);
+            this.label15.Location = new System.Drawing.Point(67, 39);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(33, 12);
+            this.label15.Size = new System.Drawing.Size(33, 13);
             this.label15.TabIndex = 0;
             this.label15.Text = "Gmail";
             // 
             // ckbSwitchPageStepByStep
             // 
             this.ckbSwitchPageStepByStep.AutoSize = true;
-            this.ckbSwitchPageStepByStep.Location = new System.Drawing.Point(9, 270);
+            this.ckbSwitchPageStepByStep.Location = new System.Drawing.Point(9, 293);
             this.ckbSwitchPageStepByStep.Name = "ckbSwitchPageStepByStep";
-            this.ckbSwitchPageStepByStep.Size = new System.Drawing.Size(242, 16);
+            this.ckbSwitchPageStepByStep.Size = new System.Drawing.Size(239, 17);
             this.ckbSwitchPageStepByStep.TabIndex = 47;
             this.ckbSwitchPageStepByStep.Text = "搶票時依照順序1-2-3載入(若無則直接1-3)";
             this.ckbSwitchPageStepByStep.UseVisualStyleBackColor = true;
             this.ckbSwitchPageStepByStep.CheckedChanged += new System.EventHandler(this.ckbSwitchPageStepByStep_CheckedChanged);
             // 
+            // circularProgressBar1
+            // 
+            this.circularProgressBar1.AnimationFunction = WinFormAnimation.KnownAnimationFunctions.Liner;
+            this.circularProgressBar1.AnimationSpeed = 500;
+            this.circularProgressBar1.BackColor = System.Drawing.Color.Transparent;
+            this.circularProgressBar1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.circularProgressBar1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.circularProgressBar1.InnerColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.circularProgressBar1.InnerMargin = 2;
+            this.circularProgressBar1.InnerWidth = -1;
+            this.circularProgressBar1.Location = new System.Drawing.Point(291, 194);
+            this.circularProgressBar1.MarqueeAnimationSpeed = 1000;
+            this.circularProgressBar1.Maximum = 10;
+            this.circularProgressBar1.Name = "circularProgressBar1";
+            this.circularProgressBar1.OuterColor = System.Drawing.Color.Gray;
+            this.circularProgressBar1.OuterMargin = -25;
+            this.circularProgressBar1.OuterWidth = 25;
+            this.circularProgressBar1.ProgressColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.circularProgressBar1.ProgressWidth = 10;
+            this.circularProgressBar1.SecondaryFont = new System.Drawing.Font("Microsoft Sans Serif", 36F);
+            this.circularProgressBar1.Size = new System.Drawing.Size(55, 55);
+            this.circularProgressBar1.StartAngle = 0;
+            this.circularProgressBar1.Step = 2;
+            this.circularProgressBar1.Style = System.Windows.Forms.ProgressBarStyle.Marquee;
+            this.circularProgressBar1.SubscriptColor = System.Drawing.Color.FromArgb(((int)(((byte)(166)))), ((int)(((byte)(166)))), ((int)(((byte)(166)))));
+            this.circularProgressBar1.SubscriptMargin = new System.Windows.Forms.Padding(10, -35, 0, 0);
+            this.circularProgressBar1.SubscriptText = "";
+            this.circularProgressBar1.SuperscriptColor = System.Drawing.Color.FromArgb(((int)(((byte)(166)))), ((int)(((byte)(166)))), ((int)(((byte)(166)))));
+            this.circularProgressBar1.SuperscriptMargin = new System.Windows.Forms.Padding(10, 35, 0, 0);
+            this.circularProgressBar1.SuperscriptText = "";
+            this.circularProgressBar1.TabIndex = 50;
+            this.circularProgressBar1.Text = "0";
+            this.circularProgressBar1.TextMargin = new System.Windows.Forms.Padding(0);
+            this.circularProgressBar1.Value = 10;
+            // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(373, 288);
+            this.ClientSize = new System.Drawing.Size(373, 312);
             this.Controls.Add(this.ckbSwitchPageStepByStep);
             this.Controls.Add(this.tp_AccPwd);
             this.Name = "Form1";
@@ -1024,6 +1060,7 @@
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.TextBox txt_window_gmail;
         private System.Windows.Forms.Label label15;
+        private CircularProgressBar.CircularProgressBar circularProgressBar1;
     }
 }
 

@@ -122,6 +122,70 @@ namespace Tixcraft_Subscriber
         private delegate void myWebCallBack(string text, WebBrowser ctl);
         private delegate void myCokorbCallBack(Color color, Control ctl);
 
+
+
+        private delegate void myCircleUpdateBar(CircularProgressBar.CircularProgressBar bar, int value);
+        private delegate void myCircleText(CircularProgressBar.CircularProgressBar bar, string value);
+        private delegate void myCircleSpeed(CircularProgressBar.CircularProgressBar bar, int value);
+        private delegate void myCircleVisiable(CircularProgressBar.CircularProgressBar bar, bool value);
+
+        private void UpdateCircleBar(CircularProgressBar.CircularProgressBar bar, int value)
+        {
+
+            if (this.InvokeRequired)
+            {
+                myCircleUpdateBar myUpdate = new myCircleUpdateBar(UpdateCircleBar);
+                this.Invoke(myUpdate, bar, value);
+            }
+            else
+            {
+                circularProgressBar1.Value = value;
+                circularProgressBar1.Update();
+            }
+        }
+        private void UpdateCircleText(CircularProgressBar.CircularProgressBar bar, string value)
+        {
+
+            if (this.InvokeRequired)
+            {
+                myCircleText myUpdate = new myCircleText(UpdateCircleText);
+                this.Invoke(myUpdate, bar, value);
+            }
+            else
+            {
+                circularProgressBar1.Text = value;
+                circularProgressBar1.Update();
+            }
+        }
+        private void UpdateCircleSpeed(CircularProgressBar.CircularProgressBar bar, int value)
+        {
+
+            if (this.InvokeRequired)
+            {
+                myCircleSpeed myUpdate = new myCircleSpeed(UpdateCircleSpeed);
+                this.Invoke(myUpdate, bar, value);
+            }
+            else
+            {
+                circularProgressBar1.MarqueeAnimationSpeed = value;
+                circularProgressBar1.Update();
+            }
+        }
+        private void UpdateCircleVisiable(CircularProgressBar.CircularProgressBar bar, bool value)
+        {
+
+            if (this.InvokeRequired)
+            {
+                myCircleVisiable myUpdate = new myCircleVisiable(UpdateCircleVisiable);
+                this.Invoke(myUpdate, bar, value);
+            }
+            else
+            {
+                circularProgressBar1.Visible = value;
+            }
+        }
+
+
         /// <summary>
         /// 更新圖片
         /// </summary>
@@ -625,7 +689,8 @@ namespace Tixcraft_Subscriber
             bool bIsNull = true;
             //Step1 : 更新節目資訊
             Tixcraft.RefreshActivity();
-            SubscrEr.GoTo(Tixcraft.GetActivity(g_ShowSelected).url);
+            SubscrEr.GoTo(Tixcraft.GetActivity(g_ShowSelected).url); 
+            UpdateCircleVisiable(circularProgressBar1, true);
             while (bIsNull == true)
             {
                 //開關 (可暫停)
@@ -845,6 +910,10 @@ namespace Tixcraft_Subscriber
                     //bIsNull 用來表示是否開始進行填單動作(驗證碼 & PreSubmit)
                 }
                 icount++;
+
+                UpdateCircleSpeed(circularProgressBar1, (int)(swLoading.ElapsedMilliseconds / 1.2));
+                UpdateCircleText(circularProgressBar1, (swLoading.ElapsedMilliseconds).ToString() + " ms");
+
                 string strMsg = "沒有找到...繼續刷新..." + "耗時:" + swLoading.ElapsedMilliseconds;
                 Debug.Print(strMsg);
                 this.Invoke(degRefreshText, lblDebug, strMsg);
@@ -853,6 +922,7 @@ namespace Tixcraft_Subscriber
             }
             swLoading.Stop();
             swLoadingTime_SelectSeat.Restart();
+            UpdateCircleVisiable(circularProgressBar1, false);
             //重新刷新頁面    
             this.Invoke(degRefreshText, lblDebug, "選座位中....");
 
@@ -1425,7 +1495,8 @@ namespace Tixcraft_Subscriber
         public void button3_Click(object sender, EventArgs e)
         {
             try
-            {
+            { 
+                UpdateCircleBar(circularProgressBar1, 3); 
                 if (g_IsAutoFlag)
                 {
                     this.BackColor = Color.SandyBrown;
@@ -1925,6 +1996,8 @@ namespace Tixcraft_Subscriber
         public void btnStopBuy_Click(object sender, EventArgs e)
         {
             g_bFlagStartBuyStatue = false;
+
+            UpdateCircleVisiable(circularProgressBar1, false);
         }
 
         private void btnBetaImage_Click(object sender, EventArgs e)

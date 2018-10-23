@@ -105,6 +105,7 @@
             this.txt_window_gmail = new System.Windows.Forms.TextBox();
             this.label15 = new System.Windows.Forms.Label();
             this.ckbSwitchPageStepByStep = new System.Windows.Forms.CheckBox();
+            this.tabPage7 = new System.Windows.Forms.TabPage();
             this.tp_AccPwd.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -343,6 +344,7 @@
             this.tp_AccPwd.Controls.Add(this.tabPage4);
             this.tp_AccPwd.Controls.Add(this.tabPage5);
             this.tp_AccPwd.Controls.Add(this.tabPage6);
+            this.tp_AccPwd.Controls.Add(this.tabPage7);
             this.tp_AccPwd.Location = new System.Drawing.Point(9, 7);
             this.tp_AccPwd.Name = "tp_AccPwd";
             this.tp_AccPwd.SelectedIndex = 0;
@@ -943,6 +945,16 @@
             this.ckbSwitchPageStepByStep.UseVisualStyleBackColor = true;
             this.ckbSwitchPageStepByStep.CheckedChanged += new System.EventHandler(this.ckbSwitchPageStepByStep_CheckedChanged);
             // 
+            // tabPage7
+            // 
+            this.tabPage7.Location = new System.Drawing.Point(4, 22);
+            this.tabPage7.Name = "tabPage7";
+            this.tabPage7.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage7.Size = new System.Drawing.Size(351, 231);
+            this.tabPage7.TabIndex = 6;
+            this.tabPage7.Text = "測試";
+            this.tabPage7.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -1062,6 +1074,7 @@
         private System.Windows.Forms.TextBox txt_window_gmail;
         private System.Windows.Forms.Label label15;
         private CircularProgressBar.CircularProgressBar circularProgressBar1;
+        private System.Windows.Forms.TabPage tabPage7;
     }
 }
 

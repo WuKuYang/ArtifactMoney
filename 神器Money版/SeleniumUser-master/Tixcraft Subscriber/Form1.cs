@@ -46,7 +46,15 @@ namespace Tixcraft_Subscriber
         bool g_bIsRandSeats = false;
         const bool g_bIsAutoByPassQuestion = true;   //自動回答防黃牛提問 
         bool g_bIsUsing_OtherAnswerByWindow = false;    //回答防黃牛問題時，是否使用自定義答案
-        
+        int g_PayMode = -1;//-1=不執行  0 => ATM付款   1 = ibon付款  2 = 信用卡
+        /// <summary>
+        /// -1=不執行  0 => ATM付款   1 = ibon付款  2 = 信用卡
+        /// </summary>
+        public int PayMode 
+        {
+            get { return g_PayMode; }
+            set { g_PayMode = value; }
+        }
         string g_OtherAnswerByWindow = "";
         public string OCRRecipe_IP_Address = "127.0.0.1";
 
@@ -721,8 +729,10 @@ namespace Tixcraft_Subscriber
                         // Days.info = 立即訂購 = 已經開了 --> 已經開了卻沒有位置 => 問答
                         //if ((iSeats == 0) && (Days.info.Contains("立即訂購")) && Days.TixcraftWebDriver.strPageSourceCode.Contains("checkCode"))
 
-                        if ((iSeats == 0) && (Days.info.Contains("立即訂購")) && Days.TixcraftWebDriver.strPageSourceCode.Contains("checkCode"))
+
+                        //if ((iSeats == 0) && (Days.info.Contains("選購一空")) && Days.TixcraftWebDriver.strPageSourceCode.Contains("checkCode"))
                         //if ((iSeats == 0) && (Days.info.Contains("立即訂購")) )
+                        if ((iSeats == 0) && (Days.info.Contains("立即訂購")) && Days.TixcraftWebDriver.strPageSourceCode.Contains("checkCode"))
                         {
                             if (SubscrEr.Driver.Url != Days.url)
                             {
@@ -885,6 +895,7 @@ namespace Tixcraft_Subscriber
                                                 {
 
                                                 }
+                                                UpdateCircleSpeed(circularProgressBar1, (int)swAutoCheckCodeDownLoad.ElapsedMilliseconds);
                                                 string strTemp = "下載答案中..刷新..." + "耗時:" + swAutoCheckCodeDownLoad.ElapsedMilliseconds;
                                                 this.Invoke(degRefreshText, lblDebug, strTemp);
                                             }
@@ -1333,9 +1344,17 @@ namespace Tixcraft_Subscriber
             this.Invoke(degRefreshText, this, "打錯" + iAutoKeyInFailCount.ToString() + "次，開放→自動打碼完畢耗時 : " + iCostTime.ToString("F2") + "秒");
             double iLoadCosttime = swDriverLoading.ElapsedMilliseconds / 1000.0;
             this.Invoke(degRefreshText, lblInfo, "網頁載入時間 : " + iLoadCosttime.ToString("F2") + "秒");
-
             string strMessaggLog = string.Format("{0}=網頁載:{1}秒 = 總耗時:{2}秒 = 錯:{3}次", strSelectSeat_Text, iLoadCosttime.ToString("F2"), iCostTime.ToString("F2"), iAutoKeyInFailCount.ToString()); 
-            VPState.Report(strMessaggLog, MethodBase.GetCurrentMethod(), VPState.eVPType.Windows);
+            VPState.Report(strMessaggLog, MethodBase.GetCurrentMethod(), VPState.eVPType.Windows); 
+            Task.Factory.StartNew(() => 
+            {
+                for (int i = 0; i < 10; i++)
+                {
+                    //-1=不執行  0 => ATM付款   1 = ibon付款  2 = 信用卡
+                   SubscrEr.PayModeClick(g_PayMode);
+                   Thread.Sleep(3000);
+                } 
+            });
         }
 
         private void timer1_Tick(object sender, EventArgs e)

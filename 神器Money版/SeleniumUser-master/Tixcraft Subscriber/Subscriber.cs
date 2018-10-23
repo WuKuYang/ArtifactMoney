@@ -397,7 +397,7 @@ namespace Tixcraft_Subscriber
 
             }
         }
-
+         
 
         public void SubmitAndPreSubtmi(string strVerifyCode, int iTicketCount )
         {
@@ -514,8 +514,19 @@ namespace Tixcraft_Subscriber
             strRunScript += string.Format("\nCallBackToDetectVeryfiCode();", strVerifyCode) + "\n";
             InjectJavaScript(strRunScript);
 
+        } 
+        /// <summary>
+        /// 付款方式
+        /// </summary>
+        /// <param name="iMode">-1=不執行  0 => ATM付款   1 = ibon付款  2 = 信用卡</param>
+        public void PayModeClick(int iMode = -1)
+        {
+            // 0 => ATM付款   1 = ibon付款  2 = 信用卡
+            string strRunScript = JS_ReadFile("Tix_PayMode.txt");
+            strRunScript = "\n" + strRunScript + "\n";
+            strRunScript += string.Format("\nAutoSelect_PayType({0})", iMode) + "\n"; //付款方式
+            InjectJavaScript(strRunScript);
         }
-
         private void SetVerifyCodeAndPreSubmit(string strVerifyCode, int TicketCount)
         {
             Stopwatch swTest = new Stopwatch();

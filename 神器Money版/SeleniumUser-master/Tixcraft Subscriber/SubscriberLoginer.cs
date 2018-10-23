@@ -1196,5 +1196,52 @@ namespace Tixcraft_Subscriber
         {
 
         }
+
+        private void rd_PayNone_CheckedChanged(object sender, EventArgs e)
+        {
+
+            if (lstFrms != null)
+            {
+                for (int i = 0; i < lstFrms.Count; i++)
+                {
+                    lstFrms[i].PayMode = -1;
+                }
+            }
+        }
+
+        private void rd_PayATM_CheckedChanged(object sender, EventArgs e)
+        {
+
+            if (lstFrms != null)
+            {
+                for (int i = 0; i < lstFrms.Count; i++)
+                {
+                    lstFrms[i].PayMode = 0;
+                }
+            }
+        }
+
+        private void rd_PayIBON_CheckedChanged(object sender, EventArgs e)
+        {
+
+            if (lstFrms != null)
+            {
+                for (int i = 0; i < lstFrms.Count; i++)
+                {
+                    lstFrms[i].PayMode = 1;
+                }
+            }
+        }
+
+        private void rd_PayCreditCard_CheckedChanged(object sender, EventArgs e)
+        { 
+            if (lstFrms != null)
+            {
+                for (int i = 0; i < lstFrms.Count; i++)
+                {
+                    lstFrms[i].PayMode = 2;
+                }
+            }
+        }
     }
 }

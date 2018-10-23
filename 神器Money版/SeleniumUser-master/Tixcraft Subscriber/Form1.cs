@@ -721,7 +721,8 @@ namespace Tixcraft_Subscriber
                         // Days.info = 立即訂購 = 已經開了 --> 已經開了卻沒有位置 => 問答
                         //if ((iSeats == 0) && (Days.info.Contains("立即訂購")) && Days.TixcraftWebDriver.strPageSourceCode.Contains("checkCode"))
 
-                        if ((iSeats == 0) && (Days.info.Contains("立即訂購")) )
+                        if ((iSeats == 0) && (Days.info.Contains("立即訂購")) && Days.TixcraftWebDriver.strPageSourceCode.Contains("checkCode"))
+                        //if ((iSeats == 0) && (Days.info.Contains("立即訂購")) )
                         {
                             if (SubscrEr.Driver.Url != Days.url)
                             {
@@ -1539,6 +1540,7 @@ namespace Tixcraft_Subscriber
                     UpdateLable("執行開搶", lblLogin);
                     g_bFlagStartBuyStatue = true;
                     Test();
+                    UpdateCircleVisiable(circularProgressBar1, false);
                     AllButtonEnableStatue(true);
                     g_bFlagStartBuyStatue = false;
                 }); 

@@ -566,7 +566,7 @@ namespace HTool
             HOperatorSet.Decompose3(ho_Sc, out ho_Image1, out ho_Image2, out ho_Image3
                 );
             ho_Region.Dispose();
-            HOperatorSet.Threshold(ho_Image1, out ho_Region, 0, 70);
+            HOperatorSet.Threshold(ho_Image1, out ho_Region, 0, 130);
             ho_Region1.Dispose();
             HOperatorSet.Threshold(ho_Image2, out ho_Region1, 0, 160);
             ho_Region2.Dispose();

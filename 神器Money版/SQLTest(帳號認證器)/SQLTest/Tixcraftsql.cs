@@ -494,7 +494,7 @@ namespace SQLTest
     public class TixcraftSQLServer
     {
         //string dbHost = "35.192.60.56";//資料庫位址
-        string dbHost = "35.193.144.193";//資料庫位址 --> 精文
+        string dbHost = "35.202.147.14";//資料庫位址 --> 20190425
         string dbUser = "linbaywugi";//資料庫使用者帳號
         string dbPass = "12345678";//資料庫使用者密碼
         string dbName = "MyTest";//資料庫名稱 DB      

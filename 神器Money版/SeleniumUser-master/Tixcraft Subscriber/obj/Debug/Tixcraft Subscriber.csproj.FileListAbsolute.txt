@@ -1158,3 +1158,21 @@ G:\GitHub\10_24_TixMoney\神器Money版\SeleniumUser-master\Tixcraft Subscriber\
 G:\GitHub\10_24_TixMoney\神器Money版\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csproj.CopyComplete
 G:\GitHub\10_24_TixMoney\神器Money版\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.exe
 G:\GitHub\10_24_TixMoney\神器Money版\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.pdb
+D:\GitProject\ArtifactMoney_TGC\神器Money版\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe.config
+D:\GitProject\ArtifactMoney_TGC\神器Money版\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.exe
+D:\GitProject\ArtifactMoney_TGC\神器Money版\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.pdb
+D:\GitProject\ArtifactMoney_TGC\神器Money版\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\libtensorflow.dll
+D:\GitProject\ArtifactMoney_TGC\神器Money版\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.exe
+D:\GitProject\ArtifactMoney_TGC\神器Money版\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.pdb
+D:\GitProject\ArtifactMoney_TGC\神器Money版\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.Entity.EF6.dll
+D:\GitProject\ArtifactMoney_TGC\神器Money版\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Fabric.Plugin.dll
+D:\GitProject\ArtifactMoney_TGC\神器Money版\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\CircularProgressBar.xml
+D:\GitProject\ArtifactMoney_TGC\神器Money版\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.Entity.EF6.xml
+D:\GitProject\ArtifactMoney_TGC\神器Money版\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\WinFormAnimation.xml
+D:\GitProject\ArtifactMoney_TGC\神器Money版\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csprojResolveAssemblyReference.cache
+D:\GitProject\ArtifactMoney_TGC\神器Money版\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Form1.resources
+D:\GitProject\ArtifactMoney_TGC\神器Money版\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\WinForm_Test.LoadingBox.resources
+D:\GitProject\ArtifactMoney_TGC\神器Money版\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Properties.Resources.resources
+D:\GitProject\ArtifactMoney_TGC\神器Money版\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.SubscriberLoginer.resources
+D:\GitProject\ArtifactMoney_TGC\神器Money版\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.TixBuyTicket.resources
+D:\GitProject\ArtifactMoney_TGC\神器Money版\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csproj.GenerateResource.Cache

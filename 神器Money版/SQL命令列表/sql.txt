@@ -5,6 +5,8 @@ gcloud beta sql connect linbaywugi --user=linbaywugi // 0815 --> 4a0g0137
 create table titles (_id integer primary key,title char(20),price real);
 
 
+CREATE DATABASE MyTset;
+use MyTest;
 ===========================================================================
 
 

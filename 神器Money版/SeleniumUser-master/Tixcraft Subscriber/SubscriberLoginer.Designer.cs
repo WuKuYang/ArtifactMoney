@@ -114,6 +114,11 @@
             this.label25 = new System.Windows.Forms.Label();
             this.btnAutoFillup_AllWindow = new System.Windows.Forms.Button();
             this.lblCreditCard = new System.Windows.Forms.Label();
+            this.tabPage9 = new System.Windows.Forms.TabPage();
+            this.rd_PayCreditCard = new System.Windows.Forms.RadioButton();
+            this.rd_PayIBON = new System.Windows.Forms.RadioButton();
+            this.rd_PayATM = new System.Windows.Forms.RadioButton();
+            this.rd_PayNone = new System.Windows.Forms.RadioButton();
             this.pnlControlTable = new System.Windows.Forms.Panel();
             this.rd_Answer02 = new System.Windows.Forms.RadioButton();
             this.rd_Answer01 = new System.Windows.Forms.RadioButton();
@@ -129,11 +134,6 @@
             this.txtIP = new System.Windows.Forms.TextBox();
             this.btnShareAnswer = new System.Windows.Forms.Button();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
-            this.tabPage9 = new System.Windows.Forms.TabPage();
-            this.rd_PayNone = new System.Windows.Forms.RadioButton();
-            this.rd_PayATM = new System.Windows.Forms.RadioButton();
-            this.rd_PayIBON = new System.Windows.Forms.RadioButton();
-            this.rd_PayCreditCard = new System.Windows.Forms.RadioButton();
             this.tpFBEmail.SuspendLayout();
             this.tpShow.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -147,9 +147,9 @@
             this.tabControl2.SuspendLayout();
             this.tabPage4.SuspendLayout();
             this.tabPage8.SuspendLayout();
+            this.tabPage9.SuspendLayout();
             this.pnlControlTable.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.tabPage9.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnLoadAcc
@@ -1088,6 +1088,69 @@
             this.lblCreditCard.TabIndex = 22;
             this.lblCreditCard.Text = "訊息";
             // 
+            // tabPage9
+            // 
+            this.tabPage9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(35)))), ((int)(((byte)(45)))));
+            this.tabPage9.Controls.Add(this.rd_PayCreditCard);
+            this.tabPage9.Controls.Add(this.rd_PayIBON);
+            this.tabPage9.Controls.Add(this.rd_PayATM);
+            this.tabPage9.Controls.Add(this.rd_PayNone);
+            this.tabPage9.Location = new System.Drawing.Point(4, 22);
+            this.tabPage9.Name = "tabPage9";
+            this.tabPage9.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage9.Size = new System.Drawing.Size(390, 202);
+            this.tabPage9.TabIndex = 9;
+            this.tabPage9.Text = "付款方式";
+            // 
+            // rd_PayCreditCard
+            // 
+            this.rd_PayCreditCard.AutoSize = true;
+            this.rd_PayCreditCard.Location = new System.Drawing.Point(16, 88);
+            this.rd_PayCreditCard.Name = "rd_PayCreditCard";
+            this.rd_PayCreditCard.Size = new System.Drawing.Size(119, 16);
+            this.rd_PayCreditCard.TabIndex = 3;
+            this.rd_PayCreditCard.TabStop = true;
+            this.rd_PayCreditCard.Text = "自動選信用卡付款";
+            this.rd_PayCreditCard.UseVisualStyleBackColor = true;
+            this.rd_PayCreditCard.CheckedChanged += new System.EventHandler(this.rd_PayCreditCard_CheckedChanged);
+            // 
+            // rd_PayIBON
+            // 
+            this.rd_PayIBON.AutoSize = true;
+            this.rd_PayIBON.Location = new System.Drawing.Point(16, 66);
+            this.rd_PayIBON.Name = "rd_PayIBON";
+            this.rd_PayIBON.Size = new System.Drawing.Size(183, 16);
+            this.rd_PayIBON.TabIndex = 2;
+            this.rd_PayIBON.TabStop = true;
+            this.rd_PayIBON.Text = "自動選IBON序號取票臨櫃付款";
+            this.rd_PayIBON.UseVisualStyleBackColor = true;
+            this.rd_PayIBON.CheckedChanged += new System.EventHandler(this.rd_PayIBON_CheckedChanged);
+            // 
+            // rd_PayATM
+            // 
+            this.rd_PayATM.AutoSize = true;
+            this.rd_PayATM.Location = new System.Drawing.Point(16, 44);
+            this.rd_PayATM.Name = "rd_PayATM";
+            this.rd_PayATM.Size = new System.Drawing.Size(84, 16);
+            this.rd_PayATM.TabIndex = 1;
+            this.rd_PayATM.TabStop = true;
+            this.rd_PayATM.Text = "自動選ATM";
+            this.rd_PayATM.UseVisualStyleBackColor = true;
+            this.rd_PayATM.CheckedChanged += new System.EventHandler(this.rd_PayATM_CheckedChanged);
+            // 
+            // rd_PayNone
+            // 
+            this.rd_PayNone.AutoSize = true;
+            this.rd_PayNone.Checked = true;
+            this.rd_PayNone.Location = new System.Drawing.Point(16, 22);
+            this.rd_PayNone.Name = "rd_PayNone";
+            this.rd_PayNone.Size = new System.Drawing.Size(107, 16);
+            this.rd_PayNone.TabIndex = 0;
+            this.rd_PayNone.TabStop = true;
+            this.rd_PayNone.Text = "不自動選擇付款";
+            this.rd_PayNone.UseVisualStyleBackColor = true;
+            this.rd_PayNone.CheckedChanged += new System.EventHandler(this.rd_PayNone_CheckedChanged);
+            // 
             // pnlControlTable
             // 
             this.pnlControlTable.Controls.Add(this.rd_Answer02);
@@ -1158,7 +1221,7 @@
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(98, 29);
             this.label11.TabIndex = 39;
-            this.label11.Text = "ver 6.6";
+            this.label11.Text = "ver 6.7";
             // 
             // lblHDDNumber
             // 
@@ -1273,69 +1336,6 @@
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
             // 
-            // tabPage9
-            // 
-            this.tabPage9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(35)))), ((int)(((byte)(45)))));
-            this.tabPage9.Controls.Add(this.rd_PayCreditCard);
-            this.tabPage9.Controls.Add(this.rd_PayIBON);
-            this.tabPage9.Controls.Add(this.rd_PayATM);
-            this.tabPage9.Controls.Add(this.rd_PayNone);
-            this.tabPage9.Location = new System.Drawing.Point(4, 22);
-            this.tabPage9.Name = "tabPage9";
-            this.tabPage9.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage9.Size = new System.Drawing.Size(390, 202);
-            this.tabPage9.TabIndex = 9;
-            this.tabPage9.Text = "付款方式";
-            // 
-            // rd_PayNone
-            // 
-            this.rd_PayNone.AutoSize = true;
-            this.rd_PayNone.Checked = true;
-            this.rd_PayNone.Location = new System.Drawing.Point(16, 22);
-            this.rd_PayNone.Name = "rd_PayNone";
-            this.rd_PayNone.Size = new System.Drawing.Size(107, 16);
-            this.rd_PayNone.TabIndex = 0;
-            this.rd_PayNone.TabStop = true;
-            this.rd_PayNone.Text = "不自動選擇付款";
-            this.rd_PayNone.UseVisualStyleBackColor = true;
-            this.rd_PayNone.CheckedChanged += new System.EventHandler(this.rd_PayNone_CheckedChanged);
-            // 
-            // rd_PayATM
-            // 
-            this.rd_PayATM.AutoSize = true;
-            this.rd_PayATM.Location = new System.Drawing.Point(16, 44);
-            this.rd_PayATM.Name = "rd_PayATM";
-            this.rd_PayATM.Size = new System.Drawing.Size(84, 16);
-            this.rd_PayATM.TabIndex = 1;
-            this.rd_PayATM.TabStop = true;
-            this.rd_PayATM.Text = "自動選ATM";
-            this.rd_PayATM.UseVisualStyleBackColor = true;
-            this.rd_PayATM.CheckedChanged += new System.EventHandler(this.rd_PayATM_CheckedChanged);
-            // 
-            // rd_PayIBON
-            // 
-            this.rd_PayIBON.AutoSize = true;
-            this.rd_PayIBON.Location = new System.Drawing.Point(16, 66);
-            this.rd_PayIBON.Name = "rd_PayIBON";
-            this.rd_PayIBON.Size = new System.Drawing.Size(183, 16);
-            this.rd_PayIBON.TabIndex = 2;
-            this.rd_PayIBON.TabStop = true;
-            this.rd_PayIBON.Text = "自動選IBON序號取票臨櫃付款";
-            this.rd_PayIBON.UseVisualStyleBackColor = true;
-            this.rd_PayIBON.CheckedChanged += new System.EventHandler(this.rd_PayIBON_CheckedChanged);
-            // 
-            // rd_PayCreditCard
-            // 
-            this.rd_PayCreditCard.AutoSize = true;
-            this.rd_PayCreditCard.Location = new System.Drawing.Point(16, 88);
-            this.rd_PayCreditCard.Name = "rd_PayCreditCard";
-            this.rd_PayCreditCard.Size = new System.Drawing.Size(119, 16);
-            this.rd_PayCreditCard.TabIndex = 3;
-            this.rd_PayCreditCard.TabStop = true;
-            this.rd_PayCreditCard.Text = "自動選信用卡付款";
-            this.rd_PayCreditCard.UseVisualStyleBackColor = true;
-            this.rd_PayCreditCard.CheckedChanged += new System.EventHandler(this.rd_PayCreditCard_CheckedChanged);
-            // 
             // SubscriberLoginer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -1347,7 +1347,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "SubscriberLoginer";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "拓元神器(Money) ver_6.6 - 2018.10.23";
+            this.Text = "拓元神器(Money) ver_6.7 - 2019.4.25";
             this.TopMost = true;
             this.Activated += new System.EventHandler(this.SubscriberLoginer_Activated);
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.SubscriberLoginer_FormClosed);
@@ -1375,11 +1375,11 @@
             this.tabPage4.PerformLayout();
             this.tabPage8.ResumeLayout(false);
             this.tabPage8.PerformLayout();
+            this.tabPage9.ResumeLayout(false);
+            this.tabPage9.PerformLayout();
             this.pnlControlTable.ResumeLayout(false);
             this.pnlControlTable.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.tabPage9.ResumeLayout(false);
-            this.tabPage9.PerformLayout();
             this.ResumeLayout(false);
 
         }

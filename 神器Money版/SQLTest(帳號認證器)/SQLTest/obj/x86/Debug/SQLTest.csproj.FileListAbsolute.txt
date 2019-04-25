@@ -109,3 +109,16 @@ D:\GitProject\ArtifactMoney\神器Money版\SQLTest(帳號認證器)\SQLTest\obj\
 D:\GitProject\ArtifactMoney\神器Money版\SQLTest(帳號認證器)\SQLTest\obj\x86\Debug\SQLTest.Properties.Resources.resources
 D:\GitProject\ArtifactMoney\神器Money版\SQLTest(帳號認證器)\SQLTest\obj\x86\Debug\SQLTest.SQLForm.resources
 D:\GitProject\ArtifactMoney\神器Money版\SQLTest(帳號認證器)\SQLTest\obj\x86\Debug\SQLTest.csproj.GenerateResource.Cache
+D:\GitProject\ArtifactMoney_TGC\神器Money版\SQLTest(帳號認證器)\SQLTest\bin\Debug\SQLTest.exe.config
+D:\GitProject\ArtifactMoney_TGC\神器Money版\SQLTest(帳號認證器)\SQLTest\obj\x86\Debug\SQLTest.exe
+D:\GitProject\ArtifactMoney_TGC\神器Money版\SQLTest(帳號認證器)\SQLTest\obj\x86\Debug\SQLTest.pdb
+D:\GitProject\ArtifactMoney_TGC\神器Money版\SQLTest(帳號認證器)\SQLTest\bin\Debug\SQLTest.exe
+D:\GitProject\ArtifactMoney_TGC\神器Money版\SQLTest(帳號認證器)\SQLTest\bin\Debug\SQLTest.pdb
+D:\GitProject\ArtifactMoney_TGC\神器Money版\SQLTest(帳號認證器)\SQLTest\bin\Debug\MySql.Data.Entity.EF6.dll
+D:\GitProject\ArtifactMoney_TGC\神器Money版\SQLTest(帳號認證器)\SQLTest\bin\Debug\MySql.Fabric.Plugin.dll
+D:\GitProject\ArtifactMoney_TGC\神器Money版\SQLTest(帳號認證器)\SQLTest\bin\Debug\MySql.Data.Entity.EF6.xml
+D:\GitProject\ArtifactMoney_TGC\神器Money版\SQLTest(帳號認證器)\SQLTest\obj\x86\Debug\SQLTest.csprojResolveAssemblyReference.cache
+D:\GitProject\ArtifactMoney_TGC\神器Money版\SQLTest(帳號認證器)\SQLTest\obj\x86\Debug\SQLTest.Form1.resources
+D:\GitProject\ArtifactMoney_TGC\神器Money版\SQLTest(帳號認證器)\SQLTest\obj\x86\Debug\SQLTest.Properties.Resources.resources
+D:\GitProject\ArtifactMoney_TGC\神器Money版\SQLTest(帳號認證器)\SQLTest\obj\x86\Debug\SQLTest.SQLForm.resources
+D:\GitProject\ArtifactMoney_TGC\神器Money版\SQLTest(帳號認證器)\SQLTest\obj\x86\Debug\SQLTest.csproj.GenerateResource.Cache

@@ -1,0 +1,258 @@
+
+function rand(min,max,)
+{
+    return Math.floor(Math.random()*(max-min))+min;
+}
+
+function TixCraftCloseDialog()
+{
+    $.fancybox.close();
+}
+
+function Tix_Register(tName , tAddress , tPhoneNumber)
+{
+	TixCraftCloseDialog();
+    //中華民國
+    var eLocation=document.getElementById('TixUserForm_nationality_0');
+    if(eLocation !=undefined )
+    {
+        eLocation.click();
+    }
+    //姓名
+    var eTaiwanName =document.getElementById('TixUserForm_name');
+    if(eTaiwanName !=undefined )
+    {
+        eTaiwanName.value= tName;
+    }
+
+    //身分證字號
+    var eTaiwanID =document.getElementById('TixUserForm_identity');
+    if(eTaiwanID !=undefined )
+    {
+        	eTaiwanID.value = GenerateRandomSN();
+	//eTaiwanID.value = GenartorHongKongSN();
+    }
+
+
+    //選男
+    var eBoy=document.getElementById('TixUserForm_gender_0');
+    if(eLocation !=undefined )
+    {
+        eBoy.click();
+    }
+
+
+    //生日
+
+    var eBirthday = document.getElementById('TixUserForm_birthday');
+    if(eBirthday !=undefined )
+    {
+        eBirthday.value=  rand(1950 , 2002) + '/' + rand(1 , 12) + '/' + rand(1 , 31);
+    }
+
+    //地址
+    var eTixUserForm_address = document.getElementById('TixUserForm_address');
+    if(eTixUserForm_address !=undefined )
+    {
+        eTixUserForm_address.value=   tAddress;
+    }
+    //地區選擇香港
+    var eRegion = document.getElementById("TixUserForm_phone_country").options.selectedIndex = 3;
+
+    //電話號碼
+    var ePhone = document.getElementById('TixUserForm_phone');
+    if(ePhone !=undefined )
+    {
+        ePhone.value= tPhoneNumber;
+    }
+    //我同意
+    var ePrivacy=document.getElementById('privacy');
+    if(ePrivacy !=undefined )
+    {
+        ePrivacy.click();
+    }
+}
+
+
+function GenerateRandomSN ( )
+{
+    // var vRegion = '10A'; // A 臺北市
+    // var vRegion = '11B'; // B 臺中市
+    // var vRegion = '12C'; // C 基隆市
+    // var vRegion = '13D'; // D 臺南市
+    // var vRegion = '14E'; // E 高雄市
+    // var vRegion = '15F'; // F 臺北縣
+    // var vRegion = '16G'; // G 宜蘭縣
+    // var vRegion = '17H'; // H 桃園縣
+    // var vRegion = '34I'; // I 嘉義市
+    // var vRegion = '18J'; // J 新竹縣
+    // var vRegion = '19K'; // K 苗栗縣
+    // var vRegion = '20L'; // L 臺中縣
+    // var vRegion = '21M'; // M 南投縣
+    // var vRegion = '22N'; // N 彰化縣
+    // var vRegion = '35O'; // O 新竹市
+    // var vRegion = '23P'; // P 雲林縣
+    // var vRegion = '24Q'; // Q 嘉義縣
+    // var vRegion = '25R'; // R 臺南縣
+    // var vRegion = '26S'; // S 高雄縣
+    // var vRegion = '27T'; // T 屏東縣
+    // var vRegion = '28U'; // U 花蓮縣
+    // var vRegion = '29V'; // V 臺東縣
+    // var vRegion = '32W'; // W 金門縣
+    // var vRegion = '30X'; // X 澎湖縣
+    // var vRegion = '31Y'; // Y 陽明山
+    // var vRegion = '33Z'; // Z 連江縣
+
+    var vRegion = '10A';
+    var vRegionIndex = rand(0 , 25); // 0~25
+    switch(vRegionIndex) {
+        case 0: vRegion = '10A'; break;
+        case 1: vRegion = '11B'; break;
+        case 2: vRegion = '12C'; break;
+        case 3: vRegion = '13D'; break;
+        case 4: vRegion = '14E'; break;
+        case 5: vRegion = '15F'; break;
+        case 6: vRegion = '16G'; break;
+        case 7: vRegion = '17H'; break;
+        case 8: vRegion = '34I'; break;
+        case 9: vRegion = '18J'; break;
+        case 10: vRegion = '19K'; break;
+        case 11: vRegion = '20L'; break;
+        case 12: vRegion = '21M'; break;
+        case 13: vRegion = '22N'; break;
+        case 14: vRegion = '35O'; break;
+        case 15: vRegion = '23P'; break;
+        case 16: vRegion = '24Q'; break;
+        case 17: vRegion = '25R'; break;
+        case 18: vRegion = '26S'; break;
+        case 19: vRegion = '27T'; break;
+        case 20: vRegion = '28U'; break;
+        case 21: vRegion = '29V'; break;
+        case 22: vRegion = '32W'; break;
+        case 23: vRegion = '30X'; break;
+        case 24: vRegion = '31Y'; break;
+        case 25: vRegion = '33Z'; break;
+
+        default:
+            vRegion = '34I'; break;
+    }
+
+    var i, j, szSN = "";
+    var location = parseInt( vRegion.substring( 0, 2 ) ),
+        szLocation = vRegion.charAt( 2 ),
+        sex = 1,
+        num = 1;
+
+    for( i = 0 ; i < num ; i++ ) {
+        var validateCode = ( ( location - location % 10 ) / 10 ) +
+            ( location % 10 * 9 ) +
+            sex * 8;
+        var tmpSN = szLocation + sex;
+        for ( j = 1 ; j <= 7 ; j++ ) {
+            var ran = (Math.random() * 10).toString().charAt( 0 );
+            validateCode += parseInt( ran ) * ( 8 - j );
+            tmpSN += ran;
+        }
+        szSN += tmpSN + (10 - validateCode % 10) % 10 + "\n";
+    }
+    if(ValidateSN( szSN ))
+    {
+        return szSN;
+    }else
+    {
+        return "A00000000";
+    }
+}
+
+
+function ValidateSN ( szTextArea )
+{
+    var szCurrent;
+    var szInvalidSN = "";
+    var i, tmp;
+
+    while ( szTextArea.length > 0 )
+    {
+        if ( ( tmp = szTextArea.indexOf( "\n" ) ) != -1 ) {
+            szCurrent  = szTextArea.substring( 0, szTextArea.indexOf( "\n" ) );
+            szTextArea = szTextArea.substring( szTextArea.indexOf( "\n" ) + 1, szTextArea.length );
+        } else {
+            szCurrent  = szTextArea;
+            szTextArea = "";
+        }
+
+        var validateCode = 0;
+        switch ( szCurrent.charAt( 0 ) ) {
+            case 'A': case 'a': validateCode +=  1; break;   case 'N': case 'n': validateCode += 20; break;
+            case 'B': case 'b': validateCode += 10; break;   case 'O': case 'o': validateCode += 48; break;
+            case 'C': case 'c': validateCode += 19; break;   case 'P': case 'p': validateCode += 29; break;
+            case 'D': case 'd': validateCode += 28; break;   case 'Q': case 'q': validateCode += 38; break;
+            case 'E': case 'e': validateCode += 37; break;   case 'R': case 'r': validateCode += 47; break;
+            case 'F': case 'f': validateCode += 46; break;   case 'S': case 's': validateCode += 56; break;
+            case 'G': case 'g': validateCode += 55; break;   case 'T': case 't': validateCode += 65; break;
+            case 'H': case 'h': validateCode += 64; break;   case 'U': case 'u': validateCode += 74; break;
+            case 'I': case 'i': validateCode += 39; break;   case 'V': case 'v': validateCode += 83; break;
+            case 'J': case 'j': validateCode += 73; break;   case 'W': case 'w': validateCode += 21; break;
+            case 'K': case 'k': validateCode += 82; break;   case 'X': case 'x': validateCode +=  3; break;
+            case 'L': case 'l': validateCode +=  2; break;   case 'Y': case 'y': validateCode += 12; break;
+            case 'M': case 'm': validateCode += 11; break;   case 'Z': case 'z': validateCode += 30; break;
+            default:
+                validateCode = -1;
+                break;
+        }
+        if ( validateCode == -1 ) {
+            szInvalidSN += szCurrent + "\n";
+            continue;
+        }
+
+        if ( isNaN( tmp = parseInt( szCurrent.charAt( 1 ) ) ) ) {
+            szInvalidSN += szCurrent + "\n";
+            continue;
+        }
+        if ( tmp != 1 && tmp != 2 ) {
+            szInvalidSN += szCurrent + "\n";
+            continue;
+        }
+        validateCode += tmp * 8;
+
+        for ( i = 2 ; i <= 8 && tmp != -1 ; i++ ) {
+            if ( isNaN( tmp = parseInt( szCurrent.charAt( i ) ) ) ) {
+                szInvalidSN += szCurrent + "\n";
+                tmp == -1;
+                continue;
+            }
+            validateCode += tmp * ( 9 - i );
+        }
+        if ( tmp == -1 )
+            continue;
+        if ( isNaN( tmp = parseInt( szCurrent.charAt( 9 ) ) ) ) {
+            szInvalidSN += szCurrent + "\n";
+            continue;
+        }
+        validateCode += tmp;
+        if ( validateCode % 10 != 0 )
+            szInvalidSN += szCurrent + "\n";
+    }
+
+    if ( szInvalidSN.length > 0 )
+        return false; //alert("不合格的身份證字號清單：\n" + szInvalidSN);
+    else
+        return true; //alert("全部合格");
+}
+
+
+function GenartorHongKongSN()
+{
+    var vTitle = 'H';
+    var vID_SN = '';
+    var vTurnCount = "0";
+
+    for(var i = 0 ; i < 8; i++)
+    {
+        vID_SN = vID_SN + rand(0,9).toString();
+    }
+    return vTitle + vID_SN + vTurnCount; 
+}
+
+
+

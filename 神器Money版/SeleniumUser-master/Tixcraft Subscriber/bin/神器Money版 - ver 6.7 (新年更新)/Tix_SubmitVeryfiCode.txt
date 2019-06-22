@@ -1,0 +1,9 @@
+function Tix_KeyInVerifyCode(mAnswer)
+{
+    //∂Òºg≈Á√“ΩX
+    var mVeryfyCode  = document.getElementById("TicketForm_verifyCode");
+    if(mVeryfyCode !=undefined)
+    {
+        mVeryfyCode.value= mAnswer;
+    }
+}

@@ -47,6 +47,7 @@ INSERT INTO ShareAnswer (Ans,OpenDate) VALUES('x@x.com','20170825 06:33');
 ===========================================================================
 
 
+create table TixCookiesInfo( email char(50),   cookie text, time char(50) );
 
 
 //新增一筆資料

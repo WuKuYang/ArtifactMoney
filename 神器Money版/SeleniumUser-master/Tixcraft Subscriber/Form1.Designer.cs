@@ -104,8 +104,9 @@
             this.label16 = new System.Windows.Forms.Label();
             this.txt_window_gmail = new System.Windows.Forms.TextBox();
             this.label15 = new System.Windows.Forms.Label();
-            this.ckbSwitchPageStepByStep = new System.Windows.Forms.CheckBox();
             this.tabPage7 = new System.Windows.Forms.TabPage();
+            this.ckbSwitchPageStepByStep = new System.Windows.Forms.CheckBox();
+            this.pb_SnapTest = new System.Windows.Forms.PictureBox();
             this.tp_AccPwd.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -124,6 +125,7 @@
             this.tabPage5.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.tabPage6.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_SnapTest)).BeginInit();
             this.SuspendLayout();
             // 
             // button3
@@ -545,6 +547,7 @@
             // 
             // tabPage3
             // 
+            this.tabPage3.Controls.Add(this.pb_SnapTest);
             this.tabPage3.Controls.Add(this.ckb_listen_ocr);
             this.tabPage3.Controls.Add(this.ptb_OCR_Source);
             this.tabPage3.Controls.Add(this.pbChar_History_D);
@@ -934,6 +937,16 @@
             this.label15.TabIndex = 0;
             this.label15.Text = "Gmail";
             // 
+            // tabPage7
+            // 
+            this.tabPage7.Location = new System.Drawing.Point(4, 22);
+            this.tabPage7.Name = "tabPage7";
+            this.tabPage7.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage7.Size = new System.Drawing.Size(351, 231);
+            this.tabPage7.TabIndex = 6;
+            this.tabPage7.Text = "測試";
+            this.tabPage7.UseVisualStyleBackColor = true;
+            // 
             // ckbSwitchPageStepByStep
             // 
             this.ckbSwitchPageStepByStep.AutoSize = true;
@@ -945,15 +958,14 @@
             this.ckbSwitchPageStepByStep.UseVisualStyleBackColor = true;
             this.ckbSwitchPageStepByStep.CheckedChanged += new System.EventHandler(this.ckbSwitchPageStepByStep_CheckedChanged);
             // 
-            // tabPage7
+            // pb_SnapTest
             // 
-            this.tabPage7.Location = new System.Drawing.Point(4, 22);
-            this.tabPage7.Name = "tabPage7";
-            this.tabPage7.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage7.Size = new System.Drawing.Size(351, 231);
-            this.tabPage7.TabIndex = 6;
-            this.tabPage7.Text = "測試";
-            this.tabPage7.UseVisualStyleBackColor = true;
+            this.pb_SnapTest.Location = new System.Drawing.Point(201, 3);
+            this.pb_SnapTest.Name = "pb_SnapTest";
+            this.pb_SnapTest.Size = new System.Drawing.Size(144, 172);
+            this.pb_SnapTest.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pb_SnapTest.TabIndex = 52;
+            this.pb_SnapTest.TabStop = false;
             // 
             // Form1
             // 
@@ -990,6 +1002,7 @@
             this.groupBox2.PerformLayout();
             this.tabPage6.ResumeLayout(false);
             this.tabPage6.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_SnapTest)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1075,6 +1088,7 @@
         private System.Windows.Forms.Label label15;
         private CircularProgressBar.CircularProgressBar circularProgressBar1;
         private System.Windows.Forms.TabPage tabPage7;
+        private System.Windows.Forms.PictureBox pb_SnapTest;
     }
 }
 

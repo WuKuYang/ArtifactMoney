@@ -134,6 +134,8 @@
             this.txtIP = new System.Windows.Forms.TextBox();
             this.btnShareAnswer = new System.Windows.Forms.Button();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
+            this.label26 = new System.Windows.Forms.Label();
+            this.txt_BrowserWidth = new System.Windows.Forms.TextBox();
             this.tpFBEmail.SuspendLayout();
             this.tpShow.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -1153,6 +1155,8 @@
             // 
             // pnlControlTable
             // 
+            this.pnlControlTable.Controls.Add(this.label26);
+            this.pnlControlTable.Controls.Add(this.txt_BrowserWidth);
             this.pnlControlTable.Controls.Add(this.rd_Answer02);
             this.pnlControlTable.Controls.Add(this.rd_Answer01);
             this.pnlControlTable.Controls.Add(this.label11);
@@ -1221,7 +1225,7 @@
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(98, 29);
             this.label11.TabIndex = 39;
-            this.label11.Text = "ver 6.8";
+            this.label11.Text = "ver 6.9";
             // 
             // lblHDDNumber
             // 
@@ -1336,6 +1340,22 @@
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
             // 
+            // label26
+            // 
+            this.label26.AutoSize = true;
+            this.label26.Location = new System.Drawing.Point(12, 250);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(41, 12);
+            this.label26.TabIndex = 46;
+            this.label26.Text = "視窗寬";
+            // 
+            // txt_BrowserWidth
+            // 
+            this.txt_BrowserWidth.Location = new System.Drawing.Point(14, 265);
+            this.txt_BrowserWidth.Name = "txt_BrowserWidth";
+            this.txt_BrowserWidth.Size = new System.Drawing.Size(48, 22);
+            this.txt_BrowserWidth.TabIndex = 45;
+            // 
             // SubscriberLoginer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -1347,7 +1367,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "SubscriberLoginer";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "拓元神器(Money) ver_6.8 - 2019.6.22";
+            this.Text = "拓元神器(Money) ver_6.9 - 2019.7.27";
             this.TopMost = true;
             this.Activated += new System.EventHandler(this.SubscriberLoginer_Activated);
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.SubscriberLoginer_FormClosed);
@@ -1492,5 +1512,7 @@
         private System.Windows.Forms.RadioButton rd_PayIBON;
         private System.Windows.Forms.RadioButton rd_PayATM;
         private System.Windows.Forms.RadioButton rd_PayNone;
+        private System.Windows.Forms.Label label26;
+        private System.Windows.Forms.TextBox txt_BrowserWidth;
     }
 }

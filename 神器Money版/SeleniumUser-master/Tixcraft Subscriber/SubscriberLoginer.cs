@@ -81,6 +81,7 @@ namespace Tixcraft_Subscriber
             OCRRecipe.Config_Path = OcrSavePath;
             OCRRecipe.LoadRecipeFromXml(ref OCRRecipe);
             txtIP.Text = OCRRecipe.IP;
+            txt_BrowserWidth.Text = OCRRecipe.WebBrowser_Width.ToString();
             LoadingBox DownLoadShow = new LoadingBox((obj, args) =>
             {
                 ShowAllActivity();
@@ -88,7 +89,7 @@ namespace Tixcraft_Subscriber
             DownLoadShow.ShowDialog();
 
             //判斷認證
-            if (TixcraftSQL.HDDDatabase.IsAllow("CPUID_ver1022")) 
+            if (TixcraftSQL.HDDDatabase.IsAllow("CPUID_ver0726")) 
             //if (true)
             {
                 
@@ -748,12 +749,10 @@ namespace Tixcraft_Subscriber
         private void btnSaveIP_Click(object sender, EventArgs e)
         {
             OCRRecipe.IP = txtIP.Text;
+            int iWindowWidth = 500;
+            int.TryParse(txt_BrowserWidth.Text, out iWindowWidth);
+            OCRRecipe.WebBrowser_Width = iWindowWidth;  
             OCRRecipe.SaveRecipeToXml(OCRRecipe);
-
-
-
-
-
 
             //#region Server端讀Cookies
 
@@ -833,10 +832,12 @@ namespace Tixcraft_Subscriber
         public void Chromes_Sort_Window()
         {
             //== 螢幕工作區大小 ==
-            int iSWidth = Screen.PrimaryScreen.WorkingArea.Width - this.Width;
+            int iSWidth = Screen.PrimaryScreen.WorkingArea.Width - (this.Width/2);
+            //int iSWidth = Screen.PrimaryScreen.WorkingArea.Width - this.Width;
             int iSHeigh = Screen.PrimaryScreen.WorkingArea.Height;
 
-            int iBlock_W = 300;
+            int iBlock_W = OCRRecipe.WebBrowser_Width;
+            //int iBlock_W = 500;
             int iBlock_H = 1036;
 
             int iList_W = iSWidth / iBlock_W;
@@ -852,7 +853,7 @@ namespace Tixcraft_Subscriber
                     {
                         lstFrms[iput_count].SubscrEr.HwndController.ShowNormal();
                         lstFrms[iput_count].SubscrEr.HwndController.SetToForegroundWindow();
-                        lstFrms[iput_count].SubscrEr.HwndController.ReSize(ix * (iBlock_W+80), iy * 150, iBlock_W, iBlock_H);
+                        lstFrms[iput_count].SubscrEr.HwndController.ReSize(ix * (iBlock_W + 7), iy * 150, iBlock_W, iBlock_H);
                         iput_count++;
                     }
                 }

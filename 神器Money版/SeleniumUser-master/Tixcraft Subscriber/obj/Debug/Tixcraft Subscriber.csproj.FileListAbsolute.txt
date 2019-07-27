@@ -1166,9 +1166,7 @@ D:\GitProject\ArtifactMoney_TGC\神器Money版\SeleniumUser-master\Tixcraft Subs
 D:\GitProject\ArtifactMoney_TGC\神器Money版\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\Tixcraft Subscriber.pdb
 D:\GitProject\ArtifactMoney_TGC\神器Money版\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.Entity.EF6.dll
 D:\GitProject\ArtifactMoney_TGC\神器Money版\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Fabric.Plugin.dll
-D:\GitProject\ArtifactMoney_TGC\神器Money版\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\CircularProgressBar.xml
 D:\GitProject\ArtifactMoney_TGC\神器Money版\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.Entity.EF6.xml
-D:\GitProject\ArtifactMoney_TGC\神器Money版\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\WinFormAnimation.xml
 D:\GitProject\ArtifactMoney_TGC\神器Money版\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csprojResolveAssemblyReference.cache
 D:\GitProject\ArtifactMoney_TGC\神器Money版\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.Form1.resources
 D:\GitProject\ArtifactMoney_TGC\神器Money版\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\WinForm_Test.LoadingBox.resources

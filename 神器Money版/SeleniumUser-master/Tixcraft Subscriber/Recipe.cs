@@ -259,6 +259,8 @@ namespace Recipe
     public class IPRecipe : EConfig<IPRecipe>
     {
         public string IP = "127.0.0.1";
+        public int WebBrowser_Width = 500;
+
     }
 
 }

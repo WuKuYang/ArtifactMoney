@@ -581,9 +581,9 @@ namespace Tixcraft_Subscriber
             string[] strGoogleExcelTable = strFormatEmailInfo.Split('\t');
             if (strGoogleExcelTable.Length >= 3)
             { 
-             txt_window_gmail.Text =   strGoogleExcelTable[1];    // gmail
-             txt_window_pwd.Text =   strGoogleExcelTable[2];    // pwd
-             txt_window_backupEmail.Text =   strGoogleExcelTable[3];   // backup email 
+             txt_window_gmail.Text =   strGoogleExcelTable[0];    // gmail
+             txt_window_pwd.Text =   strGoogleExcelTable[1];    // pwd
+             txt_window_backupEmail.Text =   strGoogleExcelTable[2];   // backup email 
             } 
             lblLogin.Text = "自動辨識連線中...";
             lblDebug.Text = "選購節目 :" + lstShow[g_ShowSelected].Name;
@@ -1146,15 +1146,24 @@ namespace Tixcraft_Subscriber
                                 swCostScreenShot.Restart();
 
                             }
-                             
-                            this.Invoke(degRefreshText, lblVerifyCodeInfo, "2.拍照...");
+                            Stopwatch swTest = new Stopwatch();
+                            swTest.Restart();
+                            this.Invoke(degRefreshText, lblVerifyCodeInfo, "2.拍照..." + swTest.ElapsedMilliseconds.ToString());
                             SubscrEr.ScreenShot();
                             //Bitmap myBrowserScreen = new Bitmap(SubscrEr.bSnapShot);
                             //Bitmap myBrowserScreen = SubscrEr.HwndController.GetScreenShotBy_WindowHwnd();
-                            this.Invoke(degRefreshText, lblVerifyCodeInfo, "3.辨識...");
+                            this.Invoke(degRefreshText, lblVerifyCodeInfo, "3.辨識..." + swTest.ElapsedMilliseconds.ToString());
                             VerifyCodeImage = new Bitmap(SubscrEr.bSnapShot);
+
+                            if (g_bIsListen_OCR_History)
+                            { 
+                                this.Invoke(degDrawImageVirfyCode, pb_SnapTest, VerifyCodeImage); 
+                            }
+                            
                             lstbitmap.Clear();
+                            //Thread.Sleep(500);
                             lstbitmap = myTool.SplitVerifyFromScreenShot(VerifyCodeImage, ref iRoi_x1, ref iRoi_y1, ref iRoi_x2, ref iRoi_y2);
+                            //this.Invoke(degRefreshText, lblVerifyCodeInfo, string.Format("{0} , {1} , {2} , {3} , ", iRoi_x1, iRoi_y1, iRoi_x2, iRoi_y2) + "__" + swTest.ElapsedMilliseconds.ToString() + "__" + lstbitmap.Count.ToString()); 
                             bSrc = new Bitmap(lstbitmap[0]);
                             if (lstbitmap.Count > 0)
                             {
@@ -1755,9 +1764,9 @@ namespace Tixcraft_Subscriber
             {
                 LoginGoogle
                     (
-                    strGoogleExcelTable[1], // gmail
-                    strGoogleExcelTable[2], // pwd
-                    strGoogleExcelTable[3] // backup email
+                    strGoogleExcelTable[0], // gmail
+                    strGoogleExcelTable[1], // pwd
+                    strGoogleExcelTable[2] // backup email
                     );
             }
 
@@ -2219,6 +2228,16 @@ namespace Tixcraft_Subscriber
             {
                 txtCredit_Card_Year.Text = "20" + txtCredit_Card_Year.Text;
             }
+        }
+
+        private void btn_SnapScreen_Window_Click(object sender, EventArgs e)
+        {
+            //SubscrEr.ScreenShot();
+            //Bitmap bTemp = new Bitmap(SubscrEr.bSnapShot);
+            //string strSnapShotImage = "C://Window_Debug.bmp";
+
+            //bTemp.Save(strSnapShotImage);
+            //Process.Start(strSnapShotImage);
         } 
 
     }

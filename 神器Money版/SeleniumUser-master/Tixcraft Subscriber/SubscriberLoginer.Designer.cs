@@ -120,6 +120,8 @@
             this.rd_PayATM = new System.Windows.Forms.RadioButton();
             this.rd_PayNone = new System.Windows.Forms.RadioButton();
             this.pnlControlTable = new System.Windows.Forms.Panel();
+            this.label26 = new System.Windows.Forms.Label();
+            this.txt_BrowserWidth = new System.Windows.Forms.TextBox();
             this.rd_Answer02 = new System.Windows.Forms.RadioButton();
             this.rd_Answer01 = new System.Windows.Forms.RadioButton();
             this.label11 = new System.Windows.Forms.Label();
@@ -134,8 +136,6 @@
             this.txtIP = new System.Windows.Forms.TextBox();
             this.btnShareAnswer = new System.Windows.Forms.Button();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
-            this.label26 = new System.Windows.Forms.Label();
-            this.txt_BrowserWidth = new System.Windows.Forms.TextBox();
             this.tpFBEmail.SuspendLayout();
             this.tpShow.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -1192,6 +1192,22 @@
             this.pnlControlTable.Visible = false;
             this.pnlControlTable.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlControlTable_Paint);
             // 
+            // label26
+            // 
+            this.label26.AutoSize = true;
+            this.label26.Location = new System.Drawing.Point(12, 250);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(41, 12);
+            this.label26.TabIndex = 46;
+            this.label26.Text = "視窗寬";
+            // 
+            // txt_BrowserWidth
+            // 
+            this.txt_BrowserWidth.Location = new System.Drawing.Point(14, 265);
+            this.txt_BrowserWidth.Name = "txt_BrowserWidth";
+            this.txt_BrowserWidth.Size = new System.Drawing.Size(48, 22);
+            this.txt_BrowserWidth.TabIndex = 45;
+            // 
             // rd_Answer02
             // 
             this.rd_Answer02.AutoSize = true;
@@ -1225,7 +1241,7 @@
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(98, 29);
             this.label11.TabIndex = 39;
-            this.label11.Text = "ver 6.9";
+            this.label11.Text = "ver 7.1";
             // 
             // lblHDDNumber
             // 
@@ -1340,22 +1356,6 @@
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
             // 
-            // label26
-            // 
-            this.label26.AutoSize = true;
-            this.label26.Location = new System.Drawing.Point(12, 250);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(41, 12);
-            this.label26.TabIndex = 46;
-            this.label26.Text = "視窗寬";
-            // 
-            // txt_BrowserWidth
-            // 
-            this.txt_BrowserWidth.Location = new System.Drawing.Point(14, 265);
-            this.txt_BrowserWidth.Name = "txt_BrowserWidth";
-            this.txt_BrowserWidth.Size = new System.Drawing.Size(48, 22);
-            this.txt_BrowserWidth.TabIndex = 45;
-            // 
             // SubscriberLoginer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -1367,7 +1367,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "SubscriberLoginer";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "拓元神器(Money) ver_6.9 - 2019.7.27";
+            this.Text = "拓元神器(Money) ver_7.1 - 2019.7.28";
             this.TopMost = true;
             this.Activated += new System.EventHandler(this.SubscriberLoginer_Activated);
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.SubscriberLoginer_FormClosed);

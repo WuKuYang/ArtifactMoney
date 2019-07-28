@@ -517,11 +517,140 @@ namespace HTool
         /// 找出畫面上所有驗證碼圖像
         /// </summary>
         /// <param name="bScreenShot">螢幕截圖影像</param>
+        ///// <returns></returns>
+        //public List<Bitmap> SplitVerifyFromScreenShot(Bitmap bScreenShot, ref int x1, ref int y1, ref int x2, ref int y2)
+        //{
+        //    List<Bitmap> lstResult = new List<Bitmap>();
+
+        //    // Local iconic variables 
+        //    HObject ho_Image, ho_Image1, ho_Image2, ho_Image3;
+        //    HObject ho_Region, ho_Region1, ho_Region2, ho_RegionIntersection;
+        //    HObject ho_RegionIntersection1;
+        //    HObject ho_Sc, ho_bwRegion, ho_RegionFillUp;
+        //    HObject ho_ConnectedRegions, ho_SelectedRegions, ho_objSelect = null;
+        //    HObject ho_Rectangle = null, ho_ImageReduced = null, ho_ImagePart = null;
+
+        //    // Local control variables 
+
+        //    HTuple hv_iCountObjs, hv_Index, hv_y1 = new HTuple();
+        //    HTuple hv_x1 = new HTuple(), hv_y2 = new HTuple(), hv_x2 = new HTuple();
+
+        //    // Initialize local and output iconic variables
+        //    HOperatorSet.GenEmptyObj(out ho_Image);
+        //    HOperatorSet.GenEmptyObj(out ho_Image1);
+        //    HOperatorSet.GenEmptyObj(out ho_Image2);
+        //    HOperatorSet.GenEmptyObj(out ho_Image3);
+        //    HOperatorSet.GenEmptyObj(out ho_Region);
+        //    HOperatorSet.GenEmptyObj(out ho_Region1);
+        //    HOperatorSet.GenEmptyObj(out ho_Region2);
+        //    HOperatorSet.GenEmptyObj(out ho_RegionIntersection);
+        //    HOperatorSet.GenEmptyObj(out ho_RegionIntersection1);
+        //    HOperatorSet.GenEmptyObj(out ho_Sc);
+        //    HOperatorSet.GenEmptyObj(out ho_bwRegion);
+        //    HOperatorSet.GenEmptyObj(out ho_RegionFillUp);
+        //    HOperatorSet.GenEmptyObj(out ho_ConnectedRegions);
+        //    HOperatorSet.GenEmptyObj(out ho_SelectedRegions);
+        //    HOperatorSet.GenEmptyObj(out ho_objSelect);
+        //    HOperatorSet.GenEmptyObj(out ho_Rectangle);
+        //    HOperatorSet.GenEmptyObj(out ho_ImageReduced);
+        //    HOperatorSet.GenEmptyObj(out ho_ImagePart);
+
+        //    ho_Sc.Dispose();
+        //    //HOperatorSet.ReadImage(out ho_Sc, "C:/_2.png"); 
+        //    HObject mySource = HImageConvertFromBitmap32(bScreenShot);
+        //    ho_Sc = mySource;
+
+        //    ho_Image1.Dispose();
+        //    ho_Image2.Dispose();
+        //    ho_Image3.Dispose();
+        //    HOperatorSet.Decompose3(ho_Sc, out ho_Image1, out ho_Image2, out ho_Image3
+        //        );
+        //    ho_Region.Dispose();
+        //    HOperatorSet.Threshold(ho_Image1, out ho_Region, 0, 130);
+        //    ho_Region1.Dispose();
+        //    HOperatorSet.Threshold(ho_Image2, out ho_Region1, 0, 160);
+        //    ho_Region2.Dispose();
+        //    HOperatorSet.Threshold(ho_Image3, out ho_Region2, 0, 240);
+        //    ho_RegionIntersection.Dispose();
+        //    HOperatorSet.Intersection(ho_Region, ho_Region1, out ho_RegionIntersection);
+        //    ho_RegionIntersection1.Dispose();
+        //    HOperatorSet.Intersection(ho_RegionIntersection, ho_Region2, out ho_RegionIntersection1
+        //        );
+
+
+        //    ho_ConnectedRegions.Dispose();
+        //    HOperatorSet.Connection(ho_RegionIntersection1, out ho_ConnectedRegions);
+        //    ho_SelectedRegions.Dispose();
+        //    HOperatorSet.SelectShape(ho_ConnectedRegions, out ho_SelectedRegions, "area",
+        //        "and", 8000, 13000);
+        //    //ho_RegionFillUp.Dispose();
+        //    //HOperatorSet.FillUp(ho_RegionIntersection1, out ho_RegionFillUp);
+        //    //ho_ConnectedRegions.Dispose();
+        //    //HOperatorSet.Connection(ho_RegionFillUp, out ho_ConnectedRegions);
+        //    //ho_SelectedRegions.Dispose();
+        //    //HOperatorSet.SelectShape(ho_ConnectedRegions, out ho_SelectedRegions, "area",
+        //    //    "and", 8000, 13000);
+        //    HOperatorSet.CountObj(ho_SelectedRegions, out hv_iCountObjs);
+        //    if (hv_iCountObjs == 1)
+        //    {
+        //        HOperatorSet.SmallestRectangle1(ho_SelectedRegions, out hv_y1, out hv_x1, out hv_y2, out hv_x2);
+
+        //        //---
+        //        x1 = hv_x1.I;
+        //        y1 = hv_y1.I;
+        //        x2 = hv_x2.I;
+        //        y2 = hv_y2.I;
+
+        //        int iWidth = x2 - x1;
+        //        int iHeight = y2 - y1;
+
+        //        //---
+
+        //        ho_Rectangle.Dispose();
+        //        HOperatorSet.GenRectangle1(out ho_Rectangle, hv_y1, hv_x1, hv_y2, hv_x2);
+        //        ho_ImageReduced.Dispose();
+        //        HOperatorSet.ReduceDomain(ho_Sc, ho_Rectangle, out ho_ImageReduced);
+        //        ho_ImagePart.Dispose();
+        //        HOperatorSet.CropDomain(ho_ImageReduced, out ho_ImagePart);
+
+        //        //將切割下來的驗證碼影像轉為Bitmap
+        //        HImage hFullImage = new HImage();
+        //        this.Hobject_To_Himage(ho_ImagePart, ref hFullImage);
+        //        Bitmap bTemp = this.HImage_To_Bitmap(hFullImage);
+        //        lstResult.Add(bTemp);
+        //    }
+        //    ho_Image1.Dispose();
+        //    ho_Image2.Dispose();
+        //    ho_Image3.Dispose();
+        //    ho_Region.Dispose();
+        //    ho_Region1.Dispose();
+        //    ho_Region2.Dispose();
+        //    ho_RegionIntersection.Dispose();
+        //    ho_RegionIntersection1.Dispose();
+        //    ho_Sc.Dispose();
+        //    ho_bwRegion.Dispose();
+        //    ho_RegionFillUp.Dispose();
+        //    ho_ConnectedRegions.Dispose();
+        //    ho_SelectedRegions.Dispose();
+        //    ho_objSelect.Dispose();
+        //    ho_Rectangle.Dispose();
+        //    ho_ImageReduced.Dispose();
+        //    ho_ImagePart.Dispose();
+        //    return lstResult;
+        //}
+
+        /// <summary>
+        /// 新版辨識
+        /// </summary>
+        /// <param name="bScreenShot"></param>
+        /// <param name="x1"></param>
+        /// <param name="y1"></param>
+        /// <param name="x2"></param>
+        /// <param name="y2"></param>
         /// <returns></returns>
         public List<Bitmap> SplitVerifyFromScreenShot(Bitmap bScreenShot, ref int x1, ref int y1, ref int x2, ref int y2)
         {
             List<Bitmap> lstResult = new List<Bitmap>();
-
             // Local iconic variables 
             HObject ho_Image, ho_Image1, ho_Image2, ho_Image3;
             HObject ho_Region, ho_Region1, ho_Region2, ho_RegionIntersection;
@@ -529,6 +658,7 @@ namespace HTool
             HObject ho_Sc, ho_bwRegion, ho_RegionFillUp;
             HObject ho_ConnectedRegions, ho_SelectedRegions, ho_objSelect = null;
             HObject ho_Rectangle = null, ho_ImageReduced = null, ho_ImagePart = null;
+            HObject ho_SelectedRegions1;
 
             // Local control variables 
 
@@ -554,6 +684,7 @@ namespace HTool
             HOperatorSet.GenEmptyObj(out ho_Rectangle);
             HOperatorSet.GenEmptyObj(out ho_ImageReduced);
             HOperatorSet.GenEmptyObj(out ho_ImagePart);
+            HOperatorSet.GenEmptyObj(out ho_SelectedRegions1);
 
             ho_Sc.Dispose();
             //HOperatorSet.ReadImage(out ho_Sc, "C:/_2.png"); 
@@ -583,6 +714,9 @@ namespace HTool
             ho_SelectedRegions.Dispose();
             HOperatorSet.SelectShape(ho_ConnectedRegions, out ho_SelectedRegions, "area",
                 "and", 8000, 13000);
+            ho_SelectedRegions1.Dispose();
+            HOperatorSet.SelectShape(ho_SelectedRegions, out ho_SelectedRegions1, "roundness",
+                "and", 0.46, 0.6);//20190728-精文 : 0.46條件
             //ho_RegionFillUp.Dispose();
             //HOperatorSet.FillUp(ho_RegionIntersection1, out ho_RegionFillUp);
             //ho_ConnectedRegions.Dispose();
@@ -590,10 +724,10 @@ namespace HTool
             //ho_SelectedRegions.Dispose();
             //HOperatorSet.SelectShape(ho_ConnectedRegions, out ho_SelectedRegions, "area",
             //    "and", 8000, 13000);
-            HOperatorSet.CountObj(ho_SelectedRegions, out hv_iCountObjs);
+            HOperatorSet.CountObj(ho_SelectedRegions1, out hv_iCountObjs);
             if (hv_iCountObjs == 1)
             {
-                HOperatorSet.SmallestRectangle1(ho_SelectedRegions, out hv_y1, out hv_x1, out hv_y2, out hv_x2);
+                HOperatorSet.SmallestRectangle1(ho_SelectedRegions1, out hv_y1, out hv_x1, out hv_y2, out hv_x2);
 
                 //---
                 x1 = hv_x1.I;
@@ -617,6 +751,7 @@ namespace HTool
                 HImage hFullImage = new HImage();
                 this.Hobject_To_Himage(ho_ImagePart, ref hFullImage);
                 Bitmap bTemp = this.HImage_To_Bitmap(hFullImage);
+                //bTemp.Save("C:\\20190727.bmp");
                 lstResult.Add(bTemp);
             }
             ho_Image1.Dispose();
@@ -636,9 +771,9 @@ namespace HTool
             ho_Rectangle.Dispose();
             ho_ImageReduced.Dispose();
             ho_ImagePart.Dispose();
+            ho_SelectedRegions1.Dispose();
             return lstResult;
         }
-
 
         public List<Bitmap> SplitVerifyFromScreenShotEx(Bitmap bScreenShot, ref int x1, ref int y1, ref int x2, ref int y2)
         {

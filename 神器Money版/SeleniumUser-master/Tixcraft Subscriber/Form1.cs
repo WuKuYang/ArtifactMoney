@@ -945,7 +945,7 @@ namespace Tixcraft_Subscriber
             bool bIsEntryBy3Pages = bIsSwitchPageStepByStep; //false = 1頁 --> 3頁 , true = 1 --> 2 --> 3頁
 
             int Index = 0;
-            //=====選座位、或不用選座位==== 
+            //=====選座位、或不用選座位====  
             if (bIsHaveCheckCode == true)
             {
                 //如果有考試，那麼使用猴子來填單( 填入張數 & 打勾 )
@@ -1157,11 +1157,12 @@ namespace Tixcraft_Subscriber
 
                             if (g_bIsListen_OCR_History)
                             { 
+                                //Debug用，畫出當時拍照的畫面
                                 this.Invoke(degDrawImageVirfyCode, pb_SnapTest, VerifyCodeImage); 
                             }
                             
+                            
                             lstbitmap.Clear();
-                            //Thread.Sleep(500);
                             lstbitmap = myTool.SplitVerifyFromScreenShot(VerifyCodeImage, ref iRoi_x1, ref iRoi_y1, ref iRoi_x2, ref iRoi_y2);
                             //this.Invoke(degRefreshText, lblVerifyCodeInfo, string.Format("{0} , {1} , {2} , {3} , ", iRoi_x1, iRoi_y1, iRoi_x2, iRoi_y2) + "__" + swTest.ElapsedMilliseconds.ToString() + "__" + lstbitmap.Count.ToString()); 
                             bSrc = new Bitmap(lstbitmap[0]);

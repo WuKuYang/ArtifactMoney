@@ -196,7 +196,7 @@ function GetSeatURLs()
             var SeatURL = strElement[3];
             if(strSeatElementID == SeatID)
             {
-                mReturnURLs.push(strSeatText + "^"+"https://tixcraft.com/" + SeatURL);
+                mReturnURLs.push(strSeatText + "^"+"https://tixcraft.com" + SeatURL);
             }
         }
     }

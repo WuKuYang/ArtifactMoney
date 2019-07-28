@@ -2131,7 +2131,7 @@ namespace Tixcraft_Subscriber
         private void button1_Click_1(object sender, EventArgs e)
         {
             string strTempName = GetRandTaiwanName();
-            RegisteTixPage_HongKong(strTempName); 
+            RegisteTixPage_HongKong(strTempName, txt_window_gmail.Text); 
 
             lblTaiwanHongKong.Text = "已生成香港人！";
             txtGeneratorName.Text = strTempName;
@@ -2166,7 +2166,7 @@ namespace Tixcraft_Subscriber
             return strRand;
         }
 
-        public void RegisteTixPage_HongKong(string Name)
+        public void RegisteTixPage_HongKong(string Name , string sEmail)
         {
             if (SubscrEr != null)
             {
@@ -2186,12 +2186,13 @@ namespace Tixcraft_Subscriber
                 string strRandAddress = strAddress[indexRand];
 
                 string strJavaScript = SubscrEr.JS_ReadFile("TixRegScript\\HongKong_TixRegister.txt");
-                strJavaScript = strJavaScript + string.Format("\nTix_Register(\"{0}\", \"{1}\", rand(1000000, 9000000).toString());\n", Name, strRandAddress);
+                //strJavaScript = strJavaScript + string.Format("\nTix_Register(\"{0}\", \"{1}\", rand(1000000, 9000000).toString());\n", Name, strRandAddress);
+                strJavaScript = strJavaScript + string.Format("\nTix_Register(\"{0}\", \"{1}\", rand(1000000, 9000000).toString() , \"{2}\");\n", Name, strRandAddress, sEmail);
                 SubscrEr.InjectJavaScript(strJavaScript);
             }
         }
 
-        public void RegisteTixPage_Taiwan(string Name)
+        public void RegisteTixPage_Taiwan(string Name , string sEmail)
         {
             if (SubscrEr != null)
             {
@@ -2211,14 +2212,14 @@ namespace Tixcraft_Subscriber
                 string strRandAddress = strAddress[indexRand];
 
                 string strJavaScript = SubscrEr.JS_ReadFile("TixRegScript\\Taiwan_TixRegister.txt");
-                strJavaScript = strJavaScript + string.Format("\nTix_Register(\"{0}\", \"{1}\", rand(1000000, 9000000).toString());\n", Name, strRandAddress);
+                strJavaScript = strJavaScript + string.Format("\nTix_Register(\"{0}\", \"{1}\", rand(1000000, 9000000).toString() , \"{2}\");\n", Name, strRandAddress, sEmail);
                 SubscrEr.InjectJavaScript(strJavaScript);
             }
         }
         private void btnRegister_Taiwan_Click(object sender, EventArgs e)
         { 
             string strTempName = GetRandTaiwanName();
-            RegisteTixPage_Taiwan(strTempName);
+            RegisteTixPage_Taiwan(strTempName, txt_window_gmail.Text);
             lblTaiwanHongKong.Text = "已生成台灣人！";
             txtGeneratorName.Text = strTempName;
         }

@@ -44,6 +44,7 @@
             this.txtCPUid = new System.Windows.Forms.TextBox();
             this.btnGetHDDNum = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.btnClearFB = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.txtTime = new System.Windows.Forms.TextBox();
@@ -53,7 +54,6 @@
             this.btnRefreshCookies = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.lstCookieServer = new System.Windows.Forms.ListBox();
-            this.btnClearFB = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -120,6 +120,7 @@
             this.lstFBAccount.Size = new System.Drawing.Size(790, 136);
             this.lstFBAccount.TabIndex = 6;
             this.lstFBAccount.SelectedIndexChanged += new System.EventHandler(this.lstFBAccount_SelectedIndexChanged);
+            this.lstFBAccount.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.lstFBAccount_KeyPress);
             // 
             // btnScanAll
             // 
@@ -238,6 +239,17 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "FB 帳號認證";
             // 
+            // btnClearFB
+            // 
+            this.btnClearFB.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnClearFB.Location = new System.Drawing.Point(796, 21);
+            this.btnClearFB.Name = "btnClearFB";
+            this.btnClearFB.Size = new System.Drawing.Size(118, 30);
+            this.btnClearFB.TabIndex = 8;
+            this.btnClearFB.Text = "清空";
+            this.btnClearFB.UseVisualStyleBackColor = true;
+            this.btnClearFB.Click += new System.EventHandler(this.btnClearFB_Click);
+            // 
             // groupBox2
             // 
             this.groupBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(35)))), ((int)(((byte)(45)))));
@@ -341,17 +353,6 @@
             this.lstCookieServer.Size = new System.Drawing.Size(791, 191);
             this.lstCookieServer.TabIndex = 14;
             this.lstCookieServer.SelectedIndexChanged += new System.EventHandler(this.lstCookieServer_SelectedIndexChanged);
-            // 
-            // btnClearFB
-            // 
-            this.btnClearFB.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnClearFB.Location = new System.Drawing.Point(796, 21);
-            this.btnClearFB.Name = "btnClearFB";
-            this.btnClearFB.Size = new System.Drawing.Size(118, 30);
-            this.btnClearFB.TabIndex = 8;
-            this.btnClearFB.Text = "清空";
-            this.btnClearFB.UseVisualStyleBackColor = true;
-            this.btnClearFB.Click += new System.EventHandler(this.btnClearFB_Click);
             // 
             // SQLForm
             // 

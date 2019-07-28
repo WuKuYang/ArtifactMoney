@@ -8,9 +8,9 @@ function TixCraftCloseDialog()
     $.fancybox.close();
 }
 
-function Tix_Register(tName , tAddress , tPhoneNumber)
+function Tix_Register(tName , tAddress , tPhoneNumber , tEmail)
 {
-TixCraftCloseDialog();
+　TixCraftCloseDialog();
     //中華民國
     var eLocation=document.getElementById('TixUserForm_nationality_1');
     if(eLocation !=undefined )
@@ -70,7 +70,15 @@ TixCraftCloseDialog();
     {
         ePrivacy.click();
     }
+    
+    //email
+    var eMail = document.getElementById('TixUserForm_email');
+    if(eMail !=undefined )
+    {
+        eMail.value= tEmail;
+    }
 }
+
 
 
 function GenerateRandomSN ( )

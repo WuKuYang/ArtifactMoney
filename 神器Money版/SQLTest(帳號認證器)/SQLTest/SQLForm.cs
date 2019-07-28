@@ -212,5 +212,10 @@ namespace SQLTest
             TixcraftSQL.FBAccountDatabase.DelAllAccount("", strFBAccount);
             btnScanAll_Click(null, null);
         }
+
+        private void lstFBAccount_KeyPress(object sender, KeyPressEventArgs e)
+        {
+
+        }
     }
 }

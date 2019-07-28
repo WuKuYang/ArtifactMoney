@@ -9,7 +9,7 @@ function TixCraftCloseDialog()
     $.fancybox.close();
 }
 
-function Tix_Register(tName , tAddress , tPhoneNumber)
+function Tix_Register(tName , tAddress , tPhoneNumber , tEmail)
 {
 	TixCraftCloseDialog();
     //中華民國
@@ -65,6 +65,14 @@ function Tix_Register(tName , tAddress , tPhoneNumber)
     {
         ePhone.value= tPhoneNumber;
     }
+    
+    //email
+    var eMail = document.getElementById('TixUserForm_email');
+    if(eMail !=undefined )
+    {
+        eMail.value= tEmail;
+    }
+
     //我同意
     var ePrivacy=document.getElementById('privacy');
     if(ePrivacy !=undefined )

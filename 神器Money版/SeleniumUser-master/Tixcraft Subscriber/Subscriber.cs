@@ -137,9 +137,7 @@ namespace Tixcraft_Subscriber
 
             return strFix;
         }
-
-
-
+         
         public void OpenBrowser(bool bIsOpenWithGoogleChrome, bool bIsMountProxy)
         {
             if (bIsOpenWithGoogleChrome)
@@ -397,8 +395,7 @@ namespace Tixcraft_Subscriber
 
             }
         }
-         
-
+          
         public void SubmitAndPreSubtmi(string strVerifyCode, int iTicketCount )
         {
             if (Driver != null)
@@ -406,9 +403,7 @@ namespace Tixcraft_Subscriber
                 SetVerifyCodeAndPreSubmit(strVerifyCode, iTicketCount); 
             }
         }
-
-
-
+         
         public void ScreenShot()
         { 
             //ITakesScreenshot iScreen = (ITakesScreenshot)Driver;
@@ -623,9 +618,7 @@ namespace Tixcraft_Subscriber
             InjectJavaScript(strRunScript);
 
         }
-
-
-
+         
         public void WaittingForBuyNow(string strSingShowNumber , int CheckinIndex)
         {
             CheckinIndex = CheckinIndex - 1;
@@ -733,6 +726,44 @@ namespace Tixcraft_Subscriber
                 lstGameList.Add(sp[i]);
             }
             return lstGameList;
+        }
+
+
+        /// <summary>
+        /// Copy Cookie from GoogleBrowser to miniBrowser
+        /// </summary>
+        /// <param name="src_GoogleBrowser"></param>
+        /// <param name="target_miniBrowser"></param>
+        /// <returns></returns>
+        public bool CopyCookieTo(ref FastHttpWebDriver target_miniBrowser)
+        {
+
+            try
+            {
+                // miniBrowser
+                FastHttpWebDriver bTixBrowser = target_miniBrowser;
+
+                // googleBrowser
+                IWebDriver bGoogleBrowser = this.Driver;
+
+                //Get Cookie and Set new Session to miniBrowser
+                CookieCollection cc = new CookieCollection();
+                foreach (OpenQA.Selenium.Cookie cook in bGoogleBrowser.Manage().Cookies.AllCookies)
+                {
+                    System.Net.Cookie cookie = new System.Net.Cookie();
+                    cookie.Name = cook.Name;
+                    cookie.Value = cook.Value;
+                    cookie.Domain = cook.Domain;
+                    cc.Add(cookie);
+                }
+                bTixBrowser.Session.Add(cc);
+                //done 
+                return true;
+            }
+            catch (Exception ex)
+            { 
+                return false;
+            }
         }
     }
 

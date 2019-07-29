@@ -67,6 +67,7 @@
             this.txtCredit_Card_Account = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.pb_SnapTest = new System.Windows.Forms.PictureBox();
             this.ckb_listen_ocr = new System.Windows.Forms.CheckBox();
             this.ptb_OCR_Source = new System.Windows.Forms.PictureBox();
             this.pbChar_History_D = new System.Windows.Forms.PictureBox();
@@ -106,11 +107,19 @@
             this.label15 = new System.Windows.Forms.Label();
             this.tabPage7 = new System.Windows.Forms.TabPage();
             this.ckbSwitchPageStepByStep = new System.Windows.Forms.CheckBox();
-            this.pb_SnapTest = new System.Windows.Forms.PictureBox();
+            this.btn_CookieTests = new System.Windows.Forms.Button();
+            this.pb_cookie_pb = new System.Windows.Forms.PictureBox();
+            this.btn_BetaSubmit = new System.Windows.Forms.Button();
+            this.txt_BetaVeryfiCode = new System.Windows.Forms.TextBox();
+            this.label18 = new System.Windows.Forms.Label();
+            this.txt_CKSTON = new System.Windows.Forms.TextBox();
+            this.label19 = new System.Windows.Forms.Label();
+            this.btnRefreshVeryfi = new System.Windows.Forms.Button();
             this.tp_AccPwd.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.tabPage3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_SnapTest)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ptb_OCR_Source)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbChar_History_D)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbChar_History_B)).BeginInit();
@@ -125,7 +134,8 @@
             this.tabPage5.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.tabPage6.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pb_SnapTest)).BeginInit();
+            this.tabPage7.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_cookie_pb)).BeginInit();
             this.SuspendLayout();
             // 
             // button3
@@ -569,6 +579,15 @@
             this.tabPage3.UseVisualStyleBackColor = true;
             this.tabPage3.Click += new System.EventHandler(this.tabPage3_Click);
             // 
+            // pb_SnapTest
+            // 
+            this.pb_SnapTest.Location = new System.Drawing.Point(201, 3);
+            this.pb_SnapTest.Name = "pb_SnapTest";
+            this.pb_SnapTest.Size = new System.Drawing.Size(144, 172);
+            this.pb_SnapTest.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pb_SnapTest.TabIndex = 52;
+            this.pb_SnapTest.TabStop = false;
+            // 
             // ckb_listen_ocr
             // 
             this.ckb_listen_ocr.AutoSize = true;
@@ -939,6 +958,14 @@
             // 
             // tabPage7
             // 
+            this.tabPage7.Controls.Add(this.btnRefreshVeryfi);
+            this.tabPage7.Controls.Add(this.label19);
+            this.tabPage7.Controls.Add(this.txt_CKSTON);
+            this.tabPage7.Controls.Add(this.label18);
+            this.tabPage7.Controls.Add(this.txt_BetaVeryfiCode);
+            this.tabPage7.Controls.Add(this.btn_BetaSubmit);
+            this.tabPage7.Controls.Add(this.pb_cookie_pb);
+            this.tabPage7.Controls.Add(this.btn_CookieTests);
             this.tabPage7.Location = new System.Drawing.Point(4, 22);
             this.tabPage7.Name = "tabPage7";
             this.tabPage7.Padding = new System.Windows.Forms.Padding(3);
@@ -958,14 +985,77 @@
             this.ckbSwitchPageStepByStep.UseVisualStyleBackColor = true;
             this.ckbSwitchPageStepByStep.CheckedChanged += new System.EventHandler(this.ckbSwitchPageStepByStep_CheckedChanged);
             // 
-            // pb_SnapTest
+            // btn_CookieTests
             // 
-            this.pb_SnapTest.Location = new System.Drawing.Point(201, 3);
-            this.pb_SnapTest.Name = "pb_SnapTest";
-            this.pb_SnapTest.Size = new System.Drawing.Size(144, 172);
-            this.pb_SnapTest.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pb_SnapTest.TabIndex = 52;
-            this.pb_SnapTest.TabStop = false;
+            this.btn_CookieTests.Location = new System.Drawing.Point(6, 191);
+            this.btn_CookieTests.Name = "btn_CookieTests";
+            this.btn_CookieTests.Size = new System.Drawing.Size(85, 34);
+            this.btn_CookieTests.TabIndex = 0;
+            this.btn_CookieTests.Text = "CookieTest";
+            this.btn_CookieTests.UseVisualStyleBackColor = true;
+            this.btn_CookieTests.Click += new System.EventHandler(this.btn_CookieTests_Click);
+            // 
+            // pb_cookie_pb
+            // 
+            this.pb_cookie_pb.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.pb_cookie_pb.Location = new System.Drawing.Point(17, 16);
+            this.pb_cookie_pb.Name = "pb_cookie_pb";
+            this.pb_cookie_pb.Size = new System.Drawing.Size(200, 100);
+            this.pb_cookie_pb.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pb_cookie_pb.TabIndex = 1;
+            this.pb_cookie_pb.TabStop = false;
+            // 
+            // btn_BetaSubmit
+            // 
+            this.btn_BetaSubmit.Location = new System.Drawing.Point(202, 191);
+            this.btn_BetaSubmit.Name = "btn_BetaSubmit";
+            this.btn_BetaSubmit.Size = new System.Drawing.Size(133, 34);
+            this.btn_BetaSubmit.TabIndex = 2;
+            this.btn_BetaSubmit.Text = "Submit";
+            this.btn_BetaSubmit.UseVisualStyleBackColor = true;
+            this.btn_BetaSubmit.Click += new System.EventHandler(this.btn_BetaSubmit_Click);
+            // 
+            // txt_BetaVeryfiCode
+            // 
+            this.txt_BetaVeryfiCode.Location = new System.Drawing.Point(202, 163);
+            this.txt_BetaVeryfiCode.Name = "txt_BetaVeryfiCode";
+            this.txt_BetaVeryfiCode.Size = new System.Drawing.Size(133, 22);
+            this.txt_BetaVeryfiCode.TabIndex = 3;
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Location = new System.Drawing.Point(15, 145);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(39, 12);
+            this.label18.TabIndex = 4;
+            this.label18.Text = "label18";
+            // 
+            // txt_CKSTON
+            // 
+            this.txt_CKSTON.Location = new System.Drawing.Point(202, 135);
+            this.txt_CKSTON.Name = "txt_CKSTON";
+            this.txt_CKSTON.Size = new System.Drawing.Size(133, 22);
+            this.txt_CKSTON.TabIndex = 5;
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Location = new System.Drawing.Point(15, 133);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(39, 12);
+            this.label19.TabIndex = 6;
+            this.label19.Text = "label19";
+            // 
+            // btnRefreshVeryfi
+            // 
+            this.btnRefreshVeryfi.Location = new System.Drawing.Point(97, 191);
+            this.btnRefreshVeryfi.Name = "btnRefreshVeryfi";
+            this.btnRefreshVeryfi.Size = new System.Drawing.Size(85, 34);
+            this.btnRefreshVeryfi.TabIndex = 7;
+            this.btnRefreshVeryfi.Text = "Change image";
+            this.btnRefreshVeryfi.UseVisualStyleBackColor = true;
+            this.btnRefreshVeryfi.Click += new System.EventHandler(this.btnRefreshVeryfi_Click);
             // 
             // Form1
             // 
@@ -985,6 +1075,7 @@
             this.tabPage2.PerformLayout();
             this.tabPage3.ResumeLayout(false);
             this.tabPage3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_SnapTest)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ptb_OCR_Source)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbChar_History_D)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbChar_History_B)).EndInit();
@@ -1002,7 +1093,9 @@
             this.groupBox2.PerformLayout();
             this.tabPage6.ResumeLayout(false);
             this.tabPage6.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pb_SnapTest)).EndInit();
+            this.tabPage7.ResumeLayout(false);
+            this.tabPage7.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_cookie_pb)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1089,6 +1182,14 @@
         private CircularProgressBar.CircularProgressBar circularProgressBar1;
         private System.Windows.Forms.TabPage tabPage7;
         private System.Windows.Forms.PictureBox pb_SnapTest;
+        private System.Windows.Forms.Button btn_CookieTests;
+        private System.Windows.Forms.PictureBox pb_cookie_pb;
+        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.TextBox txt_BetaVeryfiCode;
+        private System.Windows.Forms.Button btn_BetaSubmit;
+        private System.Windows.Forms.TextBox txt_CKSTON;
+        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.Button btnRefreshVeryfi;
     }
 }
 

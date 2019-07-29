@@ -421,8 +421,36 @@ namespace TSubscriber
                     private string strCSRFTOKEN = "";
                     
                     private string strTicketPriceName = "";
+
+                    private string strTicketAgree_MagicNumber = "";
                     #endregion
-                    
+
+                    private string GetTicketAgree_MagicNumber(string strPageSource)
+                    {
+
+                        try
+                        { 
+                            int strLeftIndex = strPageSource.IndexOf("agree][");
+                            string strTemp = strPageSource.Substring(strLeftIndex + 7);
+                            int strRightIndex = strTemp.IndexOf("]");
+                            string strResult = strTemp.Substring(0, strRightIndex);
+                            return strResult;
+                        }
+                        catch (Exception)
+                        {
+                            return "null";
+                        }
+
+                        /* 
+                         (this).attr("name", "TicketForm[agree][tW7/VhF8A1gPKHDPj63E30M3STsfP2jH4ateq/ZiNXM=]");
+                            }
+                        }).on("change", "[id^=TicketForm_ticketPrice_]", function(event) {
+                            var count = valueCount($("[id^=TicketForm_ticketPrice_]")),
+                                maxQuota = 4;
+
+                         * */ 
+                    }
+
                     /// <summary>
                     /// 取得票資訊
                     /// </summary>
@@ -448,7 +476,25 @@ namespace TSubscriber
                             VerificationCodeImage = TixcraftWebDriver.DownloadWebImage(TixcraftURL + VerificationUrl);
                         }
                         #endregion
+                        
+                        //Get Agree Number
+
+                        strTicketAgree_MagicNumber = GetTicketAgree_MagicNumber(TixcraftWebDriver.strPageSourceCode);
+
                     }
+
+                    public void RefreshVeryfiImage()
+                    {
+                        string strPageSource = TixcraftWebDriver.GetWebSourceCode("https://tixcraft.com/ticket/captcha?refresh=1");
+
+                        string strVericationURL = strPageSource.Substring(strPageSource.IndexOf("v="));
+
+                        strVericationURL = strVericationURL.Substring(0,strVericationURL.IndexOf("\""));
+
+                        VerificationCodeImage = TixcraftWebDriver.DownloadWebImage("https://tixcraft.com/ticket/captcha?" + strVericationURL);
+
+                    }
+
                     /// <summary>
                     /// 開始買票
                     /// </summary>
@@ -470,6 +516,7 @@ namespace TSubscriber
                             return false;
                         }
                     }
+
                     /// <summary>
                     /// 提交資料
                     /// </summary>
@@ -483,9 +530,23 @@ namespace TSubscriber
                         string postData = "CSRFTOKEN=" + CSRFTOKEN +
                               "&" + strTicketPriceName + "=" + ticketPrice +
                               "&TicketForm[verifyCode]=" + verifyCode +
-                              "&TicketForm[agree]=" + "1" +
-                              "&ticketPriceSubmit=%E7%A2%BA%E8%AA%8D%E5%BC%B5%E6%95%B8";
+                              //"&TicketForm[agree]=" + "1" +
+                              "&TicketForm[agree][" + strTicketAgree_MagicNumber + "]=" + "1" + //20190729 wuku add
+                              //"&ticketPriceSubmit=%E7%A2%BA%E8%AA%8D%E5%BC%B5%E6%95%B8";
+                                "&ticketPriceSubmit=";
+                        
+                        /*
+                            CSRFTOKEN: SWl-MHRFYWFKQW9rYmtkX3NjUE9ZZlFXbGJ-STdQVEQ85RE9p0uxPVwTX263u7iF4hnRK5746PwsjbSEyLMNvQ==
+                            TicketForm[ticketPrice][01]: 1
+                            TicketForm[verifyCode]: 888
+                            TicketForm[agree][fvETzoRQXeRUi9PB/q3bKpxhdKW4EX5GuumL23Cum2U=]: 1
+                            ticketPriceSubmit: 
+                         
+                         */ 
                         TixcraftWebDriver.PostDataToUrl(postData, sUrl);
+                        //TixcraftWebDriver.GetWebSourceCode("https://tixcraft.com/ticket/order");
+                        //string strCheck =  TixcraftWebDriver.GetWebSourceCode("https://tixcraft.com/ticket/check");
+
                         return true;
 
                     }

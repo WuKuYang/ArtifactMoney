@@ -22,6 +22,7 @@ using TixcraftAutomationSystem;
 using VIPGeneral;
 using System.Reflection;
 using HalconDotNet;
+using System.Text.RegularExpressions;
 
 namespace Tixcraft_Subscriber
 {
@@ -60,7 +61,8 @@ namespace Tixcraft_Subscriber
 
         TixcraftSQLServer g_ShareAnswerServer = new TixcraftSQLServer();
         TixcraftCookieServer g_CookieServer = new TixcraftCookieServer();
-
+        //20190729 add 
+        TixcraftSubscriber g_tTSBuyer = new TixcraftSubscriber();
         TixcraftSubscriber Tixcraft = new TixcraftSubscriber();
         FastHttpWebDriver FastHttpDriver = new FastHttpWebDriver(); 
         mFacebook SelfFaceBook = new mFacebook(); 
@@ -535,8 +537,45 @@ namespace Tixcraft_Subscriber
                 return false;
             }
         }
-          
-         
+        /// <summary>
+        /// Copy Cookie from GoogleBrowser to miniBrowser
+        /// </summary>
+        /// <param name="src_GoogleBrowser"></param>
+        /// <param name="target_miniBrowser"></param>
+        /// <returns></returns>
+        public bool TransformsCookieToMiniBrowser(ref Subscriber src_GoogleBrowser, ref FastHttpWebDriver target_miniBrowser)
+        {
+             
+            try
+            {
+                // miniBrowser
+                FastHttpWebDriver bTixBrowser = target_miniBrowser;
+
+                // googleBrowser
+                IWebDriver bGoogleBrowser = src_GoogleBrowser.Driver;  
+                
+                //Get Cookie and Set new Session to miniBrowser
+                CookieCollection cc = new CookieCollection();
+                foreach (OpenQA.Selenium.Cookie cook in bGoogleBrowser.Manage().Cookies.AllCookies)
+                {
+                    System.Net.Cookie cookie = new System.Net.Cookie();
+                    cookie.Name = cook.Name;
+                    cookie.Value = cook.Value;
+                    cookie.Domain = cook.Domain;
+                    cc.Add(cookie);
+                }
+                bTixBrowser.Session.Add(cc);
+                //done 
+                return true;
+            }
+            catch (Exception ex)
+            {
+                VPState.Report(ex, MethodBase.GetCurrentMethod(), VPState.eVPType.Windows);
+                MessageBox.Show(ex.ToString());
+                return false;
+            } 
+        }
+
         public void SetAutoKeyInCheckCode(bool bIsAuto , int iVeryfyThreads)
         {            
             g_iThreadsVerCode = iVeryfyThreads;
@@ -1496,9 +1535,7 @@ namespace Tixcraft_Subscriber
             }
             bIsBrowserBusying = !bIsEnable;
         }
-
-
-
+         
         private void button1_Click(object sender, EventArgs e)
         {
             //Task.Factory.StartNew(() =>
@@ -2240,6 +2277,67 @@ namespace Tixcraft_Subscriber
 
             //bTemp.Save(strSnapShotImage);
             //Process.Start(strSnapShotImage);
+        }
+
+        private void btn_CookieTests_Click(object sender, EventArgs e)
+        {
+            btn_CookieTests.Enabled = false;
+            Task.Factory.StartNew(() => 
+            {
+                Stopwatch swCopyCookie = new Stopwatch();
+                swCopyCookie.Restart();
+                SubscrEr.CopyCookieTo(ref g_tTSBuyer.TixcraftWebDriver);
+                swCopyCookie.Stop();
+
+                g_tTSBuyer.TixcraftWebDriver.GetWebSourceCode("https://tixcraft.com");
+                g_tTSBuyer.TixcraftWebDriver.GetWebSourceCode("https://tixcraft.com/ticket/ticket/19_WuBai/5658/1/45#");
+
+                g_tTSBuyer.RefreshActivity();
+                TSubscriber.TixcraftSubscriber.Activity eleActivity = g_tTSBuyer.GetActivity(g_ShowSelected);
+
+                eleActivity.RefreshDate();
+                eleActivity.GetShowDate(0).RefreshAllSeat();
+                eleActivity.GetShowDate(0).GetSeatTicket(0).GetTicket();
+
+                UpdateLable(" CopyCookie : " + swCopyCookie.ElapsedMilliseconds, label18);
+                UpdateLable(eleActivity.GetShowDate(0).GetSeatTicket(0).Text, label19); 
+                UpdateImage(  eleActivity.GetShowDate(0).GetSeatTicket(0).VerificationCodeImage , pb_cookie_pb ); 
+                SubscrEr.GoTo(eleActivity.GetShowDate(0).GetSeatTicket(0).url);
+            });
+            btn_CookieTests.Enabled = true;
+        }
+
+        private void btn_BetaSubmit_Click(object sender, EventArgs e)
+        {
+            bool bIsBuySuccessful = g_tTSBuyer.GetActivity(g_ShowSelected).GetShowDate(0).GetSeatTicket(0).Buy(txt_BetaVeryfiCode.Text, 1);
+
+            string strResponse = g_tTSBuyer.GetActivity(g_ShowSelected).GetShowDate(0).GetSeatTicket(0).TixcraftWebDriver.GetWebSourceCode("https://tixcraft.com/order");
+
+
+            //for (int i = 0; i < 20; i++)
+            //{
+            //    strResponse = g_tTSBuyer.GetActivity(g_ShowSelected).GetShowDate(0).GetSeatTicket(0).TixcraftWebDriver.GetWebSourceCode("https://tixcraft.com/ticket/check");
+
+            //    Thread.Sleep(100);
+            //    VPState.Report(strResponse, MethodBase.GetCurrentMethod(), VPState.eVPType.Windows);
+            //}
+             
+
+              
+
+            UpdateLable(strResponse, label18);
+            btn_CookieTests.Enabled = true;
+        } 
+
+        private void btnRefreshVeryfi_Click(object sender, EventArgs e)
+        {
+
+            g_tTSBuyer.GetActivity(g_ShowSelected).GetShowDate(0).GetSeatTicket(0).RefreshVeryfiImage();
+
+            Image VerificationCodeImage = g_tTSBuyer.GetActivity(g_ShowSelected).GetShowDate(0).GetSeatTicket(0).VerificationCodeImage;
+
+            UpdateImage(VerificationCodeImage, pb_cookie_pb); 
+
         } 
 
     }

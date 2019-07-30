@@ -16,6 +16,23 @@ namespace TSubscriber
         private List<Activity> AllActivity = new List<Activity>();
 
         public const string TixcraftURL = "https://tixcraft.com";///activity";
+         
+        //取得拓元姓名
+        public string GetTixUserName()
+        {
+            string strPageSource = TixcraftWebDriver.GetWebSourceCode(TixcraftURL);
+            List<SWebElement> TRData = HtmlAnalyze.FindElement(strPageSource, WebBy.Class("user-name"));
+            if (TRData.Count > 0)
+            {
+                int iIndex = TRData[0].ElementName.IndexOf("[");
+                string strUserNameHere = TRData[0].ElementName.Substring(iIndex);
+                return strUserNameHere;
+            }
+            else 
+            {
+                return "尚未登入";
+            } 
+        }
 
         public TixcraftSubscriber()
         {
@@ -69,7 +86,6 @@ namespace TSubscriber
                 return null;
             }
         }
-
 
         private Activity ConvertStringToActivity_2018(string data)
         {
@@ -389,6 +405,20 @@ namespace TSubscriber
                         return null;
                     }
                 }
+
+
+                public SeatTicket GetSeatTicket(string seatName)
+                {
+                    foreach (SeatTicket p in AllSeat)
+                    {
+                        if (p.Text.Contains(seatName))
+                        {
+                            return p;
+                        }
+                    }
+                    return null; 
+                }
+
                 #endregion 
             
                 public class SeatTicket
@@ -532,8 +562,8 @@ namespace TSubscriber
                               "&TicketForm[verifyCode]=" + verifyCode +
                               //"&TicketForm[agree]=" + "1" +
                               "&TicketForm[agree][" + strTicketAgree_MagicNumber + "]=" + "1" + //20190729 wuku add
-                              //"&ticketPriceSubmit=%E7%A2%BA%E8%AA%8D%E5%BC%B5%E6%95%B8";
-                                "&ticketPriceSubmit=";
+                              "&ticketPriceSubmit=";
+                              //  "&ticketPriceSubmit=";
                         
                         /*
                             CSRFTOKEN: SWl-MHRFYWFKQW9rYmtkX3NjUE9ZZlFXbGJ-STdQVEQ85RE9p0uxPVwTX263u7iF4hnRK5746PwsjbSEyLMNvQ==

@@ -14,9 +14,12 @@ namespace Tixcraft_Subscriber
     {
         #region 網頁協定
         //const string sUserAgent = "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.2; .NET CLR 1.1.4322; .NET CLR 2.0.50727)";//"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36";
-        const string sUserAgent = "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36";
+        //const string sUserAgent = "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36";
+
+        const string sUserAgent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36";
+        
         //"Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.2; .NET CLR 1.1.4322; .NET CLR 2.0.50727)";
-        const string sContentType = "application/x-www-form-urlencoded";
+        const string sContentType = "application/x-www-form-urlencoded"; 
         const string sRequestEncoding = "ASCII";
         const string sResponseEncoding = "UTF-8";
         #endregion
@@ -175,6 +178,7 @@ namespace Tixcraft_Subscriber
 
             httpRequest.CookieContainer = Session;
             httpRequest.Proxy = null;
+            httpRequest.Timeout = 3000;
 
             //httpRequest.Method = WebRequestMethods.Http.Post;
             //httpRequest.AllowWriteStreamBuffering = true;

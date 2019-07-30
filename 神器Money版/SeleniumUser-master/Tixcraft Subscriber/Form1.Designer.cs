@@ -106,15 +106,16 @@
             this.txt_window_gmail = new System.Windows.Forms.TextBox();
             this.label15 = new System.Windows.Forms.Label();
             this.tabPage7 = new System.Windows.Forms.TabPage();
-            this.ckbSwitchPageStepByStep = new System.Windows.Forms.CheckBox();
-            this.btn_CookieTests = new System.Windows.Forms.Button();
-            this.pb_cookie_pb = new System.Windows.Forms.PictureBox();
-            this.btn_BetaSubmit = new System.Windows.Forms.Button();
-            this.txt_BetaVeryfiCode = new System.Windows.Forms.TextBox();
-            this.label18 = new System.Windows.Forms.Label();
-            this.txt_CKSTON = new System.Windows.Forms.TextBox();
-            this.label19 = new System.Windows.Forms.Label();
             this.btnRefreshVeryfi = new System.Windows.Forms.Button();
+            this.label19 = new System.Windows.Forms.Label();
+            this.txt_CKSTON = new System.Windows.Forms.TextBox();
+            this.label18 = new System.Windows.Forms.Label();
+            this.txt_BetaVeryfiCode = new System.Windows.Forms.TextBox();
+            this.btn_BetaSubmit = new System.Windows.Forms.Button();
+            this.pb_cookie_pb = new System.Windows.Forms.PictureBox();
+            this.btn_CookieTests = new System.Windows.Forms.Button();
+            this.ckbSwitchPageStepByStep = new System.Windows.Forms.CheckBox();
+            this.pb_VeryfiImage = new System.Windows.Forms.PictureBox();
             this.tp_AccPwd.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -136,6 +137,7 @@
             this.tabPage6.SuspendLayout();
             this.tabPage7.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pb_cookie_pb)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_VeryfiImage)).BeginInit();
             this.SuspendLayout();
             // 
             // button3
@@ -249,7 +251,7 @@
             // chkRandSeats
             // 
             this.chkRandSeats.AutoSize = true;
-            this.chkRandSeats.Location = new System.Drawing.Point(215, 79);
+            this.chkRandSeats.Location = new System.Drawing.Point(215, 80);
             this.chkRandSeats.Name = "chkRandSeats";
             this.chkRandSeats.Size = new System.Drawing.Size(108, 16);
             this.chkRandSeats.TabIndex = 32;
@@ -289,9 +291,9 @@
             // 
             this.btnShowTop.Location = new System.Drawing.Point(8, 89);
             this.btnShowTop.Name = "btnShowTop";
-            this.btnShowTop.Size = new System.Drawing.Size(78, 40);
+            this.btnShowTop.Size = new System.Drawing.Size(57, 29);
             this.btnShowTop.TabIndex = 40;
-            this.btnShowTop.Text = "登入拓元";
+            this.btnShowTop.Text = "登入";
             this.btnShowTop.UseVisualStyleBackColor = true;
             this.btnShowTop.Click += new System.EventHandler(this.btnShowTop_Click);
             // 
@@ -309,7 +311,7 @@
             // ckbAutoFlag
             // 
             this.ckbAutoFlag.AutoSize = true;
-            this.ckbAutoFlag.Location = new System.Drawing.Point(215, 57);
+            this.ckbAutoFlag.Location = new System.Drawing.Point(215, 58);
             this.ckbAutoFlag.Name = "ckbAutoFlag";
             this.ckbAutoFlag.Size = new System.Drawing.Size(131, 16);
             this.ckbAutoFlag.TabIndex = 42;
@@ -320,7 +322,7 @@
             // ckb_UsingOtherAnswer
             // 
             this.ckb_UsingOtherAnswer.AutoSize = true;
-            this.ckb_UsingOtherAnswer.Location = new System.Drawing.Point(215, 102);
+            this.ckb_UsingOtherAnswer.Location = new System.Drawing.Point(214, 100);
             this.ckb_UsingOtherAnswer.Name = "ckb_UsingOtherAnswer";
             this.ckb_UsingOtherAnswer.Size = new System.Drawing.Size(132, 16);
             this.ckb_UsingOtherAnswer.TabIndex = 43;
@@ -331,7 +333,7 @@
             // txtOtherAnswer
             // 
             this.txtOtherAnswer.Enabled = false;
-            this.txtOtherAnswer.Location = new System.Drawing.Point(215, 124);
+            this.txtOtherAnswer.Location = new System.Drawing.Point(76, 94);
             this.txtOtherAnswer.Name = "txtOtherAnswer";
             this.txtOtherAnswer.Size = new System.Drawing.Size(100, 22);
             this.txtOtherAnswer.TabIndex = 44;
@@ -340,7 +342,7 @@
             // 
             // btn_SetOtherAnswer
             // 
-            this.btn_SetOtherAnswer.Location = new System.Drawing.Point(321, 121);
+            this.btn_SetOtherAnswer.Location = new System.Drawing.Point(182, 91);
             this.btn_SetOtherAnswer.Name = "btn_SetOtherAnswer";
             this.btn_SetOtherAnswer.Size = new System.Drawing.Size(25, 25);
             this.btn_SetOtherAnswer.TabIndex = 45;
@@ -360,11 +362,12 @@
             this.tp_AccPwd.Location = new System.Drawing.Point(9, 7);
             this.tp_AccPwd.Name = "tp_AccPwd";
             this.tp_AccPwd.SelectedIndex = 0;
-            this.tp_AccPwd.Size = new System.Drawing.Size(359, 257);
+            this.tp_AccPwd.Size = new System.Drawing.Size(358, 257);
             this.tp_AccPwd.TabIndex = 46;
             // 
             // tabPage1
             // 
+            this.tabPage1.Controls.Add(this.pb_VeryfiImage);
             this.tabPage1.Controls.Add(this.circularProgressBar1);
             this.tabPage1.Controls.Add(this.label1);
             this.tabPage1.Controls.Add(this.btn_SetOtherAnswer);
@@ -391,7 +394,7 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(351, 231);
+            this.tabPage1.Size = new System.Drawing.Size(350, 231);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "主控";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -406,7 +409,7 @@
             this.circularProgressBar1.InnerColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.circularProgressBar1.InnerMargin = 2;
             this.circularProgressBar1.InnerWidth = -1;
-            this.circularProgressBar1.Location = new System.Drawing.Point(291, 179);
+            this.circularProgressBar1.Location = new System.Drawing.Point(152, 34);
             this.circularProgressBar1.MarqueeAnimationSpeed = 1000;
             this.circularProgressBar1.Maximum = 10;
             this.circularProgressBar1.Name = "circularProgressBar1";
@@ -974,36 +977,47 @@
             this.tabPage7.Text = "測試";
             this.tabPage7.UseVisualStyleBackColor = true;
             // 
-            // ckbSwitchPageStepByStep
+            // btnRefreshVeryfi
             // 
-            this.ckbSwitchPageStepByStep.AutoSize = true;
-            this.ckbSwitchPageStepByStep.Location = new System.Drawing.Point(9, 270);
-            this.ckbSwitchPageStepByStep.Name = "ckbSwitchPageStepByStep";
-            this.ckbSwitchPageStepByStep.Size = new System.Drawing.Size(242, 16);
-            this.ckbSwitchPageStepByStep.TabIndex = 47;
-            this.ckbSwitchPageStepByStep.Text = "搶票時依照順序1-2-3載入(若無則直接1-3)";
-            this.ckbSwitchPageStepByStep.UseVisualStyleBackColor = true;
-            this.ckbSwitchPageStepByStep.CheckedChanged += new System.EventHandler(this.ckbSwitchPageStepByStep_CheckedChanged);
+            this.btnRefreshVeryfi.Location = new System.Drawing.Point(97, 191);
+            this.btnRefreshVeryfi.Name = "btnRefreshVeryfi";
+            this.btnRefreshVeryfi.Size = new System.Drawing.Size(85, 34);
+            this.btnRefreshVeryfi.TabIndex = 7;
+            this.btnRefreshVeryfi.Text = "Change image";
+            this.btnRefreshVeryfi.UseVisualStyleBackColor = true;
+            this.btnRefreshVeryfi.Click += new System.EventHandler(this.btnRefreshVeryfi_Click);
             // 
-            // btn_CookieTests
+            // label19
             // 
-            this.btn_CookieTests.Location = new System.Drawing.Point(6, 191);
-            this.btn_CookieTests.Name = "btn_CookieTests";
-            this.btn_CookieTests.Size = new System.Drawing.Size(85, 34);
-            this.btn_CookieTests.TabIndex = 0;
-            this.btn_CookieTests.Text = "CookieTest";
-            this.btn_CookieTests.UseVisualStyleBackColor = true;
-            this.btn_CookieTests.Click += new System.EventHandler(this.btn_CookieTests_Click);
+            this.label19.AutoSize = true;
+            this.label19.Location = new System.Drawing.Point(15, 133);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(39, 12);
+            this.label19.TabIndex = 6;
+            this.label19.Text = "label19";
             // 
-            // pb_cookie_pb
+            // txt_CKSTON
             // 
-            this.pb_cookie_pb.BackColor = System.Drawing.SystemColors.WindowFrame;
-            this.pb_cookie_pb.Location = new System.Drawing.Point(17, 16);
-            this.pb_cookie_pb.Name = "pb_cookie_pb";
-            this.pb_cookie_pb.Size = new System.Drawing.Size(200, 100);
-            this.pb_cookie_pb.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pb_cookie_pb.TabIndex = 1;
-            this.pb_cookie_pb.TabStop = false;
+            this.txt_CKSTON.Location = new System.Drawing.Point(202, 135);
+            this.txt_CKSTON.Name = "txt_CKSTON";
+            this.txt_CKSTON.Size = new System.Drawing.Size(133, 22);
+            this.txt_CKSTON.TabIndex = 5;
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Location = new System.Drawing.Point(15, 145);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(39, 12);
+            this.label18.TabIndex = 4;
+            this.label18.Text = "label18";
+            // 
+            // txt_BetaVeryfiCode
+            // 
+            this.txt_BetaVeryfiCode.Location = new System.Drawing.Point(202, 163);
+            this.txt_BetaVeryfiCode.Name = "txt_BetaVeryfiCode";
+            this.txt_BetaVeryfiCode.Size = new System.Drawing.Size(133, 22);
+            this.txt_BetaVeryfiCode.TabIndex = 3;
             // 
             // btn_BetaSubmit
             // 
@@ -1015,53 +1029,51 @@
             this.btn_BetaSubmit.UseVisualStyleBackColor = true;
             this.btn_BetaSubmit.Click += new System.EventHandler(this.btn_BetaSubmit_Click);
             // 
-            // txt_BetaVeryfiCode
+            // pb_cookie_pb
             // 
-            this.txt_BetaVeryfiCode.Location = new System.Drawing.Point(202, 163);
-            this.txt_BetaVeryfiCode.Name = "txt_BetaVeryfiCode";
-            this.txt_BetaVeryfiCode.Size = new System.Drawing.Size(133, 22);
-            this.txt_BetaVeryfiCode.TabIndex = 3;
+            this.pb_cookie_pb.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.pb_cookie_pb.Location = new System.Drawing.Point(17, 16);
+            this.pb_cookie_pb.Name = "pb_cookie_pb";
+            this.pb_cookie_pb.Size = new System.Drawing.Size(200, 100);
+            this.pb_cookie_pb.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pb_cookie_pb.TabIndex = 1;
+            this.pb_cookie_pb.TabStop = false;
             // 
-            // label18
+            // btn_CookieTests
             // 
-            this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(15, 145);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(39, 12);
-            this.label18.TabIndex = 4;
-            this.label18.Text = "label18";
+            this.btn_CookieTests.Location = new System.Drawing.Point(6, 191);
+            this.btn_CookieTests.Name = "btn_CookieTests";
+            this.btn_CookieTests.Size = new System.Drawing.Size(85, 34);
+            this.btn_CookieTests.TabIndex = 0;
+            this.btn_CookieTests.Text = "CookieTest";
+            this.btn_CookieTests.UseVisualStyleBackColor = true;
+            this.btn_CookieTests.Click += new System.EventHandler(this.btn_CookieTests_Click);
             // 
-            // txt_CKSTON
+            // ckbSwitchPageStepByStep
             // 
-            this.txt_CKSTON.Location = new System.Drawing.Point(202, 135);
-            this.txt_CKSTON.Name = "txt_CKSTON";
-            this.txt_CKSTON.Size = new System.Drawing.Size(133, 22);
-            this.txt_CKSTON.TabIndex = 5;
+            this.ckbSwitchPageStepByStep.AutoSize = true;
+            this.ckbSwitchPageStepByStep.Location = new System.Drawing.Point(9, 270);
+            this.ckbSwitchPageStepByStep.Name = "ckbSwitchPageStepByStep";
+            this.ckbSwitchPageStepByStep.Size = new System.Drawing.Size(242, 16);
+            this.ckbSwitchPageStepByStep.TabIndex = 47;
+            this.ckbSwitchPageStepByStep.Text = "搶票時依照順序1-2-3載入(若無則直接1-3)";
+            this.ckbSwitchPageStepByStep.UseVisualStyleBackColor = true;
+            this.ckbSwitchPageStepByStep.CheckedChanged += new System.EventHandler(this.ckbSwitchPageStepByStep_CheckedChanged);
             // 
-            // label19
+            // pb_VeryfiImage
             // 
-            this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(15, 133);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(39, 12);
-            this.label19.TabIndex = 6;
-            this.label19.Text = "label19";
-            // 
-            // btnRefreshVeryfi
-            // 
-            this.btnRefreshVeryfi.Location = new System.Drawing.Point(97, 191);
-            this.btnRefreshVeryfi.Name = "btnRefreshVeryfi";
-            this.btnRefreshVeryfi.Size = new System.Drawing.Size(85, 34);
-            this.btnRefreshVeryfi.TabIndex = 7;
-            this.btnRefreshVeryfi.Text = "Change image";
-            this.btnRefreshVeryfi.UseVisualStyleBackColor = true;
-            this.btnRefreshVeryfi.Click += new System.EventHandler(this.btnRefreshVeryfi_Click);
+            this.pb_VeryfiImage.Location = new System.Drawing.Point(215, 125);
+            this.pb_VeryfiImage.Name = "pb_VeryfiImage";
+            this.pb_VeryfiImage.Size = new System.Drawing.Size(120, 100);
+            this.pb_VeryfiImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pb_VeryfiImage.TabIndex = 51;
+            this.pb_VeryfiImage.TabStop = false;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(373, 288);
+            this.ClientSize = new System.Drawing.Size(374, 288);
             this.Controls.Add(this.ckbSwitchPageStepByStep);
             this.Controls.Add(this.tp_AccPwd);
             this.Name = "Form1";
@@ -1096,6 +1108,7 @@
             this.tabPage7.ResumeLayout(false);
             this.tabPage7.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pb_cookie_pb)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_VeryfiImage)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1190,6 +1203,7 @@
         private System.Windows.Forms.TextBox txt_CKSTON;
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.Button btnRefreshVeryfi;
+        private System.Windows.Forms.PictureBox pb_VeryfiImage;
     }
 }
 

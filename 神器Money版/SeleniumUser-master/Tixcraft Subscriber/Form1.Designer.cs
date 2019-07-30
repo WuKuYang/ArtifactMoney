@@ -52,6 +52,7 @@
             this.btn_SetOtherAnswer = new System.Windows.Forms.Button();
             this.tp_AccPwd = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.pb_VeryfiImage = new System.Windows.Forms.PictureBox();
             this.circularProgressBar1 = new CircularProgressBar.CircularProgressBar();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.lblCreditCard = new System.Windows.Forms.Label();
@@ -115,9 +116,9 @@
             this.pb_cookie_pb = new System.Windows.Forms.PictureBox();
             this.btn_CookieTests = new System.Windows.Forms.Button();
             this.ckbSwitchPageStepByStep = new System.Windows.Forms.CheckBox();
-            this.pb_VeryfiImage = new System.Windows.Forms.PictureBox();
             this.tp_AccPwd.SuspendLayout();
             this.tabPage1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_VeryfiImage)).BeginInit();
             this.tabPage2.SuspendLayout();
             this.tabPage3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pb_SnapTest)).BeginInit();
@@ -137,7 +138,6 @@
             this.tabPage6.SuspendLayout();
             this.tabPage7.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pb_cookie_pb)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb_VeryfiImage)).BeginInit();
             this.SuspendLayout();
             // 
             // button3
@@ -399,6 +399,15 @@
             this.tabPage1.Text = "主控";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
+            // pb_VeryfiImage
+            // 
+            this.pb_VeryfiImage.Location = new System.Drawing.Point(215, 125);
+            this.pb_VeryfiImage.Name = "pb_VeryfiImage";
+            this.pb_VeryfiImage.Size = new System.Drawing.Size(120, 100);
+            this.pb_VeryfiImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pb_VeryfiImage.TabIndex = 51;
+            this.pb_VeryfiImage.TabStop = false;
+            // 
             // circularProgressBar1
             // 
             this.circularProgressBar1.AnimationFunction = WinFormAnimation.KnownAnimationFunctions.Liner;
@@ -451,7 +460,7 @@
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(351, 231);
+            this.tabPage2.Size = new System.Drawing.Size(350, 231);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "刷卡";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -576,7 +585,7 @@
             this.tabPage3.Location = new System.Drawing.Point(4, 22);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(351, 231);
+            this.tabPage3.Size = new System.Drawing.Size(350, 231);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "監看";
             this.tabPage3.UseVisualStyleBackColor = true;
@@ -718,7 +727,7 @@
             this.tabPage4.Location = new System.Drawing.Point(4, 22);
             this.tabPage4.Name = "tabPage4";
             this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage4.Size = new System.Drawing.Size(351, 231);
+            this.tabPage4.Size = new System.Drawing.Size(350, 231);
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "設置";
             this.tabPage4.UseVisualStyleBackColor = true;
@@ -831,7 +840,7 @@
             this.tabPage5.Location = new System.Drawing.Point(4, 22);
             this.tabPage5.Name = "tabPage5";
             this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage5.Size = new System.Drawing.Size(351, 231);
+            this.tabPage5.Size = new System.Drawing.Size(350, 231);
             this.tabPage5.TabIndex = 4;
             this.tabPage5.Text = "填單工具";
             this.tabPage5.UseVisualStyleBackColor = true;
@@ -906,7 +915,7 @@
             this.tabPage6.Location = new System.Drawing.Point(4, 22);
             this.tabPage6.Name = "tabPage6";
             this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage6.Size = new System.Drawing.Size(351, 231);
+            this.tabPage6.Size = new System.Drawing.Size(350, 231);
             this.tabPage6.TabIndex = 5;
             this.tabPage6.Text = "Gmail";
             this.tabPage6.UseVisualStyleBackColor = true;
@@ -972,7 +981,7 @@
             this.tabPage7.Location = new System.Drawing.Point(4, 22);
             this.tabPage7.Name = "tabPage7";
             this.tabPage7.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage7.Size = new System.Drawing.Size(351, 231);
+            this.tabPage7.Size = new System.Drawing.Size(350, 231);
             this.tabPage7.TabIndex = 6;
             this.tabPage7.Text = "測試";
             this.tabPage7.UseVisualStyleBackColor = true;
@@ -1060,15 +1069,6 @@
             this.ckbSwitchPageStepByStep.UseVisualStyleBackColor = true;
             this.ckbSwitchPageStepByStep.CheckedChanged += new System.EventHandler(this.ckbSwitchPageStepByStep_CheckedChanged);
             // 
-            // pb_VeryfiImage
-            // 
-            this.pb_VeryfiImage.Location = new System.Drawing.Point(215, 125);
-            this.pb_VeryfiImage.Name = "pb_VeryfiImage";
-            this.pb_VeryfiImage.Size = new System.Drawing.Size(120, 100);
-            this.pb_VeryfiImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pb_VeryfiImage.TabIndex = 51;
-            this.pb_VeryfiImage.TabStop = false;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -1083,6 +1083,7 @@
             this.tp_AccPwd.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_VeryfiImage)).EndInit();
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
             this.tabPage3.ResumeLayout(false);
@@ -1108,7 +1109,6 @@
             this.tabPage7.ResumeLayout(false);
             this.tabPage7.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pb_cookie_pb)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb_VeryfiImage)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

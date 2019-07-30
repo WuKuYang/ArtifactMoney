@@ -856,85 +856,9 @@ namespace Tixcraft_Subscriber
                                                 }
                                                 try
                                                 {
-                                                    //使用猴子腳本 --> 協助選座位
+
                                                     if (false == SubscrEr.Driver.Url.Contains("verify"))
                                                     {
-                                                        bool bIsLoadingFinish_Seat = false;
-                                                        Stopwatch swWaitLoad = new Stopwatch();
-                                                        swWaitLoad.Restart();
-
-                                                        #region == 等待頁面載入(座位頁面)，載入完畢後注入JS協助選座位 ==
-
-                                                        while (bIsLoadingFinish_Seat == false)
-                                                        {
-                                                            //等候載入第二頁
-                                                            IWebElement game_areaList = null;
-                                                            try
-                                                            {
-                                                                //第二頁的特徵
-                                                                game_areaList = SubscrEr.Driver.FindElement(By.Id("game_id"));
-
-                                                            }
-                                                            catch (Exception)
-                                                            {
-                                                                game_areaList = null;
-                                                                //如果沒有第二頁，就找第三頁看看 
-                                                                IWebElement TicketForm_verifyCode = null;
-                                                                try
-                                                                {
-                                                                    TicketForm_verifyCode = SubscrEr.Driver.FindElement(By.Id("TicketForm_verifyCode"));
-                                                                }
-                                                                catch (Exception)
-                                                                {
-                                                                    TicketForm_verifyCode = null;
-                                                                }
-                                                                if (TicketForm_verifyCode != null)
-                                                                {
-                                                                    // 如果找到第三頁，那就直接跳出填單吧！
-                                                                    bIsLoadingFinish_Seat = true;
-                                                                    VPState.Report("考完試，選座位(第三頁)" + swWaitLoad.ElapsedMilliseconds.ToString() + " ms", MethodBase.GetCurrentMethod(), VPState.eVPType.Windows);
-
-                                                                }
-                                                            }
-
-                                                            if (game_areaList != null)
-                                                            {
-                                                                VPState.Report("考完試，選座位(第二頁)" + swWaitLoad.ElapsedMilliseconds.ToString() + " ms", MethodBase.GetCurrentMethod(), VPState.eVPType.Windows);
-
-                                                                #region == 注入JS直到頁面切換 ==
-
-                                                                bool bIsInjectOK = false;
-                                                                int iInjectCount = 0;
-                                                                while (bIsInjectOK == false)
-                                                                {
-                                                                    if (SubscrEr.Driver.Url.Contains("ticket/area"))
-                                                                    {
-                                                                        #region == 使用猴子腳本 --> 協助選座位 ==
-                                                                        string strScrpitSelectSeat = SubscrEr.JS_ReadFile("Tix_Automation.txt");
-                                                                        strScrpitSelectSeat = SubscrEr.JS_Setting_Seats(strScrpitSelectSeat, iDayIndex.ToString(), g_SeatInformation, iTickets.ToString(), "-1");
-                                                                        SubscrEr.InjectJavaScript(strScrpitSelectSeat);
-                                                                        #endregion
-                                                                        CheckAlert_Once();
-                                                                        VPState.Report("注入JS中...注入完畢(選座位)..." + iInjectCount.ToString() + "次", MethodBase.GetCurrentMethod(), VPState.eVPType.Windows);
-                                                                    }
-                                                                    else
-                                                                    {
-                                                                        bIsInjectOK = true;
-                                                                    }
-                                                                    Thread.Sleep(50);
-                                                                }
-
-                                                                #endregion
-
-                                                                bIsLoadingFinish_Seat = true;
-                                                            }
-                                                            Thread.Sleep(50);
-                                                        }
-                                                        #endregion
-
-                                                        swWaitLoad.Stop();
-                                                        VPState.Report("等待頁面載入完畢...耗時 : " + swWaitLoad.ElapsedMilliseconds.ToString() + " ms", MethodBase.GetCurrentMethod(), VPState.eVPType.Windows);
-
                                                         //表示防黃牛回答正確！(因為上一次在驗證碼頁面，這一次沒有)
                                                         bIsNull = false;
                                                         break;
@@ -987,76 +911,49 @@ namespace Tixcraft_Subscriber
             //重新刷新頁面    
             this.Invoke(degRefreshText, lblDebug, "選座位中....");
 
-            //Tixcraft.GetActivity(g_ShowSelected).GetShowDate(iDayIndex).RefreshAllSeat();
-            //while (Tixcraft.GetActivity(g_ShowSelected).GetShowDate(iDayIndex).SeatCount == 0) ;
-
-            
-            bool bIsEntryBy3Pages = bIsSwitchPageStepByStep; //false = 1頁 --> 3頁 , true = 1 --> 2 --> 3頁
-
-            int Index = 0;
-            //=====選座位、或不用選座位====  
+            int Index = 0; 
+            #region ===== 選座位、或不用選座位====
+            //step 4:取得購票網址 
             if (bIsHaveCheckCode == true)
             {
-                //如果有考試，那麼使用猴子來填單( 填入張數 & 打勾 )
-                #region == 如果有防黃牛回答的話，那麼miniBrowser將不適用，需要使用JS協助進入 == 
-                string strScrpitSelectSeat = SubscrEr.JS_ReadFile("Tix_Automation.txt");
-                strScrpitSelectSeat = SubscrEr.JS_Setting_Seats(strScrpitSelectSeat, iDayIndex.ToString(), g_SeatInformation, iTickets.ToString(), "-1");
-                SubscrEr.InjectJavaScript(strScrpitSelectSeat);
+                Tixcraft.GetActivity(g_ShowSelected).GetShowDate(iDayIndex).RefreshAllSeat();
+            }
+            TixcraftSubscriber.Activity.ShowDate AllSeat = Tixcraft.GetActivity(g_ShowSelected).GetShowDate(iDayIndex);
+            this.Invoke(degRefreshText, lblDebug, "step 4:取得購票網址....OK");
+            int iMaxSeats = AllSeat.SeatCount;
+            if (g_bIsRandSeats)
+            {
+                #region 隨機座位
+                Random rnd = new Random();
+                int iRand = rnd.Next(0, iMaxSeats);
+                Index = iRand;
                 #endregion
             }
             else
             {
-                if (bIsEntryBy3Pages == true)
-                {
-                    #region 沒有防黃牛回答，而且強制使用三頁面進行轉換，則使用JS協助換下一頁 (進入第2頁、3頁)
+                #region 指定範圍隨機座位
 
-                    //載入第二頁
-                    VPState.Report("載入下一頁", MethodBase.GetCurrentMethod(), VPState.eVPType.Windows);
-                    SubscrEr.GoTo_normal(strDaysURL);
-                    bool bIsWaitingPageLoadDone = false;
-                    int iCurrentPageIndex = 0; // 2 = 第二頁 , 3 = 第3頁
-                    while (bIsWaitingPageLoadDone == false)
+                bool bIsSelectRangSeat = true;
+                if (bIsSelectRangSeat)
+                {
+                    List<int> lstIndexRang_Match = new List<int>();
+                    bool bIsForceSeat = true;
+                    for (int iS = 0; iS < AllSeat.SeatCount; iS++)
                     {
-                        string strCurrentURL = SubscrEr.Driver.Url;
-                        if (strCurrentURL.Contains("ticket/ticket") )
+                        if (AllSeat.GetSeatTicket(iS).Text.Contains(g_SeatInformation))
                         {
-                            iCurrentPageIndex = 3; 
-                            VPState.Report("目前位於-3 - 驗證碼頁面 . 結束等待", MethodBase.GetCurrentMethod(), VPState.eVPType.Windows);
+                            lstIndexRang_Match.Add(iS);
                         }
-                        if ( SubscrEr.Driver.Url.Contains("ticket/area"))
-                        {
-                            iCurrentPageIndex = 2;
-                            VPState.Report("目前位於-2 - 選座位頁面 . 結束等待", MethodBase.GetCurrentMethod(), VPState.eVPType.Windows);
-                        }
-                        if (iCurrentPageIndex != 0)
-                        {
-                            bIsWaitingPageLoadDone = true;
-                        }
-                        //載入第二頁 等待完成
-                        Thread.Sleep(50);
                     }
-                    if (iCurrentPageIndex == 2)
-                    { 
-                        while (SubscrEr.Driver.Url.Contains("ticket/area"))
-                        {
-                            string strScrpitSelectSeat = SubscrEr.JS_ReadFile("Tix_Automation.txt");
-                            strScrpitSelectSeat = SubscrEr.JS_Setting_Seats(strScrpitSelectSeat, iDayIndex.ToString(), g_SeatInformation, iTickets.ToString(), "-1");
-                            SubscrEr.InjectJavaScript(strScrpitSelectSeat);
-                            VPState.Report("點擊並切換到第3頁...", MethodBase.GetCurrentMethod(), VPState.eVPType.Windows);
-                            Thread.Sleep(400);
-                        }  
-                    } 
-                    VPState.Report("======切換頁面流程結束 - 準備打驗證碼=====", MethodBase.GetCurrentMethod(), VPState.eVPType.Windows);
-                    #endregion
-                }
-                else
-                { 
-                    #region == 如果沒有防黃牛的話，那麼miniBrowser可快速進入取得座位URL ==
-                    //step 4:取得購票網址 
-                    TixcraftSubscriber.Activity.ShowDate AllSeat = Tixcraft.GetActivity(g_ShowSelected).GetShowDate(iDayIndex);
-                    this.Invoke(degRefreshText, lblDebug, "step 4:取得購票網址....OK");
-                    int iMaxSeats = AllSeat.SeatCount;
-                    if (g_bIsRandSeats)
+                    if (lstIndexRang_Match.Count > 0)
+                    {
+                        #region 隨機指定區域座位
+                        Random rnd = new Random();
+                        int iRand = rnd.Next(0, lstIndexRang_Match.Count);
+                        Index = lstIndexRang_Match[iRand];
+                        #endregion
+                    }
+                    else
                     {
                         #region 隨機座位
                         Random rnd = new Random();
@@ -1064,71 +961,50 @@ namespace Tixcraft_Subscriber
                         Index = iRand;
                         #endregion
                     }
-                    else
-                    {
-                        //指定範圍隨機座位
-                        bool bIsSelectRangSeat = true;
-                        if (bIsSelectRangSeat)
-                        {
-                            List<int> lstIndexRang_Match = new List<int>();
-                            bool bIsForceSeat = true;
-                            for (int iS = 0; iS < AllSeat.SeatCount; iS++)
-                            {
-                                if (AllSeat.GetSeatTicket(iS).Text.Contains(g_SeatInformation))
-                                {
-                                    lstIndexRang_Match.Add(iS);
-                                }
-                            }
-                            if (lstIndexRang_Match.Count > 0)
-                            {
-                                #region 隨機指定區域座位
-                                Random rnd = new Random();
-                                int iRand = rnd.Next(0, lstIndexRang_Match.Count);
-                                Index = lstIndexRang_Match[iRand];
-                                #endregion
-                            }
-                            else
-                            {
-                                #region 隨機座位
-                                Random rnd = new Random();
-                                int iRand = rnd.Next(0, iMaxSeats);
-                                Index = iRand;
-                                #endregion
-                            }
-                        }
-                    }
-                    #endregion
                 }
-            }
 
+                #endregion
+            }
+            #endregion
 
             //=====座位已選完，此時在第三頁==== 
 
             //--紀錄驗證碼資訊-- 
 
+
+            //Total Run ms
             Stopwatch swDriverLoading = new Stopwatch();
             swDriverLoading.Restart();
+             
 
             string strBuyTicketURL = "none";
-
-            if (bIsHaveCheckCode == false)
+             
+            if (true) //20190730 fix
             {
-                if (bIsEntryBy3Pages == false)
-                {
-                    #region == 如果沒有防黃牛，那就取miniBrowser的資料進入 ==
-                    VPState.Report("從第一頁強制載入至第三頁", MethodBase.GetCurrentMethod(), VPState.eVPType.Windows);
-                    TixcraftSubscriber.Activity.ShowDate.SeatTicket BuyTicket = Tixcraft.GetActivity(g_ShowSelected).GetShowDate(iDayIndex).GetSeatTicket(Index);
-                    if (BuyTicket == null) return;
-                    strBuyTicketURL = BuyTicket.url;
-                    SubscrEr.GoTo(BuyTicket.url);
-                    string strTicketURL = BuyTicket.url;
-                    strSelectSeat_Text = BuyTicket.Text;
-                    string strSeatMsg = string.Format("位置 : {0}", strSelectSeat_Text);
-                    this.Invoke(degRefreshText, lblSelectSeat, strSeatMsg);
-                    #endregion
-                }
+                #region == 如果沒有防黃牛，那就取miniBrowser的資料進入 ==
+                VPState.Report("從第一頁強制載入至第三頁", MethodBase.GetCurrentMethod(), VPState.eVPType.Windows);
+                Tixcraft.RefreshActivity();//test
+
+                TixcraftSubscriber.Activity bActivity = Tixcraft.GetActivity(g_ShowSelected);
+                bActivity.RefreshDate();
+                TixcraftSubscriber.Activity.ShowDate bShowDate = bActivity.GetShowDate(iDayIndex);
+                bShowDate.RefreshAllSeat();
+                //TixcraftSubscriber.Activity.ShowDate.SeatTicket  bSeatTicket = bShowDate.GetSeatTicket(Index);
+                //bSeatTicket.GetTicket();
+                TixcraftSubscriber.Activity.ShowDate.SeatTicket BuyTicket = Tixcraft.GetActivity(g_ShowSelected).GetShowDate(iDayIndex).GetSeatTicket(Index);
+                
+                
+                if (BuyTicket == null) return;
+                strBuyTicketURL = BuyTicket.url;
+                SubscrEr.GoTo(BuyTicket.url);
+                string strTicketURL = BuyTicket.url;
+                strSelectSeat_Text = BuyTicket.Text;
+                string strSeatMsg = string.Format("位置 : {0}", strSelectSeat_Text);
+                this.Invoke(degRefreshText, lblSelectSeat, strSeatMsg);
+                #endregion
             }
-            else
+
+            if (bIsHaveCheckCode == true)
             { 
                 this.Invoke(degRefreshText, lblSelectSeat, "有考試，已自動進入頁面");
             }
@@ -1211,8 +1087,8 @@ namespace Tixcraft_Subscriber
                             }
                             else 
                             {
-                                //BuyTicket.RefreshVeryfiImage();
-                                BuyTicket.GetTicket();
+                                BuyTicket.RefreshVeryfiImage();
+                                //BuyTicket.GetTicket();
                                 iAutoKeyIn_Confused++;
                                 VPState.Report("切割失敗，換一張驗證碼 : " + swTest.ElapsedMilliseconds.ToString() + "ms", MethodBase.GetCurrentMethod(), VPState.eVPType.Windows);
                             } 
@@ -1321,7 +1197,7 @@ namespace Tixcraft_Subscriber
                     string strMessage = string.Format("{0} --> {1}", iDpwnLoadCount, strResult);
                     this.Invoke(degRefreshText, lblVerifyCodeInfo, strMessage);
 
-                    #region -等待載入提交頁面- 
+                    #region -等待載入提交頁面-  20190730
                     //-等待載入提交頁面- 
                     Stopwatch swCostWait = new Stopwatch();
                     swCostWait.Restart();
@@ -1360,8 +1236,16 @@ namespace Tixcraft_Subscriber
                     }
                     swSubmit_Cost.Stop();
                     VPState.Report("提交耗時" + swSubmit_Cost.ElapsedMilliseconds.ToString() + " ms", MethodBase.GetCurrentMethod(), VPState.eVPType.Windows);
-                                 
+                    
+                    Stopwatch swWaitForAlart = new Stopwatch();
+                    swWaitForAlart.Restart(); 
                     string strAlartText = CheckAlart();
+                    swWaitForAlart.Stop(); 
+                    string strWaitForAlart = string.Format("Wait for Alart is cost {0} ms", swWaitForAlart.ElapsedMilliseconds.ToString()); 
+                    VPState.Report(strWaitForAlart, MethodBase.GetCurrentMethod(), VPState.eVPType.Windows); 
+            
+
+
                     if (strAlartText == "驗證碼輸入有誤")
                     {
                         iAutoKeyInFailCount++;
@@ -1390,7 +1274,7 @@ namespace Tixcraft_Subscriber
             double iCostTime = swLoadingTime_SelectSeat.ElapsedMilliseconds / 1000.0;
             this.Invoke(degRefreshText, lblDebug,"換" + iAutoKeyIn_Confused.ToString() + "次，錯" + iAutoKeyInFailCount.ToString() + "次，總耗時 : " + iCostTime.ToString("F2") + "秒");
             //this.Invoke(degRefreshText, this, "打錯" + iAutoKeyInFailCount.ToString() + "次，開放→自動打碼完畢耗時 : " + iCostTime.ToString("F2") + "秒");
-            double iLoadCosttime = swDriverLoading.ElapsedMilliseconds / 1000.0;
+            double iLoadCosttime =  swDriverLoading.ElapsedMilliseconds   / 1000.0;  
             this.Invoke(degRefreshText, lblInfo, "網頁載入時間 : " + iLoadCosttime.ToString("F2") + "秒");
             string strMessaggLog = string.Format("{0}=網頁載:{1}秒 = 總耗時:{2}秒 = 錯:{3}次", strSelectSeat_Text, iLoadCosttime.ToString("F2"), iCostTime.ToString("F2"), iAutoKeyInFailCount.ToString()); 
             VPState.Report(strMessaggLog, MethodBase.GetCurrentMethod(), VPState.eVPType.Windows); 
@@ -3050,6 +2934,10 @@ namespace Tixcraft_Subscriber
 
             UpdateImage(VerificationCodeImage, pb_cookie_pb); 
 
+        }
+
+        private void btn_BetaDownloadVeryfiCode_Click(object sender, EventArgs e)
+        {
         } 
 
     }

@@ -16,7 +16,9 @@ namespace TSubscriber
         private List<Activity> AllActivity = new List<Activity>();
 
         public const string TixcraftURL = "https://tixcraft.com";///activity";
-         
+
+        public string USER_NAME = "N/A";
+
         //取得拓元姓名
         public string GetTixUserName()
         {
@@ -26,6 +28,7 @@ namespace TSubscriber
             {
                 int iIndex = TRData[0].ElementName.IndexOf("[");
                 string strUserNameHere = TRData[0].ElementName.Substring(iIndex);
+                USER_NAME = strUserNameHere;
                 return strUserNameHere;
             }
             else 
@@ -152,6 +155,38 @@ namespace TSubscriber
                 else
                 return AllActivity.Count;
             }
+        }
+         
+        private string GetCSRFTOKEN_From_VeryfiPage(string strPageSource)
+        { 
+            try
+            {
+                int strLeftIndex = strPageSource.IndexOf(@"/ticket/verify/");
+                string strTemp = strPageSource.Substring(strLeftIndex + 15);
+                int strRightIndex = strTemp.IndexOf("value");
+                string strResult = strTemp.Substring(strRightIndex + 7);
+                int strTT = strResult.IndexOf("==");
+                strResult = strResult.Substring(0, strTT + 2);
+                return strResult;
+            }
+            catch (Exception)
+            {
+                return "null";
+            } 
+        }
+
+        public string POST_AnswerToCheckCode(string strAnswer , string url)
+        {
+            string strCSRFTOKEN = "null"; 
+            strCSRFTOKEN = GetCSRFTOKEN_From_VeryfiPage(TixcraftWebDriver.strPageSourceCode);
+
+            string PostData = "null"; 
+            PostData = 
+                "CSRFTOKEN=" + strCSRFTOKEN +
+                "&checkCode=" + strAnswer +
+                "&confirmed=true"; 
+            string strReponse = this.TixcraftWebDriver.PostDataToUrl(PostData, url);
+            return strReponse;
         }
 
         public Activity GetActivity(int Index)

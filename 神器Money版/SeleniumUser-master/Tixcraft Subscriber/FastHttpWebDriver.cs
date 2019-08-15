@@ -170,12 +170,11 @@ namespace Tixcraft_Subscriber
                 throw new ApplicationException(string.Format("Invalid url string: {0}", url));
             }
             #endregion
-
             #region 填充httpWebRequest的基本信息
             httpRequest.UserAgent = sUserAgent;
             httpRequest.ContentType = sContentType;
             httpRequest.Method = "POST";
-
+            httpRequest.Accept = "application/json, text/javascript, */*; q=0.01";  //add
             httpRequest.CookieContainer = Session;
             httpRequest.Proxy = null;
             httpRequest.Timeout = 3000;

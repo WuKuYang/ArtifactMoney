@@ -18,6 +18,7 @@ using VIPGeneral;
 using System.Threading;
 using System.IO;
 using HalconDotNet;
+using System.Runtime.Serialization.Json;
 
 namespace Tixcraft_Subscriber
 {
@@ -39,6 +40,7 @@ namespace Tixcraft_Subscriber
         public string OcrSavePath = "C:\\OCRServerIP.txt";
 
         public bool g_bIsMountProxy = false;
+        public bool g_bIsUseOldSch = false; //是否使用舊版流程 , 新版是封包取圖 , 舊版是視覺演算法取圖 20190815
 
         public TixcraftCookieServer CookieServer = null;
         TixcraftSubscriber Tixcraft = new TixcraftSubscriber(); 
@@ -315,7 +317,8 @@ namespace Tixcraft_Subscriber
                     frm.OCRRecipe_IP_Address = OCRRecipe.IP;
                     frm.lstShow = g_AllShow;
                     frm.g_ShowSelected = g_iSelectShowIndex;
-                    frm.SetRandSeats(bIsRandSeats); 
+                    frm.SetRandSeats(bIsRandSeats);
+                    frm.bIsUseOLDsch = g_bIsUseOldSch; 
                     lstFrms.Add(frm);
                 });
             });
@@ -1244,5 +1247,34 @@ namespace Tixcraft_Subscriber
                 }
             }
         }
+
+        private void btn_AnserTest_Click(object sender, EventArgs e)
+        {
+
+            TixcraftSubscriber GBuyer = new TixcraftSubscriber();
+            GBuyer.RefreshActivity();
+
+            string strURL = "https://tixcraft.com/ticket/verify/19_TTPFes/5648";
+            string strCheckCodeURL = strURL.Replace("verify" , "checkCode");
+            GBuyer.TixcraftWebDriver.GetWebSourceCode(strURL);
+
+            //string RequestIs = GBuyer.POST_AnswerToCheckCode("XXXX", strCheckCodeURL);
+            string JSON_RequestIs = GBuyer.POST_AnswerToCheckCode("HH8TA4NWC3", strCheckCodeURL);
+
+ 
+
+
+            //string strPostData2 =
+            //    "CSRFTOKEN=" + strCSRFTOKEN +
+            //    "&checkCode=" + "HH8TA4NWC3" + 
+            //"&confirmed=true";
+            //string strRes2p = GBuyer.TixcraftWebDriver.PostDataToUrl(strPostData2, "https://tixcraft.com/ticket/checkCode/19_TTPFes/5648");
+        }
+
+        private void ckbUSEOLDSch_CheckedChanged(object sender, EventArgs e)
+        {
+            g_bIsUseOldSch = ckbUSEOLDSch.Checked;
+        }
+
     }
 }

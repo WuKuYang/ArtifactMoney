@@ -12,7 +12,7 @@ function FixSubmitError()
         }
     }
     var iTableArrayLeft = document.scripts[iIndexOfArray].text.indexOf("mousedown click touchstart");
-    var iTableArrayRight = document.scripts[iIndexOfArray].text.indexOf("parseInt($(event.target).val()");
+    var iTableArrayRight = document.scripts[iIndexOfArray].text.indexOf("(event.target).val(0)");
     if(iTableArrayLeft == -1 || iTableArrayRight == -1)
     {
         //alert("拓元有改版！ 無法進行自動填單！");

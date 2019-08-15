@@ -116,6 +116,7 @@
             this.pb_cookie_pb = new System.Windows.Forms.PictureBox();
             this.btn_CookieTests = new System.Windows.Forms.Button();
             this.ckbSwitchPageStepByStep = new System.Windows.Forms.CheckBox();
+            this.ckbASK_CheckPage = new System.Windows.Forms.CheckBox();
             this.tp_AccPwd.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pb_VeryfiImage)).BeginInit();
@@ -1069,11 +1070,23 @@
             this.ckbSwitchPageStepByStep.UseVisualStyleBackColor = true;
             this.ckbSwitchPageStepByStep.CheckedChanged += new System.EventHandler(this.ckbSwitchPageStepByStep_CheckedChanged);
             // 
+            // ckbASK_CheckPage
+            // 
+            this.ckbASK_CheckPage.AutoSize = true;
+            this.ckbASK_CheckPage.Location = new System.Drawing.Point(258, 269);
+            this.ckbASK_CheckPage.Name = "ckbASK_CheckPage";
+            this.ckbASK_CheckPage.Size = new System.Drawing.Size(81, 16);
+            this.ckbASK_CheckPage.TabIndex = 48;
+            this.ckbASK_CheckPage.Text = "提早 Check";
+            this.ckbASK_CheckPage.UseVisualStyleBackColor = true;
+            this.ckbASK_CheckPage.CheckedChanged += new System.EventHandler(this.ckbASK_CheckPage_CheckedChanged);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(374, 288);
+            this.ClientSize = new System.Drawing.Size(374, 291);
+            this.Controls.Add(this.ckbASK_CheckPage);
             this.Controls.Add(this.ckbSwitchPageStepByStep);
             this.Controls.Add(this.tp_AccPwd);
             this.Name = "Form1";
@@ -1204,6 +1217,7 @@
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.Button btnRefreshVeryfi;
         private System.Windows.Forms.PictureBox pb_VeryfiImage;
+        private System.Windows.Forms.CheckBox ckbASK_CheckPage;
     }
 }
 

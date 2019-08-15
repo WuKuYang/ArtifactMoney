@@ -76,7 +76,9 @@ namespace Tixcraft_Subscriber
         /// 瀏覽器是否忙碌中( 搶票中、載入中...等)
         /// </summary>
         public bool bIsBrowserBusying = false;
-        public bool bIsSwitchPageStepByStep = false; //搶票時，是否進行頁面跳轉的動作(1->3) 或 ( 1 > 2 > 3 )
+        public bool bIsSwitchPageStepByStep = false; //搶票時，是否進行頁面跳轉的動作(1->3) 或 ( 1 > 2 > 3 )  
+        public bool bIsASK_CheckPage = false;       //在新版流程內，使用提早訪問Check功能，看看是否會提早取得票務資訊
+        public bool bIsUseOLDsch = false;           //使用舊版流程 ( 舊版流程 : 不使用封包 )
         string g_SeatInformation = "";
         bool g_IsAutoFlag = false; // 是否上線掛機
         OCRServer myOCRServer = new OCRServer();
@@ -486,12 +488,25 @@ namespace Tixcraft_Subscriber
                         strResult = "沒有選擇票( 張數0 )";
                     }
                     alart.Accept();
+                    //
                     return strResult;
                 }
                 catch (Exception ex)
                 {
                     //VPState.Report(ex, MethodBase.GetCurrentMethod(), VPState.eVPType.Windows);
+                    #region ==Check if url at "order"==   
+                    try
+                    { 
+                        if (SubscrEr.Driver.Url.Contains("order"))
+                        {
+                            return "找不到Alert視窗";
+                        }
+                    }
+                    catch (Exception)
+                    {
 
+                    }
+                    #endregion
                 }
                 Thread.Sleep(iDelayms);
                 iCurrentTime += iDelayms;
@@ -1261,6 +1276,47 @@ namespace Tixcraft_Subscriber
                     else
                     {
                         this.Invoke(degRefreshText, lblVerifyCodeInfo, "驗證碼正確，已提交送出！請確認訂單");
+
+                        long iVisit_ms = 6000;
+                        //---after submit , visit check to get ticket---
+                        if (bIsASK_CheckPage == true)
+                        {
+                            Task.Factory.StartNew(() =>
+                            {
+                                int iCount_Times = 0;
+                                Stopwatch swCheck = new Stopwatch();
+                                swCheck.Restart();
+                                // 訪問Check , 直到封包返回訂票成功訊息
+                                while (swCheck.ElapsedMilliseconds < iVisit_ms)
+                                {
+                                    iCount_Times++;
+                                    string strResponse = Tixcraft.TixcraftWebDriver.GetWebSourceCode("https://tixcraft.com/ticket/check");
+                                    strResponse = Uri.UnescapeDataString(strResponse.Replace("\\\\", "\\"));
+                                    strResponse = UnicodeToString(strResponse);
+
+                                    string strResponse_Message = iCount_Times.ToString() + "," + strResponse;
+
+                                    this.Invoke(degRefreshText, lblVerifyCodeInfo, strResponse_Message);
+                                    if (strResponse.Contains("即將"))
+                                    {
+                                        //如果返回此訊息，代表已完成訂購，主瀏覽器直接跳到結帳頁面
+                                        SubscrEr.GoTo("https://tixcraft.com/ticket/payment");
+                                        string strReportVIP_Msg = string.Format("{0} , {1}", Tixcraft.USER_NAME, strResponse);
+                                        VPState.Report(strReportVIP_Msg, MethodBase.GetCurrentMethod(), VPState.eVPType.Windows);
+                                        break;
+                                    }
+                                    else if (strResponse != "")
+                                    {
+                                        string strReportVIP_Msg = string.Format("{0} , {1}" , Tixcraft.USER_NAME , strResponse );
+                                        VPState.Report(strReportVIP_Msg, MethodBase.GetCurrentMethod(), VPState.eVPType.Windows);
+                                        break;
+                                    }
+                                }
+                                swCheck.Stop();
+                            });
+                        }
+
+
                         bIsKeyInBad = false;
                     }
                     #endregion 
@@ -2031,24 +2087,27 @@ namespace Tixcraft_Subscriber
             AllButtonEnableStatue(true);
         }
 
-        
-        private string UnicodeToString(string srcText)
-        {
-            string dst = "";
-            string src = srcText;
-            int len = srcText.Length / 6;
 
-            for (int i = 0; i <= len - 1; i++)
+        private string UnicodeToString(string str)
+        { 
+            string outStr = "";
+            if (!string.IsNullOrEmpty(str))
             {
-                string str = "";
-                str = src.Substring(0, 6).Substring(2);
-                src = src.Substring(6);
-                byte[] bytes = new byte[2];
-                bytes[1] = byte.Parse(int.Parse(str.Substring(0, 2), System.Globalization.NumberStyles.HexNumber).ToString());
-                bytes[0] = byte.Parse(int.Parse(str.Substring(2, 2), System.Globalization.NumberStyles.HexNumber).ToString());
-                dst += Encoding.Unicode.GetString(bytes);
+                string[] strlist = str.Replace("\\", "").Split('u');
+                try
+                {
+                    for (int i = 1; i < strlist.Length; i++)
+                    {
+                        //將unicode轉為10進制整數，然後轉為char中文
+                        outStr += (char)int.Parse(strlist[i], System.Globalization.NumberStyles.HexNumber);
+                    }
+                }
+                catch (FormatException ex)
+                {
+                    //outStr = ex.Message;
+                }
             }
-            return dst;
+            return outStr;
         } 
         
 
@@ -2193,8 +2252,16 @@ namespace Tixcraft_Subscriber
                     } 
                     UpdateLable("執行開搶", lblLogin);
                     g_bFlagStartBuyStatue = true;
-                    //Test();
-                    Test2019();
+                    if (bIsUseOLDsch == true)
+                    { 
+                        //一般流程
+                        Test();
+                    }
+                    else
+                    {
+                        //封包流程
+                        Test2019();
+                    }
                     UpdateCircleVisiable(circularProgressBar1, false);
                     AllButtonEnableStatue(true);
                     g_bFlagStartBuyStatue = false;
@@ -2938,7 +3005,13 @@ namespace Tixcraft_Subscriber
 
         private void btn_BetaDownloadVeryfiCode_Click(object sender, EventArgs e)
         {
-        } 
+        }
+
+        private void ckbASK_CheckPage_CheckedChanged(object sender, EventArgs e)
+        {
+            bIsASK_CheckPage = ckbASK_CheckPage.Checked;
+        }
+
 
     }
 }

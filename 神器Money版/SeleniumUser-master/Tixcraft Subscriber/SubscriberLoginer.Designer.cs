@@ -115,6 +115,7 @@
             this.btnAutoFillup_AllWindow = new System.Windows.Forms.Button();
             this.lblCreditCard = new System.Windows.Forms.Label();
             this.tabPage9 = new System.Windows.Forms.TabPage();
+            this.btn_AnserTest = new System.Windows.Forms.Button();
             this.rd_PayCreditCard = new System.Windows.Forms.RadioButton();
             this.rd_PayIBON = new System.Windows.Forms.RadioButton();
             this.rd_PayATM = new System.Windows.Forms.RadioButton();
@@ -136,6 +137,7 @@
             this.txtIP = new System.Windows.Forms.TextBox();
             this.btnShareAnswer = new System.Windows.Forms.Button();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
+            this.ckbUSEOLDSch = new System.Windows.Forms.CheckBox();
             this.tpFBEmail.SuspendLayout();
             this.tpShow.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -416,6 +418,7 @@
             // tpShow
             // 
             this.tpShow.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(35)))), ((int)(((byte)(45)))));
+            this.tpShow.Controls.Add(this.ckbUSEOLDSch);
             this.tpShow.Controls.Add(this.ckbProxy);
             this.tpShow.Controls.Add(this.ckbSwitchPageStepByStep);
             this.tpShow.Controls.Add(this.lstShow);
@@ -1093,6 +1096,7 @@
             // tabPage9
             // 
             this.tabPage9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(35)))), ((int)(((byte)(45)))));
+            this.tabPage9.Controls.Add(this.btn_AnserTest);
             this.tabPage9.Controls.Add(this.rd_PayCreditCard);
             this.tabPage9.Controls.Add(this.rd_PayIBON);
             this.tabPage9.Controls.Add(this.rd_PayATM);
@@ -1103,6 +1107,18 @@
             this.tabPage9.Size = new System.Drawing.Size(390, 202);
             this.tabPage9.TabIndex = 9;
             this.tabPage9.Text = "付款方式";
+            // 
+            // btn_AnserTest
+            // 
+            this.btn_AnserTest.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(35)))), ((int)(((byte)(75)))));
+            this.btn_AnserTest.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_AnserTest.Location = new System.Drawing.Point(316, 160);
+            this.btn_AnserTest.Name = "btn_AnserTest";
+            this.btn_AnserTest.Size = new System.Drawing.Size(68, 36);
+            this.btn_AnserTest.TabIndex = 47;
+            this.btn_AnserTest.Text = "Test";
+            this.btn_AnserTest.UseVisualStyleBackColor = false;
+            this.btn_AnserTest.Click += new System.EventHandler(this.btn_AnserTest_Click);
             // 
             // rd_PayCreditCard
             // 
@@ -1241,7 +1257,7 @@
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(98, 29);
             this.label11.TabIndex = 39;
-            this.label11.Text = "ver 7.4";
+            this.label11.Text = "ver 7.5";
             // 
             // lblHDDNumber
             // 
@@ -1356,6 +1372,17 @@
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
             // 
+            // ckbUSEOLDSch
+            // 
+            this.ckbUSEOLDSch.AutoSize = true;
+            this.ckbUSEOLDSch.Location = new System.Drawing.Point(341, 182);
+            this.ckbUSEOLDSch.Name = "ckbUSEOLDSch";
+            this.ckbUSEOLDSch.Size = new System.Drawing.Size(48, 16);
+            this.ckbUSEOLDSch.TabIndex = 50;
+            this.ckbUSEOLDSch.Text = "舊版";
+            this.ckbUSEOLDSch.UseVisualStyleBackColor = true;
+            this.ckbUSEOLDSch.CheckedChanged += new System.EventHandler(this.ckbUSEOLDSch_CheckedChanged);
+            // 
             // SubscriberLoginer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -1367,7 +1394,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "SubscriberLoginer";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "拓元神器(Money) ver_7.4 - 2019.7.31";
+            this.Text = "拓元神器(Money) ver_7.5 - 2019.8.15";
             this.TopMost = true;
             this.Activated += new System.EventHandler(this.SubscriberLoginer_Activated);
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.SubscriberLoginer_FormClosed);
@@ -1514,5 +1541,7 @@
         private System.Windows.Forms.RadioButton rd_PayNone;
         private System.Windows.Forms.Label label26;
         private System.Windows.Forms.TextBox txt_BrowserWidth;
+        private System.Windows.Forms.Button btn_AnserTest;
+        private System.Windows.Forms.CheckBox ckbUSEOLDSch;
     }
 }

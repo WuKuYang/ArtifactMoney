@@ -1208,7 +1208,7 @@ namespace Tixcraft_Subscriber
         {
             g_bIsMountProxy = ckbProxy.Checked;
             ckbUSEOLDSch.Checked = ckbProxy.Checked;
-            //ckbUSEOLDSch.Enabled = !(ckbProxy.Checked);
+            ckbUSEOLDSch.Enabled = !(ckbProxy.Checked);
         }
 
         private void rd_Answer01_CheckedChanged(object sender, EventArgs e)

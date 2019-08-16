@@ -28,5 +28,11 @@ namespace SQLTest
         public string CookiePkg = "";
         public string mDateTime = "";
     }
+    public class ProxyStruct
+    { 
+        public string ProxyIP = "";
+        public string Region = "";
+        public string mDateTime = "";
+    }
 
 }

@@ -52,8 +52,10 @@ namespace Tixcraft_Subscriber
         public List<TixcraftSubscriber.Activity> g_AllShow = new List<TixcraftSubscriber.Activity>();
         public int g_iSelectShowIndex = -1;
 
-        //聊天室
+        //GoogleCloud雲端資料表
         List<string> g_PixelPinAddress = new List<string>();
+        //GoogleCloud Proxy LIst表
+        List<string> g_ProxyLists = new List<string>();
 
         private delegate void udRefreshText(Control ctr, string msg);
         private udRefreshText degRefreshText; 
@@ -139,12 +141,15 @@ namespace Tixcraft_Subscriber
             }
             //TransferPixelPin();
             //ReadPixelPinUsers("add.txt");
-            ReadPixelPinUsersBySQL();
+            //讀取雲端資料表
+            ReadGoogleCloudUsersBySQL();
+            //讀取Proxy資料表
+            ReaProxyBySQL();
             this.TopMost = false;
         }
 
 
-        public void UpdateToSQL_PixelPinAccounts()
+        public void UpdateToSQL_GoogleCloudAccounts()
         {
             if (VIPGeneral.Window.VPMessageBox.ShowQuestion("從檔案載入表格，分割後將上傳 ?") == true)
             {
@@ -168,7 +173,7 @@ namespace Tixcraft_Subscriber
                 pdb.Close();
             }
         }
-        public void ReadPixelPinUsersBySQL( )
+        public void ReadGoogleCloudUsersBySQL( )
         { 
              List<FBStruct> lstAllUsers = TixcraftSQL.FBAccountDatabase.GetTotalAccount(); 
              List<string> lstResult = new List<string>();
@@ -185,15 +190,62 @@ namespace Tixcraft_Subscriber
                 lstPixelPinAddress.Items.Add(p);
             }
             label9.Text = label9.Text + " 雲端帳號數 : " + lstAllUsers.Count.ToString();
-        }
-
-        public void ReadPixelPinUsers(string strPath)
+        } 
+        public void ReadGoogleCloudUsers(string strPath)
         { 
             g_PixelPinAddress = ReadFileLines(strPath ); 
             lstPixelPinAddress.Items.Clear();
             foreach (string p in g_PixelPinAddress)
             {
                 lstPixelPinAddress.Items.Add(p);
+            }
+        }
+
+
+        public void UpdateToSQL_ProxyLists()
+        {
+            if (VIPGeneral.Window.VPMessageBox.ShowQuestion("從檔案載入表格，分割後將上傳到雲端做Proxy資料表紀錄 ?") == true)
+            {
+                string strUpdateProxy = txtProxyUpdateTable.Text;
+                string[] strMyText = strUpdateProxy.Split('\n');
+                VIPGeneral.Window.VPProgressControl pdb = new VIPGeneral.Window.VPProgressControl();
+                pdb.MaxValue = strMyText.Length;
+                pdb.Start();
+                foreach (string p in strMyText)
+                {
+                    pdb.Text = p;
+                    string[] strProxyData = p.Split('\t');
+                    if (strProxyData.Length == 2)  //格式檢查
+                    {
+                        string sProxyIP = strProxyData[0];
+                        string sRegion = strProxyData[1];
+                        TixcraftSQL.ProxyDatabase.Add(sProxyIP, sRegion, DateTime.Now.ToString());
+                    }
+                    else if (strProxyData.Length == 1)
+                    { 
+                        string sProxyIP = strProxyData[0]; 
+                        TixcraftSQL.ProxyDatabase.Add(sProxyIP, "UnKnowRegion", DateTime.Now.ToString());
+                    }
+                    pdb.Next();
+                }
+                pdb.Close();
+            }
+        }
+        public void ReaProxyBySQL()
+        {
+            List<ProxyStruct> lstProxy = TixcraftSQL.ProxyDatabase.GetProxyList();
+            List<string> lstResult = new List<string>();
+            int icount = 1;
+            foreach (ProxyStruct sProxyInfo in lstProxy)
+            {
+                lstResult.Add(sProxyInfo.ProxyIP + "," + sProxyInfo.Region + "," + sProxyInfo.mDateTime);
+                icount++;
+            }
+            g_ProxyLists = lstResult;
+            lstProxyList.Items.Clear();
+            foreach (string p in g_ProxyLists)
+            {
+                lstProxyList.Items.Add(p);
             }
         }
 
@@ -276,7 +328,7 @@ namespace Tixcraft_Subscriber
         private void btnOpenBrowsers_Click(object sender, EventArgs e)
         {
             lstFrms.Clear();
-            bool bIsOpenBrowserWithGoogleChrome = chkBGoogleChrome.Checked;
+            bool bIsOpenBrowserWithGoogleChrome = true; // true = GoogleBrowser , false =  PromJ Browse
             bool bIsRandSeats = ckRandSeats.Checked;
             if (lstShow.SelectedIndex < 0)
             {
@@ -292,13 +344,35 @@ namespace Tixcraft_Subscriber
 
             //打驗證碼的倍率
             string strOCRServerIpAddress = txtIP.Text;
+            int iSelectProxyIndex = -1;
+            iSelectProxyIndex = lstProxyList.SelectedIndex;
             Task t = Task.Factory.StartNew(()=> 
             {
                 Parallel.For(0, USERData.USER_Infor.Count, (i) =>
                 {
                     Form1 frm = new Form1();
                     frm.bIsOpenWithGoogleChrome = bIsOpenBrowserWithGoogleChrome;
-                    frm.bIsMountProxy = g_bIsMountProxy;
+
+                    // Proxy 相關設定
+                    if (g_bIsMountProxy == true)
+                    {
+                        if (g_ProxyLists.Count > 0)
+                        {
+
+                            if (iSelectProxyIndex == -1) iSelectProxyIndex = 0;
+                            string[] sp = g_ProxyLists[iSelectProxyIndex].Split(',');
+                            if (sp.Length == 3)
+                            {
+                                frm.g_strProxyInfo = sp[0];   //選資料表上第一筆proxy資訊當作代理 , 設定Proxy IP
+                            }
+                        }
+                        else 
+                        {
+                             frm.g_strProxyInfo = "proxy.hinet.net:80";
+                        }
+                        // 啟動 Proxy 開關
+                        frm.bIsMountProxy = g_bIsMountProxy;
+                    }
 
                     string[] strSp = USERData.USER_Infor[i].Address.Split(',');
                     if (strSp.Length >= 2)
@@ -1122,7 +1196,7 @@ namespace Tixcraft_Subscriber
 
         private void btnUpDatePixelPinAccount_Click_1(object sender, EventArgs e)
         { 
-            UpdateToSQL_PixelPinAccounts();
+            UpdateToSQL_GoogleCloudAccounts();
         }
 
         private void chkBGoogleChrome_CheckedChanged(object sender, EventArgs e)
@@ -1133,6 +1207,8 @@ namespace Tixcraft_Subscriber
         private void ckbProxy_CheckedChanged(object sender, EventArgs e)
         {
             g_bIsMountProxy = ckbProxy.Checked;
+            ckbUSEOLDSch.Checked = ckbProxy.Checked;
+            ckbUSEOLDSch.Enabled = !(ckbProxy.Checked);
         }
 
         private void rd_Answer01_CheckedChanged(object sender, EventArgs e)
@@ -1274,6 +1350,21 @@ namespace Tixcraft_Subscriber
         private void ckbUSEOLDSch_CheckedChanged(object sender, EventArgs e)
         {
             g_bIsUseOldSch = ckbUSEOLDSch.Checked;
+        }
+
+        private void btnUpdateProxyTable_Click(object sender, EventArgs e)
+        {
+            UpdateToSQL_ProxyLists(); 
+            ReaProxyBySQL();
+        }
+
+        private void btnClearProxyList_Click(object sender, EventArgs e)
+        {
+            if (VIPGeneral.Window.VPMessageBox.ShowQuestion("確定要清空所有 Proxy IP ? ?") == true)
+            {
+                TixcraftSQL.ProxyDatabase.Clear("54088");
+                ReaProxyBySQL();
+            }
         }
 
     }

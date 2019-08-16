@@ -62,3 +62,19 @@ select * from MyTix;
 Describe 資料表
 
 
+//2019-08-16 proxy資料庫處理
+//新增資料表
+create table ProxyInfo( sProxy char(50), sRegion text ,sTime char(50) );
+
+//資料新增
+INSERT INTO ProxyInfo (sProxy,sRegion,sTime) VALUES('127.0.0.1:888','TW' ,'123');
+
+//查詢全部 
+SELECT * FROM ProxyInfo WHERE true;
+
+//刪除全部
+delete from ProxyInfo where true;
+
+delete from ProxyInfo where sProxy='127.0.0.1:888';
+
+

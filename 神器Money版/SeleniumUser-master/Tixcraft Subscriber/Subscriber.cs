@@ -45,6 +45,8 @@ namespace Tixcraft_Subscriber
         public List<TixcraftSubscriber.Activity> allactivity = new List<TixcraftSubscriber.Activity>();   //記錄所有節目資訊
         public List<TixcraftSubscriber.Activity> buyNowActivity = new List<TixcraftSubscriber.Activity>();   //記錄兩顆按鈕(立即訂購)
 
+        public string ProxyIP = "proxy.hinet.net:80";
+
         public void GoToShowActivity(int index)
         {
             if (allactivity.Count > 0 && index < allactivity.Count)
@@ -146,11 +148,11 @@ namespace Tixcraft_Subscriber
 
                 if (bIsMountProxy)
                 {
-                    Proxy proxy = new Proxy();
-
-                    proxy.HttpProxy = string.Format("proxy.hinet.net:80"); // Taiwan
-                    //proxy.HttpProxy = string.Format("104.129.202.48:8080"); // US
-                    options.AddAdditionalCapability("proxy", proxy);
+                    Proxy proxy = new Proxy(); 
+                    proxy.Kind = ProxyKind.Manual;
+                    proxy.IsAutoDetect = false;
+                    proxy.HttpProxy = proxy.SslProxy  = ProxyIP; // Taiwan  
+                    options.AddAdditionalCapability(CapabilityType.Proxy, proxy);
                 }
 
                 options.AddAdditionalCapability("profile.default_content_settings", 2);

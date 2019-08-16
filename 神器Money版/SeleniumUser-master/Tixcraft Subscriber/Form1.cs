@@ -58,7 +58,7 @@ namespace Tixcraft_Subscriber
         }
         string g_OtherAnswerByWindow = "";
         public string OCRRecipe_IP_Address = "127.0.0.1";
-
+        public string g_strProxyInfo = "proxy.hinet.net:80";
         TixcraftSQLServer g_ShareAnswerServer = new TixcraftSQLServer();
         TixcraftCookieServer g_CookieServer = new TixcraftCookieServer();
         //20190729 add 
@@ -627,6 +627,8 @@ namespace Tixcraft_Subscriber
             degRefreshBox = RefreshListBox;
             degControlEnable = ControlEnable;
             //開啟主要瀏覽器
+
+            SubscrEr.ProxyIP = this.g_strProxyInfo; //Proxy IP Setting
             SubscrEr.OpenBrowser(bIsOpenWithGoogleChrome, bIsMountProxy);
 
 
@@ -3010,6 +3012,12 @@ namespace Tixcraft_Subscriber
         private void ckbASK_CheckPage_CheckedChanged(object sender, EventArgs e)
         {
             bIsASK_CheckPage = ckbASK_CheckPage.Checked;
+        }
+
+        private void btnShowIP_Click(object sender, EventArgs e)
+        {
+            SubscrEr.GoTo("https://showip.net/");
+            lblProxyText.Text = this.g_strProxyInfo;
         }
 
 

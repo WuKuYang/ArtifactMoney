@@ -117,6 +117,9 @@
             this.btn_CookieTests = new System.Windows.Forms.Button();
             this.ckbSwitchPageStepByStep = new System.Windows.Forms.CheckBox();
             this.ckbASK_CheckPage = new System.Windows.Forms.CheckBox();
+            this.btnShowIP = new System.Windows.Forms.Button();
+            this.label20 = new System.Windows.Forms.Label();
+            this.lblProxyText = new System.Windows.Forms.Label();
             this.tp_AccPwd.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pb_VeryfiImage)).BeginInit();
@@ -724,6 +727,9 @@
             // 
             // tabPage4
             // 
+            this.tabPage4.Controls.Add(this.lblProxyText);
+            this.tabPage4.Controls.Add(this.label20);
+            this.tabPage4.Controls.Add(this.btnShowIP);
             this.tabPage4.Controls.Add(this.groupBox1);
             this.tabPage4.Location = new System.Drawing.Point(4, 22);
             this.tabPage4.Name = "tabPage4";
@@ -1081,6 +1087,34 @@
             this.ckbASK_CheckPage.UseVisualStyleBackColor = true;
             this.ckbASK_CheckPage.CheckedChanged += new System.EventHandler(this.ckbASK_CheckPage_CheckedChanged);
             // 
+            // btnShowIP
+            // 
+            this.btnShowIP.Location = new System.Drawing.Point(6, 112);
+            this.btnShowIP.Name = "btnShowIP";
+            this.btnShowIP.Size = new System.Drawing.Size(75, 23);
+            this.btnShowIP.TabIndex = 3;
+            this.btnShowIP.Text = "查詢IP";
+            this.btnShowIP.UseVisualStyleBackColor = true;
+            this.btnShowIP.Click += new System.EventHandler(this.btnShowIP_Click);
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Location = new System.Drawing.Point(102, 117);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(45, 12);
+            this.label20.TabIndex = 4;
+            this.label20.Text = "Proxy = ";
+            // 
+            // lblProxyText
+            // 
+            this.lblProxyText.AutoSize = true;
+            this.lblProxyText.Location = new System.Drawing.Point(153, 117);
+            this.lblProxyText.Name = "lblProxyText";
+            this.lblProxyText.Size = new System.Drawing.Size(24, 12);
+            this.lblProxyText.TabIndex = 5;
+            this.lblProxyText.Text = "msg";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -1112,6 +1146,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pbChar2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbChar0)).EndInit();
             this.tabPage4.ResumeLayout(false);
+            this.tabPage4.PerformLayout();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.tabPage5.ResumeLayout(false);
@@ -1218,6 +1253,9 @@
         private System.Windows.Forms.Button btnRefreshVeryfi;
         private System.Windows.Forms.PictureBox pb_VeryfiImage;
         private System.Windows.Forms.CheckBox ckbASK_CheckPage;
+        private System.Windows.Forms.Button btnShowIP;
+        private System.Windows.Forms.Label lblProxyText;
+        private System.Windows.Forms.Label label20;
     }
 }
 

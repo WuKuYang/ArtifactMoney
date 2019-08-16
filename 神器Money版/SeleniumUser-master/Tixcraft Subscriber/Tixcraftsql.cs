@@ -538,6 +538,65 @@ namespace SQLTest
                 return lstCookieTmp;
             }
         }
+
+
+        public class ProxyDatabase
+        {
+            private static string AnsTable = "ProxyInfo";
+            public static void Add(string sProxy, string sRegion , string mDateTime)
+            {
+                String cmdText = string.Format("INSERT INTO {0} (sProxy,sRegion,sTime) VALUES('{1}','{2}','{3}')", AnsTable, sProxy, sRegion ,  mDateTime );
+                //製作指令
+                Server.cmd = new MySqlCommand(cmdText, Server.conn);
+                Server.cmd.ExecuteNonQuery();
+            }
+            public static void Del(string sProxy)
+            {
+                String cmdText = string.Format("delete from {0} where sProxy='{1}'", AnsTable, sProxy);
+                //製作指令
+                Server.cmd = new MySqlCommand(cmdText, Server.conn);
+                Server.cmd.ExecuteNonQuery();
+            }
+            public static void Clear(string Passwd)
+            {
+                if (Passwd == "54088")
+                {
+                    String cmdText = string.Format("delete from {0} where true", AnsTable);
+                    //製作指令
+                    Server.cmd = new MySqlCommand(cmdText, Server.conn);
+                    Server.cmd.ExecuteNonQuery();
+                }
+            }
+            public static List<ProxyStruct> GetProxyList()
+            {
+                String cmdText = string.Format("SELECT * FROM {0}", AnsTable);
+                //製作指令
+                Server.cmd = new MySqlCommand(cmdText, Server.conn);
+                //使用reader進行讀取 ( 只能一次!! )
+                MySqlDataReader reader = Server.cmd.ExecuteReader(); //execure the reader
+                List<ProxyStruct> lstAnswers = new List<ProxyStruct>();
+                while (reader.Read())
+                {
+                    string[] strField = new string[reader.FieldCount];
+                    for (int i = 0; i < reader.FieldCount; i++)
+                    {
+                        String s = reader.GetString(i);
+                        strField[i] = s;
+                    }
+                    if (strField.Length == 3)
+                    {
+                        ProxyStruct ProxyPackageTmp = new ProxyStruct();
+                        ProxyPackageTmp.ProxyIP = strField[0];
+                        ProxyPackageTmp.Region = strField[1];
+                        ProxyPackageTmp.mDateTime = strField[2];
+                        lstAnswers.Add(ProxyPackageTmp);
+                    }
+                }
+                reader.Close(); //一定要關掉，只能有一個    
+                return lstAnswers;
+            }
+        } 
+
     }
 
 
@@ -573,7 +632,7 @@ namespace SQLTest
         }
 
         /// <summary>
-        /// 新增物件化連線給Multi Thread使用 ( 避免conn共用即可閃掉崩潰狀態 )
+        /// 下載考試答案 ( DB : ShareAnswer )
         /// </summary>
         /// <returns></returns>
         public string DownLoadTestAnswerFromSQL()
@@ -623,7 +682,7 @@ namespace SQLTest
         }
 
         /// <summary>
-        /// 新增物件化連線給Multi Thread使用 ( 避免conn共用即可閃掉崩潰狀態 )
+        /// 下載考試答案 ( DB : ShareAnswer ) ( 有區分 A & B , 代表周六、周日 )
         /// </summary>
         /// <returns></returns>
         public string DownLoadTestAnswerFromSQL(string indexServer = "AAAAAAAAAA")

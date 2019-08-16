@@ -52,6 +52,7 @@
             this.btnClearAnswers = new System.Windows.Forms.Button();
             this.tpFBEmail = new System.Windows.Forms.TabControl();
             this.tpShow = new System.Windows.Forms.TabPage();
+            this.ckbUSEOLDSch = new System.Windows.Forms.CheckBox();
             this.ckbProxy = new System.Windows.Forms.CheckBox();
             this.ckbSwitchPageStepByStep = new System.Windows.Forms.CheckBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
@@ -127,7 +128,6 @@
             this.rd_Answer01 = new System.Windows.Forms.RadioButton();
             this.label11 = new System.Windows.Forms.Label();
             this.lblHDDNumber = new System.Windows.Forms.Label();
-            this.chkBGoogleChrome = new System.Windows.Forms.CheckBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label8 = new System.Windows.Forms.Label();
             this.btn_ShowLog = new System.Windows.Forms.Button();
@@ -137,7 +137,12 @@
             this.txtIP = new System.Windows.Forms.TextBox();
             this.btnShareAnswer = new System.Windows.Forms.Button();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
-            this.ckbUSEOLDSch = new System.Windows.Forms.CheckBox();
+            this.tabPage10 = new System.Windows.Forms.TabPage();
+            this.lstProxyList = new System.Windows.Forms.ListBox();
+            this.tabPage11 = new System.Windows.Forms.TabPage();
+            this.btnUpdateProxyTable = new System.Windows.Forms.Button();
+            this.txtProxyUpdateTable = new System.Windows.Forms.TextBox();
+            this.btnClearProxyList = new System.Windows.Forms.Button();
             this.tpFBEmail.SuspendLayout();
             this.tpShow.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -154,6 +159,8 @@
             this.tabPage9.SuspendLayout();
             this.pnlControlTable.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.tabPage10.SuspendLayout();
+            this.tabPage11.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnLoadAcc
@@ -430,6 +437,17 @@
             this.tpShow.TabIndex = 0;
             this.tpShow.Text = "節目設定";
             this.tpShow.Click += new System.EventHandler(this.tpShow_Click);
+            // 
+            // ckbUSEOLDSch
+            // 
+            this.ckbUSEOLDSch.AutoSize = true;
+            this.ckbUSEOLDSch.Location = new System.Drawing.Point(341, 182);
+            this.ckbUSEOLDSch.Name = "ckbUSEOLDSch";
+            this.ckbUSEOLDSch.Size = new System.Drawing.Size(48, 16);
+            this.ckbUSEOLDSch.TabIndex = 50;
+            this.ckbUSEOLDSch.Text = "舊版";
+            this.ckbUSEOLDSch.UseVisualStyleBackColor = true;
+            this.ckbUSEOLDSch.CheckedChanged += new System.EventHandler(this.ckbUSEOLDSch_CheckedChanged);
             // 
             // ckbProxy
             // 
@@ -719,6 +737,8 @@
             // 
             this.tabControl1.Controls.Add(this.tabPage6);
             this.tabControl1.Controls.Add(this.tabPage7);
+            this.tabControl1.Controls.Add(this.tabPage10);
+            this.tabControl1.Controls.Add(this.tabPage11);
             this.tabControl1.Location = new System.Drawing.Point(6, 6);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
@@ -797,7 +817,7 @@
             this.tabPage7.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage7.Size = new System.Drawing.Size(370, 164);
             this.tabPage7.TabIndex = 1;
-            this.tabPage7.Text = "上傳工具";
+            this.tabPage7.Text = "雲端表格上傳";
             // 
             // btnUpDatePixelPinAccount
             // 
@@ -1177,7 +1197,6 @@
             this.pnlControlTable.Controls.Add(this.rd_Answer01);
             this.pnlControlTable.Controls.Add(this.label11);
             this.pnlControlTable.Controls.Add(this.lblHDDNumber);
-            this.pnlControlTable.Controls.Add(this.chkBGoogleChrome);
             this.pnlControlTable.Controls.Add(this.pictureBox1);
             this.pnlControlTable.Controls.Add(this.label8);
             this.pnlControlTable.Controls.Add(this.btn_ShowLog);
@@ -1257,7 +1276,7 @@
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(98, 29);
             this.label11.TabIndex = 39;
-            this.label11.Text = "ver 7.5";
+            this.label11.Text = "ver 7.6";
             // 
             // lblHDDNumber
             // 
@@ -1269,20 +1288,6 @@
             this.lblHDDNumber.Size = new System.Drawing.Size(51, 15);
             this.lblHDDNumber.TabIndex = 33;
             this.lblHDDNumber.Text = "硬體序號";
-            // 
-            // chkBGoogleChrome
-            // 
-            this.chkBGoogleChrome.AutoSize = true;
-            this.chkBGoogleChrome.Checked = true;
-            this.chkBGoogleChrome.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.chkBGoogleChrome.Location = new System.Drawing.Point(89, 361);
-            this.chkBGoogleChrome.Name = "chkBGoogleChrome";
-            this.chkBGoogleChrome.Size = new System.Drawing.Size(289, 16);
-            this.chkBGoogleChrome.TabIndex = 42;
-            this.chkBGoogleChrome.Text = "打勾 = 使用Google瀏覽器 不打勾 = 使用幽靈瀏覽器";
-            this.chkBGoogleChrome.UseVisualStyleBackColor = true;
-            this.chkBGoogleChrome.Visible = false;
-            this.chkBGoogleChrome.CheckedChanged += new System.EventHandler(this.chkBGoogleChrome_CheckedChanged);
             // 
             // pictureBox1
             // 
@@ -1372,16 +1377,70 @@
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
             // 
-            // ckbUSEOLDSch
+            // tabPage10
             // 
-            this.ckbUSEOLDSch.AutoSize = true;
-            this.ckbUSEOLDSch.Location = new System.Drawing.Point(341, 182);
-            this.ckbUSEOLDSch.Name = "ckbUSEOLDSch";
-            this.ckbUSEOLDSch.Size = new System.Drawing.Size(48, 16);
-            this.ckbUSEOLDSch.TabIndex = 50;
-            this.ckbUSEOLDSch.Text = "舊版";
-            this.ckbUSEOLDSch.UseVisualStyleBackColor = true;
-            this.ckbUSEOLDSch.CheckedChanged += new System.EventHandler(this.ckbUSEOLDSch_CheckedChanged);
+            this.tabPage10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(35)))), ((int)(((byte)(45)))));
+            this.tabPage10.Controls.Add(this.lstProxyList);
+            this.tabPage10.Location = new System.Drawing.Point(4, 22);
+            this.tabPage10.Name = "tabPage10";
+            this.tabPage10.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage10.Size = new System.Drawing.Size(370, 164);
+            this.tabPage10.TabIndex = 2;
+            this.tabPage10.Text = "Proxy表格";
+            // 
+            // lstProxyList
+            // 
+            this.lstProxyList.FormattingEnabled = true;
+            this.lstProxyList.ItemHeight = 12;
+            this.lstProxyList.Location = new System.Drawing.Point(8, 14);
+            this.lstProxyList.Name = "lstProxyList";
+            this.lstProxyList.Size = new System.Drawing.Size(354, 136);
+            this.lstProxyList.TabIndex = 1;
+            // 
+            // tabPage11
+            // 
+            this.tabPage11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(35)))), ((int)(((byte)(45)))));
+            this.tabPage11.Controls.Add(this.btnClearProxyList);
+            this.tabPage11.Controls.Add(this.btnUpdateProxyTable);
+            this.tabPage11.Controls.Add(this.txtProxyUpdateTable);
+            this.tabPage11.Location = new System.Drawing.Point(4, 22);
+            this.tabPage11.Name = "tabPage11";
+            this.tabPage11.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage11.Size = new System.Drawing.Size(370, 164);
+            this.tabPage11.TabIndex = 3;
+            this.tabPage11.Text = "Proxy上傳";
+            // 
+            // btnUpdateProxyTable
+            // 
+            this.btnUpdateProxyTable.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(35)))), ((int)(((byte)(45)))));
+            this.btnUpdateProxyTable.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnUpdateProxyTable.Location = new System.Drawing.Point(160, 126);
+            this.btnUpdateProxyTable.Name = "btnUpdateProxyTable";
+            this.btnUpdateProxyTable.Size = new System.Drawing.Size(197, 32);
+            this.btnUpdateProxyTable.TabIndex = 45;
+            this.btnUpdateProxyTable.Text = "Proxy上傳(請貼上 2 欄資訊)";
+            this.btnUpdateProxyTable.UseVisualStyleBackColor = false;
+            this.btnUpdateProxyTable.Click += new System.EventHandler(this.btnUpdateProxyTable_Click);
+            // 
+            // txtProxyUpdateTable
+            // 
+            this.txtProxyUpdateTable.Location = new System.Drawing.Point(13, 6);
+            this.txtProxyUpdateTable.Multiline = true;
+            this.txtProxyUpdateTable.Name = "txtProxyUpdateTable";
+            this.txtProxyUpdateTable.Size = new System.Drawing.Size(344, 117);
+            this.txtProxyUpdateTable.TabIndex = 44;
+            // 
+            // btnClearProxyList
+            // 
+            this.btnClearProxyList.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(35)))), ((int)(((byte)(45)))));
+            this.btnClearProxyList.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnClearProxyList.Location = new System.Drawing.Point(13, 126);
+            this.btnClearProxyList.Name = "btnClearProxyList";
+            this.btnClearProxyList.Size = new System.Drawing.Size(61, 32);
+            this.btnClearProxyList.TabIndex = 47;
+            this.btnClearProxyList.Text = "清空";
+            this.btnClearProxyList.UseVisualStyleBackColor = false;
+            this.btnClearProxyList.Click += new System.EventHandler(this.btnClearProxyList_Click);
             // 
             // SubscriberLoginer
             // 
@@ -1394,7 +1453,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "SubscriberLoginer";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "拓元神器(Money) ver_7.5 - 2019.8.15";
+            this.Text = "拓元神器(Money) ver_7.6 - 2019.8.16";
             this.TopMost = true;
             this.Activated += new System.EventHandler(this.SubscriberLoginer_Activated);
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.SubscriberLoginer_FormClosed);
@@ -1427,6 +1486,9 @@
             this.pnlControlTable.ResumeLayout(false);
             this.pnlControlTable.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.tabPage10.ResumeLayout(false);
+            this.tabPage11.ResumeLayout(false);
+            this.tabPage11.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -1516,7 +1578,6 @@
         private System.Windows.Forms.TabPage tabPage7;
         private System.Windows.Forms.Button btnUpDatePixelPinAccount;
         private System.Windows.Forms.TextBox txtPixelPinUpdateTable;
-        private System.Windows.Forms.CheckBox chkBGoogleChrome;
         private System.Windows.Forms.CheckBox ckbProxy;
         private System.Windows.Forms.RadioButton rd_Answer02;
         private System.Windows.Forms.RadioButton rd_Answer01;
@@ -1543,5 +1604,11 @@
         private System.Windows.Forms.TextBox txt_BrowserWidth;
         private System.Windows.Forms.Button btn_AnserTest;
         private System.Windows.Forms.CheckBox ckbUSEOLDSch;
+        private System.Windows.Forms.TabPage tabPage10;
+        private System.Windows.Forms.ListBox lstProxyList;
+        private System.Windows.Forms.TabPage tabPage11;
+        private System.Windows.Forms.Button btnUpdateProxyTable;
+        private System.Windows.Forms.TextBox txtProxyUpdateTable;
+        private System.Windows.Forms.Button btnClearProxyList;
     }
 }

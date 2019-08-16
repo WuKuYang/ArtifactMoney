@@ -24,6 +24,8 @@ namespace Tixcraft_Subscriber
         const string sResponseEncoding = "UTF-8";
         #endregion
 
+        public IWebProxy Proxy = null;
+
         /// <summary>
         /// 網頁原始碼
         /// </summary>
@@ -75,7 +77,7 @@ namespace Tixcraft_Subscriber
                 request.Headers.Set("Pragma", "no-cache");
                 //request.Headers.Add("Accept-Language", "en-US,en;q=0.5");
                 //request.Headers.Add("Accept-Encoding", "gzip");
-                request.Proxy = null;
+                request.Proxy = Proxy;
 
                 //////不建立持久性連結 
                 request.KeepAlive = true;
@@ -108,7 +110,7 @@ namespace Tixcraft_Subscriber
                 request.Headers.Set("Pragma", "no-cache");
                 //request.Headers.Add("Accept-Language", "en-US,en;q=0.5");
                 //request.Headers.Add("Accept-Encoding", "gzip");
-                request.Proxy = null;
+                request.Proxy = this.Proxy;
 
                 //////不建立持久性連結 
                 request.KeepAlive = true;
@@ -176,7 +178,7 @@ namespace Tixcraft_Subscriber
             httpRequest.Method = "POST";
             httpRequest.Accept = "application/json, text/javascript, */*; q=0.01";  //add
             httpRequest.CookieContainer = Session;
-            httpRequest.Proxy = null;
+            httpRequest.Proxy = Proxy;
             httpRequest.Timeout = 3000;
 
             //httpRequest.Method = WebRequestMethods.Http.Post;
@@ -227,9 +229,10 @@ namespace Tixcraft_Subscriber
                 HttpWebRequest lxRequest = (HttpWebRequest)WebRequest.Create(Url);
                 //lxRequest.UserAgent = sUserAgent;
                 //lxRequest.ContentType = sContentType;
-                //lxRequest.Method = "GET";
+                //lxRequest.Method = "GET"; 
+
                 lxRequest.AllowAutoRedirect = false;
-                lxRequest.Proxy = null;
+                lxRequest.Proxy = Proxy;
                 lxRequest.CookieContainer = Session;
                 // returned values are returned as a stream, then read into a string
                 String lsResponse = string.Empty;

@@ -630,7 +630,13 @@ namespace Tixcraft_Subscriber
 
             SubscrEr.ProxyIP = this.g_strProxyInfo; //Proxy IP Setting
             SubscrEr.OpenBrowser(bIsOpenWithGoogleChrome, bIsMountProxy);
+            if (bIsMountProxy)
+            {
+                WebProxy proxyObject = new WebProxy(g_strProxyInfo, false);
+                Tixcraft.TixcraftWebDriver.Proxy = proxyObject;
+            }
 
+            
 
             //add gmail information 到資訊上
             

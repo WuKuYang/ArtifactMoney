@@ -87,6 +87,12 @@
             this.tabPage7 = new System.Windows.Forms.TabPage();
             this.btnUpDatePixelPinAccount = new System.Windows.Forms.Button();
             this.txtPixelPinUpdateTable = new System.Windows.Forms.TextBox();
+            this.tabPage10 = new System.Windows.Forms.TabPage();
+            this.lstProxyList = new System.Windows.Forms.ListBox();
+            this.tabPage11 = new System.Windows.Forms.TabPage();
+            this.btnClearProxyList = new System.Windows.Forms.Button();
+            this.btnUpdateProxyTable = new System.Windows.Forms.Button();
+            this.txtProxyUpdateTable = new System.Windows.Forms.TextBox();
             this.tabPage5 = new System.Windows.Forms.TabPage();
             this.tabControl2 = new System.Windows.Forms.TabControl();
             this.tabPage4 = new System.Windows.Forms.TabPage();
@@ -137,12 +143,6 @@
             this.txtIP = new System.Windows.Forms.TextBox();
             this.btnShareAnswer = new System.Windows.Forms.Button();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
-            this.tabPage10 = new System.Windows.Forms.TabPage();
-            this.lstProxyList = new System.Windows.Forms.ListBox();
-            this.tabPage11 = new System.Windows.Forms.TabPage();
-            this.btnUpdateProxyTable = new System.Windows.Forms.Button();
-            this.txtProxyUpdateTable = new System.Windows.Forms.TextBox();
-            this.btnClearProxyList = new System.Windows.Forms.Button();
             this.tpFBEmail.SuspendLayout();
             this.tpShow.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -152,6 +152,8 @@
             this.tabControl1.SuspendLayout();
             this.tabPage6.SuspendLayout();
             this.tabPage7.SuspendLayout();
+            this.tabPage10.SuspendLayout();
+            this.tabPage11.SuspendLayout();
             this.tabPage5.SuspendLayout();
             this.tabControl2.SuspendLayout();
             this.tabPage4.SuspendLayout();
@@ -159,8 +161,6 @@
             this.tabPage9.SuspendLayout();
             this.pnlControlTable.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.tabPage10.SuspendLayout();
-            this.tabPage11.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnLoadAcc
@@ -839,6 +839,71 @@
             this.txtPixelPinUpdateTable.Size = new System.Drawing.Size(344, 117);
             this.txtPixelPinUpdateTable.TabIndex = 41;
             // 
+            // tabPage10
+            // 
+            this.tabPage10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(35)))), ((int)(((byte)(45)))));
+            this.tabPage10.Controls.Add(this.lstProxyList);
+            this.tabPage10.Location = new System.Drawing.Point(4, 22);
+            this.tabPage10.Name = "tabPage10";
+            this.tabPage10.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage10.Size = new System.Drawing.Size(370, 164);
+            this.tabPage10.TabIndex = 2;
+            this.tabPage10.Text = "Proxy表格";
+            // 
+            // lstProxyList
+            // 
+            this.lstProxyList.FormattingEnabled = true;
+            this.lstProxyList.ItemHeight = 12;
+            this.lstProxyList.Location = new System.Drawing.Point(8, 14);
+            this.lstProxyList.Name = "lstProxyList";
+            this.lstProxyList.Size = new System.Drawing.Size(354, 136);
+            this.lstProxyList.TabIndex = 1;
+            // 
+            // tabPage11
+            // 
+            this.tabPage11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(35)))), ((int)(((byte)(45)))));
+            this.tabPage11.Controls.Add(this.btnClearProxyList);
+            this.tabPage11.Controls.Add(this.btnUpdateProxyTable);
+            this.tabPage11.Controls.Add(this.txtProxyUpdateTable);
+            this.tabPage11.Location = new System.Drawing.Point(4, 22);
+            this.tabPage11.Name = "tabPage11";
+            this.tabPage11.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage11.Size = new System.Drawing.Size(370, 164);
+            this.tabPage11.TabIndex = 3;
+            this.tabPage11.Text = "Proxy上傳";
+            // 
+            // btnClearProxyList
+            // 
+            this.btnClearProxyList.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(35)))), ((int)(((byte)(45)))));
+            this.btnClearProxyList.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnClearProxyList.Location = new System.Drawing.Point(13, 126);
+            this.btnClearProxyList.Name = "btnClearProxyList";
+            this.btnClearProxyList.Size = new System.Drawing.Size(61, 32);
+            this.btnClearProxyList.TabIndex = 47;
+            this.btnClearProxyList.Text = "清空";
+            this.btnClearProxyList.UseVisualStyleBackColor = false;
+            this.btnClearProxyList.Click += new System.EventHandler(this.btnClearProxyList_Click);
+            // 
+            // btnUpdateProxyTable
+            // 
+            this.btnUpdateProxyTable.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(35)))), ((int)(((byte)(45)))));
+            this.btnUpdateProxyTable.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnUpdateProxyTable.Location = new System.Drawing.Point(160, 126);
+            this.btnUpdateProxyTable.Name = "btnUpdateProxyTable";
+            this.btnUpdateProxyTable.Size = new System.Drawing.Size(197, 32);
+            this.btnUpdateProxyTable.TabIndex = 45;
+            this.btnUpdateProxyTable.Text = "Proxy上傳(請貼上 2 欄資訊)";
+            this.btnUpdateProxyTable.UseVisualStyleBackColor = false;
+            this.btnUpdateProxyTable.Click += new System.EventHandler(this.btnUpdateProxyTable_Click);
+            // 
+            // txtProxyUpdateTable
+            // 
+            this.txtProxyUpdateTable.Location = new System.Drawing.Point(13, 6);
+            this.txtProxyUpdateTable.Multiline = true;
+            this.txtProxyUpdateTable.Name = "txtProxyUpdateTable";
+            this.txtProxyUpdateTable.Size = new System.Drawing.Size(344, 117);
+            this.txtProxyUpdateTable.TabIndex = 44;
+            // 
             // tabPage5
             // 
             this.tabPage5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(35)))), ((int)(((byte)(45)))));
@@ -1276,7 +1341,7 @@
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(98, 29);
             this.label11.TabIndex = 39;
-            this.label11.Text = "ver 7.6";
+            this.label11.Text = "ver 7.7";
             // 
             // lblHDDNumber
             // 
@@ -1377,71 +1442,6 @@
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
             // 
-            // tabPage10
-            // 
-            this.tabPage10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(35)))), ((int)(((byte)(45)))));
-            this.tabPage10.Controls.Add(this.lstProxyList);
-            this.tabPage10.Location = new System.Drawing.Point(4, 22);
-            this.tabPage10.Name = "tabPage10";
-            this.tabPage10.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage10.Size = new System.Drawing.Size(370, 164);
-            this.tabPage10.TabIndex = 2;
-            this.tabPage10.Text = "Proxy表格";
-            // 
-            // lstProxyList
-            // 
-            this.lstProxyList.FormattingEnabled = true;
-            this.lstProxyList.ItemHeight = 12;
-            this.lstProxyList.Location = new System.Drawing.Point(8, 14);
-            this.lstProxyList.Name = "lstProxyList";
-            this.lstProxyList.Size = new System.Drawing.Size(354, 136);
-            this.lstProxyList.TabIndex = 1;
-            // 
-            // tabPage11
-            // 
-            this.tabPage11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(35)))), ((int)(((byte)(45)))));
-            this.tabPage11.Controls.Add(this.btnClearProxyList);
-            this.tabPage11.Controls.Add(this.btnUpdateProxyTable);
-            this.tabPage11.Controls.Add(this.txtProxyUpdateTable);
-            this.tabPage11.Location = new System.Drawing.Point(4, 22);
-            this.tabPage11.Name = "tabPage11";
-            this.tabPage11.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage11.Size = new System.Drawing.Size(370, 164);
-            this.tabPage11.TabIndex = 3;
-            this.tabPage11.Text = "Proxy上傳";
-            // 
-            // btnUpdateProxyTable
-            // 
-            this.btnUpdateProxyTable.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(35)))), ((int)(((byte)(45)))));
-            this.btnUpdateProxyTable.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnUpdateProxyTable.Location = new System.Drawing.Point(160, 126);
-            this.btnUpdateProxyTable.Name = "btnUpdateProxyTable";
-            this.btnUpdateProxyTable.Size = new System.Drawing.Size(197, 32);
-            this.btnUpdateProxyTable.TabIndex = 45;
-            this.btnUpdateProxyTable.Text = "Proxy上傳(請貼上 2 欄資訊)";
-            this.btnUpdateProxyTable.UseVisualStyleBackColor = false;
-            this.btnUpdateProxyTable.Click += new System.EventHandler(this.btnUpdateProxyTable_Click);
-            // 
-            // txtProxyUpdateTable
-            // 
-            this.txtProxyUpdateTable.Location = new System.Drawing.Point(13, 6);
-            this.txtProxyUpdateTable.Multiline = true;
-            this.txtProxyUpdateTable.Name = "txtProxyUpdateTable";
-            this.txtProxyUpdateTable.Size = new System.Drawing.Size(344, 117);
-            this.txtProxyUpdateTable.TabIndex = 44;
-            // 
-            // btnClearProxyList
-            // 
-            this.btnClearProxyList.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(35)))), ((int)(((byte)(45)))));
-            this.btnClearProxyList.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnClearProxyList.Location = new System.Drawing.Point(13, 126);
-            this.btnClearProxyList.Name = "btnClearProxyList";
-            this.btnClearProxyList.Size = new System.Drawing.Size(61, 32);
-            this.btnClearProxyList.TabIndex = 47;
-            this.btnClearProxyList.Text = "清空";
-            this.btnClearProxyList.UseVisualStyleBackColor = false;
-            this.btnClearProxyList.Click += new System.EventHandler(this.btnClearProxyList_Click);
-            // 
             // SubscriberLoginer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -1453,7 +1453,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "SubscriberLoginer";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "拓元神器(Money) ver_7.6 - 2019.8.16";
+            this.Text = "拓元神器(Money) ver_7.7 - 2019.9.4";
             this.TopMost = true;
             this.Activated += new System.EventHandler(this.SubscriberLoginer_Activated);
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.SubscriberLoginer_FormClosed);
@@ -1474,6 +1474,9 @@
             this.tabPage6.PerformLayout();
             this.tabPage7.ResumeLayout(false);
             this.tabPage7.PerformLayout();
+            this.tabPage10.ResumeLayout(false);
+            this.tabPage11.ResumeLayout(false);
+            this.tabPage11.PerformLayout();
             this.tabPage5.ResumeLayout(false);
             this.tabPage5.PerformLayout();
             this.tabControl2.ResumeLayout(false);
@@ -1486,9 +1489,6 @@
             this.pnlControlTable.ResumeLayout(false);
             this.pnlControlTable.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.tabPage10.ResumeLayout(false);
-            this.tabPage11.ResumeLayout(false);
-            this.tabPage11.PerformLayout();
             this.ResumeLayout(false);
 
         }

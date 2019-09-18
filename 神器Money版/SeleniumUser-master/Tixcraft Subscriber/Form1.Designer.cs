@@ -82,6 +82,13 @@
             this.pbChar2 = new System.Windows.Forms.PictureBox();
             this.pbChar0 = new System.Windows.Forms.PictureBox();
             this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.label21 = new System.Windows.Forms.Label();
+            this.txt_TimeDelayRun_AutoAI = new System.Windows.Forms.TextBox();
+            this.lblProxyText = new System.Windows.Forms.Label();
+            this.ckbSwitchPageStepByStep = new System.Windows.Forms.CheckBox();
+            this.label20 = new System.Windows.Forms.Label();
+            this.btnShowIP = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label13 = new System.Windows.Forms.Label();
             this.textBox3 = new System.Windows.Forms.TextBox();
@@ -115,11 +122,8 @@
             this.btn_BetaSubmit = new System.Windows.Forms.Button();
             this.pb_cookie_pb = new System.Windows.Forms.PictureBox();
             this.btn_CookieTests = new System.Windows.Forms.Button();
-            this.ckbSwitchPageStepByStep = new System.Windows.Forms.CheckBox();
             this.ckbASK_CheckPage = new System.Windows.Forms.CheckBox();
-            this.btnShowIP = new System.Windows.Forms.Button();
-            this.label20 = new System.Windows.Forms.Label();
-            this.lblProxyText = new System.Windows.Forms.Label();
+            this.chk_TimerDelayAutoAI = new System.Windows.Forms.CheckBox();
             this.tp_AccPwd.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pb_VeryfiImage)).BeginInit();
@@ -136,6 +140,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pbChar2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbChar0)).BeginInit();
             this.tabPage4.SuspendLayout();
+            this.groupBox3.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.tabPage5.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -727,7 +732,9 @@
             // 
             // tabPage4
             // 
+            this.tabPage4.Controls.Add(this.groupBox3);
             this.tabPage4.Controls.Add(this.lblProxyText);
+            this.tabPage4.Controls.Add(this.ckbSwitchPageStepByStep);
             this.tabPage4.Controls.Add(this.label20);
             this.tabPage4.Controls.Add(this.btnShowIP);
             this.tabPage4.Controls.Add(this.groupBox1);
@@ -738,6 +745,73 @@
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "設置";
             this.tabPage4.UseVisualStyleBackColor = true;
+            // 
+            // groupBox3
+            // 
+            this.groupBox3.Controls.Add(this.label21);
+            this.groupBox3.Controls.Add(this.txt_TimeDelayRun_AutoAI);
+            this.groupBox3.Location = new System.Drawing.Point(6, 142);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(192, 61);
+            this.groupBox3.TabIndex = 48;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "開賣後智能延遲";
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Location = new System.Drawing.Point(60, 27);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(116, 12);
+            this.label21.TabIndex = 4;
+            this.label21.Text = "毫秒 才允許打驗證碼";
+            // 
+            // txt_TimeDelayRun_AutoAI
+            // 
+            this.txt_TimeDelayRun_AutoAI.Location = new System.Drawing.Point(17, 21);
+            this.txt_TimeDelayRun_AutoAI.Name = "txt_TimeDelayRun_AutoAI";
+            this.txt_TimeDelayRun_AutoAI.Size = new System.Drawing.Size(37, 22);
+            this.txt_TimeDelayRun_AutoAI.TabIndex = 3;
+            this.txt_TimeDelayRun_AutoAI.Text = "800";
+            // 
+            // lblProxyText
+            // 
+            this.lblProxyText.AutoSize = true;
+            this.lblProxyText.Location = new System.Drawing.Point(153, 117);
+            this.lblProxyText.Name = "lblProxyText";
+            this.lblProxyText.Size = new System.Drawing.Size(24, 12);
+            this.lblProxyText.TabIndex = 5;
+            this.lblProxyText.Text = "msg";
+            // 
+            // ckbSwitchPageStepByStep
+            // 
+            this.ckbSwitchPageStepByStep.AutoSize = true;
+            this.ckbSwitchPageStepByStep.Location = new System.Drawing.Point(3, 209);
+            this.ckbSwitchPageStepByStep.Name = "ckbSwitchPageStepByStep";
+            this.ckbSwitchPageStepByStep.Size = new System.Drawing.Size(242, 16);
+            this.ckbSwitchPageStepByStep.TabIndex = 47;
+            this.ckbSwitchPageStepByStep.Text = "搶票時依照順序1-2-3載入(若無則直接1-3)";
+            this.ckbSwitchPageStepByStep.UseVisualStyleBackColor = true;
+            this.ckbSwitchPageStepByStep.CheckedChanged += new System.EventHandler(this.ckbSwitchPageStepByStep_CheckedChanged);
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Location = new System.Drawing.Point(102, 117);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(45, 12);
+            this.label20.TabIndex = 4;
+            this.label20.Text = "Proxy = ";
+            // 
+            // btnShowIP
+            // 
+            this.btnShowIP.Location = new System.Drawing.Point(6, 112);
+            this.btnShowIP.Name = "btnShowIP";
+            this.btnShowIP.Size = new System.Drawing.Size(75, 23);
+            this.btnShowIP.TabIndex = 3;
+            this.btnShowIP.Text = "查詢IP";
+            this.btnShowIP.UseVisualStyleBackColor = true;
+            this.btnShowIP.Click += new System.EventHandler(this.btnShowIP_Click);
             // 
             // groupBox1
             // 
@@ -755,7 +829,7 @@
             this.groupBox1.Size = new System.Drawing.Size(339, 100);
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "打完驗證碼後延遲";
+            this.groupBox1.Text = "每一次打完驗證碼後延遲";
             // 
             // label13
             // 
@@ -1065,17 +1139,6 @@
             this.btn_CookieTests.UseVisualStyleBackColor = true;
             this.btn_CookieTests.Click += new System.EventHandler(this.btn_CookieTests_Click);
             // 
-            // ckbSwitchPageStepByStep
-            // 
-            this.ckbSwitchPageStepByStep.AutoSize = true;
-            this.ckbSwitchPageStepByStep.Location = new System.Drawing.Point(9, 270);
-            this.ckbSwitchPageStepByStep.Name = "ckbSwitchPageStepByStep";
-            this.ckbSwitchPageStepByStep.Size = new System.Drawing.Size(242, 16);
-            this.ckbSwitchPageStepByStep.TabIndex = 47;
-            this.ckbSwitchPageStepByStep.Text = "搶票時依照順序1-2-3載入(若無則直接1-3)";
-            this.ckbSwitchPageStepByStep.UseVisualStyleBackColor = true;
-            this.ckbSwitchPageStepByStep.CheckedChanged += new System.EventHandler(this.ckbSwitchPageStepByStep_CheckedChanged);
-            // 
             // ckbASK_CheckPage
             // 
             this.ckbASK_CheckPage.AutoSize = true;
@@ -1087,41 +1150,24 @@
             this.ckbASK_CheckPage.UseVisualStyleBackColor = true;
             this.ckbASK_CheckPage.CheckedChanged += new System.EventHandler(this.ckbASK_CheckPage_CheckedChanged);
             // 
-            // btnShowIP
+            // chk_TimerDelayAutoAI
             // 
-            this.btnShowIP.Location = new System.Drawing.Point(6, 112);
-            this.btnShowIP.Name = "btnShowIP";
-            this.btnShowIP.Size = new System.Drawing.Size(75, 23);
-            this.btnShowIP.TabIndex = 3;
-            this.btnShowIP.Text = "查詢IP";
-            this.btnShowIP.UseVisualStyleBackColor = true;
-            this.btnShowIP.Click += new System.EventHandler(this.btnShowIP_Click);
-            // 
-            // label20
-            // 
-            this.label20.AutoSize = true;
-            this.label20.Location = new System.Drawing.Point(102, 117);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(45, 12);
-            this.label20.TabIndex = 4;
-            this.label20.Text = "Proxy = ";
-            // 
-            // lblProxyText
-            // 
-            this.lblProxyText.AutoSize = true;
-            this.lblProxyText.Location = new System.Drawing.Point(153, 117);
-            this.lblProxyText.Name = "lblProxyText";
-            this.lblProxyText.Size = new System.Drawing.Size(24, 12);
-            this.lblProxyText.TabIndex = 5;
-            this.lblProxyText.Text = "msg";
+            this.chk_TimerDelayAutoAI.AutoSize = true;
+            this.chk_TimerDelayAutoAI.Location = new System.Drawing.Point(12, 269);
+            this.chk_TimerDelayAutoAI.Name = "chk_TimerDelayAutoAI";
+            this.chk_TimerDelayAutoAI.Size = new System.Drawing.Size(220, 16);
+            this.chk_TimerDelayAutoAI.TabIndex = 49;
+            this.chk_TimerDelayAutoAI.Text = "開啟智能延遲(開賣後等N秒才送驗證)";
+            this.chk_TimerDelayAutoAI.UseVisualStyleBackColor = true;
+            this.chk_TimerDelayAutoAI.CheckedChanged += new System.EventHandler(this.chk_TimerDelayAutoAI_CheckedChanged);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(374, 291);
+            this.Controls.Add(this.chk_TimerDelayAutoAI);
             this.Controls.Add(this.ckbASK_CheckPage);
-            this.Controls.Add(this.ckbSwitchPageStepByStep);
             this.Controls.Add(this.tp_AccPwd);
             this.Name = "Form1";
             this.Text = "拓元神器(正式版)";
@@ -1147,6 +1193,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pbChar0)).EndInit();
             this.tabPage4.ResumeLayout(false);
             this.tabPage4.PerformLayout();
+            this.groupBox3.ResumeLayout(false);
+            this.groupBox3.PerformLayout();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.tabPage5.ResumeLayout(false);
@@ -1256,6 +1304,10 @@
         private System.Windows.Forms.Button btnShowIP;
         private System.Windows.Forms.Label lblProxyText;
         private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.GroupBox groupBox3;
+        private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.TextBox txt_TimeDelayRun_AutoAI;
+        private System.Windows.Forms.CheckBox chk_TimerDelayAutoAI;
     }
 }
 

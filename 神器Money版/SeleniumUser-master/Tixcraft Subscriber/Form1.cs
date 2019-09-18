@@ -83,6 +83,11 @@ namespace Tixcraft_Subscriber
         bool g_IsAutoFlag = false; // 是否上線掛機
         OCRServer myOCRServer = new OCRServer();
 
+        public bool g_bIsDelayTimerEnable = false;  //20190915 開賣智能延遲器 , 功能開關
+        public Stopwatch g_DelayTimer = new Stopwatch();    //20190915 開賣後網址延遲器，讀取網址成功後，延遲N秒後再進行提交比單的計時器
+        public bool g_bIsDelayTimerRunning = false; //20190915 開賣智能延遲器，紀錄計時器狀態使用
+        public long g_DelayThreshold = 800;    //20190915 開賣後0.8秒再進行送出
+
         public List<OCR_History> g_lstOCR_History = new List<OCR_History>();
 
         public Bitmap bSnapShot = new Bitmap(10, 10);
@@ -102,6 +107,7 @@ namespace Tixcraft_Subscriber
             DoNotDelay ,
             DelayMilliSecond,
             DelayRand
+            
         }
 
         public class HDelayManager
@@ -399,6 +405,30 @@ namespace Tixcraft_Subscriber
             InitializeComponent();
         }
 
+
+        public void TimerRun()
+        {
+            if (g_bIsDelayTimerEnable == false) return;
+
+            if (g_bIsDelayTimerRunning == false)
+            { 
+                g_DelayTimer.Restart();
+                g_bIsDelayTimerRunning = true; 
+                VPState.Report("開賣智能延遲 - 計時器開始計時", MethodBase.GetCurrentMethod(), VPState.eVPType.Windows);
+            }
+        }
+
+        public void TimerStop()
+        {
+
+            if (g_bIsDelayTimerEnable == false) return;
+            if (g_bIsDelayTimerRunning == true)
+            {
+                g_DelayTimer.Stop();
+                g_bIsDelayTimerRunning = false;
+                VPState.Report("開賣智能延遲 - 關閉", MethodBase.GetCurrentMethod(), VPState.eVPType.Windows);
+            }
+        }
 
         private bool CheckIfAlart()
         {
@@ -806,6 +836,7 @@ namespace Tixcraft_Subscriber
                         //if ((iSeats == 0) && (Days.info.Contains("立即訂購")) )
                         if ((iSeats == 0) && (Days.info.Contains("立即訂購")) && Days.TixcraftWebDriver.strPageSourceCode.Contains("checkCode"))
                         {
+                            TimerRun(); //20190915 發現驗證瑪代表已經開賣，就開始計時
                             if (SubscrEr.Driver.Url != Days.url)
                             {
                                 SubscrEr.GoTo_normal(Days.url);
@@ -908,10 +939,15 @@ namespace Tixcraft_Subscriber
                         VPState.Report(ex, MethodBase.GetCurrentMethod(), VPState.eVPType.Windows);
                     }
                     // 有座位 = 安全進入
-                    if (iSeats > 0) bIsNull = false;
+                    if (iSeats > 0)
+                    {
+                        TimerRun(); //20190915 開始計時 因為有位置
+                        bIsNull = false; 
+                    }
                     //如果進來之後直接在第三頁，那改用油猴處理選位置-->走考試流程 = 安全進入
                     if (SubscrEr.Driver.Url.Contains("ticket/ticket") || SubscrEr.Driver.Url.Contains("ticket/area"))
-                    { 
+                    {
+                        TimerRun(); //20190915 開始計時 因為有跳到第三頁了
                         bIsNull = false;
                         bIsHaveCheckCode = true; 
                     }
@@ -1049,8 +1085,25 @@ namespace Tixcraft_Subscriber
                 string strMsg = string.Format("[隨機] 執行人性化延遲:{0} ~ {1} 毫秒 - 實際 : {2} ms", HumanDelayer.DelayMin_ms, HumanDelayer.DelayMax_ms, iRand_ms);
                 VPState.Report(strMsg, MethodBase.GetCurrentMethod(), VPState.eVPType.Windows);
                 Thread.Sleep(iRand_ms);
-            }
+            } 
             #endregion
+
+
+            //自動判斷開賣後 N 秒 再進行打驗證碼
+            if (g_bIsDelayTimerEnable == true)
+            {
+                while (true)
+                {
+                    if (g_DelayTimer.ElapsedMilliseconds > g_DelayThreshold)
+                    {
+                        break;
+                    }
+                    Thread.Sleep(10);
+                }
+                string strMessageTimer = string.Format("開賣智能延遲 - {0} ms 等待完成 , 允許開始打碼 , 人工條件為 : {1} ms", g_DelayTimer.ElapsedMilliseconds, g_DelayThreshold);
+
+                VPState.Report(strMessageTimer, MethodBase.GetCurrentMethod(), VPState.eVPType.Windows);
+            }
             swDriverLoading.Stop();
             try
             {
@@ -2228,12 +2281,18 @@ namespace Tixcraft_Subscriber
                     this.BackColor = Color.White;
                 }
 
+                //從UI上讀取 開賣後智能延遲的毫秒
+                long clsLongTimerDelayAutoAI = 0;
+                long.TryParse(txt_TimeDelayRun_AutoAI.Text, out clsLongTimerDelayAutoAI);
+                g_DelayThreshold = clsLongTimerDelayAutoAI;
+                
+
                 g_SeatInformation = txtSeatInformation.Text;
                 AllButtonEnableStatue(false);
                 //for (int i = 0; i < 100;i++ )
                 Task ttt =  Task.Factory.StartNew(() =>
-                { 
-
+                {
+                    TimerStop(); 
                     bool bIsOpenAutoFlag = false;
                     while (bIsOpenAutoFlag == false)
                     {
@@ -2272,7 +2331,9 @@ namespace Tixcraft_Subscriber
                     }
                     UpdateCircleVisiable(circularProgressBar1, false);
                     AllButtonEnableStatue(true);
-                    g_bFlagStartBuyStatue = false;
+                    g_bFlagStartBuyStatue = false; 
+                    TimerStop(); 
+
                 }); 
             }
             catch (Exception ex)
@@ -3024,6 +3085,11 @@ namespace Tixcraft_Subscriber
         {
             SubscrEr.GoTo("https://showip.net/");
             lblProxyText.Text = this.g_strProxyInfo;
+        }
+
+        private void chk_TimerDelayAutoAI_CheckedChanged(object sender, EventArgs e)
+        {
+            g_bIsDelayTimerEnable = chk_TimerDelayAutoAI.Checked;
         }
 
 

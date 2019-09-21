@@ -1367,5 +1367,23 @@ namespace Tixcraft_Subscriber
             }
         }
 
+        private void rdoLoaginPP_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_AccountOld_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                Clipboard.SetData(DataFormats.Text, "https://docs.google.com/spreadsheets/d/1Yjk_avOsS6JZnIKGIHyNgzGdnPc8dlSOfyi8PWhTEMA/edit#gid=1413888926");
+                VIPGeneral.Window.VPMessageBox.ShowInfo("複製到剪貼簿上成功，請使用Ctrl + V貼上");
+            }
+            catch (Exception)
+            {
+
+            }
+        }
+
     }
 }

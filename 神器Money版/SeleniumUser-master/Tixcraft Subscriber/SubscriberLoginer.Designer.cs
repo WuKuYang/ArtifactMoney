@@ -56,6 +56,7 @@
             this.ckbProxy = new System.Windows.Forms.CheckBox();
             this.ckbSwitchPageStepByStep = new System.Windows.Forms.CheckBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.btn_AccountOld = new System.Windows.Forms.Button();
             this.label13 = new System.Windows.Forms.Label();
             this.txtYW0Delay = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
@@ -474,6 +475,7 @@
             // tabPage2
             // 
             this.tabPage2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(35)))), ((int)(((byte)(45)))));
+            this.tabPage2.Controls.Add(this.btn_AccountOld);
             this.tabPage2.Controls.Add(this.label13);
             this.tabPage2.Controls.Add(this.txtYW0Delay);
             this.tabPage2.Controls.Add(this.label12);
@@ -503,6 +505,18 @@
             this.tabPage2.TabIndex = 4;
             this.tabPage2.Text = "管理員";
             this.tabPage2.Click += new System.EventHandler(this.tabPage2_Click);
+            // 
+            // btn_AccountOld
+            // 
+            this.btn_AccountOld.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(35)))), ((int)(((byte)(75)))));
+            this.btn_AccountOld.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_AccountOld.Location = new System.Drawing.Point(7, 82);
+            this.btn_AccountOld.Name = "btn_AccountOld";
+            this.btn_AccountOld.Size = new System.Drawing.Size(86, 36);
+            this.btn_AccountOld.TabIndex = 51;
+            this.btn_AccountOld.Text = "舊版帳號";
+            this.btn_AccountOld.UseVisualStyleBackColor = false;
+            this.btn_AccountOld.Click += new System.EventHandler(this.btn_AccountOld_Click);
             // 
             // label13
             // 
@@ -806,6 +820,7 @@
             this.rdoLoaginPP.TabIndex = 39;
             this.rdoLoaginPP.Text = "PixelPin";
             this.rdoLoaginPP.UseVisualStyleBackColor = false;
+            this.rdoLoaginPP.CheckedChanged += new System.EventHandler(this.rdoLoaginPP_CheckedChanged);
             // 
             // tabPage7
             // 
@@ -1341,7 +1356,7 @@
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(98, 29);
             this.label11.TabIndex = 39;
-            this.label11.Text = "ver 7.9";
+            this.label11.Text = "ver 8.0";
             // 
             // lblHDDNumber
             // 
@@ -1453,7 +1468,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "SubscriberLoginer";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "拓元神器(Money) ver_7.9 - 2019.9.18";
+            this.Text = "拓元神器(Money) ver_8.0 - 2019.9.21";
             this.TopMost = true;
             this.Activated += new System.EventHandler(this.SubscriberLoginer_Activated);
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.SubscriberLoginer_FormClosed);
@@ -1610,5 +1625,6 @@
         private System.Windows.Forms.Button btnUpdateProxyTable;
         private System.Windows.Forms.TextBox txtProxyUpdateTable;
         private System.Windows.Forms.Button btnClearProxyList;
+        private System.Windows.Forms.Button btn_AccountOld;
     }
 }

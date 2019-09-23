@@ -1,7 +1,7 @@
 
 function Pix_KeyInRegist_Username(strAnswer)
 {
-    var eleCheckCode=document.getElementById('Username');
+    var eleCheckCode=document.getElementById('email');
     if(eleCheckCode !=undefined )
     {
         eleCheckCode.value= strAnswer;
@@ -9,7 +9,7 @@ function Pix_KeyInRegist_Username(strAnswer)
         var inputs_tag = document.getElementsByTagName("button");
         for(var i = 0 ; i< inputs_tag.length;i++)
         {
-            if(inputs_tag[i].getAttribute("name") == 'signinButton')
+            if(inputs_tag[i].getAttribute("class") == 'btn btn-block btn-primary')
             {
                 inputs_tag[i].click();
                 break;

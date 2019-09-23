@@ -2515,7 +2515,8 @@ namespace Tixcraft_Subscriber
             string[] strGoogleExcelTable = strFormatEmailInfo.Split('\t');
             if(strGoogleExcelTable.Length >=2)
             {
-                LoginPixelPin(strGoogleExcelTable[1]);
+                //LoginPixelPin(strGoogleExcelTable[0]);
+                LoginPixelPin_2019(strGoogleExcelTable[0]);
             } 
         }
 
@@ -2567,12 +2568,14 @@ namespace Tixcraft_Subscriber
             //pdb.Next(1);    //--1
             //pdb.Text = "進入會員登入頁面...OK";
             // 自動打帳號
-            while (SubscrEr.Driver.Url.Contains("https://login.pixelpin.io/Account/emailselect") == true)
+            while (SubscrEr.Driver.Url.Contains("https://login.pixelpin.io") == true)
             {
                 //pdb.Text = "輸入帳號 : " + strEmail;
                 string strScrpitSelectSeat = SubscrEr.JS_ReadFile("Tix_PixelPinLogin.txt");
                 strScrpitSelectSeat += string.Format("Pix_KeyInRegist_Username(\'{0}\');", strEmail);
                 SubscrEr.InjectJavaScript(strScrpitSelectSeat);
+                if(SubscrEr.Driver.PageSource.Contains("輸入您的通行點"))
+                    break;
             }
             //pdb.Next(1);    //--2
             // 自動打密碼
@@ -2716,6 +2719,40 @@ namespace Tixcraft_Subscriber
             ho_SelectedRegions2.Dispose();
             ho_SortedRegions.Dispose();
             ho_ObjectSelected.Dispose();
+        }
+
+        public void LoginPixelPin_2019(string strEmail)
+        {
+
+            //VIPGeneral.Window.VPProgressControl pdb = new VIPGeneral.Window.VPProgressControl();
+            //pdb.MaxValue = 5;
+            //pdb.Start();
+            //pdb.Text = "進入會員登入頁面...";
+            SubscrEr.GoTo("https://tixcraft.com/login");
+            Thread.Sleep(1000);
+            SubscrEr.GoTo("https://tixcraft.com/login/pixelpin");
+            Thread.Sleep(1000);
+            //pdb.Next(1);    //--1
+            //pdb.Text = "進入會員登入頁面...OK";
+            // 自動打帳號 
+            while (SubscrEr.Driver.Url.Contains("https://login.pixelpin.io") == true)
+            { 
+                string strScrpitSelectSeat = SubscrEr.JS_ReadFile("Tix_PixelPinLogin.txt");
+                strScrpitSelectSeat += string.Format("Pix_KeyInRegist_Username(\'{0}\');", strEmail);
+                SubscrEr.InjectJavaScript(strScrpitSelectSeat);
+                try
+                {
+                    if(SubscrEr.Driver.FindElement(By.Id("email")) != null)
+                    {
+                        break;
+                    }
+                }
+                catch (Exception)
+                {
+                     
+                }
+                Thread.Sleep(100);
+            }
         }
 
         private HObject HImageConvertFromBitmap32(Bitmap bmp)

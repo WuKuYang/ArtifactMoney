@@ -1385,5 +1385,10 @@ namespace Tixcraft_Subscriber
             }
         }
 
+        private void btn_AnyDesk_Click(object sender, EventArgs e)
+        {
+            Process.Start("AnyDesk_遠端桌面軟體.exe");
+        }
+
     }
 }

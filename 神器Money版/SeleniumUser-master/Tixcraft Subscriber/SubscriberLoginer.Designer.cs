@@ -144,6 +144,7 @@
             this.txtIP = new System.Windows.Forms.TextBox();
             this.btnShareAnswer = new System.Windows.Forms.Button();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
+            this.btn_AnyDesk = new System.Windows.Forms.Button();
             this.tpFBEmail.SuspendLayout();
             this.tpShow.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -168,10 +169,9 @@
             // 
             this.btnLoadAcc.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(35)))), ((int)(((byte)(45)))));
             this.btnLoadAcc.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnLoadAcc.Location = new System.Drawing.Point(395, 120);
-            this.btnLoadAcc.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnLoadAcc.Location = new System.Drawing.Point(296, 96);
             this.btnLoadAcc.Name = "btnLoadAcc";
-            this.btnLoadAcc.Size = new System.Drawing.Size(117, 36);
+            this.btnLoadAcc.Size = new System.Drawing.Size(88, 29);
             this.btnLoadAcc.TabIndex = 0;
             this.btnLoadAcc.Text = "讀取帳號列表";
             this.btnLoadAcc.UseVisualStyleBackColor = false;
@@ -183,10 +183,9 @@
             this.btnSaveAcc.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(35)))), ((int)(((byte)(45)))));
             this.btnSaveAcc.Cursor = System.Windows.Forms.Cursors.AppStarting;
             this.btnSaveAcc.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSaveAcc.Location = new System.Drawing.Point(395, 161);
-            this.btnSaveAcc.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnSaveAcc.Location = new System.Drawing.Point(296, 129);
             this.btnSaveAcc.Name = "btnSaveAcc";
-            this.btnSaveAcc.Size = new System.Drawing.Size(117, 36);
+            this.btnSaveAcc.Size = new System.Drawing.Size(88, 29);
             this.btnSaveAcc.TabIndex = 1;
             this.btnSaveAcc.Text = "儲存帳號列表";
             this.btnSaveAcc.UseVisualStyleBackColor = false;
@@ -195,20 +194,18 @@
             // 
             // txtACC
             // 
-            this.txtACC.Location = new System.Drawing.Point(163, 126);
-            this.txtACC.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtACC.Location = new System.Drawing.Point(122, 101);
             this.txtACC.Name = "txtACC";
-            this.txtACC.Size = new System.Drawing.Size(223, 25);
+            this.txtACC.Size = new System.Drawing.Size(168, 22);
             this.txtACC.TabIndex = 2;
             this.txtACC.Visible = false;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(85, 130);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(64, 104);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(66, 15);
+            this.label1.Size = new System.Drawing.Size(52, 12);
             this.label1.TabIndex = 3;
             this.label1.Text = "FB : 帳號";
             this.label1.Visible = false;
@@ -216,20 +213,18 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(85, 165);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(64, 132);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(66, 15);
+            this.label2.Size = new System.Drawing.Size(52, 12);
             this.label2.TabIndex = 5;
             this.label2.Text = "FB : 密碼";
             this.label2.Visible = false;
             // 
             // txtPWD
             // 
-            this.txtPWD.Location = new System.Drawing.Point(163, 161);
-            this.txtPWD.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtPWD.Location = new System.Drawing.Point(122, 129);
             this.txtPWD.Name = "txtPWD";
-            this.txtPWD.Size = new System.Drawing.Size(223, 25);
+            this.txtPWD.Size = new System.Drawing.Size(168, 22);
             this.txtPWD.TabIndex = 4;
             this.txtPWD.Visible = false;
             // 
@@ -237,10 +232,9 @@
             // 
             this.btnAdd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(35)))), ((int)(((byte)(45)))));
             this.btnAdd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAdd.Location = new System.Drawing.Point(17, 48);
-            this.btnAdd.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnAdd.Location = new System.Drawing.Point(13, 38);
             this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(81, 40);
+            this.btnAdd.Size = new System.Drawing.Size(61, 32);
             this.btnAdd.TabIndex = 6;
             this.btnAdd.Text = "新增";
             this.btnAdd.UseVisualStyleBackColor = false;
@@ -250,10 +244,9 @@
             // 
             this.btnOpenBrowsers.BackColor = System.Drawing.Color.Maroon;
             this.btnOpenBrowsers.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnOpenBrowsers.Location = new System.Drawing.Point(755, 145);
-            this.btnOpenBrowsers.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnOpenBrowsers.Location = new System.Drawing.Point(566, 116);
             this.btnOpenBrowsers.Name = "btnOpenBrowsers";
-            this.btnOpenBrowsers.Size = new System.Drawing.Size(189, 68);
+            this.btnOpenBrowsers.Size = new System.Drawing.Size(142, 54);
             this.btnOpenBrowsers.TabIndex = 7;
             this.btnOpenBrowsers.Text = "開啟多帳號訂購門票";
             this.btnOpenBrowsers.UseVisualStyleBackColor = false;
@@ -263,10 +256,9 @@
             // 
             this.btnDEL.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(35)))), ((int)(((byte)(45)))));
             this.btnDEL.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDEL.Location = new System.Drawing.Point(107, 48);
-            this.btnDEL.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnDEL.Location = new System.Drawing.Point(80, 38);
             this.btnDEL.Name = "btnDEL";
-            this.btnDEL.Size = new System.Drawing.Size(85, 40);
+            this.btnDEL.Size = new System.Drawing.Size(64, 32);
             this.btnDEL.TabIndex = 9;
             this.btnDEL.Text = "刪除";
             this.btnDEL.UseVisualStyleBackColor = false;
@@ -277,11 +269,10 @@
             this.listBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(35)))), ((int)(((byte)(45)))));
             this.listBox1.ForeColor = System.Drawing.Color.White;
             this.listBox1.FormattingEnabled = true;
-            this.listBox1.ItemHeight = 15;
-            this.listBox1.Location = new System.Drawing.Point(17, 95);
-            this.listBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.listBox1.ItemHeight = 12;
+            this.listBox1.Location = new System.Drawing.Point(13, 76);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(173, 199);
+            this.listBox1.Size = new System.Drawing.Size(131, 160);
             this.listBox1.TabIndex = 10;
             // 
             // lstShow
@@ -291,21 +282,19 @@
             this.lstShow.ForeColor = System.Drawing.Color.White;
             this.lstShow.FormattingEnabled = true;
             this.lstShow.HorizontalScrollbar = true;
-            this.lstShow.ItemHeight = 18;
-            this.lstShow.Location = new System.Drawing.Point(8, 32);
-            this.lstShow.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.lstShow.ItemHeight = 15;
+            this.lstShow.Location = new System.Drawing.Point(6, 26);
             this.lstShow.Name = "lstShow";
-            this.lstShow.Size = new System.Drawing.Size(503, 184);
+            this.lstShow.Size = new System.Drawing.Size(378, 139);
             this.lstShow.TabIndex = 13;
             this.lstShow.SelectedIndexChanged += new System.EventHandler(this.lstShow_SelectedIndexChanged);
             // 
             // lblBuyInfo
             // 
             this.lblBuyInfo.AutoSize = true;
-            this.lblBuyInfo.Location = new System.Drawing.Point(5, 8);
-            this.lblBuyInfo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblBuyInfo.Location = new System.Drawing.Point(4, 6);
             this.lblBuyInfo.Name = "lblBuyInfo";
-            this.lblBuyInfo.Size = new System.Drawing.Size(190, 15);
+            this.lblBuyInfo.Size = new System.Drawing.Size(151, 12);
             this.lblBuyInfo.TabIndex = 14;
             this.lblBuyInfo.Text = "請點選要訂購的節目( 一項 )";
             // 
@@ -313,10 +302,9 @@
             // 
             this.btnChangeShow.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(35)))), ((int)(((byte)(75)))));
             this.btnChangeShow.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnChangeShow.Location = new System.Drawing.Point(755, 92);
-            this.btnChangeShow.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnChangeShow.Location = new System.Drawing.Point(566, 74);
             this.btnChangeShow.Name = "btnChangeShow";
-            this.btnChangeShow.Size = new System.Drawing.Size(91, 45);
+            this.btnChangeShow.Size = new System.Drawing.Size(68, 36);
             this.btnChangeShow.TabIndex = 15;
             this.btnChangeShow.Text = "更改節目";
             this.btnChangeShow.UseVisualStyleBackColor = false;
@@ -326,10 +314,9 @@
             // 
             this.btnAutoBuy.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(35)))), ((int)(((byte)(75)))));
             this.btnAutoBuy.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAutoBuy.Location = new System.Drawing.Point(853, 252);
-            this.btnAutoBuy.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnAutoBuy.Location = new System.Drawing.Point(640, 202);
             this.btnAutoBuy.Name = "btnAutoBuy";
-            this.btnAutoBuy.Size = new System.Drawing.Size(91, 45);
+            this.btnAutoBuy.Size = new System.Drawing.Size(68, 36);
             this.btnAutoBuy.TabIndex = 17;
             this.btnAutoBuy.Text = "全部開搶";
             this.btnAutoBuy.UseVisualStyleBackColor = false;
@@ -338,10 +325,9 @@
             // ckRandSeats
             // 
             this.ckRandSeats.AutoSize = true;
-            this.ckRandSeats.Location = new System.Drawing.Point(755, 220);
-            this.ckRandSeats.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ckRandSeats.Location = new System.Drawing.Point(566, 176);
             this.ckRandSeats.Name = "ckRandSeats";
-            this.ckRandSeats.Size = new System.Drawing.Size(174, 19);
+            this.ckRandSeats.Size = new System.Drawing.Size(140, 16);
             this.ckRandSeats.TabIndex = 19;
             this.ckRandSeats.Text = "隨機選座位(有票就好)";
             this.ckRandSeats.UseVisualStyleBackColor = true;
@@ -349,10 +335,9 @@
             // 
             // txtCheckCodeAnswer
             // 
-            this.txtCheckCodeAnswer.Location = new System.Drawing.Point(317, 321);
-            this.txtCheckCodeAnswer.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtCheckCodeAnswer.Location = new System.Drawing.Point(238, 257);
             this.txtCheckCodeAnswer.Name = "txtCheckCodeAnswer";
-            this.txtCheckCodeAnswer.Size = new System.Drawing.Size(129, 25);
+            this.txtCheckCodeAnswer.Size = new System.Drawing.Size(98, 22);
             this.txtCheckCodeAnswer.TabIndex = 20;
             this.txtCheckCodeAnswer.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtCheckCodeAnswer_KeyDown);
             this.txtCheckCodeAnswer.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtCheckCodeAnswer_KeyPress);
@@ -361,10 +346,9 @@
             // 
             this.btnSubmitCheckCode.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(35)))), ((int)(((byte)(45)))));
             this.btnSubmitCheckCode.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSubmitCheckCode.Location = new System.Drawing.Point(381, 205);
-            this.btnSubmitCheckCode.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnSubmitCheckCode.Location = new System.Drawing.Point(286, 164);
             this.btnSubmitCheckCode.Name = "btnSubmitCheckCode";
-            this.btnSubmitCheckCode.Size = new System.Drawing.Size(135, 40);
+            this.btnSubmitCheckCode.Size = new System.Drawing.Size(101, 32);
             this.btnSubmitCheckCode.TabIndex = 21;
             this.btnSubmitCheckCode.Text = "全視窗提交回答";
             this.btnSubmitCheckCode.UseVisualStyleBackColor = false;
@@ -374,10 +358,9 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(232, 325);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Location = new System.Drawing.Point(174, 260);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(75, 15);
+            this.label3.Size = new System.Drawing.Size(59, 12);
             this.label3.TabIndex = 22;
             this.label3.Text = "考試回答 :";
             // 
@@ -385,10 +368,9 @@
             // 
             this.lblAnswerVeryCOde.AutoSize = true;
             this.lblAnswerVeryCOde.ForeColor = System.Drawing.Color.Red;
-            this.lblAnswerVeryCOde.Location = new System.Drawing.Point(227, 358);
-            this.lblAnswerVeryCOde.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblAnswerVeryCOde.Location = new System.Drawing.Point(170, 286);
             this.lblAnswerVeryCOde.Name = "lblAnswerVeryCOde";
-            this.lblAnswerVeryCOde.Size = new System.Drawing.Size(71, 15);
+            this.lblAnswerVeryCOde.Size = new System.Drawing.Size(57, 12);
             this.lblAnswerVeryCOde.TabIndex = 23;
             this.lblAnswerVeryCOde.Text = "lblAnsewer";
             // 
@@ -396,10 +378,9 @@
             // 
             this.btnSortForm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(35)))), ((int)(((byte)(45)))));
             this.btnSortForm.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSortForm.Location = new System.Drawing.Point(853, 40);
-            this.btnSortForm.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnSortForm.Location = new System.Drawing.Point(640, 32);
             this.btnSortForm.Name = "btnSortForm";
-            this.btnSortForm.Size = new System.Drawing.Size(88, 95);
+            this.btnSortForm.Size = new System.Drawing.Size(66, 76);
             this.btnSortForm.TabIndex = 27;
             this.btnSortForm.Text = "整理視窗";
             this.btnSortForm.UseVisualStyleBackColor = false;
@@ -409,10 +390,9 @@
             // 
             this.btnDownLoadAnswer.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(35)))), ((int)(((byte)(45)))));
             this.btnDownLoadAnswer.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDownLoadAnswer.Location = new System.Drawing.Point(320, 390);
-            this.btnDownLoadAnswer.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnDownLoadAnswer.Location = new System.Drawing.Point(240, 312);
             this.btnDownLoadAnswer.Name = "btnDownLoadAnswer";
-            this.btnDownLoadAnswer.Size = new System.Drawing.Size(88, 46);
+            this.btnDownLoadAnswer.Size = new System.Drawing.Size(66, 37);
             this.btnDownLoadAnswer.TabIndex = 28;
             this.btnDownLoadAnswer.Text = "下載答案";
             this.btnDownLoadAnswer.UseVisualStyleBackColor = false;
@@ -422,10 +402,9 @@
             // 
             this.btnClearAnswers.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(35)))), ((int)(((byte)(45)))));
             this.btnClearAnswers.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnClearAnswers.Location = new System.Drawing.Point(416, 390);
-            this.btnClearAnswers.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnClearAnswers.Location = new System.Drawing.Point(312, 312);
             this.btnClearAnswers.Name = "btnClearAnswers";
-            this.btnClearAnswers.Size = new System.Drawing.Size(88, 46);
+            this.btnClearAnswers.Size = new System.Drawing.Size(66, 37);
             this.btnClearAnswers.TabIndex = 30;
             this.btnClearAnswers.Text = "清除答案";
             this.btnClearAnswers.UseVisualStyleBackColor = false;
@@ -439,11 +418,10 @@
             this.tpFBEmail.Controls.Add(this.tabPage3);
             this.tpFBEmail.Controls.Add(this.tabPage5);
             this.tpFBEmail.Controls.Add(this.tabPage9);
-            this.tpFBEmail.Location = new System.Drawing.Point(208, 12);
-            this.tpFBEmail.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tpFBEmail.Location = new System.Drawing.Point(156, 10);
             this.tpFBEmail.Name = "tpFBEmail";
             this.tpFBEmail.SelectedIndex = 0;
-            this.tpFBEmail.Size = new System.Drawing.Size(531, 285);
+            this.tpFBEmail.Size = new System.Drawing.Size(398, 228);
             this.tpFBEmail.TabIndex = 31;
             // 
             // tpShow
@@ -454,11 +432,10 @@
             this.tpShow.Controls.Add(this.ckbSwitchPageStepByStep);
             this.tpShow.Controls.Add(this.lstShow);
             this.tpShow.Controls.Add(this.lblBuyInfo);
-            this.tpShow.Location = new System.Drawing.Point(4, 25);
-            this.tpShow.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tpShow.Location = new System.Drawing.Point(4, 22);
             this.tpShow.Name = "tpShow";
-            this.tpShow.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.tpShow.Size = new System.Drawing.Size(523, 256);
+            this.tpShow.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tpShow.Size = new System.Drawing.Size(390, 202);
             this.tpShow.TabIndex = 0;
             this.tpShow.Text = "節目設定";
             this.tpShow.Click += new System.EventHandler(this.tpShow_Click);
@@ -466,10 +443,9 @@
             // ckbUSEOLDSch
             // 
             this.ckbUSEOLDSch.AutoSize = true;
-            this.ckbUSEOLDSch.Location = new System.Drawing.Point(455, 228);
-            this.ckbUSEOLDSch.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ckbUSEOLDSch.Location = new System.Drawing.Point(341, 182);
             this.ckbUSEOLDSch.Name = "ckbUSEOLDSch";
-            this.ckbUSEOLDSch.Size = new System.Drawing.Size(59, 19);
+            this.ckbUSEOLDSch.Size = new System.Drawing.Size(48, 16);
             this.ckbUSEOLDSch.TabIndex = 50;
             this.ckbUSEOLDSch.Text = "舊版";
             this.ckbUSEOLDSch.UseVisualStyleBackColor = true;
@@ -478,10 +454,9 @@
             // ckbProxy
             // 
             this.ckbProxy.AutoSize = true;
-            this.ckbProxy.Location = new System.Drawing.Point(360, 229);
-            this.ckbProxy.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ckbProxy.Location = new System.Drawing.Point(270, 183);
             this.ckbProxy.Name = "ckbProxy";
-            this.ckbProxy.Size = new System.Drawing.Size(78, 19);
+            this.ckbProxy.Size = new System.Drawing.Size(64, 16);
             this.ckbProxy.TabIndex = 49;
             this.ckbProxy.Text = "掛Proxy";
             this.ckbProxy.UseVisualStyleBackColor = true;
@@ -490,10 +465,9 @@
             // ckbSwitchPageStepByStep
             // 
             this.ckbSwitchPageStepByStep.AutoSize = true;
-            this.ckbSwitchPageStepByStep.Location = new System.Drawing.Point(9, 229);
-            this.ckbSwitchPageStepByStep.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ckbSwitchPageStepByStep.Location = new System.Drawing.Point(7, 183);
             this.ckbSwitchPageStepByStep.Name = "ckbSwitchPageStepByStep";
-            this.ckbSwitchPageStepByStep.Size = new System.Drawing.Size(299, 19);
+            this.ckbSwitchPageStepByStep.Size = new System.Drawing.Size(242, 16);
             this.ckbSwitchPageStepByStep.TabIndex = 48;
             this.ckbSwitchPageStepByStep.Text = "搶票時依照順序1-2-3載入(若無則直接1-3)";
             this.ckbSwitchPageStepByStep.UseVisualStyleBackColor = true;
@@ -502,6 +476,7 @@
             // tabPage2
             // 
             this.tabPage2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(35)))), ((int)(((byte)(45)))));
+            this.tabPage2.Controls.Add(this.btn_AnyDesk);
             this.tabPage2.Controls.Add(this.btn_AccountOld);
             this.tabPage2.Controls.Add(this.label13);
             this.tabPage2.Controls.Add(this.txtYW0Delay);
@@ -525,11 +500,10 @@
             this.tabPage2.Controls.Add(this.txtACC);
             this.tabPage2.Controls.Add(this.btnSaveAcc);
             this.tabPage2.Controls.Add(this.btnSubmitCheckCode);
-            this.tabPage2.Location = new System.Drawing.Point(4, 25);
-            this.tabPage2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.tabPage2.Size = new System.Drawing.Size(523, 256);
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPage2.Size = new System.Drawing.Size(390, 202);
             this.tabPage2.TabIndex = 4;
             this.tabPage2.Text = "管理員";
             this.tabPage2.Click += new System.EventHandler(this.tabPage2_Click);
@@ -538,10 +512,9 @@
             // 
             this.btn_AccountOld.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(35)))), ((int)(((byte)(75)))));
             this.btn_AccountOld.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_AccountOld.Location = new System.Drawing.Point(9, 102);
-            this.btn_AccountOld.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn_AccountOld.Location = new System.Drawing.Point(7, 82);
             this.btn_AccountOld.Name = "btn_AccountOld";
-            this.btn_AccountOld.Size = new System.Drawing.Size(115, 45);
+            this.btn_AccountOld.Size = new System.Drawing.Size(86, 36);
             this.btn_AccountOld.TabIndex = 51;
             this.btn_AccountOld.Text = "舊版帳號";
             this.btn_AccountOld.UseVisualStyleBackColor = false;
@@ -550,29 +523,26 @@
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(203, 212);
-            this.label13.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label13.Location = new System.Drawing.Point(152, 170);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(23, 15);
+            this.label13.Size = new System.Drawing.Size(18, 12);
             this.label13.TabIndex = 50;
             this.label13.Text = "ms";
             // 
             // txtYW0Delay
             // 
-            this.txtYW0Delay.Location = new System.Drawing.Point(147, 205);
-            this.txtYW0Delay.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtYW0Delay.Location = new System.Drawing.Point(110, 164);
             this.txtYW0Delay.Name = "txtYW0Delay";
-            this.txtYW0Delay.Size = new System.Drawing.Size(47, 25);
+            this.txtYW0Delay.Size = new System.Drawing.Size(36, 22);
             this.txtYW0Delay.TabIndex = 49;
             this.txtYW0Delay.Text = "120";
             // 
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(20, 216);
-            this.label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label12.Location = new System.Drawing.Point(15, 173);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(112, 15);
+            this.label12.Size = new System.Drawing.Size(89, 12);
             this.label12.TabIndex = 48;
             this.label12.Text = "驗證碼替換延時";
             // 
@@ -580,10 +550,9 @@
             // 
             this.btnSettingAllForm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(35)))), ((int)(((byte)(75)))));
             this.btnSettingAllForm.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSettingAllForm.Location = new System.Drawing.Point(421, 68);
-            this.btnSettingAllForm.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnSettingAllForm.Location = new System.Drawing.Point(316, 54);
             this.btnSettingAllForm.Name = "btnSettingAllForm";
-            this.btnSettingAllForm.Size = new System.Drawing.Size(91, 30);
+            this.btnSettingAllForm.Size = new System.Drawing.Size(68, 24);
             this.btnSettingAllForm.TabIndex = 47;
             this.btnSettingAllForm.Text = "設定";
             this.btnSettingAllForm.UseVisualStyleBackColor = false;
@@ -592,67 +561,60 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(320, 99);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label4.Location = new System.Drawing.Point(240, 79);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(92, 15);
+            this.label4.Size = new System.Drawing.Size(73, 12);
             this.label4.TabIndex = 46;
             this.label4.Text = "(範圍內隨機)";
             // 
             // txtSeatInformation
             // 
-            this.txtSeatInformation.Location = new System.Drawing.Point(299, 68);
-            this.txtSeatInformation.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtSeatInformation.Location = new System.Drawing.Point(224, 54);
             this.txtSeatInformation.Name = "txtSeatInformation";
-            this.txtSeatInformation.Size = new System.Drawing.Size(117, 25);
+            this.txtSeatInformation.Size = new System.Drawing.Size(89, 22);
             this.txtSeatInformation.TabIndex = 45;
             this.txtSeatInformation.Text = "搖滾B4區7800";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(252, 71);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label5.Location = new System.Drawing.Point(189, 57);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(37, 15);
+            this.label5.Size = new System.Drawing.Size(29, 12);
             this.label5.TabIndex = 44;
             this.label5.Text = "座位";
             // 
             // txtTicketCount
             // 
-            this.txtTicketCount.Location = new System.Drawing.Point(207, 68);
-            this.txtTicketCount.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtTicketCount.Location = new System.Drawing.Point(155, 54);
             this.txtTicketCount.Name = "txtTicketCount";
-            this.txtTicketCount.Size = new System.Drawing.Size(37, 25);
+            this.txtTicketCount.Size = new System.Drawing.Size(29, 22);
             this.txtTicketCount.TabIndex = 43;
             this.txtTicketCount.Text = "4";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(167, 71);
-            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label6.Location = new System.Drawing.Point(125, 57);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(37, 15);
+            this.label6.Size = new System.Drawing.Size(29, 12);
             this.label6.TabIndex = 42;
             this.label6.Text = "張數";
             // 
             // txtShowTime
             // 
-            this.txtShowTime.Location = new System.Drawing.Point(107, 68);
-            this.txtShowTime.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtShowTime.Location = new System.Drawing.Point(80, 54);
             this.txtShowTime.Name = "txtShowTime";
-            this.txtShowTime.Size = new System.Drawing.Size(48, 25);
+            this.txtShowTime.Size = new System.Drawing.Size(37, 22);
             this.txtShowTime.TabIndex = 41;
             this.txtShowTime.Text = "0";
             // 
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(20, 71);
-            this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label10.Location = new System.Drawing.Point(15, 57);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(75, 15);
+            this.label10.Size = new System.Drawing.Size(59, 12);
             this.label10.TabIndex = 40;
             this.label10.Text = "演出時間 :";
             // 
@@ -660,10 +622,9 @@
             // 
             this.btn_Upload_Image.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(35)))), ((int)(((byte)(75)))));
             this.btn_Upload_Image.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Upload_Image.Location = new System.Drawing.Point(255, 8);
-            this.btn_Upload_Image.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn_Upload_Image.Location = new System.Drawing.Point(191, 6);
             this.btn_Upload_Image.Name = "btn_Upload_Image";
-            this.btn_Upload_Image.Size = new System.Drawing.Size(135, 45);
+            this.btn_Upload_Image.Size = new System.Drawing.Size(101, 36);
             this.btn_Upload_Image.TabIndex = 39;
             this.btn_Upload_Image.Text = "截圖上傳網址";
             this.btn_Upload_Image.UseVisualStyleBackColor = false;
@@ -673,10 +634,9 @@
             // 
             this.btnSnapShotAll.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(35)))), ((int)(((byte)(75)))));
             this.btnSnapShotAll.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSnapShotAll.Location = new System.Drawing.Point(397, 8);
-            this.btnSnapShotAll.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnSnapShotAll.Location = new System.Drawing.Point(298, 6);
             this.btnSnapShotAll.Name = "btnSnapShotAll";
-            this.btnSnapShotAll.Size = new System.Drawing.Size(115, 45);
+            this.btnSnapShotAll.Size = new System.Drawing.Size(86, 36);
             this.btnSnapShotAll.TabIndex = 38;
             this.btnSnapShotAll.Text = "視窗截圖";
             this.btnSnapShotAll.UseVisualStyleBackColor = false;
@@ -686,10 +646,9 @@
             // 
             this.btnGDrive_ProgramDownload.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(35)))), ((int)(((byte)(75)))));
             this.btnGDrive_ProgramDownload.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnGDrive_ProgramDownload.Location = new System.Drawing.Point(132, 8);
-            this.btnGDrive_ProgramDownload.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnGDrive_ProgramDownload.Location = new System.Drawing.Point(99, 6);
             this.btnGDrive_ProgramDownload.Name = "btnGDrive_ProgramDownload";
-            this.btnGDrive_ProgramDownload.Size = new System.Drawing.Size(115, 45);
+            this.btnGDrive_ProgramDownload.Size = new System.Drawing.Size(86, 36);
             this.btnGDrive_ProgramDownload.TabIndex = 37;
             this.btnGDrive_ProgramDownload.Text = "神器網址";
             this.btnGDrive_ProgramDownload.UseVisualStyleBackColor = false;
@@ -699,10 +658,9 @@
             // 
             this.btnGDrive_Account.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(35)))), ((int)(((byte)(75)))));
             this.btnGDrive_Account.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnGDrive_Account.Location = new System.Drawing.Point(9, 8);
-            this.btnGDrive_Account.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnGDrive_Account.Location = new System.Drawing.Point(7, 6);
             this.btnGDrive_Account.Name = "btnGDrive_Account";
-            this.btnGDrive_Account.Size = new System.Drawing.Size(115, 45);
+            this.btnGDrive_Account.Size = new System.Drawing.Size(86, 36);
             this.btnGDrive_Account.TabIndex = 36;
             this.btnGDrive_Account.Text = "雲端帳號表";
             this.btnGDrive_Account.UseVisualStyleBackColor = false;
@@ -712,11 +670,10 @@
             // 
             this.tabPage1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(35)))), ((int)(((byte)(45)))));
             this.tabPage1.Controls.Add(this.groupBox1);
-            this.tabPage1.Location = new System.Drawing.Point(4, 25);
-            this.tabPage1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.tabPage1.Size = new System.Drawing.Size(523, 256);
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPage1.Size = new System.Drawing.Size(390, 202);
             this.tabPage1.TabIndex = 5;
             this.tabPage1.Text = "群體控制";
             // 
@@ -727,11 +684,9 @@
             this.groupBox1.Controls.Add(this.btnRunAllWindow);
             this.groupBox1.Controls.Add(this.btnRunAllWindowStop);
             this.groupBox1.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.groupBox1.Location = new System.Drawing.Point(107, 52);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Location = new System.Drawing.Point(80, 42);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.groupBox1.Size = new System.Drawing.Size(304, 150);
+            this.groupBox1.Size = new System.Drawing.Size(228, 120);
             this.groupBox1.TabIndex = 42;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "群體開關控制";
@@ -741,10 +696,9 @@
             this.lblMsgAutoFlag.AutoSize = true;
             this.lblMsgAutoFlag.Font = new System.Drawing.Font("新細明體", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.lblMsgAutoFlag.ForeColor = System.Drawing.Color.DarkSalmon;
-            this.lblMsgAutoFlag.Location = new System.Drawing.Point(97, 105);
-            this.lblMsgAutoFlag.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblMsgAutoFlag.Location = new System.Drawing.Point(73, 84);
             this.lblMsgAutoFlag.Name = "lblMsgAutoFlag";
-            this.lblMsgAutoFlag.Size = new System.Drawing.Size(93, 37);
+            this.lblMsgAutoFlag.Size = new System.Drawing.Size(73, 29);
             this.lblMsgAutoFlag.TabIndex = 43;
             this.lblMsgAutoFlag.Text = "狀態";
             // 
@@ -752,10 +706,9 @@
             // 
             this.btnRefreshAutoFlag.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(35)))), ((int)(((byte)(45)))));
             this.btnRefreshAutoFlag.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnRefreshAutoFlag.Location = new System.Drawing.Point(200, 26);
-            this.btnRefreshAutoFlag.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnRefreshAutoFlag.Location = new System.Drawing.Point(150, 21);
             this.btnRefreshAutoFlag.Name = "btnRefreshAutoFlag";
-            this.btnRefreshAutoFlag.Size = new System.Drawing.Size(88, 50);
+            this.btnRefreshAutoFlag.Size = new System.Drawing.Size(66, 40);
             this.btnRefreshAutoFlag.TabIndex = 42;
             this.btnRefreshAutoFlag.Text = "刷新狀態";
             this.btnRefreshAutoFlag.UseVisualStyleBackColor = false;
@@ -765,10 +718,9 @@
             // 
             this.btnRunAllWindow.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(35)))), ((int)(((byte)(45)))));
             this.btnRunAllWindow.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnRunAllWindow.Location = new System.Drawing.Point(8, 26);
-            this.btnRunAllWindow.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnRunAllWindow.Location = new System.Drawing.Point(6, 21);
             this.btnRunAllWindow.Name = "btnRunAllWindow";
-            this.btnRunAllWindow.Size = new System.Drawing.Size(88, 50);
+            this.btnRunAllWindow.Size = new System.Drawing.Size(66, 40);
             this.btnRunAllWindow.TabIndex = 40;
             this.btnRunAllWindow.Text = "開啟";
             this.btnRunAllWindow.UseVisualStyleBackColor = false;
@@ -778,10 +730,9 @@
             // 
             this.btnRunAllWindowStop.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(35)))), ((int)(((byte)(45)))));
             this.btnRunAllWindowStop.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnRunAllWindowStop.Location = new System.Drawing.Point(104, 26);
-            this.btnRunAllWindowStop.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnRunAllWindowStop.Location = new System.Drawing.Point(78, 21);
             this.btnRunAllWindowStop.Name = "btnRunAllWindowStop";
-            this.btnRunAllWindowStop.Size = new System.Drawing.Size(88, 50);
+            this.btnRunAllWindowStop.Size = new System.Drawing.Size(66, 40);
             this.btnRunAllWindowStop.TabIndex = 41;
             this.btnRunAllWindowStop.Text = "停止";
             this.btnRunAllWindowStop.UseVisualStyleBackColor = false;
@@ -791,11 +742,10 @@
             // 
             this.tabPage3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(35)))), ((int)(((byte)(45)))));
             this.tabPage3.Controls.Add(this.tabControl1);
-            this.tabPage3.Location = new System.Drawing.Point(4, 25);
-            this.tabPage3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage3.Location = new System.Drawing.Point(4, 22);
             this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.tabPage3.Size = new System.Drawing.Size(523, 256);
+            this.tabPage3.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPage3.Size = new System.Drawing.Size(390, 202);
             this.tabPage3.TabIndex = 6;
             this.tabPage3.Text = "帳號";
             // 
@@ -805,11 +755,10 @@
             this.tabControl1.Controls.Add(this.tabPage7);
             this.tabControl1.Controls.Add(this.tabPage10);
             this.tabControl1.Controls.Add(this.tabPage11);
-            this.tabControl1.Location = new System.Drawing.Point(8, 8);
-            this.tabControl1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabControl1.Location = new System.Drawing.Point(6, 6);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(504, 238);
+            this.tabControl1.Size = new System.Drawing.Size(378, 190);
             this.tabControl1.TabIndex = 40;
             // 
             // tabPage6
@@ -819,22 +768,20 @@
             this.tabPage6.Controls.Add(this.rdoLoaginGoogle);
             this.tabPage6.Controls.Add(this.label9);
             this.tabPage6.Controls.Add(this.rdoLoaginPP);
-            this.tabPage6.Location = new System.Drawing.Point(4, 25);
-            this.tabPage6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage6.Location = new System.Drawing.Point(4, 22);
             this.tabPage6.Name = "tabPage6";
-            this.tabPage6.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.tabPage6.Size = new System.Drawing.Size(496, 209);
+            this.tabPage6.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPage6.Size = new System.Drawing.Size(370, 164);
             this.tabPage6.TabIndex = 0;
             this.tabPage6.Text = "雲端表格";
             // 
             // lstPixelPinAddress
             // 
             this.lstPixelPinAddress.FormattingEnabled = true;
-            this.lstPixelPinAddress.ItemHeight = 15;
-            this.lstPixelPinAddress.Location = new System.Drawing.Point(4, 8);
-            this.lstPixelPinAddress.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.lstPixelPinAddress.ItemHeight = 12;
+            this.lstPixelPinAddress.Location = new System.Drawing.Point(3, 6);
             this.lstPixelPinAddress.Name = "lstPixelPinAddress";
-            this.lstPixelPinAddress.Size = new System.Drawing.Size(471, 169);
+            this.lstPixelPinAddress.Size = new System.Drawing.Size(354, 136);
             this.lstPixelPinAddress.TabIndex = 0;
             this.lstPixelPinAddress.SelectedIndexChanged += new System.EventHandler(this.lstPixelPinAddress_SelectedIndexChanged);
             this.lstPixelPinAddress.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.lstPixelPinAddress_MouseDoubleClick);
@@ -845,10 +792,9 @@
             this.rdoLoaginGoogle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.rdoLoaginGoogle.Checked = true;
             this.rdoLoaginGoogle.ForeColor = System.Drawing.Color.White;
-            this.rdoLoaginGoogle.Location = new System.Drawing.Point(392, 181);
-            this.rdoLoaginGoogle.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.rdoLoaginGoogle.Location = new System.Drawing.Point(294, 145);
             this.rdoLoaginGoogle.Name = "rdoLoaginGoogle";
-            this.rdoLoaginGoogle.Size = new System.Drawing.Size(69, 19);
+            this.rdoLoaginGoogle.Size = new System.Drawing.Size(57, 16);
             this.rdoLoaginGoogle.TabIndex = 40;
             this.rdoLoaginGoogle.TabStop = true;
             this.rdoLoaginGoogle.Text = "Google";
@@ -859,10 +805,9 @@
             this.label9.AutoSize = true;
             this.label9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.label9.ForeColor = System.Drawing.Color.White;
-            this.label9.Location = new System.Drawing.Point(8, 181);
-            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label9.Location = new System.Drawing.Point(6, 145);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(37, 15);
+            this.label9.Size = new System.Drawing.Size(29, 12);
             this.label9.TabIndex = 38;
             this.label9.Text = "控制";
             // 
@@ -871,10 +816,9 @@
             this.rdoLoaginPP.AutoSize = true;
             this.rdoLoaginPP.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.rdoLoaginPP.ForeColor = System.Drawing.Color.White;
-            this.rdoLoaginPP.Location = new System.Drawing.Point(303, 181);
-            this.rdoLoaginPP.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.rdoLoaginPP.Location = new System.Drawing.Point(227, 145);
             this.rdoLoaginPP.Name = "rdoLoaginPP";
-            this.rdoLoaginPP.Size = new System.Drawing.Size(76, 19);
+            this.rdoLoaginPP.Size = new System.Drawing.Size(61, 16);
             this.rdoLoaginPP.TabIndex = 39;
             this.rdoLoaginPP.Text = "PixelPin";
             this.rdoLoaginPP.UseVisualStyleBackColor = false;
@@ -885,11 +829,10 @@
             this.tabPage7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(35)))), ((int)(((byte)(45)))));
             this.tabPage7.Controls.Add(this.btnUpDatePixelPinAccount);
             this.tabPage7.Controls.Add(this.txtPixelPinUpdateTable);
-            this.tabPage7.Location = new System.Drawing.Point(4, 25);
-            this.tabPage7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage7.Location = new System.Drawing.Point(4, 22);
             this.tabPage7.Name = "tabPage7";
-            this.tabPage7.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.tabPage7.Size = new System.Drawing.Size(496, 209);
+            this.tabPage7.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPage7.Size = new System.Drawing.Size(370, 164);
             this.tabPage7.TabIndex = 1;
             this.tabPage7.Text = "雲端表格上傳";
             // 
@@ -897,10 +840,9 @@
             // 
             this.btnUpDatePixelPinAccount.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(35)))), ((int)(((byte)(45)))));
             this.btnUpDatePixelPinAccount.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnUpDatePixelPinAccount.Location = new System.Drawing.Point(213, 158);
-            this.btnUpDatePixelPinAccount.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnUpDatePixelPinAccount.Location = new System.Drawing.Point(160, 126);
             this.btnUpDatePixelPinAccount.Name = "btnUpDatePixelPinAccount";
-            this.btnUpDatePixelPinAccount.Size = new System.Drawing.Size(263, 40);
+            this.btnUpDatePixelPinAccount.Size = new System.Drawing.Size(197, 32);
             this.btnUpDatePixelPinAccount.TabIndex = 43;
             this.btnUpDatePixelPinAccount.Text = "帳號表格上傳(請貼上三欄資訊)";
             this.btnUpDatePixelPinAccount.UseVisualStyleBackColor = false;
@@ -908,33 +850,30 @@
             // 
             // txtPixelPinUpdateTable
             // 
-            this.txtPixelPinUpdateTable.Location = new System.Drawing.Point(17, 8);
-            this.txtPixelPinUpdateTable.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtPixelPinUpdateTable.Location = new System.Drawing.Point(13, 6);
             this.txtPixelPinUpdateTable.Multiline = true;
             this.txtPixelPinUpdateTable.Name = "txtPixelPinUpdateTable";
-            this.txtPixelPinUpdateTable.Size = new System.Drawing.Size(457, 145);
+            this.txtPixelPinUpdateTable.Size = new System.Drawing.Size(344, 117);
             this.txtPixelPinUpdateTable.TabIndex = 41;
             // 
             // tabPage10
             // 
             this.tabPage10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(35)))), ((int)(((byte)(45)))));
             this.tabPage10.Controls.Add(this.lstProxyList);
-            this.tabPage10.Location = new System.Drawing.Point(4, 25);
-            this.tabPage10.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage10.Location = new System.Drawing.Point(4, 22);
             this.tabPage10.Name = "tabPage10";
-            this.tabPage10.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.tabPage10.Size = new System.Drawing.Size(496, 209);
+            this.tabPage10.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPage10.Size = new System.Drawing.Size(370, 164);
             this.tabPage10.TabIndex = 2;
             this.tabPage10.Text = "Proxy表格";
             // 
             // lstProxyList
             // 
             this.lstProxyList.FormattingEnabled = true;
-            this.lstProxyList.ItemHeight = 15;
-            this.lstProxyList.Location = new System.Drawing.Point(11, 18);
-            this.lstProxyList.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.lstProxyList.ItemHeight = 12;
+            this.lstProxyList.Location = new System.Drawing.Point(8, 14);
             this.lstProxyList.Name = "lstProxyList";
-            this.lstProxyList.Size = new System.Drawing.Size(471, 169);
+            this.lstProxyList.Size = new System.Drawing.Size(354, 136);
             this.lstProxyList.TabIndex = 1;
             // 
             // tabPage11
@@ -943,11 +882,10 @@
             this.tabPage11.Controls.Add(this.btnClearProxyList);
             this.tabPage11.Controls.Add(this.btnUpdateProxyTable);
             this.tabPage11.Controls.Add(this.txtProxyUpdateTable);
-            this.tabPage11.Location = new System.Drawing.Point(4, 25);
-            this.tabPage11.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage11.Location = new System.Drawing.Point(4, 22);
             this.tabPage11.Name = "tabPage11";
-            this.tabPage11.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.tabPage11.Size = new System.Drawing.Size(496, 209);
+            this.tabPage11.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPage11.Size = new System.Drawing.Size(370, 164);
             this.tabPage11.TabIndex = 3;
             this.tabPage11.Text = "Proxy上傳";
             // 
@@ -955,10 +893,9 @@
             // 
             this.btnClearProxyList.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(35)))), ((int)(((byte)(45)))));
             this.btnClearProxyList.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnClearProxyList.Location = new System.Drawing.Point(17, 158);
-            this.btnClearProxyList.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnClearProxyList.Location = new System.Drawing.Point(13, 126);
             this.btnClearProxyList.Name = "btnClearProxyList";
-            this.btnClearProxyList.Size = new System.Drawing.Size(81, 40);
+            this.btnClearProxyList.Size = new System.Drawing.Size(61, 32);
             this.btnClearProxyList.TabIndex = 47;
             this.btnClearProxyList.Text = "清空";
             this.btnClearProxyList.UseVisualStyleBackColor = false;
@@ -968,10 +905,9 @@
             // 
             this.btnUpdateProxyTable.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(35)))), ((int)(((byte)(45)))));
             this.btnUpdateProxyTable.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnUpdateProxyTable.Location = new System.Drawing.Point(213, 158);
-            this.btnUpdateProxyTable.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnUpdateProxyTable.Location = new System.Drawing.Point(160, 126);
             this.btnUpdateProxyTable.Name = "btnUpdateProxyTable";
-            this.btnUpdateProxyTable.Size = new System.Drawing.Size(263, 40);
+            this.btnUpdateProxyTable.Size = new System.Drawing.Size(197, 32);
             this.btnUpdateProxyTable.TabIndex = 45;
             this.btnUpdateProxyTable.Text = "Proxy上傳(請貼上 2 欄資訊)";
             this.btnUpdateProxyTable.UseVisualStyleBackColor = false;
@@ -979,11 +915,10 @@
             // 
             // txtProxyUpdateTable
             // 
-            this.txtProxyUpdateTable.Location = new System.Drawing.Point(17, 8);
-            this.txtProxyUpdateTable.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtProxyUpdateTable.Location = new System.Drawing.Point(13, 6);
             this.txtProxyUpdateTable.Multiline = true;
             this.txtProxyUpdateTable.Name = "txtProxyUpdateTable";
-            this.txtProxyUpdateTable.Size = new System.Drawing.Size(457, 145);
+            this.txtProxyUpdateTable.Size = new System.Drawing.Size(344, 117);
             this.txtProxyUpdateTable.TabIndex = 44;
             // 
             // tabPage5
@@ -992,11 +927,10 @@
             this.tabPage5.Controls.Add(this.tabControl2);
             this.tabPage5.Controls.Add(this.btnAutoFillup_AllWindow);
             this.tabPage5.Controls.Add(this.lblCreditCard);
-            this.tabPage5.Location = new System.Drawing.Point(4, 25);
-            this.tabPage5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage5.Location = new System.Drawing.Point(4, 22);
             this.tabPage5.Name = "tabPage5";
-            this.tabPage5.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.tabPage5.Size = new System.Drawing.Size(523, 256);
+            this.tabPage5.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPage5.Size = new System.Drawing.Size(390, 202);
             this.tabPage5.TabIndex = 8;
             this.tabPage5.Text = "國泰刷卡";
             // 
@@ -1004,11 +938,10 @@
             // 
             this.tabControl2.Controls.Add(this.tabPage4);
             this.tabControl2.Controls.Add(this.tabPage8);
-            this.tabControl2.Location = new System.Drawing.Point(16, 8);
-            this.tabControl2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabControl2.Location = new System.Drawing.Point(12, 6);
             this.tabControl2.Name = "tabControl2";
             this.tabControl2.SelectedIndex = 0;
-            this.tabControl2.Size = new System.Drawing.Size(335, 238);
+            this.tabControl2.Size = new System.Drawing.Size(251, 190);
             this.tabControl2.TabIndex = 24;
             // 
             // tabPage4
@@ -1025,49 +958,44 @@
             this.tabPage4.Controls.Add(this.txtCredit_Card_Year);
             this.tabPage4.Controls.Add(this.label15);
             this.tabPage4.Controls.Add(this.label16);
-            this.tabPage4.Location = new System.Drawing.Point(4, 25);
-            this.tabPage4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage4.Location = new System.Drawing.Point(4, 22);
             this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.tabPage4.Size = new System.Drawing.Size(327, 209);
+            this.tabPage4.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPage4.Size = new System.Drawing.Size(243, 164);
             this.tabPage4.TabIndex = 0;
             this.tabPage4.Text = "主卡";
             // 
             // label19
             // 
             this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(8, 21);
-            this.label19.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label19.Location = new System.Drawing.Point(6, 17);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(90, 15);
+            this.label19.Size = new System.Drawing.Size(71, 12);
             this.label19.TabIndex = 11;
             this.label19.Text = "信用卡卡號 :";
             // 
             // txtCredit_Card_Account
             // 
-            this.txtCredit_Card_Account.Location = new System.Drawing.Point(109, 14);
-            this.txtCredit_Card_Account.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtCredit_Card_Account.Location = new System.Drawing.Point(82, 11);
             this.txtCredit_Card_Account.Name = "txtCredit_Card_Account";
-            this.txtCredit_Card_Account.Size = new System.Drawing.Size(171, 25);
+            this.txtCredit_Card_Account.Size = new System.Drawing.Size(129, 22);
             this.txtCredit_Card_Account.TabIndex = 12;
             // 
             // label18
             // 
             this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(8, 56);
-            this.label18.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label18.Location = new System.Drawing.Point(6, 45);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(90, 15);
+            this.label18.Size = new System.Drawing.Size(71, 12);
             this.label18.TabIndex = 13;
             this.label18.Text = "卡片到期日 :";
             // 
             // btnAutoFillCreditCard
             // 
             this.btnAutoFillCreditCard.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(35)))), ((int)(((byte)(45)))));
-            this.btnAutoFillCreditCard.Location = new System.Drawing.Point(11, 136);
-            this.btnAutoFillCreditCard.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnAutoFillCreditCard.Location = new System.Drawing.Point(8, 109);
             this.btnAutoFillCreditCard.Name = "btnAutoFillCreditCard";
-            this.btnAutoFillCreditCard.Size = new System.Drawing.Size(271, 61);
+            this.btnAutoFillCreditCard.Size = new System.Drawing.Size(203, 49);
             this.btnAutoFillCreditCard.TabIndex = 21;
             this.btnAutoFillCreditCard.Text = "設定所有視窗如上參數";
             this.btnAutoFillCreditCard.UseVisualStyleBackColor = false;
@@ -1075,66 +1003,59 @@
             // 
             // txtCredit_Card_Month
             // 
-            this.txtCredit_Card_Month.Location = new System.Drawing.Point(109, 49);
-            this.txtCredit_Card_Month.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtCredit_Card_Month.Location = new System.Drawing.Point(82, 39);
             this.txtCredit_Card_Month.Name = "txtCredit_Card_Month";
-            this.txtCredit_Card_Month.Size = new System.Drawing.Size(64, 25);
+            this.txtCredit_Card_Month.Size = new System.Drawing.Size(49, 22);
             this.txtCredit_Card_Month.TabIndex = 14;
             // 
             // txtCredit_Card_CVE
             // 
-            this.txtCredit_Card_CVE.Location = new System.Drawing.Point(109, 99);
-            this.txtCredit_Card_CVE.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtCredit_Card_CVE.Location = new System.Drawing.Point(82, 79);
             this.txtCredit_Card_CVE.Name = "txtCredit_Card_CVE";
-            this.txtCredit_Card_CVE.Size = new System.Drawing.Size(171, 25);
+            this.txtCredit_Card_CVE.Size = new System.Drawing.Size(129, 22);
             this.txtCredit_Card_CVE.TabIndex = 20;
             // 
             // label17
             // 
             this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(189, 56);
-            this.label17.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label17.Location = new System.Drawing.Point(142, 45);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(11, 15);
+            this.label17.Size = new System.Drawing.Size(8, 12);
             this.label17.TabIndex = 15;
             this.label17.Text = "/";
             // 
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(8, 106);
-            this.label14.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label14.Location = new System.Drawing.Point(6, 85);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(90, 15);
+            this.label14.Size = new System.Drawing.Size(71, 12);
             this.label14.TabIndex = 19;
             this.label14.Text = "卡片檢查碼 :";
             // 
             // txtCredit_Card_Year
             // 
-            this.txtCredit_Card_Year.Location = new System.Drawing.Point(215, 49);
-            this.txtCredit_Card_Year.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtCredit_Card_Year.Location = new System.Drawing.Point(161, 39);
             this.txtCredit_Card_Year.Name = "txtCredit_Card_Year";
-            this.txtCredit_Card_Year.Size = new System.Drawing.Size(65, 25);
+            this.txtCredit_Card_Year.Size = new System.Drawing.Size(50, 22);
             this.txtCredit_Card_Year.TabIndex = 16;
             this.txtCredit_Card_Year.TextChanged += new System.EventHandler(this.txtCredit_Card_Year_TextChanged);
             // 
             // label15
             // 
             this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(216, 80);
-            this.label15.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label15.Location = new System.Drawing.Point(162, 64);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(62, 15);
+            this.label15.Size = new System.Drawing.Size(49, 12);
             this.label15.TabIndex = 18;
             this.label15.Text = "西元(年)";
             // 
             // label16
             // 
             this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(107, 80);
-            this.label16.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label16.Location = new System.Drawing.Point(80, 64);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(62, 15);
+            this.label16.Size = new System.Drawing.Size(49, 12);
             this.label16.TabIndex = 17;
             this.label16.Text = "西元(月)";
             // 
@@ -1152,11 +1073,10 @@
             this.tabPage8.Controls.Add(this.txtCredit_Card_Year_BK);
             this.tabPage8.Controls.Add(this.label24);
             this.tabPage8.Controls.Add(this.label25);
-            this.tabPage8.Location = new System.Drawing.Point(4, 25);
-            this.tabPage8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage8.Location = new System.Drawing.Point(4, 22);
             this.tabPage8.Name = "tabPage8";
-            this.tabPage8.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.tabPage8.Size = new System.Drawing.Size(327, 209);
+            this.tabPage8.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPage8.Size = new System.Drawing.Size(243, 164);
             this.tabPage8.TabIndex = 1;
             this.tabPage8.Text = "備用卡";
             this.tabPage8.Click += new System.EventHandler(this.tabPage8_Click);
@@ -1164,38 +1084,34 @@
             // label20
             // 
             this.label20.AutoSize = true;
-            this.label20.Location = new System.Drawing.Point(5, 19);
-            this.label20.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label20.Location = new System.Drawing.Point(4, 15);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(90, 15);
+            this.label20.Size = new System.Drawing.Size(71, 12);
             this.label20.TabIndex = 22;
             this.label20.Text = "信用卡卡號 :";
             // 
             // txtCredit_Card_Account_BK
             // 
-            this.txtCredit_Card_Account_BK.Location = new System.Drawing.Point(107, 11);
-            this.txtCredit_Card_Account_BK.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtCredit_Card_Account_BK.Location = new System.Drawing.Point(80, 9);
             this.txtCredit_Card_Account_BK.Name = "txtCredit_Card_Account_BK";
-            this.txtCredit_Card_Account_BK.Size = new System.Drawing.Size(171, 25);
+            this.txtCredit_Card_Account_BK.Size = new System.Drawing.Size(129, 22);
             this.txtCredit_Card_Account_BK.TabIndex = 23;
             // 
             // label21
             // 
             this.label21.AutoSize = true;
-            this.label21.Location = new System.Drawing.Point(5, 54);
-            this.label21.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label21.Location = new System.Drawing.Point(4, 43);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(90, 15);
+            this.label21.Size = new System.Drawing.Size(71, 12);
             this.label21.TabIndex = 24;
             this.label21.Text = "卡片到期日 :";
             // 
             // btnAutoFillCredidCard
             // 
             this.btnAutoFillCredidCard.BackColor = System.Drawing.Color.Gray;
-            this.btnAutoFillCredidCard.Location = new System.Drawing.Point(8, 134);
-            this.btnAutoFillCredidCard.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnAutoFillCredidCard.Location = new System.Drawing.Point(6, 107);
             this.btnAutoFillCredidCard.Name = "btnAutoFillCredidCard";
-            this.btnAutoFillCredidCard.Size = new System.Drawing.Size(271, 61);
+            this.btnAutoFillCredidCard.Size = new System.Drawing.Size(203, 49);
             this.btnAutoFillCredidCard.TabIndex = 32;
             this.btnAutoFillCredidCard.Text = "設定所有視窗如上參數";
             this.btnAutoFillCredidCard.UseVisualStyleBackColor = false;
@@ -1203,76 +1119,68 @@
             // 
             // txtCredit_Card_Month_BK
             // 
-            this.txtCredit_Card_Month_BK.Location = new System.Drawing.Point(107, 46);
-            this.txtCredit_Card_Month_BK.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtCredit_Card_Month_BK.Location = new System.Drawing.Point(80, 37);
             this.txtCredit_Card_Month_BK.Name = "txtCredit_Card_Month_BK";
-            this.txtCredit_Card_Month_BK.Size = new System.Drawing.Size(64, 25);
+            this.txtCredit_Card_Month_BK.Size = new System.Drawing.Size(49, 22);
             this.txtCredit_Card_Month_BK.TabIndex = 25;
             // 
             // txtCredit_Card_CVE_BK
             // 
-            this.txtCredit_Card_CVE_BK.Location = new System.Drawing.Point(107, 96);
-            this.txtCredit_Card_CVE_BK.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtCredit_Card_CVE_BK.Location = new System.Drawing.Point(80, 77);
             this.txtCredit_Card_CVE_BK.Name = "txtCredit_Card_CVE_BK";
-            this.txtCredit_Card_CVE_BK.Size = new System.Drawing.Size(171, 25);
+            this.txtCredit_Card_CVE_BK.Size = new System.Drawing.Size(129, 22);
             this.txtCredit_Card_CVE_BK.TabIndex = 31;
             // 
             // label22
             // 
             this.label22.AutoSize = true;
-            this.label22.Location = new System.Drawing.Point(187, 54);
-            this.label22.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label22.Location = new System.Drawing.Point(140, 43);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(11, 15);
+            this.label22.Size = new System.Drawing.Size(8, 12);
             this.label22.TabIndex = 26;
             this.label22.Text = "/";
             // 
             // label23
             // 
             this.label23.AutoSize = true;
-            this.label23.Location = new System.Drawing.Point(5, 104);
-            this.label23.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label23.Location = new System.Drawing.Point(4, 83);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(90, 15);
+            this.label23.Size = new System.Drawing.Size(71, 12);
             this.label23.TabIndex = 30;
             this.label23.Text = "卡片檢查碼 :";
             // 
             // txtCredit_Card_Year_BK
             // 
-            this.txtCredit_Card_Year_BK.Location = new System.Drawing.Point(212, 46);
-            this.txtCredit_Card_Year_BK.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtCredit_Card_Year_BK.Location = new System.Drawing.Point(159, 37);
             this.txtCredit_Card_Year_BK.Name = "txtCredit_Card_Year_BK";
-            this.txtCredit_Card_Year_BK.Size = new System.Drawing.Size(65, 25);
+            this.txtCredit_Card_Year_BK.Size = new System.Drawing.Size(50, 22);
             this.txtCredit_Card_Year_BK.TabIndex = 27;
             this.txtCredit_Card_Year_BK.TextChanged += new System.EventHandler(this.txtCredit_Card_Year_BK_TextChanged);
             // 
             // label24
             // 
             this.label24.AutoSize = true;
-            this.label24.Location = new System.Drawing.Point(213, 78);
-            this.label24.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label24.Location = new System.Drawing.Point(160, 62);
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(62, 15);
+            this.label24.Size = new System.Drawing.Size(49, 12);
             this.label24.TabIndex = 29;
             this.label24.Text = "西元(年)";
             // 
             // label25
             // 
             this.label25.AutoSize = true;
-            this.label25.Location = new System.Drawing.Point(104, 78);
-            this.label25.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label25.Location = new System.Drawing.Point(78, 62);
             this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(62, 15);
+            this.label25.Size = new System.Drawing.Size(49, 12);
             this.label25.TabIndex = 28;
             this.label25.Text = "西元(月)";
             // 
             // btnAutoFillup_AllWindow
             // 
             this.btnAutoFillup_AllWindow.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(35)))), ((int)(((byte)(45)))));
-            this.btnAutoFillup_AllWindow.Location = new System.Drawing.Point(359, 169);
-            this.btnAutoFillup_AllWindow.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnAutoFillup_AllWindow.Location = new System.Drawing.Point(269, 135);
             this.btnAutoFillup_AllWindow.Name = "btnAutoFillup_AllWindow";
-            this.btnAutoFillup_AllWindow.Size = new System.Drawing.Size(157, 76);
+            this.btnAutoFillup_AllWindow.Size = new System.Drawing.Size(118, 61);
             this.btnAutoFillup_AllWindow.TabIndex = 23;
             this.btnAutoFillup_AllWindow.Text = "所有視窗執行填單";
             this.btnAutoFillup_AllWindow.UseVisualStyleBackColor = false;
@@ -1281,10 +1189,9 @@
             // lblCreditCard
             // 
             this.lblCreditCard.AutoSize = true;
-            this.lblCreditCard.Location = new System.Drawing.Point(356, 15);
-            this.lblCreditCard.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblCreditCard.Location = new System.Drawing.Point(267, 12);
             this.lblCreditCard.Name = "lblCreditCard";
-            this.lblCreditCard.Size = new System.Drawing.Size(37, 15);
+            this.lblCreditCard.Size = new System.Drawing.Size(29, 12);
             this.lblCreditCard.TabIndex = 22;
             this.lblCreditCard.Text = "訊息";
             // 
@@ -1296,11 +1203,10 @@
             this.tabPage9.Controls.Add(this.rd_PayIBON);
             this.tabPage9.Controls.Add(this.rd_PayATM);
             this.tabPage9.Controls.Add(this.rd_PayNone);
-            this.tabPage9.Location = new System.Drawing.Point(4, 25);
-            this.tabPage9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage9.Location = new System.Drawing.Point(4, 22);
             this.tabPage9.Name = "tabPage9";
-            this.tabPage9.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.tabPage9.Size = new System.Drawing.Size(523, 256);
+            this.tabPage9.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPage9.Size = new System.Drawing.Size(390, 202);
             this.tabPage9.TabIndex = 9;
             this.tabPage9.Text = "付款方式";
             // 
@@ -1308,10 +1214,9 @@
             // 
             this.btn_AnserTest.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(35)))), ((int)(((byte)(75)))));
             this.btn_AnserTest.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_AnserTest.Location = new System.Drawing.Point(421, 200);
-            this.btn_AnserTest.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn_AnserTest.Location = new System.Drawing.Point(316, 160);
             this.btn_AnserTest.Name = "btn_AnserTest";
-            this.btn_AnserTest.Size = new System.Drawing.Size(91, 45);
+            this.btn_AnserTest.Size = new System.Drawing.Size(68, 36);
             this.btn_AnserTest.TabIndex = 47;
             this.btn_AnserTest.Text = "Test";
             this.btn_AnserTest.UseVisualStyleBackColor = false;
@@ -1320,10 +1225,9 @@
             // rd_PayCreditCard
             // 
             this.rd_PayCreditCard.AutoSize = true;
-            this.rd_PayCreditCard.Location = new System.Drawing.Point(21, 110);
-            this.rd_PayCreditCard.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.rd_PayCreditCard.Location = new System.Drawing.Point(16, 88);
             this.rd_PayCreditCard.Name = "rd_PayCreditCard";
-            this.rd_PayCreditCard.Size = new System.Drawing.Size(148, 19);
+            this.rd_PayCreditCard.Size = new System.Drawing.Size(119, 16);
             this.rd_PayCreditCard.TabIndex = 3;
             this.rd_PayCreditCard.TabStop = true;
             this.rd_PayCreditCard.Text = "自動選信用卡付款";
@@ -1333,10 +1237,9 @@
             // rd_PayIBON
             // 
             this.rd_PayIBON.AutoSize = true;
-            this.rd_PayIBON.Location = new System.Drawing.Point(21, 82);
-            this.rd_PayIBON.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.rd_PayIBON.Location = new System.Drawing.Point(16, 66);
             this.rd_PayIBON.Name = "rd_PayIBON";
-            this.rd_PayIBON.Size = new System.Drawing.Size(227, 19);
+            this.rd_PayIBON.Size = new System.Drawing.Size(183, 16);
             this.rd_PayIBON.TabIndex = 2;
             this.rd_PayIBON.TabStop = true;
             this.rd_PayIBON.Text = "自動選IBON序號取票臨櫃付款";
@@ -1346,10 +1249,9 @@
             // rd_PayATM
             // 
             this.rd_PayATM.AutoSize = true;
-            this.rd_PayATM.Location = new System.Drawing.Point(21, 55);
-            this.rd_PayATM.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.rd_PayATM.Location = new System.Drawing.Point(16, 44);
             this.rd_PayATM.Name = "rd_PayATM";
-            this.rd_PayATM.Size = new System.Drawing.Size(105, 19);
+            this.rd_PayATM.Size = new System.Drawing.Size(84, 16);
             this.rd_PayATM.TabIndex = 1;
             this.rd_PayATM.TabStop = true;
             this.rd_PayATM.Text = "自動選ATM";
@@ -1360,10 +1262,9 @@
             // 
             this.rd_PayNone.AutoSize = true;
             this.rd_PayNone.Checked = true;
-            this.rd_PayNone.Location = new System.Drawing.Point(21, 28);
-            this.rd_PayNone.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.rd_PayNone.Location = new System.Drawing.Point(16, 22);
             this.rd_PayNone.Name = "rd_PayNone";
-            this.rd_PayNone.Size = new System.Drawing.Size(133, 19);
+            this.rd_PayNone.Size = new System.Drawing.Size(107, 16);
             this.rd_PayNone.TabIndex = 0;
             this.rd_PayNone.TabStop = true;
             this.rd_PayNone.Text = "不自動選擇付款";
@@ -1401,10 +1302,9 @@
             this.pnlControlTable.Controls.Add(this.btnAutoBuy);
             this.pnlControlTable.Controls.Add(this.ckRandSeats);
             this.pnlControlTable.ForeColor = System.Drawing.Color.White;
-            this.pnlControlTable.Location = new System.Drawing.Point(9, 2);
-            this.pnlControlTable.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pnlControlTable.Location = new System.Drawing.Point(7, 2);
             this.pnlControlTable.Name = "pnlControlTable";
-            this.pnlControlTable.Size = new System.Drawing.Size(959, 488);
+            this.pnlControlTable.Size = new System.Drawing.Size(719, 390);
             this.pnlControlTable.TabIndex = 32;
             this.pnlControlTable.Visible = false;
             this.pnlControlTable.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlControlTable_Paint);
@@ -1412,28 +1312,25 @@
             // label26
             // 
             this.label26.AutoSize = true;
-            this.label26.Location = new System.Drawing.Point(16, 312);
-            this.label26.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label26.Location = new System.Drawing.Point(12, 250);
             this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(52, 15);
+            this.label26.Size = new System.Drawing.Size(41, 12);
             this.label26.TabIndex = 46;
             this.label26.Text = "視窗寬";
             // 
             // txt_BrowserWidth
             // 
-            this.txt_BrowserWidth.Location = new System.Drawing.Point(19, 331);
-            this.txt_BrowserWidth.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txt_BrowserWidth.Location = new System.Drawing.Point(14, 265);
             this.txt_BrowserWidth.Name = "txt_BrowserWidth";
-            this.txt_BrowserWidth.Size = new System.Drawing.Size(63, 25);
+            this.txt_BrowserWidth.Size = new System.Drawing.Size(48, 22);
             this.txt_BrowserWidth.TabIndex = 45;
             // 
             // rd_Answer02
             // 
             this.rd_Answer02.AutoSize = true;
-            this.rd_Answer02.Location = new System.Drawing.Point(107, 332);
-            this.rd_Answer02.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.rd_Answer02.Location = new System.Drawing.Point(80, 266);
             this.rd_Answer02.Name = "rd_Answer02";
-            this.rd_Answer02.Size = new System.Drawing.Size(93, 19);
+            this.rd_Answer02.Size = new System.Drawing.Size(75, 16);
             this.rd_Answer02.TabIndex = 44;
             this.rd_Answer02.Text = "考試-周日";
             this.rd_Answer02.UseVisualStyleBackColor = true;
@@ -1443,10 +1340,9 @@
             // 
             this.rd_Answer01.AutoSize = true;
             this.rd_Answer01.Checked = true;
-            this.rd_Answer01.Location = new System.Drawing.Point(107, 305);
-            this.rd_Answer01.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.rd_Answer01.Location = new System.Drawing.Point(80, 244);
             this.rd_Answer01.Name = "rd_Answer01";
-            this.rd_Answer01.Size = new System.Drawing.Size(93, 19);
+            this.rd_Answer01.Size = new System.Drawing.Size(75, 16);
             this.rd_Answer01.TabIndex = 43;
             this.rd_Answer01.TabStop = true;
             this.rd_Answer01.Text = "考試-週六";
@@ -1458,32 +1354,29 @@
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("新細明體", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.label11.ForeColor = System.Drawing.Color.DarkSalmon;
-            this.label11.Location = new System.Drawing.Point(544, 438);
-            this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label11.Location = new System.Drawing.Point(408, 350);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(121, 37);
+            this.label11.Size = new System.Drawing.Size(98, 29);
             this.label11.TabIndex = 39;
-            this.label11.Text = "ver 8.1";
+            this.label11.Text = "ver 8.2";
             // 
             // lblHDDNumber
             // 
             this.lblHDDNumber.AutoSize = true;
             this.lblHDDNumber.Font = new System.Drawing.Font("微軟正黑體", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.lblHDDNumber.ForeColor = System.Drawing.Color.Gray;
-            this.lblHDDNumber.Location = new System.Drawing.Point(15, 452);
-            this.lblHDDNumber.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblHDDNumber.Location = new System.Drawing.Point(11, 362);
             this.lblHDDNumber.Name = "lblHDDNumber";
-            this.lblHDDNumber.Size = new System.Drawing.Size(64, 18);
+            this.lblHDDNumber.Size = new System.Drawing.Size(51, 15);
             this.lblHDDNumber.TabIndex = 33;
             this.lblHDDNumber.Text = "硬體序號";
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::Tixcraft_Subscriber.Properties.Resources.logo1;
-            this.pictureBox1.Location = new System.Drawing.Point(711, 305);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Location = new System.Drawing.Point(533, 244);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(240, 179);
+            this.pictureBox1.Size = new System.Drawing.Size(180, 143);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 37;
             this.pictureBox1.TabStop = false;
@@ -1491,10 +1384,9 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(456, 325);
-            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label8.Location = new System.Drawing.Point(342, 260);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(102, 15);
+            this.label8.Size = new System.Drawing.Size(81, 12);
             this.label8.TabIndex = 36;
             this.label8.Text = "輸入完按Enter ";
             // 
@@ -1502,10 +1394,9 @@
             // 
             this.btn_ShowLog.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(35)))), ((int)(((byte)(75)))));
             this.btn_ShowLog.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_ShowLog.Location = new System.Drawing.Point(755, 40);
-            this.btn_ShowLog.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn_ShowLog.Location = new System.Drawing.Point(566, 32);
             this.btn_ShowLog.Name = "btn_ShowLog";
-            this.btn_ShowLog.Size = new System.Drawing.Size(91, 45);
+            this.btn_ShowLog.Size = new System.Drawing.Size(68, 36);
             this.btn_ShowLog.TabIndex = 35;
             this.btn_ShowLog.Text = "日誌";
             this.btn_ShowLog.UseVisualStyleBackColor = false;
@@ -1515,10 +1406,9 @@
             // 
             this.btnStop_Buy.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(35)))), ((int)(((byte)(75)))));
             this.btnStop_Buy.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnStop_Buy.Location = new System.Drawing.Point(755, 252);
-            this.btnStop_Buy.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnStop_Buy.Location = new System.Drawing.Point(566, 202);
             this.btnStop_Buy.Name = "btnStop_Buy";
-            this.btnStop_Buy.Size = new System.Drawing.Size(91, 45);
+            this.btnStop_Buy.Size = new System.Drawing.Size(68, 36);
             this.btnStop_Buy.TabIndex = 35;
             this.btnStop_Buy.Text = "全部停止";
             this.btnStop_Buy.UseVisualStyleBackColor = false;
@@ -1527,10 +1417,9 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(16, 371);
-            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label7.Location = new System.Drawing.Point(12, 297);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(76, 15);
+            this.label7.Size = new System.Drawing.Size(62, 12);
             this.label7.TabIndex = 34;
             this.label7.Text = "OCR Server";
             this.label7.Click += new System.EventHandler(this.label7_Click);
@@ -1539,10 +1428,9 @@
             // 
             this.btnSaveIP.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(35)))), ((int)(((byte)(45)))));
             this.btnSaveIP.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSaveIP.Location = new System.Drawing.Point(116, 364);
-            this.btnSaveIP.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnSaveIP.Location = new System.Drawing.Point(87, 291);
             this.btnSaveIP.Name = "btnSaveIP";
-            this.btnSaveIP.Size = new System.Drawing.Size(76, 54);
+            this.btnSaveIP.Size = new System.Drawing.Size(57, 43);
             this.btnSaveIP.TabIndex = 33;
             this.btnSaveIP.Text = "儲存";
             this.btnSaveIP.UseVisualStyleBackColor = false;
@@ -1550,20 +1438,18 @@
             // 
             // txtIP
             // 
-            this.txtIP.Location = new System.Drawing.Point(19, 390);
-            this.txtIP.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtIP.Location = new System.Drawing.Point(14, 312);
             this.txtIP.Name = "txtIP";
-            this.txtIP.Size = new System.Drawing.Size(88, 25);
+            this.txtIP.Size = new System.Drawing.Size(67, 22);
             this.txtIP.TabIndex = 32;
             // 
             // btnShareAnswer
             // 
             this.btnShareAnswer.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(35)))), ((int)(((byte)(45)))));
             this.btnShareAnswer.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnShareAnswer.Location = new System.Drawing.Point(223, 390);
-            this.btnShareAnswer.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnShareAnswer.Location = new System.Drawing.Point(167, 312);
             this.btnShareAnswer.Name = "btnShareAnswer";
-            this.btnShareAnswer.Size = new System.Drawing.Size(88, 46);
+            this.btnShareAnswer.Size = new System.Drawing.Size(66, 37);
             this.btnShareAnswer.TabIndex = 29;
             this.btnShareAnswer.Text = "共享答案";
             this.btnShareAnswer.UseVisualStyleBackColor = false;
@@ -1573,19 +1459,30 @@
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
             // 
+            // btn_AnyDesk
+            // 
+            this.btn_AnyDesk.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(35)))), ((int)(((byte)(75)))));
+            this.btn_AnyDesk.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_AnyDesk.Location = new System.Drawing.Point(7, 129);
+            this.btn_AnyDesk.Name = "btn_AnyDesk";
+            this.btn_AnyDesk.Size = new System.Drawing.Size(86, 36);
+            this.btn_AnyDesk.TabIndex = 52;
+            this.btn_AnyDesk.Text = "遠端程式";
+            this.btn_AnyDesk.UseVisualStyleBackColor = false;
+            this.btn_AnyDesk.Click += new System.EventHandler(this.btn_AnyDesk_Click);
+            // 
             // SubscriberLoginer
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(35)))), ((int)(((byte)(45)))));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.ClientSize = new System.Drawing.Size(976, 505);
+            this.ClientSize = new System.Drawing.Size(732, 404);
             this.Controls.Add(this.pnlControlTable);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "SubscriberLoginer";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "拓元神器(Money) ver_8.1 - 2019.9.22";
+            this.Text = "拓元神器(Money) ver_8.2 - 2019.9.26";
             this.TopMost = true;
             this.Activated += new System.EventHandler(this.SubscriberLoginer_Activated);
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.SubscriberLoginer_FormClosed);
@@ -1743,5 +1640,6 @@
         private System.Windows.Forms.TextBox txtProxyUpdateTable;
         private System.Windows.Forms.Button btnClearProxyList;
         private System.Windows.Forms.Button btn_AccountOld;
+        private System.Windows.Forms.Button btn_AnyDesk;
     }
 }

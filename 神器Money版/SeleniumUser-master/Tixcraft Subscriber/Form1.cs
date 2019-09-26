@@ -83,7 +83,7 @@ namespace Tixcraft_Subscriber
         bool g_IsAutoFlag = false; // 是否上線掛機
         OCRServer myOCRServer = new OCRServer();
 
-        public bool g_bIsDelayTimerEnable = false;  //20190915 開賣智能延遲器 , 功能開關
+        public bool g_bIsDelayTimerEnable = true;  //20190915 開賣智能延遲器 , 功能開關
         public Stopwatch g_DelayTimer = new Stopwatch();    //20190915 開賣後網址延遲器，讀取網址成功後，延遲N秒後再進行提交比單的計時器
         public bool g_bIsDelayTimerRunning = false; //20190915 開賣智能延遲器，紀錄計時器狀態使用
         public long g_DelayThreshold = 800;    //20190915 開賣後0.8秒再進行送出

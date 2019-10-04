@@ -124,6 +124,7 @@
             this.btn_CookieTests = new System.Windows.Forms.Button();
             this.ckbASK_CheckPage = new System.Windows.Forms.CheckBox();
             this.chk_TimerDelayAutoAI = new System.Windows.Forms.CheckBox();
+            this.btnResetAllStatue = new System.Windows.Forms.Button();
             this.tp_AccPwd.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pb_VeryfiImage)).BeginInit();
@@ -402,7 +403,7 @@
             this.tabPage1.Controls.Add(this.lblAddress);
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage1.Size = new System.Drawing.Size(350, 231);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "主控";
@@ -468,7 +469,7 @@
             this.tabPage2.Controls.Add(this.label3);
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage2.Size = new System.Drawing.Size(350, 231);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "刷卡";
@@ -593,7 +594,7 @@
             this.tabPage3.Controls.Add(this.pbChar0);
             this.tabPage3.Location = new System.Drawing.Point(4, 22);
             this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage3.Size = new System.Drawing.Size(350, 231);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "監看";
@@ -732,6 +733,7 @@
             // 
             // tabPage4
             // 
+            this.tabPage4.Controls.Add(this.btnResetAllStatue);
             this.tabPage4.Controls.Add(this.groupBox3);
             this.tabPage4.Controls.Add(this.lblProxyText);
             this.tabPage4.Controls.Add(this.ckbSwitchPageStepByStep);
@@ -740,7 +742,7 @@
             this.tabPage4.Controls.Add(this.groupBox1);
             this.tabPage4.Location = new System.Drawing.Point(4, 22);
             this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage4.Size = new System.Drawing.Size(350, 231);
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "設置";
@@ -920,7 +922,7 @@
             this.tabPage5.Controls.Add(this.groupBox2);
             this.tabPage5.Location = new System.Drawing.Point(4, 22);
             this.tabPage5.Name = "tabPage5";
-            this.tabPage5.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage5.Size = new System.Drawing.Size(350, 231);
             this.tabPage5.TabIndex = 4;
             this.tabPage5.Text = "填單工具";
@@ -995,7 +997,7 @@
             this.tabPage6.Controls.Add(this.label15);
             this.tabPage6.Location = new System.Drawing.Point(4, 22);
             this.tabPage6.Name = "tabPage6";
-            this.tabPage6.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage6.Size = new System.Drawing.Size(350, 231);
             this.tabPage6.TabIndex = 5;
             this.tabPage6.Text = "Gmail";
@@ -1061,7 +1063,7 @@
             this.tabPage7.Controls.Add(this.btn_CookieTests);
             this.tabPage7.Location = new System.Drawing.Point(4, 22);
             this.tabPage7.Name = "tabPage7";
-            this.tabPage7.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPage7.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage7.Size = new System.Drawing.Size(350, 231);
             this.tabPage7.TabIndex = 6;
             this.tabPage7.Text = "測試";
@@ -1162,6 +1164,16 @@
             this.chk_TimerDelayAutoAI.Text = "開啟智能延遲(開賣後等N秒才送驗證)";
             this.chk_TimerDelayAutoAI.UseVisualStyleBackColor = true;
             this.chk_TimerDelayAutoAI.CheckedChanged += new System.EventHandler(this.chk_TimerDelayAutoAI_CheckedChanged);
+            // 
+            // btnResetAllStatue
+            // 
+            this.btnResetAllStatue.Location = new System.Drawing.Point(204, 117);
+            this.btnResetAllStatue.Name = "btnResetAllStatue";
+            this.btnResetAllStatue.Size = new System.Drawing.Size(140, 36);
+            this.btnResetAllStatue.TabIndex = 49;
+            this.btnResetAllStatue.Text = "當掉重置流程(未測試)";
+            this.btnResetAllStatue.UseVisualStyleBackColor = true;
+            this.btnResetAllStatue.Click += new System.EventHandler(this.btnResetAllStatue_Click);
             // 
             // Form1
             // 
@@ -1310,6 +1322,7 @@
         private System.Windows.Forms.Label label21;
         private System.Windows.Forms.TextBox txt_TimeDelayRun_AutoAI;
         private System.Windows.Forms.CheckBox chk_TimerDelayAutoAI;
+        private System.Windows.Forms.Button btnResetAllStatue;
     }
 }
 

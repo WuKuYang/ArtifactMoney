@@ -56,6 +56,7 @@
             this.ckbProxy = new System.Windows.Forms.CheckBox();
             this.ckbSwitchPageStepByStep = new System.Windows.Forms.CheckBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.btn_AnyDesk = new System.Windows.Forms.Button();
             this.btn_AccountOld = new System.Windows.Forms.Button();
             this.label13 = new System.Windows.Forms.Label();
             this.txtYW0Delay = new System.Windows.Forms.TextBox();
@@ -144,7 +145,6 @@
             this.txtIP = new System.Windows.Forms.TextBox();
             this.btnShareAnswer = new System.Windows.Forms.Button();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
-            this.btn_AnyDesk = new System.Windows.Forms.Button();
             this.tpFBEmail.SuspendLayout();
             this.tpShow.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -434,7 +434,7 @@
             this.tpShow.Controls.Add(this.lblBuyInfo);
             this.tpShow.Location = new System.Drawing.Point(4, 22);
             this.tpShow.Name = "tpShow";
-            this.tpShow.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tpShow.Padding = new System.Windows.Forms.Padding(3);
             this.tpShow.Size = new System.Drawing.Size(390, 202);
             this.tpShow.TabIndex = 0;
             this.tpShow.Text = "節目設定";
@@ -502,11 +502,23 @@
             this.tabPage2.Controls.Add(this.btnSubmitCheckCode);
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage2.Size = new System.Drawing.Size(390, 202);
             this.tabPage2.TabIndex = 4;
             this.tabPage2.Text = "管理員";
             this.tabPage2.Click += new System.EventHandler(this.tabPage2_Click);
+            // 
+            // btn_AnyDesk
+            // 
+            this.btn_AnyDesk.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(35)))), ((int)(((byte)(75)))));
+            this.btn_AnyDesk.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_AnyDesk.Location = new System.Drawing.Point(7, 129);
+            this.btn_AnyDesk.Name = "btn_AnyDesk";
+            this.btn_AnyDesk.Size = new System.Drawing.Size(86, 36);
+            this.btn_AnyDesk.TabIndex = 52;
+            this.btn_AnyDesk.Text = "遠端程式";
+            this.btn_AnyDesk.UseVisualStyleBackColor = false;
+            this.btn_AnyDesk.Click += new System.EventHandler(this.btn_AnyDesk_Click);
             // 
             // btn_AccountOld
             // 
@@ -672,7 +684,7 @@
             this.tabPage1.Controls.Add(this.groupBox1);
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage1.Size = new System.Drawing.Size(390, 202);
             this.tabPage1.TabIndex = 5;
             this.tabPage1.Text = "群體控制";
@@ -744,7 +756,7 @@
             this.tabPage3.Controls.Add(this.tabControl1);
             this.tabPage3.Location = new System.Drawing.Point(4, 22);
             this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage3.Size = new System.Drawing.Size(390, 202);
             this.tabPage3.TabIndex = 6;
             this.tabPage3.Text = "帳號";
@@ -770,7 +782,7 @@
             this.tabPage6.Controls.Add(this.rdoLoaginPP);
             this.tabPage6.Location = new System.Drawing.Point(4, 22);
             this.tabPage6.Name = "tabPage6";
-            this.tabPage6.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage6.Size = new System.Drawing.Size(370, 164);
             this.tabPage6.TabIndex = 0;
             this.tabPage6.Text = "雲端表格";
@@ -831,7 +843,7 @@
             this.tabPage7.Controls.Add(this.txtPixelPinUpdateTable);
             this.tabPage7.Location = new System.Drawing.Point(4, 22);
             this.tabPage7.Name = "tabPage7";
-            this.tabPage7.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPage7.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage7.Size = new System.Drawing.Size(370, 164);
             this.tabPage7.TabIndex = 1;
             this.tabPage7.Text = "雲端表格上傳";
@@ -862,7 +874,7 @@
             this.tabPage10.Controls.Add(this.lstProxyList);
             this.tabPage10.Location = new System.Drawing.Point(4, 22);
             this.tabPage10.Name = "tabPage10";
-            this.tabPage10.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPage10.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage10.Size = new System.Drawing.Size(370, 164);
             this.tabPage10.TabIndex = 2;
             this.tabPage10.Text = "Proxy表格";
@@ -884,7 +896,7 @@
             this.tabPage11.Controls.Add(this.txtProxyUpdateTable);
             this.tabPage11.Location = new System.Drawing.Point(4, 22);
             this.tabPage11.Name = "tabPage11";
-            this.tabPage11.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPage11.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage11.Size = new System.Drawing.Size(370, 164);
             this.tabPage11.TabIndex = 3;
             this.tabPage11.Text = "Proxy上傳";
@@ -929,7 +941,7 @@
             this.tabPage5.Controls.Add(this.lblCreditCard);
             this.tabPage5.Location = new System.Drawing.Point(4, 22);
             this.tabPage5.Name = "tabPage5";
-            this.tabPage5.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage5.Size = new System.Drawing.Size(390, 202);
             this.tabPage5.TabIndex = 8;
             this.tabPage5.Text = "國泰刷卡";
@@ -960,7 +972,7 @@
             this.tabPage4.Controls.Add(this.label16);
             this.tabPage4.Location = new System.Drawing.Point(4, 22);
             this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage4.Size = new System.Drawing.Size(243, 164);
             this.tabPage4.TabIndex = 0;
             this.tabPage4.Text = "主卡";
@@ -1075,7 +1087,7 @@
             this.tabPage8.Controls.Add(this.label25);
             this.tabPage8.Location = new System.Drawing.Point(4, 22);
             this.tabPage8.Name = "tabPage8";
-            this.tabPage8.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPage8.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage8.Size = new System.Drawing.Size(243, 164);
             this.tabPage8.TabIndex = 1;
             this.tabPage8.Text = "備用卡";
@@ -1205,7 +1217,7 @@
             this.tabPage9.Controls.Add(this.rd_PayNone);
             this.tabPage9.Location = new System.Drawing.Point(4, 22);
             this.tabPage9.Name = "tabPage9";
-            this.tabPage9.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPage9.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage9.Size = new System.Drawing.Size(390, 202);
             this.tabPage9.TabIndex = 9;
             this.tabPage9.Text = "付款方式";
@@ -1358,7 +1370,7 @@
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(98, 29);
             this.label11.TabIndex = 39;
-            this.label11.Text = "ver 8.2";
+            this.label11.Text = "ver 8.3";
             // 
             // lblHDDNumber
             // 
@@ -1459,18 +1471,6 @@
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
             // 
-            // btn_AnyDesk
-            // 
-            this.btn_AnyDesk.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(35)))), ((int)(((byte)(75)))));
-            this.btn_AnyDesk.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_AnyDesk.Location = new System.Drawing.Point(7, 129);
-            this.btn_AnyDesk.Name = "btn_AnyDesk";
-            this.btn_AnyDesk.Size = new System.Drawing.Size(86, 36);
-            this.btn_AnyDesk.TabIndex = 52;
-            this.btn_AnyDesk.Text = "遠端程式";
-            this.btn_AnyDesk.UseVisualStyleBackColor = false;
-            this.btn_AnyDesk.Click += new System.EventHandler(this.btn_AnyDesk_Click);
-            // 
             // SubscriberLoginer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -1482,7 +1482,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "SubscriberLoginer";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "拓元神器(Money) ver_8.2 - 2019.9.26";
+            this.Text = "拓元神器(Money) ver_8.3 - 2019.10.4";
             this.TopMost = true;
             this.Activated += new System.EventHandler(this.SubscriberLoginer_Activated);
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.SubscriberLoginer_FormClosed);

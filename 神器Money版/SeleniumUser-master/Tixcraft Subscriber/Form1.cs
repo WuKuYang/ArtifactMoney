@@ -87,7 +87,7 @@ namespace Tixcraft_Subscriber
         public Stopwatch g_DelayTimer = new Stopwatch();    //20190915 開賣後網址延遲器，讀取網址成功後，延遲N秒後再進行提交比單的計時器
         public bool g_bIsDelayTimerRunning = false; //20190915 開賣智能延遲器，紀錄計時器狀態使用
         public long g_DelayThreshold = 800;    //20190915 開賣後0.8秒再進行送出
-
+        public string g_strUserTaiwanName = ".尚未登入.";
         public List<OCR_History> g_lstOCR_History = new List<OCR_History>();
 
         public Bitmap bSnapShot = new Bitmap(10, 10);
@@ -413,8 +413,8 @@ namespace Tixcraft_Subscriber
             if (g_bIsDelayTimerRunning == false)
             { 
                 g_DelayTimer.Restart();
-                g_bIsDelayTimerRunning = true; 
-                VPState.Report("開賣智能延遲 - 計時器開始計時", MethodBase.GetCurrentMethod(), VPState.eVPType.Windows);
+                g_bIsDelayTimerRunning = true;
+                VPState.Report(g_strUserTaiwanName + ".." + "開賣智能延遲 - 計時器開始計時", MethodBase.GetCurrentMethod(), VPState.eVPType.Windows);
             }
         }
 
@@ -426,7 +426,7 @@ namespace Tixcraft_Subscriber
             {
                 g_DelayTimer.Stop();
                 g_bIsDelayTimerRunning = false;
-                VPState.Report("開賣智能延遲 - 關閉", MethodBase.GetCurrentMethod(), VPState.eVPType.Windows);
+                VPState.Report(g_strUserTaiwanName + ".." + "開賣智能延遲 - 關閉", MethodBase.GetCurrentMethod(), VPState.eVPType.Windows);
             }
         }
 
@@ -795,6 +795,7 @@ namespace Tixcraft_Subscriber
             //登入後取得登入者姓名
             string strUserTaiwanName = Tixcraft.GetTixUserName();
             this.Invoke(degRefreshText, this, "登入資訊:" + strUserTaiwanName);
+            g_strUserTaiwanName = strUserTaiwanName;
 
             //準備開始搶票
             SubscrEr.GoTo(Tixcraft.GetActivity(g_ShowSelected).url);  
@@ -840,14 +841,14 @@ namespace Tixcraft_Subscriber
                             if (SubscrEr.Driver.Url != Days.url)
                             {
                                 SubscrEr.GoTo_normal(Days.url);
-                                VPState.Report("發現事前驗證碼，則跳入事前驗證碼頁面" , MethodBase.GetCurrentMethod(), VPState.eVPType.Windows);
+                                VPState.Report(g_strUserTaiwanName + ".." + "發現事前驗證碼，則跳入事前驗證碼頁面", MethodBase.GetCurrentMethod(), VPState.eVPType.Windows);
                             }
 
                             ReadOnlyCollection<IWebElement> TD_CheckCode = SubscrEr.Driver.FindElements(By.Id("checkCode"));
                             //ReadOnlyCollection<IWebElement> TD_SubmitButton = SubscrEr.Driver.FindElements(By.Id("submitButton"));
                             if (TD_CheckCode != null)
                             {
-                                    VPState.Report("發現 TD_CheckCode ", MethodBase.GetCurrentMethod(), VPState.eVPType.Windows);
+                                VPState.Report(g_strUserTaiwanName + ".." + "發現 TD_CheckCode ", MethodBase.GetCurrentMethod(), VPState.eVPType.Windows);
                                     int iTryCount = 0;
 
                                     while (true)
@@ -867,14 +868,14 @@ namespace Tixcraft_Subscriber
                                         }
                                         if (iTryCount > 10)
                                         {
-                                            VPState.Report("等候時間過長(等候10次)..跳出等待迴圈", MethodBase.GetCurrentMethod(), VPState.eVPType.Windows);
+                                            VPState.Report(g_strUserTaiwanName + ".." + "等候時間過長(等候10次)..跳出等待迴圈", MethodBase.GetCurrentMethod(), VPState.eVPType.Windows);
                                             break;
                                         }
                                     }
 
                                     if (TD_CheckCode.Count > 0)
                                     {
-                                        VPState.Report("發現 TD_SubmitButton ", MethodBase.GetCurrentMethod(), VPState.eVPType.Windows);
+                                        VPState.Report(g_strUserTaiwanName + ".." + "發現 TD_SubmitButton ", MethodBase.GetCurrentMethod(), VPState.eVPType.Windows);
                                         //如果真的有事前驗證頁面，那就協助載入事前頁面
                                         bIsHaveCheckCode = true;
                                         //SubscrEr.GoTo(Days.url);
@@ -904,7 +905,7 @@ namespace Tixcraft_Subscriber
                                                     iReAnswerIdx++;
                                                     SendCheckCode(strMyAnswer);                 //透過流覽器提交答案
 
-                                                    VPState.Report("提交答案 : " + strMyAnswer, MethodBase.GetCurrentMethod(), VPState.eVPType.Windows);
+                                                    VPState.Report(g_strUserTaiwanName + ".." + "提交答案 : " + strMyAnswer, MethodBase.GetCurrentMethod(), VPState.eVPType.Windows);
                                                     //CheckAlart();
                                                     tempstrMyAnswer = strMyAnswer;//紀錄上一個答案
                                                 }
@@ -1041,7 +1042,7 @@ namespace Tixcraft_Subscriber
             if (true) //20190730 fix
             {
                 #region == 如果沒有防黃牛，那就取miniBrowser的資料進入 ==
-                VPState.Report("從第一頁強制載入至第三頁", MethodBase.GetCurrentMethod(), VPState.eVPType.Windows);
+                VPState.Report(g_strUserTaiwanName + ".." +"從第一頁強制載入至第三頁", MethodBase.GetCurrentMethod(), VPState.eVPType.Windows);
                 Tixcraft.RefreshActivity();//test
 
                 TixcraftSubscriber.Activity bActivity = Tixcraft.GetActivity(g_ShowSelected);
@@ -1075,7 +1076,7 @@ namespace Tixcraft_Subscriber
             else if (HumanDelayer.mode == Human_DelayMode.DelayMilliSecond)
             {
                 string strMsg = string.Format("[指定] 執行人性化延遲:{0}", HumanDelayer.Delay_ms);
-                VPState.Report(strMsg, MethodBase.GetCurrentMethod(), VPState.eVPType.Windows);
+                VPState.Report(g_strUserTaiwanName + ".." + strMsg, MethodBase.GetCurrentMethod(), VPState.eVPType.Windows);
                 Thread.Sleep(HumanDelayer.Delay_ms);
             }
             else if (HumanDelayer.mode == Human_DelayMode.DelayRand)
@@ -1083,7 +1084,7 @@ namespace Tixcraft_Subscriber
                 Random rnd = new Random();
                 int iRand_ms = rnd.Next(HumanDelayer.DelayMin_ms, HumanDelayer.DelayMax_ms);
                 string strMsg = string.Format("[隨機] 執行人性化延遲:{0} ~ {1} 毫秒 - 實際 : {2} ms", HumanDelayer.DelayMin_ms, HumanDelayer.DelayMax_ms, iRand_ms);
-                VPState.Report(strMsg, MethodBase.GetCurrentMethod(), VPState.eVPType.Windows);
+                VPState.Report(g_strUserTaiwanName + ".." + strMsg, MethodBase.GetCurrentMethod(), VPState.eVPType.Windows);
                 Thread.Sleep(iRand_ms);
             } 
             #endregion
@@ -1102,7 +1103,7 @@ namespace Tixcraft_Subscriber
                 }
                 string strMessageTimer = string.Format("開賣智能延遲 - {0} ms 等待完成 , 允許開始打碼 , 人工條件為 : {1} ms", g_DelayTimer.ElapsedMilliseconds, g_DelayThreshold);
 
-                VPState.Report(strMessageTimer, MethodBase.GetCurrentMethod(), VPState.eVPType.Windows);
+                VPState.Report(g_strUserTaiwanName + ".." + strMessageTimer, MethodBase.GetCurrentMethod(), VPState.eVPType.Windows);
             }
             swDriverLoading.Stop();
             try
@@ -1159,14 +1160,14 @@ namespace Tixcraft_Subscriber
                             if (bNeedRefreshVeryfiImage == false)
                             {
                                 BuyTicket.GetTicket();
-                                VPState.Report("下載圖檔耗時 : " + swTest.ElapsedMilliseconds.ToString() + "ms", MethodBase.GetCurrentMethod(), VPState.eVPType.Windows);
+                                VPState.Report(g_strUserTaiwanName + ".." + "下載圖檔耗時 : " + swTest.ElapsedMilliseconds.ToString() + "ms", MethodBase.GetCurrentMethod(), VPState.eVPType.Windows);
                             }
                             else 
                             {
                                 BuyTicket.RefreshVeryfiImage();
                                 //BuyTicket.GetTicket();
                                 iAutoKeyIn_Confused++;
-                                VPState.Report("切割失敗，換一張驗證碼 : " + swTest.ElapsedMilliseconds.ToString() + "ms", MethodBase.GetCurrentMethod(), VPState.eVPType.Windows);
+                                VPState.Report(g_strUserTaiwanName + ".." + "切割失敗，換一張驗證碼 : " + swTest.ElapsedMilliseconds.ToString() + "ms", MethodBase.GetCurrentMethod(), VPState.eVPType.Windows);
                             } 
 
                             //SubscrEr.ScreenShot();
@@ -1203,7 +1204,7 @@ namespace Tixcraft_Subscriber
                                 // 沒有驗證馬，就重新下載一張
                                 BuyTicket.GetTicket(); 
                                 lstbitmap.Clear();
-                                VPState.Report(" 沒有驗證馬，就重新下載一張 : " , MethodBase.GetCurrentMethod(), VPState.eVPType.Windows);
+                                VPState.Report(g_strUserTaiwanName + ".." + " 沒有驗證馬，就重新下載一張 : ", MethodBase.GetCurrentMethod(), VPState.eVPType.Windows);
 
                             }
                             iDpwnLoadCount++;
@@ -1232,7 +1233,7 @@ namespace Tixcraft_Subscriber
                                 strResult += this.myOCRServer.GetChar(lstbitmap[2]);
                                 strResult += this.myOCRServer.GetChar(lstbitmap[3]);
                                 swOCR.Stop();
-                                VPState.Report("Python 辨識耗時" + swOCR.ElapsedMilliseconds.ToString() + " ms", MethodBase.GetCurrentMethod(), VPState.eVPType.Windows);
+                                VPState.Report(g_strUserTaiwanName + ".." + "Python 辨識耗時" + swOCR.ElapsedMilliseconds.ToString() + " ms", MethodBase.GetCurrentMethod(), VPState.eVPType.Windows);
                                 iTCPIP_SendCount++;
                             }
 
@@ -1254,7 +1255,7 @@ namespace Tixcraft_Subscriber
 
                             if (iTCPIP_SendCount > 1)
                             {
-                                VPState.Report("辨識通訊錯誤 , 重送" + iTCPIP_SendCount.ToString() + "次", MethodBase.GetCurrentMethod(), VPState.eVPType.Windows);
+                                VPState.Report(g_strUserTaiwanName + ".." + "辨識通訊錯誤 , 重送" + iTCPIP_SendCount.ToString() + "次", MethodBase.GetCurrentMethod(), VPState.eVPType.Windows);
                             }
                         }
                         for (int i = 0; i < lstbitmap.Count; i++)
@@ -1294,7 +1295,7 @@ namespace Tixcraft_Subscriber
                         Thread.Sleep(10);
                     }
                     swCostWait.Stop();
-                    VPState.Report("等待載入提交頁面耗時" + swCostWait.ElapsedMilliseconds.ToString() + " ms", MethodBase.GetCurrentMethod(), VPState.eVPType.Windows); 
+                    VPState.Report(g_strUserTaiwanName + ".." + "等待載入提交頁面耗時" + swCostWait.ElapsedMilliseconds.ToString() + " ms", MethodBase.GetCurrentMethod(), VPState.eVPType.Windows); 
                     #endregion
                    
                     #region 提交
@@ -1311,14 +1312,14 @@ namespace Tixcraft_Subscriber
                         SubscrEr.SubmitAndPreSubtmi(strResult, iTickets);  
                     }
                     swSubmit_Cost.Stop();
-                    VPState.Report("提交耗時" + swSubmit_Cost.ElapsedMilliseconds.ToString() + " ms", MethodBase.GetCurrentMethod(), VPState.eVPType.Windows);
+                    VPState.Report(g_strUserTaiwanName + ".." + "提交耗時" + swSubmit_Cost.ElapsedMilliseconds.ToString() + " ms", MethodBase.GetCurrentMethod(), VPState.eVPType.Windows);
                     
                     Stopwatch swWaitForAlart = new Stopwatch();
                     swWaitForAlart.Restart(); 
                     string strAlartText = CheckAlart();
                     swWaitForAlart.Stop(); 
-                    string strWaitForAlart = string.Format("Wait for Alart is cost {0} ms", swWaitForAlart.ElapsedMilliseconds.ToString()); 
-                    VPState.Report(strWaitForAlart, MethodBase.GetCurrentMethod(), VPState.eVPType.Windows); 
+                    string strWaitForAlart = string.Format("Wait for Alart is cost {0} ms", swWaitForAlart.ElapsedMilliseconds.ToString());
+                    VPState.Report(g_strUserTaiwanName + ".." + strWaitForAlart, MethodBase.GetCurrentMethod(), VPState.eVPType.Windows); 
             
 
 
@@ -1363,13 +1364,13 @@ namespace Tixcraft_Subscriber
                                         //如果返回此訊息，代表已完成訂購，主瀏覽器直接跳到結帳頁面
                                         SubscrEr.GoTo("https://tixcraft.com/ticket/payment");
                                         string strReportVIP_Msg = string.Format("{0} , {1}", Tixcraft.USER_NAME, strResponse);
-                                        VPState.Report(strReportVIP_Msg, MethodBase.GetCurrentMethod(), VPState.eVPType.Windows);
+                                        VPState.Report(g_strUserTaiwanName + ".." + strReportVIP_Msg, MethodBase.GetCurrentMethod(), VPState.eVPType.Windows);
                                         break;
                                     }
                                     else if (strResponse != "")
                                     {
                                         string strReportVIP_Msg = string.Format("{0} , {1}" , Tixcraft.USER_NAME , strResponse );
-                                        VPState.Report(strReportVIP_Msg, MethodBase.GetCurrentMethod(), VPState.eVPType.Windows);
+                                        VPState.Report(g_strUserTaiwanName + ".." + strReportVIP_Msg, MethodBase.GetCurrentMethod(), VPState.eVPType.Windows);
                                         break;
                                     }
                                 }
@@ -1393,8 +1394,8 @@ namespace Tixcraft_Subscriber
             //this.Invoke(degRefreshText, this, "打錯" + iAutoKeyInFailCount.ToString() + "次，開放→自動打碼完畢耗時 : " + iCostTime.ToString("F2") + "秒");
             double iLoadCosttime =  swDriverLoading.ElapsedMilliseconds   / 1000.0;  
             this.Invoke(degRefreshText, lblInfo, "網頁載入時間 : " + iLoadCosttime.ToString("F2") + "秒");
-            string strMessaggLog = string.Format("{0}=網頁載:{1}秒 = 總耗時:{2}秒 = 錯:{3}次", strSelectSeat_Text, iLoadCosttime.ToString("F2"), iCostTime.ToString("F2"), iAutoKeyInFailCount.ToString()); 
-            VPState.Report(strMessaggLog, MethodBase.GetCurrentMethod(), VPState.eVPType.Windows); 
+            string strMessaggLog = string.Format("{0}=網頁載:{1}秒 = 總耗時:{2}秒 = 錯:{3}次", strSelectSeat_Text, iLoadCosttime.ToString("F2"), iCostTime.ToString("F2"), iAutoKeyInFailCount.ToString());
+            VPState.Report(g_strUserTaiwanName + ".." + strMessaggLog, MethodBase.GetCurrentMethod(), VPState.eVPType.Windows); 
             Task.Factory.StartNew(() => 
             {
                 for (int i = 0; i < 10; i++)
@@ -2461,7 +2462,7 @@ namespace Tixcraft_Subscriber
             {
                 strResult = "驗證碼正確";
             }
-            VPState.Report(strResult +" : " + strCheckCode, MethodBase.GetCurrentMethod(), VPState.eVPType.Windows);
+            VPState.Report(g_strUserTaiwanName + ".." + strResult + " : " + strCheckCode, MethodBase.GetCurrentMethod(), VPState.eVPType.Windows);
                 
             try
             { 
@@ -3127,6 +3128,19 @@ namespace Tixcraft_Subscriber
         private void chk_TimerDelayAutoAI_CheckedChanged(object sender, EventArgs e)
         {
             g_bIsDelayTimerEnable = chk_TimerDelayAutoAI.Checked;
+        }
+
+        private void btnResetAllStatue_Click(object sender, EventArgs e)
+        {
+            UpdateCircleVisiable(circularProgressBar1, false);
+            AllButtonEnableStatue(true);
+            g_bFlagStartBuyStatue = false;
+
+            string strMsg =  "流程重置完成"; 
+            this.Invoke(degRefreshText, lblDebug, strMsg);
+            VPState.Report(g_strUserTaiwanName + ".." + strMsg, MethodBase.GetCurrentMethod(), VPState.eVPType.Windows);
+            //MessageBox.Show("重置完成，請確認是否可以繼續搶票。如果不行，請重新開啟神器吧");
+
         }
 
 

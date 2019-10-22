@@ -1190,3 +1190,4 @@ C:\Github_Project\ArtifactMoney\神器Money版\SeleniumUser-master\Tixcraft Subs
 C:\Github_Project\ArtifactMoney\神器Money版\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.SubscriberLoginer.resources
 C:\Github_Project\ArtifactMoney\神器Money版\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.TixBuyTicket.resources
 C:\Github_Project\ArtifactMoney\神器Money版\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csproj.GenerateResource.Cache
+D:\GitProject\ArtifactMoney_TGC\神器Money版\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.TixQuestionAI.resources

@@ -28,6 +28,18 @@ namespace Tixcraft_Subscriber
 {
     public partial class Form1 : Form
     {
+        /// <summary>
+        /// 自動回答機器人 ( 開關 ) 
+        /// </summary>
+        public bool g_bIsUseQuestionBot = false;
+        /// <summary>
+        /// 自動回答機器人
+        /// </summary>
+        public TixQuestionBot g_QuestionBot = new TixQuestionBot();
+        /// <summary>
+        /// 自動回答機器人的暴力破解字典所有資料
+        /// </summary>
+        public List<string> g_QuestionBot_AnswerPool = null;
 
         public string g_AnswerSwitchText = "";
 
@@ -831,12 +843,64 @@ namespace Tixcraft_Subscriber
                         // iSeat = Request取到0個位置
                         // Days.info = 立即訂購 = 已經開了 --> 已經開了卻沒有位置 => 問答
                         //if ((iSeats == 0) && (Days.info.Contains("立即訂購")) && Days.TixcraftWebDriver.strPageSourceCode.Contains("checkCode"))
-
-
                         //if ((iSeats == 0) && (Days.info.Contains("選購一空")) && Days.TixcraftWebDriver.strPageSourceCode.Contains("checkCode"))
                         //if ((iSeats == 0) && (Days.info.Contains("立即訂購")) )
+
                         if ((iSeats == 0) && (Days.info.Contains("立即訂購")) && Days.TixcraftWebDriver.strPageSourceCode.Contains("checkCode"))
                         {
+                            if (g_bIsUseQuestionBot == true)
+                            {
+                                #region [自動回答] - 從網頁上拆解題目下來進行分析，並且確認機器人已分析出所有可能性之答案
+                                //從網頁上取得題目
+                                List<string> lstQuestion = GetQuestionFromPageSourceList(Days.TixcraftWebDriver.strPageSourceCode); //20191013 從網頁上下載題目
+                                try
+                                {
+                                    #region == 寫入檔案進行紀錄分析 == 
+                                    string strFileName = string.Format("{0}_{1}.txt",
+                                       "LOG/" + g_strUserTaiwanName + "_" +VIPGeneral.Tool.VPWinApi.UserName + "_" + DateTime.Now.ToShortDateString().Replace("/", "_") + "_" + DateTime.Now.ToLongTimeString().Replace("/", "_").Replace(":", "_").Replace(" ", "_"),
+                                        "考試題目");
+                                    string strFileName_PageSource = string.Format("{0}_{1}.txt",
+                                       "LOG/" + g_strUserTaiwanName + "_" +VIPGeneral.Tool.VPWinApi.UserName + "_" + DateTime.Now.ToShortDateString().Replace("/", "_") + "_" + DateTime.Now.ToLongTimeString().Replace("/", "_").Replace(":", "_").Replace(" ", "_"),
+                                        "網頁原始碼");
+                                    VIPGeneral.IO.VPFile.WriteFile(strFileName, Days.TixcraftWebDriver.strPageSourceCode);  //寫入網頁原始碼
+                                    VIPGeneral.IO.VPFile.WriteFile(strFileName_PageSource, lstQuestion);                    //寫入分析後之題目
+                                    #endregion
+                                }
+                                catch (Exception)
+                                { 
+                                    VPState.Report(g_strUserTaiwanName + ".." + "寫入LOG失敗", MethodBase.GetCurrentMethod(), VPState.eVPType.Windows);
+                                }
+                                string strQuestionType = "";
+                                //取得所有連結的排列組合可能，只取得一次
+                                if (g_QuestionBot_AnswerPool == null)
+                                {
+                                    //如果有題目，則進行全組合排列
+                                    g_QuestionBot_AnswerPool = g_QuestionBot.GetOptions_Answers(lstQuestion, ref strQuestionType);
+                                    if (g_QuestionBot_AnswerPool.Count > 0)
+                                    {
+                                        try
+                                        {
+                                            #region == 寫入檔案紀錄 排列組合答案 == 
+                                            string strFileName_PageSource = string.Format("{0}_{1}.txt",
+                                               "LOG/" + g_strUserTaiwanName + "_" + VIPGeneral.Tool.VPWinApi.UserName + "_" + DateTime.Now.ToShortDateString().Replace("/", "_") + "_" + DateTime.Now.ToLongTimeString().Replace("/", "_").Replace(":", "_").Replace(" ", "_"),
+                                                "排列組合之答案");
+                                            VIPGeneral.IO.VPFile.WriteFile(strFileName_PageSource, g_QuestionBot_AnswerPool);  //寫入排列組合之答案
+                                            #endregion
+                                        }
+                                        catch (Exception)
+                                        { 
+                                            VPState.Report(g_strUserTaiwanName + ".." + "寫入LOG失敗__答案", MethodBase.GetCurrentMethod(), VPState.eVPType.Windows);
+                                        }
+                                        VPState.Report(g_strUserTaiwanName + ".." + "分析問答成功...有找到題目", MethodBase.GetCurrentMethod(), VPState.eVPType.Windows);
+                                    }
+                                    else 
+                                    {
+                                        VPState.Report(g_strUserTaiwanName + ".." + "分析問答失敗", MethodBase.GetCurrentMethod(), VPState.eVPType.Windows);
+                                    }
+                                }
+                                #endregion
+                            }
+                            
                             TimerRun(); //20190915 發現驗證瑪代表已經開賣，就開始計時
                             if (SubscrEr.Driver.Url != Days.url)
                             {
@@ -894,8 +958,26 @@ namespace Tixcraft_Subscriber
                                                 }
                                                 else
                                                 {
-                                                    //==正常下載答案
-                                                    strMyAnswer = DownLoadAnswer(g_AnswerSwitchText);   //
+                                                    //如果有開啟自動回答機器人，而且可以進行回答
+                                                    if (g_QuestionBot_AnswerPool != null && g_QuestionBot.bIsHaveNewAnswer == true && g_bIsUseQuestionBot == true)
+                                                    {
+                                                        strMyAnswer = g_QuestionBot.Get_a_AnswerFromOptionPool();
+                                                        
+                                                        double dQuestionCost = 0;
+                                                        dQuestionCost = g_QuestionBot.Answers_Resoult.Count * 0.8; 
+                                                        string strMsgLongTIme = string.Format("解題中..{0}/{1}.預計花費{2}秒",
+                                                            g_QuestionBot.g_GetAnswerIndex,
+                                                            g_QuestionBot.Answers_Resoult.Count,
+                                                            dQuestionCost
+                                                        );
+                                                        this.Invoke(degRefreshText, lblDebug, strMsgLongTIme);
+                                                        if (strMyAnswer == "") strMyAnswer = "ERRO";
+                                                    }
+                                                    else
+                                                    {
+                                                        //==正常下載答案
+                                                        strMyAnswer = DownLoadAnswer(g_AnswerSwitchText);
+                                                    }
                                                 }
 
                                                 //string strMyAnswer = DownLoadAnswer(); 
@@ -904,7 +986,6 @@ namespace Tixcraft_Subscriber
                                                 {
                                                     iReAnswerIdx++;
                                                     SendCheckCode(strMyAnswer);                 //透過流覽器提交答案
-
                                                     VPState.Report(g_strUserTaiwanName + ".." + "提交答案 : " + strMyAnswer, MethodBase.GetCurrentMethod(), VPState.eVPType.Windows);
                                                     //CheckAlart();
                                                     tempstrMyAnswer = strMyAnswer;//紀錄上一個答案
@@ -914,8 +995,23 @@ namespace Tixcraft_Subscriber
 
                                                     if (false == SubscrEr.Driver.Url.Contains("verify"))
                                                     {
-                                                        //表示防黃牛回答正確！(因為上一次在驗證碼頁面，這一次沒有)
+                                                        //表示防黃牛回答正確！(因為上一次在驗證碼頁面，這一次沒有) 
                                                         bIsNull = false;
+
+                                                        #region == 回答正確，自動進行上傳答案給其他人== 
+                                                        bool bIsSuccessful = UpdateAnswer(g_AnswerSwitchText, strMyAnswer);
+                                                        string strSysMsg = g_strUserTaiwanName + ".." + "正確答案 : " + strMyAnswer + " .. 上傳中..";
+                                                        if (bIsSuccessful)
+                                                        {
+                                                            strSysMsg += "成功";
+                                                        }
+                                                        else
+                                                        {
+                                                            strSysMsg += "失敗";
+                                                        }
+                                                        VPState.Report(strSysMsg, MethodBase.GetCurrentMethod(), VPState.eVPType.Windows); 
+                                                         #endregion
+
                                                         break;
                                                     }
                                                 }
@@ -1405,6 +1501,106 @@ namespace Tixcraft_Subscriber
                    Thread.Sleep(3000);
                 } 
             });
+        }
+
+        /// <summary>
+        /// 2019 - 10 - 19 取得考試題目
+        /// </summary>
+        /// <param name="strPageSource"></param>
+        /// <returns></returns>
+        public string GetQuestionFromPageSource(string strPageSource)
+        {
+            string strPage = strPageSource;
+            string strQuestionResult = "";
+            try
+            {
+                List<SWebElement> lstElemelts = HtmlAnalyze.FindElement(strPage, WebBy.Class("col-md-12 col-xs-12 text-center mg-c mg-top"));
+                if (lstElemelts.Count > 0)
+                {
+                    string strQuestMessage = lstElemelts[0].Context;
+                    List<SWebElement> lstTitle = HtmlAnalyze.FindElement(strQuestMessage, WebBy.Tag("h4")); // find title
+                    if (lstTitle.Count > 0)
+                    {
+                        //Replace title
+                        strQuestMessage = strQuestMessage.Replace(lstTitle[0].Context, "");
+                        //Get Question Text
+                        List<SWebElement> lstRealQuestion = HtmlAnalyze.FindElement(strQuestMessage, WebBy.Tag("div"));
+                        if (lstRealQuestion.Count > 0)
+                        {
+                            strQuestionResult = lstRealQuestion[0].ElementName;
+
+                            strQuestionResult = strQuestionResult.Replace("<br />", "\n"); //Clear HTML Change Line
+                            // return Question
+                        }
+                        else 
+                        { 
+                            strQuestionResult = "Can't find Quest after Replace title";
+                        }
+                    }
+                    else 
+                    { 
+                        strQuestionResult = "Can't find Quest Title";
+                    }
+                }
+                else 
+                {
+                    strQuestionResult = "Can't find element from page";
+                }
+            }
+            catch (Exception)
+            {
+                strQuestionResult = "Find Question Error";
+            }
+            return strQuestionResult;
+        }
+
+
+        public List<string> GetQuestionFromPageSourceList(string strPageSource)
+        {
+            string strPage = strPageSource;
+            List<string> lstQuestionResult = new List<string>();
+            try
+            {
+                List<SWebElement> lstElemelts = HtmlAnalyze.FindElement(strPage, WebBy.Class("col-md-12 col-xs-12 text-center mg-c mg-top"));
+                if (lstElemelts.Count > 0)
+                {
+                    string strQuestMessage = lstElemelts[0].Context;
+                    List<SWebElement> lstTitle = HtmlAnalyze.FindElement(strQuestMessage, WebBy.Tag("h4")); // find title
+                    if (lstTitle.Count > 0)
+                    {
+                        //Replace title
+                        strQuestMessage = strQuestMessage.Replace(lstTitle[0].Context, "");
+                        //Get Question Text
+                        List<SWebElement> lstRealQuestion = HtmlAnalyze.FindElement(strQuestMessage, WebBy.Tag("div"));
+                        if (lstRealQuestion.Count > 0)
+                        {
+                            string strTemplstQuestionResult = lstRealQuestion[0].ElementName; 
+                            strTemplstQuestionResult = strTemplstQuestionResult.Replace("<br />", "\n"); //Clear HTML Change Line
+
+                            lstQuestionResult = strTemplstQuestionResult.Split('\n').ToList();
+
+                            // return Question
+                        }
+                        else
+                        {
+                            lstQuestionResult.Clear();
+                        }
+                    }
+                    else
+                    {
+                        lstQuestionResult.Clear();
+                    }
+                }
+                else
+                {
+                    lstQuestionResult.Clear();
+                }
+            }
+            catch (Exception)
+            {
+                lstQuestionResult.Clear();
+            }
+            return lstQuestionResult;
         }
 
         public void Test()
@@ -2286,7 +2482,9 @@ namespace Tixcraft_Subscriber
                 long clsLongTimerDelayAutoAI = 0;
                 long.TryParse(txt_TimeDelayRun_AutoAI.Text, out clsLongTimerDelayAutoAI);
                 g_DelayThreshold = clsLongTimerDelayAutoAI;
-                
+
+                //清除機器人自動回答問題的暴力破解字典資料
+                g_QuestionBot_AnswerPool = null;
 
                 g_SeatInformation = txtSeatInformation.Text;
                 AllButtonEnableStatue(false);
@@ -2509,6 +2707,11 @@ namespace Tixcraft_Subscriber
             string strAnswer = ""; 
             strAnswer = g_ShareAnswerServer.DownLoadTestAnswerFromSQL(strMsg);
             return strAnswer;
+        }
+        private bool UpdateAnswer(string strServerType , string strAns)
+        { 
+           bool bIsSuccessful =   g_ShareAnswerServer.Add_Answer(strServerType + "," + strAns ,  DateTime.Now.ToString());
+           return bIsSuccessful;
         }
 
         public void LoginPixelPin()
@@ -3141,6 +3344,11 @@ namespace Tixcraft_Subscriber
             VPState.Report(g_strUserTaiwanName + ".." + strMsg, MethodBase.GetCurrentMethod(), VPState.eVPType.Windows);
             //MessageBox.Show("重置完成，請確認是否可以繼續搶票。如果不行，請重新開啟神器吧");
 
+        }
+
+        private void ckb_QuestionAIEnable_CheckedChanged(object sender, EventArgs e)
+        {
+            g_bIsUseQuestionBot = ckb_QuestionAIEnable.Checked;
         }
 
 

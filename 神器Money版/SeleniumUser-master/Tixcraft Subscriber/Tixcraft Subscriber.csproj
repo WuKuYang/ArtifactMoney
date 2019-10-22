@@ -167,6 +167,13 @@
     <Compile Include="Tixcraftsql.cs" />
     <Compile Include="TixcraftSubscriber.cs" />
     <Compile Include="TixElementSeats.cs" />
+    <Compile Include="TixQuestionAI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TixQuestionAI.Designer.cs">
+      <DependentUpon>TixQuestionAI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TixSmartRequestQuestion.cs" />
     <Compile Include="WindowController.cs" />
     <Compile Include="WinTool.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -190,6 +197,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="TixBuyTicket.resx">
       <DependentUpon>TixBuyTicket.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TixQuestionAI.resx">
+      <DependentUpon>TixQuestionAI.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

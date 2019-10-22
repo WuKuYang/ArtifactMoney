@@ -752,7 +752,25 @@ namespace SQLTest
             else
                 return "";
         }
-         
+
+        public  bool Add_Answer(string SAnswer, string mDateTime)
+        {
+            bool bIsSuccessful = false;
+            try
+            { 
+                String cmdText = string.Format("INSERT INTO {0} (Ans,OpenDate) VALUES('{1}','{2}')", "ShareAnswer", SAnswer, mDateTime);
+                //製作指令
+                cmd = new MySqlCommand(cmdText, conn);
+                cmd.ExecuteNonQuery();
+                bIsSuccessful = true;
+            }
+            catch (Exception)
+            {
+                bIsSuccessful = false;
+            }
+            return bIsSuccessful;
+        }
+
     }
 
 

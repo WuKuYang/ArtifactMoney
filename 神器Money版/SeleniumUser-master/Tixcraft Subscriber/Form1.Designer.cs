@@ -82,6 +82,7 @@
             this.pbChar2 = new System.Windows.Forms.PictureBox();
             this.pbChar0 = new System.Windows.Forms.PictureBox();
             this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.btnResetAllStatue = new System.Windows.Forms.Button();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.label21 = new System.Windows.Forms.Label();
             this.txt_TimeDelayRun_AutoAI = new System.Windows.Forms.TextBox();
@@ -124,7 +125,7 @@
             this.btn_CookieTests = new System.Windows.Forms.Button();
             this.ckbASK_CheckPage = new System.Windows.Forms.CheckBox();
             this.chk_TimerDelayAutoAI = new System.Windows.Forms.CheckBox();
-            this.btnResetAllStatue = new System.Windows.Forms.Button();
+            this.ckb_QuestionAIEnable = new System.Windows.Forms.CheckBox();
             this.tp_AccPwd.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pb_VeryfiImage)).BeginInit();
@@ -219,7 +220,7 @@
             this.txtSeatInformation.Name = "txtSeatInformation";
             this.txtSeatInformation.Size = new System.Drawing.Size(119, 22);
             this.txtSeatInformation.TabIndex = 18;
-            this.txtSeatInformation.Text = "A3區";
+            this.txtSeatInformation.Text = "黃2C";
             // 
             // lblVerifyCodeInfo
             // 
@@ -734,6 +735,7 @@
             // tabPage4
             // 
             this.tabPage4.Controls.Add(this.btnResetAllStatue);
+            this.tabPage4.Controls.Add(this.ckbASK_CheckPage);
             this.tabPage4.Controls.Add(this.groupBox3);
             this.tabPage4.Controls.Add(this.lblProxyText);
             this.tabPage4.Controls.Add(this.ckbSwitchPageStepByStep);
@@ -747,6 +749,16 @@
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "設置";
             this.tabPage4.UseVisualStyleBackColor = true;
+            // 
+            // btnResetAllStatue
+            // 
+            this.btnResetAllStatue.Location = new System.Drawing.Point(204, 117);
+            this.btnResetAllStatue.Name = "btnResetAllStatue";
+            this.btnResetAllStatue.Size = new System.Drawing.Size(140, 36);
+            this.btnResetAllStatue.TabIndex = 49;
+            this.btnResetAllStatue.Text = "當掉重置流程(未測試)";
+            this.btnResetAllStatue.UseVisualStyleBackColor = true;
+            this.btnResetAllStatue.Click += new System.EventHandler(this.btnResetAllStatue_Click);
             // 
             // groupBox3
             // 
@@ -1144,7 +1156,7 @@
             // ckbASK_CheckPage
             // 
             this.ckbASK_CheckPage.AutoSize = true;
-            this.ckbASK_CheckPage.Location = new System.Drawing.Point(258, 269);
+            this.ckbASK_CheckPage.Location = new System.Drawing.Point(263, 209);
             this.ckbASK_CheckPage.Name = "ckbASK_CheckPage";
             this.ckbASK_CheckPage.Size = new System.Drawing.Size(81, 16);
             this.ckbASK_CheckPage.TabIndex = 48;
@@ -1165,23 +1177,24 @@
             this.chk_TimerDelayAutoAI.UseVisualStyleBackColor = true;
             this.chk_TimerDelayAutoAI.CheckedChanged += new System.EventHandler(this.chk_TimerDelayAutoAI_CheckedChanged);
             // 
-            // btnResetAllStatue
+            // ckb_QuestionAIEnable
             // 
-            this.btnResetAllStatue.Location = new System.Drawing.Point(204, 117);
-            this.btnResetAllStatue.Name = "btnResetAllStatue";
-            this.btnResetAllStatue.Size = new System.Drawing.Size(140, 36);
-            this.btnResetAllStatue.TabIndex = 49;
-            this.btnResetAllStatue.Text = "當掉重置流程(未測試)";
-            this.btnResetAllStatue.UseVisualStyleBackColor = true;
-            this.btnResetAllStatue.Click += new System.EventHandler(this.btnResetAllStatue_Click);
+            this.ckb_QuestionAIEnable.AutoSize = true;
+            this.ckb_QuestionAIEnable.Location = new System.Drawing.Point(276, 270);
+            this.ckb_QuestionAIEnable.Name = "ckb_QuestionAIEnable";
+            this.ckb_QuestionAIEnable.Size = new System.Drawing.Size(72, 16);
+            this.ckb_QuestionAIEnable.TabIndex = 50;
+            this.ckb_QuestionAIEnable.Text = "智能猜題";
+            this.ckb_QuestionAIEnable.UseVisualStyleBackColor = true;
+            this.ckb_QuestionAIEnable.CheckedChanged += new System.EventHandler(this.ckb_QuestionAIEnable_CheckedChanged);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(374, 291);
+            this.Controls.Add(this.ckb_QuestionAIEnable);
             this.Controls.Add(this.chk_TimerDelayAutoAI);
-            this.Controls.Add(this.ckbASK_CheckPage);
             this.Controls.Add(this.tp_AccPwd);
             this.Name = "Form1";
             this.Text = "拓元神器(正式版)";
@@ -1323,6 +1336,7 @@
         private System.Windows.Forms.TextBox txt_TimeDelayRun_AutoAI;
         private System.Windows.Forms.CheckBox chk_TimerDelayAutoAI;
         private System.Windows.Forms.Button btnResetAllStatue;
+        private System.Windows.Forms.CheckBox ckb_QuestionAIEnable;
     }
 }
 

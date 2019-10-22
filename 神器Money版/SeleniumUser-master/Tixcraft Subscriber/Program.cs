@@ -18,9 +18,11 @@ namespace Tixcraft_Subscriber
             Application.SetCompatibleTextRenderingDefault(false);
             //Application.Run(new Form1());
             Application.Run(new SubscriberLoginer());
+            //Application.Run(new TixQuestionAI());
             //Application.Run(new TixBuyTicket());
             //Application.Run(new TixBrowserTest());
             //Application.Run(new StockSnaper());
+            
             
         }
     }

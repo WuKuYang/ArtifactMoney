@@ -1,0 +1,20 @@
+Q1   最近的KKBOX新專輯訪問裡Danger這張專輯(SUPER JUNIOR-D&E迷你專輯) 銀赫最喜歡的歌曲？
+1. Danger
+2. Jungle
+3. Watch out
+4. Gloomy
+5. Dreamer
+
+Q2 請問 東海 銀赫在首爾演唱會上點名觀眾跳觸觸舞，請問歌名是？
+O. Oppa, Oppa
+W. I Wanna Dance
+Y. sorry sorry
+R. Mr. Simple
+C. Can You Feel It
+
+Q3 [KakaoX72秒] 玉姬的訪問(Okhee interview)中,銀赫透露的童顏秘訣是？
+M. 一天一面膜
+F. 徹底清潔臉部
+E. 運動
+D. 不抽菸不喝酒
+按照題目選擇答案，每一題皆為單選題，例如你覺得第一題答案為5，第二題答案為V，第二題答案為X，請在空格內輸入：6VX (請輸入數字與大寫英文)

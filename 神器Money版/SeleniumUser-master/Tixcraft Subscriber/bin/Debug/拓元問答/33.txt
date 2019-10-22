@@ -1,0 +1,8 @@
+請按照發行順序，從最近到最久排序WINNER專輯發行順序。
+選項：
+(A). OUR TWENTY FOR
+(B). 2014s/s
+(C). FATE NUMBER FOR
+(D). EXIT:E
+(E). EVERYD4Y
+請依序輸入答案，如【ABCDE】(限英文半形大寫)

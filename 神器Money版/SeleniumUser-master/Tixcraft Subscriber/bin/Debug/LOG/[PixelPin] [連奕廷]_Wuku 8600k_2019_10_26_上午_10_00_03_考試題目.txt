@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh_tw" lang="zh_tw">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="copyright" content="拓元股份有限公司">
+    <meta name="rating" content="general">
+    <meta name="robots" content="all">
+    <meta name="robots" content="index,follow">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, user-scalable=yes">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" type="text/css" href="/themes/BigBagStore/css/bootstrap.css?v=1.01" />
+<link rel="stylesheet" type="text/css" href="/themes/BigBagStore/css/jquery.selectBox.css" />
+<link rel="stylesheet" type="text/css" href="/themes/BigBagStore/css/font-awesome.min.css" />
+<link rel="stylesheet" type="text/css" href="/themes/BigBagStore/css/settings.css" />
+<link rel="stylesheet" type="text/css" href="/themes/BigBagStore/css/verificationNotice.css?v=1.02" />
+<link rel="stylesheet" type="text/css" href="/themes/BigBagStore/css/style.css?v=1.13" />
+<link rel="stylesheet" type="text/css" href="/themes/BigBagStore/css/style2.css?v=1.05" />
+<link rel="stylesheet" type="text/css" href="/js/jquery.fancybox-2.1.5/jquery.fancybox.css" />
+<link rel="stylesheet" type="text/css" href="/themes/BigBagStore/css/ui-responsive.css?v=1.01" />
+<link rel="stylesheet" type="text/css" href="https://developer-assets.pixelpin.io/sso-buttons/sso-button.css" />
+<script type="text/javascript" src="/assets/d5a9812a/jquery.min.js"></script>
+<script type="text/javascript" src="/assets/d5a9812a/jui/js/jquery-ui.min.js"></script>
+<script type="text/javascript" src="/assets/d5a9812a/jquery.yii.js"></script>
+<script type="text/javascript">
+/*<![CDATA[*/
+
+/*]]>*/
+</script>
+<title>tixCraft拓元售票系統 - Mayday 2020 Just Rock It!!!“藍 ｜ BLUE” 玉山卡友專區 - 驗證</title>
+    <!--[if IE]>
+    <link rel="stylesheet" type="text/css" href="/css/ie-only.css" />
+    <![endif]-->
+    <!--[if lt IE 9]>
+    <script src="/js/html5shiv.js"></script>
+    <script src="/js/excanvas.js"></script>
+    <script src="/js/respond.js"></script>
+    <![endif]-->
+</head>
+
+<body class="body-wrapper">
+<div class="main-wrapper">
+
+    <!-- HEADER -->
+        <div class="header clearfix">
+        <!-- TOPBAR START -->
+        <div class="topBar alert-box emergency" id="topAlert" style="display: none">
+            <div class="alert-message container">
+                <ul>
+                    <li>
+                        <a href="/news/detail/472">
+                            <p>
+                                <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+                                【MARSHMELLO 2019 LIVE IN TAIPEI】取消公告(Cancellation)                            </p>
+                        </a>
+                    </li>
+                </ul>
+                <button class="close-alert">
+                    <i class="fa fa-times" aria-hidden="true"></i>
+                </button>
+            </div>
+        </div>
+        <noscript class="alert-warning">
+                您的瀏覽器已關閉Javascript，請重新開啟Javascript，以確保網站正常運作。        </noscript>
+        <!-- TOPBAR END -->
+        <!-- NAVBAR -->
+        <div class="top-navbar navbar navbar-main navbar-default">
+            <div class="nav-line">
+                <div class="container">
+                    <div class="logo left">
+                        <a href="/"><img class="navbar-brand" src="/image/logo.png" alt="Logo" /></a>                    </div>
+                    <div class="nav-info right">
+                        <div class="top-right">
+                            <ul class="list-inline pull-right">
+                                <li class="searchBox">
+                                    <span class="input-group">
+                                        <input type="text" class="search-input" placeholder="Search…" aria-describedby="basic-addon2">
+                                        <button type="submit" class="search-btn" onclick="search_go()">
+                                            <i class="fa fa-search"></i>
+                                        </button>
+                                    </span>
+                                </li>
+                                <li class="language">
+<a href="/user/changeLanguage/lang/en_us">EN</a> <a href="/user/changeLanguage/lang/ja">JP</a> <a href="/user/changeLanguage/lang/zh_tw">中</a>                                 </li>
+                                <li class="account-login">
+                                    <a class="user-name" href="#"><i class="fa fa-user" aria-hidden="true"></i> [PixelPin] [連奕廷]</a>                                    <a id="logout" href="/login/logout">登出<i class="fa fa-sign-out" aria-hidden="true"></i></a>                                    <a href="/user">會員資料</a>                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <nav class="navigation container">
+            <!-- Collect the nav links, forms, and other content for toggling -->
+                
+                <ul class="nav-menu accessible-megamenu">
+                    <li id="activity" class="nav-item accessible-megamenu-top-nav-item">
+                        <a href="/activity">節目資訊</a>                    </li>
+                    <li id="news" class="nav-item accessible-megamenu-top-nav-item">
+                        <a href="/news">最新消息</a>                    </li>
+                    <li id="faq" class="nav-item accessible-megamenu-top-nav-item">
+                        <a href="/faq">常見問題</a>                    </li>
+                    <li id="order" class="nav-item accessible-megamenu-top-nav-item">
+                        <a href="/order">訂單查詢</a>                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <!-- start: Container -->
+<div class="container">
+    <!-- start: Flow-Content -->
+    <div class="flow-content">
+        <!-- start: Row -->
+        <div class="row line2" style="width: 100%; margin: 10px 0px; position: relative;">
+            <!-- start: Page-Info -->
+                        <!-- start: Page-Info -->
+            <div class="page-info row line-btm mg-0" style="position: relative;">
+                <div class="col-sm-3 visible-desktop hidden-xs">
+                    <img width="100%" align="left" onerror="this.css=&quot;display:none;&quot;" src="https://static.tixcraft.com/images/activity/19_JRI_C_b800e36170496d8720a3d337ba61dca7.jpg" alt="" />                </div>
+                <div class="col-sm-9">
+                    <h2 class="activityT title">Mayday 2020 Just Rock It!!!“藍 ｜ BLUE” 玉山卡友專區</h2>
+                    <select class="select01" name="game_id" id="game_id">
+<option value="5753">2019/12/21 (六)  18:30 &lt;桃園國際棒球場&gt;Mayday 2020 Just Rock It!!!“藍 ｜ BLUE” 玉山卡友專區</option>
+<option value="5766">2019/12/22 (日)  18:30 &lt;桃園國際棒球場&gt;Mayday 2020 Just Rock It!!!“藍 ｜ BLUE” 玉山卡友專區</option>
+<option value="5767">2019/12/24 (二)  18:30 &lt;桃園國際棒球場&gt;Mayday 2020 Just Rock It!!!“藍 ｜ BLUE” 玉山卡友專區</option>
+<option value="5768">2019/12/25 (三)  18:30 &lt;桃園國際棒球場&gt;Mayday 2020 Just Rock It!!!“藍 ｜ BLUE” 玉山卡友專區</option>
+<option value="5826" selected="selected">2019/12/27 (五)  18:30 &lt;桃園國際棒球場&gt;Mayday 2020 Just Rock It!!!“藍 ｜ BLUE” 玉山卡友專區</option>
+<option value="5769">2019/12/28 (六)  18:30 &lt;桃園國際棒球場&gt;Mayday 2020 Just Rock It!!!“藍 ｜ BLUE” 玉山卡友專區</option>
+<option value="5770">2019/12/29 (日)  18:30 &lt;桃園國際棒球場&gt;Mayday 2020 Just Rock It!!!“藍 ｜ BLUE” 玉山卡友專區</option>
+<option value="5771">2019/12/31 (二)  21:00 &lt;桃園國際棒球場&gt;Mayday 2020 Just Rock It!!!“藍 ｜ BLUE” 玉山卡友專區</option>
+<option value="5772">2020/01/01 (三)  18:30 &lt;桃園國際棒球場&gt;Mayday 2020 Just Rock It!!!“藍 ｜ BLUE” 玉山卡友專區</option>
+<option value="5773">2020/01/03 (五)  18:30 &lt;桃園國際棒球場&gt;Mayday 2020 Just Rock It!!!“藍 ｜ BLUE” 玉山卡友專區</option>
+<option value="5774">2020/01/04 (六)  18:30 &lt;桃園國際棒球場&gt;Mayday 2020 Just Rock It!!!“藍 ｜ BLUE” 玉山卡友專區</option>
+</select>                </div>
+            </div>
+            <!-- end: Page-Info -->            <!-- end: Page-Info -->
+
+            
+            <div class="row mg-0">
+                <!-- start: Form -->
+                <div class="zone-verify">
+                    <form action="/ticket/verify/19_JRI_C/5826" method="post">
+<input type="hidden" value="MWQxWm9sTmlvenVrMHZ1cTBEUWNjdWgwZTRPVF8wZ2Joa1tZ7cZRxOrBgko7rQDN7hEqlZ75PwLkeouhkF5GZQ==" name="CSRFTOKEN" />                        <div class="col-md-12 col-xs-12 text-center mg-c mg-top">
+                            <h4 class="blue" style="display: inline-block">玉山卡友專區：</h4>
+                            請輸入玉山銀行信用卡 卡號前6碼                        </div>
+                        <div class="col-md-12 col-xs-12 text-center mg-c mg-top" style="margin-top: 30px">
+                            <input type="text" value="" name="checkCode" id="checkCode" />                        </div>
+
+                        <div class="col-md-12 col-xs-12 text-center mg-c mg-top">
+                            <input id="submitButton" class="btn-check" type="submit" name="yt0" value="送出" />                        </div>
+
+                    </form>                </div>
+                <!-- end: Form -->
+            </div>
+        </div>
+        <!-- end: Flow-Content -->
+    </div>
+    <!-- end: Container -->
+</div>
+<!-- end: Index -->
+
+    <!-- AD LIGHT SECTION -->
+    <div id="ad-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- tixCraft拓元售票系統置底廣告 -->
+<ins class="adsbygoogle"
+     style="display:block;clear:both;"
+     data-ad-client="ca-pub-9050576963617148"
+     data-ad-slot="2274327912"
+     data-ad-format="auto">
+</ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="footer clearfix">
+        <div class="container">
+            <div class="row">
+            <div class="func">| <a href="/about">關於拓元</a> |&nbsp;<a href="/about/membership">會員服務條款</a>&nbsp;|&nbsp;<a href="/about/privacy">隱私權政策</a>&nbsp;|</div>
+<div class="info col2-info">拓元股份有限公司 版權所有 tixCraft Inc. All Rights Reserved.<br />客服專線：+886 (02) 8772-9835<br />客服時間：週一 ~ 週五 10:00-12:30 13:30-18:00 <br />　　　　　(適逢國定假日暫停服務)<br />客服信箱：tixcraft@tixcraft.com</div>
+<script src="//dmp.eland-tech.com/dmpreceiver/tixcraft.js"></script>
+<script>// <![CDATA[
+var dataJson={'ecInfo':{'pvsess':''}};ElandTracker.Track(dataJson);
+// ]]></script>
+<a style="display: none;" href="https://fujz05ozx5.execute-api.us-west-2.amazonaws.com/ProdStage" rel="nofollow" aria-hidden="true">honeypot link</a>            </div>
+        </div>
+        <!-- COPYRIGHT -->
+        <div class="copyRight clearfix">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <p>c tixCraft 版權所有</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+<!-- 回到頂端 -->
+<a href="#" class="back-to-top" name="webgolds"><i class="fa fa-angle-up fa-6"></i></a>
+<script type="text/javascript" src="/themes/BigBagStore/js/bootstrap.js"></script>
+<script type="text/javascript" src="/themes/BigBagStore/js/jquery.selectBox.js"></script>
+<script type="text/javascript" src="/themes/BigBagStore/js/owl.carousel.js"></script>
+<script type="text/javascript" src="/themes/BigBagStore/js/owl.carousel.min.js"></script>
+<script type="text/javascript" src="/themes/BigBagStore/js/custom.js?v=1.01"></script>
+<script type="text/javascript" src="/themes/BigBagStore/js/verificationNotice.js?v=1.02"></script>
+<script type="text/javascript" src="/js/jquery.fancybox-2.1.5/jquery.fancybox.js"></script>
+<script type="text/javascript">
+/*<![CDATA[*/
+
+$("#game_id").on("change", function(event) {
+    location.href = "/ticket/area/19_JRI_C/" + $(event.target).val();
+});
+jQuery('body').on('click','#submitButton',function(){jQuery.ajax({'dataType':'json','success':function(response) {
+    if (response.message) {
+        alert(response.message);
+    } else if (response.confirm && confirm(response.confirm)) {
+        var ajaxSetting = this;
+        ajaxSetting.data = ajaxSetting.data + "&confirmed=true";
+        $.ajax(ajaxSetting);
+    } else if (response.url) {
+        location.href = response.url;
+    }
+},'error':function() {
+    var ajaxSetting = this;
+    setTimeout(function() {$.ajax(ajaxSetting)}, 5000);
+},'type':'POST','url':'\x2Fticket\x2FcheckCode\x2F19_JRI_C\x2F5826','cache':false,'data':jQuery(this).parents("form").serialize()});return false;});
+
+function search_go() {
+    if ($(".searchBox input[type=text]").val().indexOf("/") != -1 || $(".searchBox input[type=text]").val().indexOf(".") != -1) {
+        alert("\u95dc\u9375\u5b57\u4e0d\u53ef\u5305\u542b \/ .");
+    } else {
+        window.location.href = "/activity/list/search/" + encodeURIComponent($(".searchBox input[type=text]").val());
+    }
+}
+$(".searchBox input[type=text]").on("keydown", function(event) {
+    if ([13].indexOf(event.keyCode) !== -1) {
+        search_go();
+    }
+});
+
+$("#ppsso-link").on("click", function() {
+    window.location = $(this).find("a.pixelpin").attr("href");
+
+    return false;
+});
+
+function initTopAlert() {
+    var status = getUserStatus("readMsg");
+
+    if (status.session !== "true" && status.cookie !== "true") {
+        $("#topAlert").show();
+        return true;
+    }
+    return false;
+}
+
+function getUserStatus(name) {
+    var sessionStatus, cookieStatus;
+    try {
+        sessionStatus = sessionStorage.getItem(name);
+    } catch (e) {
+        cookieStatus = getCookie(name);
+    }
+
+    return {
+        "session": sessionStatus,
+        "cookie": cookieStatus, 
+    };
+}
+
+$(document).ready(function() {
+    initTopAlert();
+    });
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,"script","//www.google-analytics.com/analytics.js","ga");
+
+ga("create", "UA-51347908-1", "auto");
+ga("require", "displayfeatures");
+ga("send", "pageview");
+jQuery('body').on('click','#logout',function(){jQuery.yii.submitForm(this,'\x2Flogin\x2Flogout',{'CSRFTOKEN':'MWQxWm9sTmlvenVrMHZ1cTBEUWNjdWgwZTRPVF8wZ2Joa1tZ7cZRxOrBgko7rQDN7hEqlZ75PwLkeouhkF5GZQ\x3D\x3D'});return false;});
+/*]]>*/
+</script>
+</body>
+</html>

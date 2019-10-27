@@ -852,6 +852,10 @@ namespace Tixcraft_Subscriber
                             {
                                 #region [自動回答] - 從網頁上拆解題目下來進行分析，並且確認機器人已分析出所有可能性之答案
                                 //從網頁上取得題目
+
+                                //string strMsssss = ShowBuy.TixcraftWebDriver.GetWebSourceCode("https://tixcraft.com/ticket/verify/19_JRI_C/5826");
+                                //List<string> lstQuestion = GetQuestionFromPageSourceList(strMsssss); //20191013 從網頁上下載題目
+
                                 List<string> lstQuestion = GetQuestionFromPageSourceList(Days.TixcraftWebDriver.strPageSourceCode); //20191013 從網頁上下載題目
                                 try
                                 {
@@ -876,6 +880,8 @@ namespace Tixcraft_Subscriber
                                 {
                                     //如果有題目，則進行全組合排列
                                     g_QuestionBot_AnswerPool = g_QuestionBot.GetOptions_Answers(lstQuestion, ref strQuestionType);
+                                    //20191027 - 加入隨機排序，用以平行處理
+                                    g_QuestionBot_AnswerPool = g_QuestionBot.RandomSortList(g_QuestionBot_AnswerPool);
                                     if (g_QuestionBot_AnswerPool.Count > 0)
                                     {
                                         try
@@ -998,20 +1004,22 @@ namespace Tixcraft_Subscriber
                                                         //表示防黃牛回答正確！(因為上一次在驗證碼頁面，這一次沒有) 
                                                         bIsNull = false;
 
-                                                        #region == 回答正確，自動進行上傳答案給其他人== 
-                                                        bool bIsSuccessful = UpdateAnswer(g_AnswerSwitchText, strMyAnswer);
-                                                        string strSysMsg = g_strUserTaiwanName + ".." + "正確答案 : " + strMyAnswer + " .. 上傳中..";
-                                                        if (bIsSuccessful)
-                                                        {
-                                                            strSysMsg += "成功";
+                                                        if (g_bIsUseQuestionBot == true)
+                                                        { 
+                                                            #region == 回答正確，自動進行上傳答案給其他人==
+                                                            bool bIsSuccessful = UpdateAnswer(g_AnswerSwitchText, strMyAnswer);
+                                                            string strSysMsg = g_strUserTaiwanName + ".." + "正確答案 : " + strMyAnswer + " .. 上傳中..";
+                                                            if (bIsSuccessful)
+                                                            {
+                                                                strSysMsg += "成功";
+                                                            }
+                                                            else
+                                                            {
+                                                                strSysMsg += "失敗";
+                                                            }
+                                                            VPState.Report(strSysMsg, MethodBase.GetCurrentMethod(), VPState.eVPType.Windows);
+                                                            #endregion
                                                         }
-                                                        else
-                                                        {
-                                                            strSysMsg += "失敗";
-                                                        }
-                                                        VPState.Report(strSysMsg, MethodBase.GetCurrentMethod(), VPState.eVPType.Windows); 
-                                                         #endregion
-
                                                         break;
                                                     }
                                                 }

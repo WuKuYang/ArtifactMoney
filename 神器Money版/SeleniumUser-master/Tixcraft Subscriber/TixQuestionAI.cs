@@ -43,6 +43,9 @@ namespace Tixcraft_Subscriber
                 //分析選項 
                 string strQuestionType = "尚未分析";
                 List<string> lstAnswerResult = g_tQBot.GetOptions_Answers(g_SelectFileText, ref strQuestionType);
+
+                //lstAnswerResult = g_tQBot.RandomSortList(lstAnswerResult);
+
                 string strSystemText = strQuestionType + Environment.NewLine + "排列組合數量 : " + lstAnswerResult.Count + " 種";
                 for (int i = 0; i < lstAnswerResult.Count; i++)
                 {

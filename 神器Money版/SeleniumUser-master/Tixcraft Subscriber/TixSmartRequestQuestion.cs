@@ -68,6 +68,19 @@ namespace Tixcraft_Subscriber
         /// 目前回答到的答案是 .... 
         /// </summary>
         public string Current_Answer = "";
+
+
+        public List<T> RandomSortList<T>(List<T> ListT)
+        {
+            Random random = new Random();
+            List<T> newList = new List<T>();
+            foreach (T item in ListT)
+            {
+                newList.Insert(random.Next(newList.Count + 1), item);
+            }
+            return newList;
+        }
+
         /// <summary>
         /// 從選項池中取出一個答案，每呼叫一次就自動增加一次
         /// </summary>
@@ -148,11 +161,58 @@ namespace Tixcraft_Subscriber
                 if (lstNeedSplitOptions[i].Contains("）")) { iDotArry[4]++; }
             }
 
-            if (lstNeedSplitOptions.Count != iDotArry.Max())
+            if (lstNeedSplitOptions.Count != iDotArry.Max() && iDotArry.Max() < 4)
             {
                 lstResoultOptions = lstNeedSplitOptions;
                 return lstResoultOptions;
             }
+
+
+            #region 尋找最多次的字元到底是什，如果多餘四次，那就代表有可能是選項，所以要把標點符號分割出來 (.) OOXX  這種，不能只填入整個答案
+
+            int iMaxCount = iDotArry.Max();
+            int iMaxIndex = -1;
+            if (iMaxCount >= 4)
+            {
+                for (int i = 0; i < iDotArry.Length; i++)
+                {
+                    if (iDotArry[i] == iMaxCount)
+                    { 
+                        iMaxIndex = i;
+                        break;
+                    }
+                }
+                char MyRealMean = '#';
+
+                if (iMaxIndex == 0) MyRealMean = ' ';
+                if (iMaxIndex == 1) MyRealMean = '.';
+                if (iMaxIndex == 2) MyRealMean = ')';
+                if (iMaxIndex == 3) MyRealMean = '-';
+                if (iMaxIndex == 4) MyRealMean = '）'; 
+                if (MyRealMean != '#')
+                { 
+                     List<string> lstTemp = new List<string>();
+                    for (int i = 0; i < lstNeedSplitOptions.Count; i++)
+                    {
+                        if(lstNeedSplitOptions[i].Contains(MyRealMean) == true)
+                        { 
+                            lstTemp.Add(lstNeedSplitOptions[i]);
+                        }  
+                    }
+                    lstNeedSplitOptions = lstTemp;
+                }
+            }
+
+            #endregion
+
+            //過濾 多一行選項，所以要把它濾掉
+            /*
+             選項:
+             * (1) 555
+             * (2) 555
+             * (3) 999
+             * (4) 888
+             */
 
             char strRealMeanText = '#';    //有意義的斷句，此部分如果此有意義，左側應該就是選項
             /*

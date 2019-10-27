@@ -66,6 +66,7 @@ namespace Tixcraft_Subscriber
            {
                strReturnMessage = strReturnMessage + Environment.NewLine + lstMessage[i];
            } 
+
            txtQuestion.Text = strReturnMessage;
         }
          

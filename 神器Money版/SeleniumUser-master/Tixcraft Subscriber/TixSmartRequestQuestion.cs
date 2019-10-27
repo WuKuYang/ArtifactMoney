@@ -264,6 +264,15 @@ namespace Tixcraft_Subscriber
         /// <returns>(所有結果)</returns>
         public List<string> GetOptions_Answers(List<string> lstQuestionText, ref string strQuestionType)
         {
+
+            if (true)
+            {
+                for (int i = 0; i < lstQuestionText.Count; i++)
+                { 
+                   lstQuestionText[i] =  NoHTML(lstQuestionText[i]);
+                }
+            }
+
             g_GetAnswerIndex = 0;
             List<string> lstQuestResult = new List<string>(); 
             List<List<string>> lstOptions = new List<List<string>>();
@@ -748,7 +757,52 @@ namespace Tixcraft_Subscriber
             this.Oprions_Result = lstOptionsPool;
             return lstOptionsPool;
         }
-         
+
+        ///  <summary>
+        ///  去除HTML標記
+        ///  </summary>
+        ///  <param  name=”NoHTML”>包括HTML的原始碼  </param>
+        ///  <returns>已經去除後的文字</returns>
+        public string NoHTML(string Htmlstring)
+        {
+            try
+            {
+                //刪除指令碼
+                Htmlstring = Regex.Replace(Htmlstring, @"<script[^>]*?>.*?</script>", "",
+                RegexOptions.IgnoreCase);
+                //刪除HTML 
+                Htmlstring = Regex.Replace(Htmlstring, @"<(.[^>]*)>", "",
+                RegexOptions.IgnoreCase);
+                Htmlstring = Regex.Replace(Htmlstring, @"([\r\n])[\s] ", "",
+                RegexOptions.IgnoreCase);
+                Htmlstring = Regex.Replace(Htmlstring, @"–>", "", RegexOptions.IgnoreCase);
+                Htmlstring = Regex.Replace(Htmlstring, @"<!–.*", "", RegexOptions.IgnoreCase);
+                Htmlstring = Regex.Replace(Htmlstring, @"&(quot|#34);", "\"",
+                RegexOptions.IgnoreCase);
+                Htmlstring = Regex.Replace(Htmlstring, @"&(amp|#38);", "&",
+                RegexOptions.IgnoreCase);
+                Htmlstring = Regex.Replace(Htmlstring, @"&(lt|#60);", "<",
+                RegexOptions.IgnoreCase);
+                Htmlstring = Regex.Replace(Htmlstring, @"&(gt|#62);", ">",
+                RegexOptions.IgnoreCase);
+                Htmlstring = Regex.Replace(Htmlstring, @"&(nbsp|#160);", "  ",
+                RegexOptions.IgnoreCase);
+                Htmlstring = Regex.Replace(Htmlstring, @"&(iexcl|#161);", "\xa1", RegexOptions.IgnoreCase);
+                Htmlstring = Regex.Replace(Htmlstring, @"&(cent|#162);", "\xa2", RegexOptions.IgnoreCase);
+                Htmlstring = Regex.Replace(Htmlstring, @"&(pound|#163);", "\xa3", RegexOptions.IgnoreCase);
+                Htmlstring = Regex.Replace(Htmlstring, @"&(copy|#169);", "\xa9", RegexOptions.IgnoreCase);
+                Htmlstring = Regex.Replace(Htmlstring, @"&#(\d );", "", RegexOptions.IgnoreCase);
+                Htmlstring.Replace("<", "");
+                Htmlstring.Replace(">", "");
+                Htmlstring.Replace("\r\n", "");
+                //Htmlstring = HttpContext.Current.Server.HtmlEncode(Htmlstring).Trim();
+                return Htmlstring;
+            }
+            catch (Exception)
+            { 
+                return Htmlstring;
+            }
+        } 
     }
 
 }

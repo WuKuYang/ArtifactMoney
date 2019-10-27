@@ -41,7 +41,7 @@ namespace Tixcraft_Subscriber
         /// </summary>
         public List<string> g_QuestionBot_AnswerPool = null;
 
-        public string g_AnswerSwitchText = "";
+        public string g_AnswerSwitchText = "AAAAAAAAAA";
 
         public string strFormatEmailInfo = "";
         public string strPinelPinPassword = "";
@@ -862,10 +862,10 @@ namespace Tixcraft_Subscriber
                                     #region == 寫入檔案進行紀錄分析 == 
                                     string strFileName = string.Format("{0}_{1}.txt",
                                        "LOG/" + g_strUserTaiwanName + "_" +VIPGeneral.Tool.VPWinApi.UserName + "_" + DateTime.Now.ToShortDateString().Replace("/", "_") + "_" + DateTime.Now.ToLongTimeString().Replace("/", "_").Replace(":", "_").Replace(" ", "_"),
-                                        "考試題目");
+                                        "網頁原始碼");
                                     string strFileName_PageSource = string.Format("{0}_{1}.txt",
                                        "LOG/" + g_strUserTaiwanName + "_" +VIPGeneral.Tool.VPWinApi.UserName + "_" + DateTime.Now.ToShortDateString().Replace("/", "_") + "_" + DateTime.Now.ToLongTimeString().Replace("/", "_").Replace(":", "_").Replace(" ", "_"),
-                                        "網頁原始碼");
+                                        "考試題目");
                                     VIPGeneral.IO.VPFile.WriteFile(strFileName, Days.TixcraftWebDriver.strPageSourceCode);  //寫入網頁原始碼
                                     VIPGeneral.IO.VPFile.WriteFile(strFileName_PageSource, lstQuestion);                    //寫入分析後之題目
                                     #endregion
@@ -881,7 +881,10 @@ namespace Tixcraft_Subscriber
                                     //如果有題目，則進行全組合排列
                                     g_QuestionBot_AnswerPool = g_QuestionBot.GetOptions_Answers(lstQuestion, ref strQuestionType);
                                     //20191027 - 加入隨機排序，用以平行處理
+                                    //
                                     g_QuestionBot_AnswerPool = g_QuestionBot.RandomSortList(g_QuestionBot_AnswerPool);
+                                    g_QuestionBot.Answers_Resoult = g_QuestionBot_AnswerPool;
+                                    //
                                     if (g_QuestionBot_AnswerPool.Count > 0)
                                     {
                                         try
@@ -898,6 +901,7 @@ namespace Tixcraft_Subscriber
                                             VPState.Report(g_strUserTaiwanName + ".." + "寫入LOG失敗__答案", MethodBase.GetCurrentMethod(), VPState.eVPType.Windows);
                                         }
                                         VPState.Report(g_strUserTaiwanName + ".." + "分析問答成功...有找到題目", MethodBase.GetCurrentMethod(), VPState.eVPType.Windows);
+                                        Thread.Sleep(1000);
                                     }
                                     else 
                                     {
@@ -965,7 +969,7 @@ namespace Tixcraft_Subscriber
                                                 else
                                                 {
                                                     //如果有開啟自動回答機器人，而且可以進行回答
-                                                    if (g_QuestionBot_AnswerPool != null && g_QuestionBot.bIsHaveNewAnswer == true && g_bIsUseQuestionBot == true)
+                                                    if ( g_QuestionBot_AnswerPool != null && g_QuestionBot.bIsHaveNewAnswer == true && g_bIsUseQuestionBot == true)
                                                     {
                                                         strMyAnswer = g_QuestionBot.Get_a_AnswerFromOptionPool();
                                                         
@@ -991,21 +995,17 @@ namespace Tixcraft_Subscriber
                                                 if ((strMyAnswer != tempstrMyAnswer) && (strMyAnswer != ""))//如果抓下來的答案跟上一個不一樣(再重新提交答案)
                                                 {
                                                     iReAnswerIdx++;
-                                                    SendCheckCode(strMyAnswer);                 //透過流覽器提交答案
+                                                    string strSubmitCheckCodeResult = SendCheckCode(strMyAnswer);                 //透過流覽器提交答案
+                                                    //string strRespon = Tixcraft.POST_AnswerToCheckCode(strMyAnswer, Days.url.Replace("area" , "verify" ));
                                                     VPState.Report(g_strUserTaiwanName + ".." + "提交答案 : " + strMyAnswer, MethodBase.GetCurrentMethod(), VPState.eVPType.Windows);
                                                     //CheckAlart();
                                                     tempstrMyAnswer = strMyAnswer;//紀錄上一個答案
-                                                }
-                                                try
-                                                {
 
-                                                    if (false == SubscrEr.Driver.Url.Contains("verify"))
+
+                                                    if ("驗證碼正確" == strSubmitCheckCodeResult)
                                                     {
-                                                        //表示防黃牛回答正確！(因為上一次在驗證碼頁面，這一次沒有) 
-                                                        bIsNull = false;
-
                                                         if (g_bIsUseQuestionBot == true)
-                                                        { 
+                                                        {
                                                             #region == 回答正確，自動進行上傳答案給其他人==
                                                             bool bIsSuccessful = UpdateAnswer(g_AnswerSwitchText, strMyAnswer);
                                                             string strSysMsg = g_strUserTaiwanName + ".." + "正確答案 : " + strMyAnswer + " .. 上傳中..";
@@ -1020,12 +1020,23 @@ namespace Tixcraft_Subscriber
                                                             VPState.Report(strSysMsg, MethodBase.GetCurrentMethod(), VPState.eVPType.Windows);
                                                             #endregion
                                                         }
+                                                    }
+
+                                                }
+                                                try
+                                                {
+
+                                                    if (false == SubscrEr.Driver.Url.Contains("verify"))
+                                                    {
+                                                        //表示防黃牛回答正確！(因為上一次在驗證碼頁面，這一次沒有) 
+                                                        bIsNull = false;
+
                                                         break;
                                                     }
                                                 }
                                                 catch (Exception)
                                                 {
-
+                                                    ;
                                                 }
                                                 UpdateCircleSpeed(circularProgressBar1, (int)swAutoCheckCodeDownLoad.ElapsedMilliseconds);
                                                 string strTemp = "下載答案中..刷新..." + "耗時:" + swAutoCheckCodeDownLoad.ElapsedMilliseconds;
@@ -2640,7 +2651,7 @@ namespace Tixcraft_Subscriber
             }
              
             IAlert alart = null;
-            int iTargetTimeOut = 3000;
+            int iTargetTimeOut = 1500;
             int iCurrentTime = 0;
             int iDelayms = 100;
             while (alart == null)

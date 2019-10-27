@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh_tw" lang="zh_tw">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="copyright" content="拓元股份有限公司">
+    <meta name="rating" content="general">
+    <meta name="robots" content="all">
+    <meta name="robots" content="index,follow">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, user-scalable=yes">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" type="text/css" href="/themes/BigBagStore/css/bootstrap.css?v=1.01" />
+<link rel="stylesheet" type="text/css" href="/themes/BigBagStore/css/jquery.selectBox.css" />
+<link rel="stylesheet" type="text/css" href="/themes/BigBagStore/css/font-awesome.min.css" />
+<link rel="stylesheet" type="text/css" href="/themes/BigBagStore/css/settings.css" />
+<link rel="stylesheet" type="text/css" href="/themes/BigBagStore/css/verificationNotice.css?v=1.02" />
+<link rel="stylesheet" type="text/css" href="/themes/BigBagStore/css/style.css?v=1.13" />
+<link rel="stylesheet" type="text/css" href="/themes/BigBagStore/css/style2.css?v=1.05" />
+<link rel="stylesheet" type="text/css" href="/js/jquery.fancybox-2.1.5/jquery.fancybox.css" />
+<link rel="stylesheet" type="text/css" href="/themes/BigBagStore/css/ui-responsive.css?v=1.01" />
+<link rel="stylesheet" type="text/css" href="https://developer-assets.pixelpin.io/sso-buttons/sso-button.css" />
+<script type="text/javascript" src="/assets/d5a9812a/jquery.min.js"></script>
+<script type="text/javascript" src="/assets/d5a9812a/jui/js/jquery-ui.min.js"></script>
+<script type="text/javascript">
+/*<![CDATA[*/
+
+/*]]>*/
+</script>
+<title>tixCraft拓元售票系統 - 2019 IU Tour Concert ＜＜Love，Poem＞＞ in Taipei - 驗證</title>
+    <!--[if IE]>
+    <link rel="stylesheet" type="text/css" href="/css/ie-only.css" />
+    <![endif]-->
+    <!--[if lt IE 9]>
+    <script src="/js/html5shiv.js"></script>
+    <script src="/js/excanvas.js"></script>
+    <script src="/js/respond.js"></script>
+    <![endif]-->
+</head>
+
+<body class="body-wrapper">
+<div class="main-wrapper">
+
+    <!-- HEADER -->
+        <div class="header clearfix">
+        <!-- TOPBAR START -->
+        <div class="topBar alert-box emergency" id="topAlert" style="display: none">
+            <div class="alert-message container">
+                <ul>
+                    <li>
+                        <a href="/news/detail/472">
+                            <p>
+                                <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+                                【MARSHMELLO 2019 LIVE IN TAIPEI】取消公告(Cancellation)                            </p>
+                        </a>
+                    </li>
+                </ul>
+                <button class="close-alert">
+                    <i class="fa fa-times" aria-hidden="true"></i>
+                </button>
+            </div>
+        </div>
+        <noscript class="alert-warning">
+                您的瀏覽器已關閉Javascript，請重新開啟Javascript，以確保網站正常運作。        </noscript>
+        <!-- TOPBAR END -->
+        <!-- NAVBAR -->
+        <div class="top-navbar navbar navbar-main navbar-default">
+            <div class="nav-line">
+                <div class="container">
+                    <div class="logo left">
+                        <a href="/"><img class="navbar-brand" src="/image/logo.png" alt="Logo" /></a>                    </div>
+                    <div class="nav-info right">
+                        <div class="top-right">
+                            <ul class="list-inline pull-right">
+                                <li class="searchBox">
+                                    <span class="input-group">
+                                        <input type="text" class="search-input" placeholder="Search…" aria-describedby="basic-addon2">
+                                        <button type="submit" class="search-btn" onclick="search_go()">
+                                            <i class="fa fa-search"></i>
+                                        </button>
+                                    </span>
+                                </li>
+                                <li class="language">
+<a href="/user/changeLanguage/lang/en_us">EN</a> <a href="/user/changeLanguage/lang/ja">JP</a> <a href="/user/changeLanguage/lang/zh_tw">中</a>                                 </li>
+                                <li class="account-login">
+                                    <a href="#login" data-toggle="modal">
+                                        <i class="fa fa-user" aria-hidden="true"></i> 會員登入                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <nav class="navigation container">
+            <!-- Collect the nav links, forms, and other content for toggling -->
+                
+                <ul class="nav-menu accessible-megamenu">
+                    <li id="activity" class="nav-item accessible-megamenu-top-nav-item">
+                        <a href="/activity">節目資訊</a>                    </li>
+                    <li id="news" class="nav-item accessible-megamenu-top-nav-item">
+                        <a href="/news">最新消息</a>                    </li>
+                    <li id="faq" class="nav-item accessible-megamenu-top-nav-item">
+                        <a href="/faq">常見問題</a>                    </li>
+                    <li id="order" class="nav-item accessible-megamenu-top-nav-item">
+                        <a href="/order">訂單查詢</a>                    </li>
+                </ul>
+            </nav>
+            <div class="hidden-desktop" style="background: #f00; color: #fff; text-align: center; margin-top: -6px;  padding: 5px;">
+                貼心提醒 欲加速購票流程請先<a style="color: #fff; text-decoration: underline;" href="/login">登入</a>            </div>
+        </div>
+    </div>
+
+    <!-- start: Container -->
+<div class="container">
+    <!-- start: Flow-Content -->
+    <div class="flow-content">
+        <!-- start: Row -->
+        <div class="row line2" style="width: 100%; margin: 10px 0px; position: relative;">
+            <!-- start: Page-Info -->
+                        <!-- start: Page-Info -->
+            <div class="page-info row line-btm mg-0" style="position: relative;">
+                <div class="col-sm-3 visible-desktop hidden-xs">
+                    <img width="100%" align="left" onerror="this.css=&quot;display:none;&quot;" src="https://static.tixcraft.com/images/activity/19_IU_3674565f474ad3ef72f291337ee0b788.jpg" alt="" />                </div>
+                <div class="col-sm-9">
+                    <h2 class="activityT title">2019 IU Tour Concert ＜＜Love，Poem＞＞ in Taipei</h2>
+                    <select class="select01" name="game_id" id="game_id">
+<option value="6745">2019/11/30 (六)  19:00 &lt;國立體育大學綜合體育館&gt;2019 IU Tour Concert ＜＜Love，Poem＞＞ in Taipei</option>
+<option value="6746" selected="selected">2019/12/01 (日)  16:00 &lt;國立體育大學綜合體育館&gt;2019 IU Tour Concert ＜＜Love，Poem＞＞ in Taipei</option>
+</select>                </div>
+            </div>
+            <!-- end: Page-Info -->            <!-- end: Page-Info -->
+
+            
+            <div class="row mg-0">
+                <!-- start: Form -->
+                <div class="zone-verify">
+                    <form action="/ticket/verify/19_IU/6746" method="post">
+<input type="hidden" value="aXp3YjZmVEI2SnlDa1ZiVHZHYl8xbDZOTVdWNUtvb2tCo58jPGl3KZOYqA02YFUJ3EFg3qsdPfPoT7T-MFiJKg==" name="CSRFTOKEN" />                        <div class="col-md-12 col-xs-12 text-center mg-c mg-top">
+                            <h4 class="blue" style="display: inline-block">購票驗證 答對進入購票：</h4>
+                            <div style="text-align: left;">請問今年2019年為IU出道的第幾週年?
+</span> <br />選項：<br />
+(P) 9週年<br />
+(O) 10週年<br />
+(E) 11週年<br />
+(M) 12週年<br />
+<br />
+請在下列輸入正確答案，限半形英文且大小寫須與選項一致</div>                        </div>
+                        <div class="col-md-12 col-xs-12 text-center mg-c mg-top" style="margin-top: 30px">
+                            <input type="text" value="" name="checkCode" id="checkCode" />                        </div>
+
+                        <div class="col-md-12 col-xs-12 text-center mg-c mg-top">
+                            <input id="submitButton" class="btn-check" type="submit" name="yt0" value="送出" />                        </div>
+
+                    </form>                </div>
+                <!-- end: Form -->
+            </div>
+        </div>
+        <!-- end: Flow-Content -->
+    </div>
+    <!-- end: Container -->
+</div>
+<!-- end: Index -->
+
+    <!-- AD LIGHT SECTION -->
+    <div id="ad-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- tixCraft拓元售票系統置底廣告 -->
+<ins class="adsbygoogle"
+     style="display:block;clear:both;"
+     data-ad-client="ca-pub-9050576963617148"
+     data-ad-slot="2274327912"
+     data-ad-format="auto">
+</ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="footer clearfix">
+        <div class="container">
+            <div class="row">
+            <div class="func">| <a href="/about">關於拓元</a> |&nbsp;<a href="/about/membership">會員服務條款</a>&nbsp;|&nbsp;<a href="/about/privacy">隱私權政策</a>&nbsp;|</div>
+<div class="info col2-info">拓元股份有限公司 版權所有 tixCraft Inc. All Rights Reserved.<br />客服專線：+886 (02) 8772-9835<br />客服時間：週一 ~ 週五 10:00-12:30 13:30-18:00 <br />　　　　　(適逢國定假日暫停服務)<br />客服信箱：tixcraft@tixcraft.com</div>
+<script src="//dmp.eland-tech.com/dmpreceiver/tixcraft.js"></script>
+<script>// <![CDATA[
+var dataJson={'ecInfo':{'pvsess':''}};ElandTracker.Track(dataJson);
+// ]]></script>
+<a style="display: none;" href="https://fujz05ozx5.execute-api.us-west-2.amazonaws.com/ProdStage" rel="nofollow" aria-hidden="true">honeypot link</a>            </div>
+        </div>
+        <!-- COPYRIGHT -->
+        <div class="copyRight clearfix">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <p>c tixCraft 版權所有</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+<!-- LOGIN MODAL -->
+<div class="modal fade login-modal" id="login" tabindex="-1" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h3 class="modal-title">會員登入</h3>
+            </div>
+            <div class="modal-body">
+                <h4 class="login-title text-center">
+                    直接以社群帳號快速加入會員！                </h4>
+<a id="loginFacebook" class="login-type" href="/login/facebook"><div class="col-xs-8"><img src="/themes/BigBagStore/images/logo/facebook-logo.png" alt="" /></div></a><a id="loginGoogle" class="login-type" href="/login/google"><div class="col-xs-8"><img src="/themes/BigBagStore/images/logo/google-logo.png" alt="" /></div></a><div class="login-type" id="ppsso-link"><a class="ppsso-btn ppsso-white pixelpin" href="/login/pixelpin"><span class="ppsso-logotype">Pixelpin</span></a></div>            </div>
+        </div>
+    </div>
+</div>
+<!-- 提醒登入 -->
+<a class="login-notice visible-desktop" href="/login"><img src="/themes/BigBagStore/images/login-notice.png" alt="" /></a><div id="verification-notice" class="verification-notice row emptyVerification">
+    <div id="blue" class="blueMan col-md-4">
+        <img id="blue-img" src="/themes/BigBagStore/images/login/blue.png" alt="" />        <span class="blue-alert" aria-hidden="true">
+          <i class="fa fa-comment  blue-alert" style="color: red; right: 5px;"></i>
+          <i class="fa fa-exclamation  blue-alert" style="color: white; font-size: 19pt; padding-left: 13px; padding-top: 10px; right: 5px;"></i>
+        </span>
+    </div>
+    <div id="board" class="board col-md-8">
+        <img class="bg notice_desktop" src="/themes/BigBagStore/images/login/BG.png" alt="" />        <img class="bg notice_mobile" src="/themes/BigBagStore/images/login/BG_mobile.png" alt="" />        <img class="closeNotice" src="/themes/BigBagStore/images/login/CLOSE.png" alt="" />        <div class="p">
+            <div class="attention">請注意！！</div>
+            <div>欲購票者，需 <span class="inRED">手機號碼通過驗證後，才可開始購票。</span></div>
+            <div>請儘早完成 <span class="inBTN">加入會員&手機號碼驗證</span>。</div>
+            <span class="linkBlock row">
+                <span class="col-xs-7"><a class="LINK" href="/login"><i class="fa fa-caret-right"></i>前往加入會員&手機驗證</a></span>
+                <span class="col-xs-5"><a class="LINK" href="/news/detail/422"><i class="fa fa-caret-right"></i>前往詳情公告</a></span>
+            </span>
+        </div>
+    </div>
+</div>
+<!-- 回到頂端 -->
+<a href="#" class="back-to-top" name="webgolds"><i class="fa fa-angle-up fa-6"></i></a>
+<script type="text/javascript" src="/themes/BigBagStore/js/bootstrap.js"></script>
+<script type="text/javascript" src="/themes/BigBagStore/js/jquery.selectBox.js"></script>
+<script type="text/javascript" src="/themes/BigBagStore/js/owl.carousel.js"></script>
+<script type="text/javascript" src="/themes/BigBagStore/js/owl.carousel.min.js"></script>
+<script type="text/javascript" src="/themes/BigBagStore/js/custom.js?v=1.01"></script>
+<script type="text/javascript" src="/themes/BigBagStore/js/verificationNotice.js?v=1.02"></script>
+<script type="text/javascript" src="/js/jquery.fancybox-2.1.5/jquery.fancybox.js"></script>
+<script type="text/javascript">
+/*<![CDATA[*/
+
+$("#game_id").on("change", function(event) {
+    location.href = "/ticket/area/19_IU/" + $(event.target).val();
+});
+jQuery('body').on('click','#submitButton',function(){jQuery.ajax({'dataType':'json','success':function(response) {
+    if (response.message) {
+        alert(response.message);
+    } else if (response.confirm && confirm(response.confirm)) {
+        var ajaxSetting = this;
+        ajaxSetting.data = ajaxSetting.data + "&confirmed=true";
+        $.ajax(ajaxSetting);
+    } else if (response.url) {
+        location.href = response.url;
+    }
+},'error':function() {
+    var ajaxSetting = this;
+    setTimeout(function() {$.ajax(ajaxSetting)}, 5000);
+},'type':'POST','url':'\x2Fticket\x2FcheckCode\x2F19_IU\x2F6746','cache':false,'data':jQuery(this).parents("form").serialize()});return false;});
+
+function search_go() {
+    if ($(".searchBox input[type=text]").val().indexOf("/") != -1 || $(".searchBox input[type=text]").val().indexOf(".") != -1) {
+        alert("\u95dc\u9375\u5b57\u4e0d\u53ef\u5305\u542b \/ .");
+    } else {
+        window.location.href = "/activity/list/search/" + encodeURIComponent($(".searchBox input[type=text]").val());
+    }
+}
+$(".searchBox input[type=text]").on("keydown", function(event) {
+    if ([13].indexOf(event.keyCode) !== -1) {
+        search_go();
+    }
+});
+
+$("#ppsso-link").on("click", function() {
+    window.location = $(this).find("a.pixelpin").attr("href");
+
+    return false;
+});
+
+function initTopAlert() {
+    var status = getUserStatus("readMsg");
+
+    if (status.session !== "true" && status.cookie !== "true") {
+        $("#topAlert").show();
+        return true;
+    }
+    return false;
+}
+
+function getUserStatus(name) {
+    var sessionStatus, cookieStatus;
+    try {
+        sessionStatus = sessionStorage.getItem(name);
+    } catch (e) {
+        cookieStatus = getCookie(name);
+    }
+
+    return {
+        "session": sessionStatus,
+        "cookie": cookieStatus, 
+    };
+}
+
+$(document).ready(function() {
+    initTopAlert();
+    
+    initNotice();
+    $("#verification-notice").removeClass("emptyVerification");
+});
+
+function initNotice() {
+    var status = getUserStatus("closeNotice");
+
+    if (status.session === "true" || status.cookie === "true") {
+        $("#blue").addClass("finishEffect");
+        $("#board").addClass("finishEffect");
+        $("#blue-img").addClass("trigger");
+        $("#verification-notice").addClass("fullWidth");
+
+        return true;
+    }
+    return false;
+}
+
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,"script","//www.google-analytics.com/analytics.js","ga");
+
+ga("create", "UA-51347908-1", "auto");
+ga("require", "displayfeatures");
+ga("send", "pageview");
+/*]]>*/
+</script>
+</body>
+</html>

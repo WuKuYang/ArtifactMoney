@@ -183,8 +183,7 @@ namespace TSubscriber
             string PostData = "null"; 
             PostData = 
                 "CSRFTOKEN=" + strCSRFTOKEN +
-                "&checkCode=" + strAnswer +
-                "&confirmed=true"; 
+                "&checkCode=" + strAnswer ; 
             string strReponse = this.TixcraftWebDriver.PostDataToUrl(PostData, url);
             return strReponse;
         }

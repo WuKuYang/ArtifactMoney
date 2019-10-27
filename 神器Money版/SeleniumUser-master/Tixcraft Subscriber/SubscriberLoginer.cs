@@ -345,6 +345,18 @@ namespace Tixcraft_Subscriber
             string strOCRServerIpAddress = txtIP.Text;
             int iSelectProxyIndex = -1;
             iSelectProxyIndex = lstProxyList.SelectedIndex;
+
+            string strOptionAnswer = "";
+            if(rd_Answer01.Checked)
+            {
+                strOptionAnswer = Server_A;
+            }
+            else if(rd_Answer02.Checked)
+            { 
+                strOptionAnswer = Server_B;
+            }
+
+
             Task t = Task.Factory.StartNew(()=> 
             {
                 Parallel.For(0, USERData.USER_Infor.Count, (i) =>
@@ -391,7 +403,13 @@ namespace Tixcraft_Subscriber
                     frm.lstShow = g_AllShow;
                     frm.g_ShowSelected = g_iSelectShowIndex;
                     frm.SetRandSeats(bIsRandSeats);
-                    frm.bIsUseOLDsch = g_bIsUseOldSch; 
+                    frm.bIsUseOLDsch = g_bIsUseOldSch;
+
+
+
+
+                    SetInServerFilterText(strOptionAnswer);
+
                     lstFrms.Add(frm);
                 });
             });

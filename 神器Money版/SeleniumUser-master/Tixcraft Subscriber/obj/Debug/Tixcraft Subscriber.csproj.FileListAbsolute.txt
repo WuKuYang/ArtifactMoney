@@ -1191,3 +1191,9 @@ C:\Github_Project\ArtifactMoney\神器Money版\SeleniumUser-master\Tixcraft Subs
 C:\Github_Project\ArtifactMoney\神器Money版\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.TixBuyTicket.resources
 C:\Github_Project\ArtifactMoney\神器Money版\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csproj.GenerateResource.Cache
 D:\GitProject\ArtifactMoney_TGC\神器Money版\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft_Subscriber.TixQuestionAI.resources
+D:\GitProject\ArtifactMoney_TGC\神器Money版\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.dll
+D:\GitProject\ArtifactMoney_TGC\神器Money版\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.Entity.dll
+D:\GitProject\ArtifactMoney_TGC\神器Money版\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Web.dll
+D:\GitProject\ArtifactMoney_TGC\神器Money版\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Data.xml
+D:\GitProject\ArtifactMoney_TGC\神器Money版\SeleniumUser-master\Tixcraft Subscriber\bin\Debug\MySql.Web.xml
+D:\GitProject\ArtifactMoney_TGC\神器Money版\SeleniumUser-master\Tixcraft Subscriber\obj\Debug\Tixcraft Subscriber.csproj.Tixcraft Subscriber.exe.config

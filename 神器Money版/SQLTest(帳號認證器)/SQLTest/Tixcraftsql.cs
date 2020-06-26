@@ -496,7 +496,7 @@ namespace SQLTest
         //string dbHost = "35.192.60.56";//資料庫位址
         //string dbHost = "35.202.147.14";//資料庫位址 --> 20190425
         //string dbHost = "35.188.51.136";//資料庫位址 --> 20190903 
-        string dbHost = "104.198.137.247";//資料庫位址 --> 20190918 承儒
+        string dbHost = "34.68.9.175";//資料庫位址 --> 20190918 承儒
         string dbUser = "tgymchef";//資料庫使用者帳號
         string dbPass = "skeat9999";//資料庫使用者密碼
         string dbName = "MyTest";//資料庫名稱 DB      

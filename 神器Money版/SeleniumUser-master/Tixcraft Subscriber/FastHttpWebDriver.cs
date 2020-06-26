@@ -85,6 +85,7 @@ namespace Tixcraft_Subscriber
                 request.UserAgent = sUserAgent;
                 request.ContentType = sContentType;
                 request.CookieContainer = Session;
+                ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;
                 HttpWebResponse response = (HttpWebResponse)request.GetResponse();
                 Stream streamReceive = response.GetResponseStream();
                 Encoding encoding = Encoding.GetEncoding("UTF-8");
@@ -93,7 +94,7 @@ namespace Tixcraft_Subscriber
             }
             catch (Exception ex)
             {
-                //MessageBox.Show(e.Message);
+                MessageBox.Show(ex.Message);
             }
             strPageSourceCode = strResult;
             return strResult;
@@ -118,6 +119,7 @@ namespace Tixcraft_Subscriber
                 request.UserAgent = sUserAgent;
                 request.ContentType = sContentType;
                 request.CookieContainer = Session;
+                ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;
                 HttpWebResponse response = (HttpWebResponse)request.GetResponse();
                 Stream streamReceive = response.GetResponseStream();
                 Encoding encoding = Encoding.GetEncoding("big5");
@@ -166,6 +168,7 @@ namespace Tixcraft_Subscriber
             nUrl = url;
             #region 创建httpWebRequest对象
             WebRequest webRequest = WebRequest.Create(url);
+
             HttpWebRequest httpRequest = webRequest as HttpWebRequest;
             if (httpRequest == null)
             {
@@ -197,6 +200,7 @@ namespace Tixcraft_Subscriber
             Stream responseStream;
             try
             {
+                ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;
                 responseStream = httpRequest.GetResponse().GetResponseStream();
             }
             catch (Exception ex)
@@ -237,6 +241,7 @@ namespace Tixcraft_Subscriber
                 // returned values are returned as a stream, then read into a string
                 String lsResponse = string.Empty;
                 Image tmep = null;
+                ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;
                 using (HttpWebResponse lxResponse = (HttpWebResponse)lxRequest.GetResponse())
                 {
                     using (BinaryReader reader = new BinaryReader(lxResponse.GetResponseStream()))

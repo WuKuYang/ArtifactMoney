@@ -835,7 +835,7 @@ namespace Tixcraft_Subscriber
                     Days.RefreshAllSeat();
                     strDaysURL = Days.url;
                     iSeats = Days.SeatCount;
-                    string sTemp = "訊息:" + Days.info;
+                    string sTemp = "訊息:" + Days.info.Replace("<br>", Environment.NewLine);
                     this.Invoke(degRefreshText, lblInfo, sTemp);
                     try
                     {

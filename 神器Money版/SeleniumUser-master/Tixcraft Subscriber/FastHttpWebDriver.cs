@@ -16,7 +16,8 @@ namespace Tixcraft_Subscriber
         //const string sUserAgent = "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.2; .NET CLR 1.1.4322; .NET CLR 2.0.50727)";//"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36";
         //const string sUserAgent = "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36";
 
-        const string sUserAgent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36";
+        //const string sUserAgent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36";
+        const string sUserAgent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36";
         
         //"Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.2; .NET CLR 1.1.4322; .NET CLR 2.0.50727)";
         const string sContentType = "application/x-www-form-urlencoded"; 
@@ -85,7 +86,11 @@ namespace Tixcraft_Subscriber
                 request.UserAgent = sUserAgent;
                 request.ContentType = sContentType;
                 request.CookieContainer = Session;
-                ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;
+                //request.ProtocolVersion = HttpVersion.Version10;
+                //ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;
+                ServicePointManager.SecurityProtocol =
+     SecurityProtocolType.Ssl3 | SecurityProtocolType.Tls |
+     SecurityProtocolType.Tls11 | SecurityProtocolType.Tls12;
                 HttpWebResponse response = (HttpWebResponse)request.GetResponse();
                 Stream streamReceive = response.GetResponseStream();
                 Encoding encoding = Encoding.GetEncoding("UTF-8");

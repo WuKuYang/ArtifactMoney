@@ -63,6 +63,9 @@ namespace Tixcraft_Subscriber
         private udControlEnable degControlEnable;
         private void SubscriberLoginer_Load(object sender, EventArgs e)
         {
+            
+
+
             CookieServer = new TixcraftCookieServer();
             CookieServer.Connect();
             //連線到Google雲端資料庫

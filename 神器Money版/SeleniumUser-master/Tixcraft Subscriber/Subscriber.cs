@@ -140,7 +140,7 @@ namespace Tixcraft_Subscriber
             return strFix;
         }
          
-        public void OpenBrowser(bool bIsOpenWithGoogleChrome, bool bIsMountProxy)
+        public string OpenBrowser(bool bIsOpenWithGoogleChrome, bool bIsMountProxy)
         {
             if (bIsOpenWithGoogleChrome)
             {
@@ -158,13 +158,22 @@ namespace Tixcraft_Subscriber
                 options.AddAdditionalCapability("profile.default_content_settings", 2);
                 options.AddAdditionalCapability("pageLoadStrategy", "none");
                 options.AddAdditionalCapability("webdriver.load.strategy", "unstable");
-                Driver = new ChromeDriver(options);
+                try
+                {
+                    Driver = new ChromeDriver(options);
+                }
+                catch (Exception e)
+                {
+                    return "[開啟Chrome失敗]" + e.Message;
+                }
                 //== 取得視窗碼 ==
                 HwndController.hwnd = WindowSnap.FindWindow(null, "data:, - Google Chrome");
+                return "ChromeDriver -ok";
             }
             else
             { 
                 Driver = new PhantomJSDriver();
+                return "PhantomJSDriver - ok";
             }
         } 
         public void TearDown()

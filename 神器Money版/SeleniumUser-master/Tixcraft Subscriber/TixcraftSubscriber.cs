@@ -430,6 +430,7 @@ namespace TSubscriber
 
                 public SeatTicket GetSeatTicket(int Index)
                 {
+                    if (AllSeat == null) return null;
                     if (Index < AllSeat.Count)
                     {
                         return AllSeat[Index];

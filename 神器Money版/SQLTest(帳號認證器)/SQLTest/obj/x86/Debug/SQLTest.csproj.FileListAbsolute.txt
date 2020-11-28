@@ -122,3 +122,8 @@ D:\GitProject\ArtifactMoney_TGC\神器Money版\SQLTest(帳號認證器)\SQLTest\
 D:\GitProject\ArtifactMoney_TGC\神器Money版\SQLTest(帳號認證器)\SQLTest\obj\x86\Debug\SQLTest.Properties.Resources.resources
 D:\GitProject\ArtifactMoney_TGC\神器Money版\SQLTest(帳號認證器)\SQLTest\obj\x86\Debug\SQLTest.SQLForm.resources
 D:\GitProject\ArtifactMoney_TGC\神器Money版\SQLTest(帳號認證器)\SQLTest\obj\x86\Debug\SQLTest.csproj.GenerateResource.Cache
+D:\GitProject\ArtifactMoney_TGC\神器Money版\SQLTest(帳號認證器)\SQLTest\bin\Debug\MySql.Data.dll
+D:\GitProject\ArtifactMoney_TGC\神器Money版\SQLTest(帳號認證器)\SQLTest\bin\Debug\MySql.Data.Entity.dll
+D:\GitProject\ArtifactMoney_TGC\神器Money版\SQLTest(帳號認證器)\SQLTest\bin\Debug\MySql.Web.dll
+D:\GitProject\ArtifactMoney_TGC\神器Money版\SQLTest(帳號認證器)\SQLTest\bin\Debug\MySql.Data.xml
+D:\GitProject\ArtifactMoney_TGC\神器Money版\SQLTest(帳號認證器)\SQLTest\bin\Debug\MySql.Web.xml

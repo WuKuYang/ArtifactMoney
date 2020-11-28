@@ -1,0 +1,12 @@
+
+                            
+                            請問 LiSA 的生日：<br/>
+What date is LiSA's birthday?<br/>
+<br/>
+(324) 3月24日<br/>
+(624) 6月24日<br/>
+(924) 9月24日<br/>
+(1224) 12月24日<br/>
+<br/>
+請在下方輸入正確答案，如「1024」。限半形英文且大小寫需和()內一致。<br/>
+Please use the same format given in the options. ex：「1024」<br/>                        
